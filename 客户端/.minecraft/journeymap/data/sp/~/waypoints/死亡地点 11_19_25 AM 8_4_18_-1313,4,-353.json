@@ -1,0 +1,18 @@
+{
+  "id": "死亡地点 11:19:25 AM 8/4/18_-1313,4,-353",
+  "name": "死亡地点 11:19:25 AM 8/4/18",
+  "icon": "waypoint-death.png",
+  "x": -1313,
+  "y": 4,
+  "z": -353,
+  "r": 41,
+  "g": 172,
+  "b": 174,
+  "enable": true,
+  "type": "Death",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

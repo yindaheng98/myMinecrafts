@@ -1,0 +1,7979 @@
+var colorpalette={
+  "version": 5.3,
+  "name": "JourneyMap调色板",
+  "generated": "Generated using JourneyMap 1.11.2-5.4.7 for 1.11.2 on Tue Jul 03 23:31:42 CST 2018",
+  "description": [
+    "该文件可用来在资源包发生改变时保持地图颜色的连贯性.",
+    "擅自编辑修改会有风险. 你可以通过colorpalette.html 文件查看它.",
+    "若想使该调色板文件只用于单独一个游戏世界, 请将colorpalette.json放入: .minecraft/journeymap/data/*/worldname/",
+    "若想使该调色板文件用于所有游戏世界, 对其进行编辑将 \"permanent\"设置为true(\"permanent\": true), 然后将colorpalette.json放入: .minecraft/journeymap/",
+    "想要获取更多信息, 请访问: http://journeymap.info/Color_Palette"
+  ],
+  "permanent": false,
+  "resourcePacks": "Default",
+  "modNames": "BC Builders:7.99.8.2, BC Energy:7.99.8.2, BC Factory:7.99.8.2, BC Robotics:7.99.8.2, BC Silicon:7.99.8.2, BC Transport:7.99.8.2, BuildCraft Lib:7.99.8.2, BuildCraft:7.99.8.2, Forestry:5.3.4.257, Forge Mod Loader:8.0.99.99, Guide Book:1.7.0, Immersive Engineering:0.11-63, Immersive Petroleum:1.1.3, JourneyMap:1.11.2-5.4.7, Minecraft Coder Pack:9.19, Minecraft Forge:13.20.1.2386, Minecraft:1.11.2, WorldEdit:6.1.6, extrautils2:1.0",
+  "blockColors": [
+    {
+      "uid": "buildcraftbuilders:architect",
+      "name": "建筑工作台",
+      "color": "#c1c1c1",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "buildcraftbuilders:builder",
+      "name": "建筑机",
+      "color": "#b2b2b2",
+      "alpha": 1.0,
+      "meta": 3
+    },
+    {
+      "uid": "buildcraftbuilders:filler",
+      "name": "填充机",
+      "color": "#bdbdbd",
+      "alpha": 1.0,
+      "meta": 3
+    },
+    {
+      "uid": "buildcraftbuilders:frame",
+      "name": "框架",
+      "color": "#9d6128",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "buildcraftbuilders:library",
+      "name": "电子档案馆",
+      "color": "#c2c2c2",
+      "alpha": 1.0,
+      "meta": 3
+    },
+    {
+      "uid": "buildcraftbuilders:quarry",
+      "name": "Quarry",
+      "color": "#b7b7b7",
+      "alpha": 1.0,
+      "meta": 3
+    },
+    {
+      "uid": "buildcraftcore:marker_path",
+      "name": "路径标",
+      "color": "#7b9352",
+      "alpha": 1.0,
+      "meta": 5
+    },
+    {
+      "uid": "buildcraftcore:marker_volume",
+      "name": "地标",
+      "color": "#808d8e",
+      "alpha": 1.0,
+      "meta": 5
+    },
+    {
+      "uid": "buildcraftcore:spring",
+      "name": "油泉",
+      "color": "#535353",
+      "alpha": 1.0,
+      "meta": 1
+    },
+    {
+      "uid": "buildcraftenergy:fluid_block_fuel_dense_heat_0",
+      "name": "空气",
+      "color": "#e4860a",
+      "alpha": 1.0,
+      "meta": 15
+    },
+    {
+      "uid": "buildcraftenergy:fluid_block_fuel_dense_heat_1",
+      "name": "空气",
+      "color": "#e4860a",
+      "alpha": 1.0,
+      "meta": 15
+    },
+    {
+      "uid": "buildcraftenergy:fluid_block_fuel_dense_heat_2",
+      "name": "空气",
+      "color": "#e4860a",
+      "alpha": 1.0,
+      "meta": 15
+    },
+    {
+      "uid": "buildcraftenergy:fluid_block_fuel_gaseous_heat_0",
+      "name": "空气",
+      "color": "#e3dd07",
+      "alpha": 1.0,
+      "meta": 15
+    },
+    {
+      "uid": "buildcraftenergy:fluid_block_fuel_gaseous_heat_1",
+      "name": "空气",
+      "color": "#e3dd07",
+      "alpha": 1.0,
+      "meta": 15
+    },
+    {
+      "uid": "buildcraftenergy:fluid_block_fuel_gaseous_heat_2",
+      "name": "空气",
+      "color": "#e3dd07",
+      "alpha": 1.0,
+      "meta": 15
+    },
+    {
+      "uid": "buildcraftenergy:fluid_block_fuel_light_heat_0",
+      "name": "空气",
+      "color": "#e8d607",
+      "alpha": 1.0,
+      "meta": 15
+    },
+    {
+      "uid": "buildcraftenergy:fluid_block_fuel_light_heat_1",
+      "name": "空气",
+      "color": "#e8d607",
+      "alpha": 1.0,
+      "meta": 15
+    },
+    {
+      "uid": "buildcraftenergy:fluid_block_fuel_light_heat_2",
+      "name": "空气",
+      "color": "#e8d607",
+      "alpha": 1.0,
+      "meta": 15
+    },
+    {
+      "uid": "buildcraftenergy:fluid_block_fuel_mixed_heavy_heat_0",
+      "name": "空气",
+      "color": "#cb8b00",
+      "alpha": 1.0,
+      "meta": 15
+    },
+    {
+      "uid": "buildcraftenergy:fluid_block_fuel_mixed_heavy_heat_1",
+      "name": "空气",
+      "color": "#cb8b00",
+      "alpha": 1.0,
+      "meta": 15
+    },
+    {
+      "uid": "buildcraftenergy:fluid_block_fuel_mixed_heavy_heat_2",
+      "name": "空气",
+      "color": "#cb8b00",
+      "alpha": 1.0,
+      "meta": 15
+    },
+    {
+      "uid": "buildcraftenergy:fluid_block_fuel_mixed_light_heat_0",
+      "name": "空气",
+      "color": "#cbbb00",
+      "alpha": 1.0,
+      "meta": 15
+    },
+    {
+      "uid": "buildcraftenergy:fluid_block_fuel_mixed_light_heat_1",
+      "name": "空气",
+      "color": "#cbbb00",
+      "alpha": 1.0,
+      "meta": 15
+    },
+    {
+      "uid": "buildcraftenergy:fluid_block_fuel_mixed_light_heat_2",
+      "name": "空气",
+      "color": "#cbbb00",
+      "alpha": 1.0,
+      "meta": 15
+    },
+    {
+      "uid": "buildcraftenergy:fluid_block_oil_dense_heat_0",
+      "name": "空气",
+      "color": "#4d2f31",
+      "alpha": 1.0,
+      "meta": 15
+    },
+    {
+      "uid": "buildcraftenergy:fluid_block_oil_dense_heat_1",
+      "name": "空气",
+      "color": "#4d2f31",
+      "alpha": 1.0,
+      "meta": 15
+    },
+    {
+      "uid": "buildcraftenergy:fluid_block_oil_dense_heat_2",
+      "name": "空气",
+      "color": "#4d2f31",
+      "alpha": 1.0,
+      "meta": 15
+    },
+    {
+      "uid": "buildcraftenergy:fluid_block_oil_distilled_heat_0",
+      "name": "空气",
+      "color": "#bb8613",
+      "alpha": 1.0,
+      "meta": 15
+    },
+    {
+      "uid": "buildcraftenergy:fluid_block_oil_distilled_heat_1",
+      "name": "空气",
+      "color": "#bb8613",
+      "alpha": 1.0,
+      "meta": 15
+    },
+    {
+      "uid": "buildcraftenergy:fluid_block_oil_distilled_heat_2",
+      "name": "空气",
+      "color": "#bb8613",
+      "alpha": 1.0,
+      "meta": 15
+    },
+    {
+      "uid": "buildcraftenergy:fluid_block_oil_heat_0",
+      "name": "空气",
+      "color": "#111111",
+      "alpha": 1.0,
+      "meta": 15
+    },
+    {
+      "uid": "buildcraftenergy:fluid_block_oil_heat_1",
+      "name": "空气",
+      "color": "#111111",
+      "alpha": 1.0,
+      "meta": 15
+    },
+    {
+      "uid": "buildcraftenergy:fluid_block_oil_heat_2",
+      "name": "空气",
+      "color": "#111111",
+      "alpha": 1.0,
+      "meta": 15
+    },
+    {
+      "uid": "buildcraftenergy:fluid_block_oil_heavy_heat_0",
+      "name": "空气",
+      "color": "#51431f",
+      "alpha": 1.0,
+      "meta": 15
+    },
+    {
+      "uid": "buildcraftenergy:fluid_block_oil_heavy_heat_1",
+      "name": "空气",
+      "color": "#51431f",
+      "alpha": 1.0,
+      "meta": 15
+    },
+    {
+      "uid": "buildcraftenergy:fluid_block_oil_heavy_heat_2",
+      "name": "空气",
+      "color": "#51431f",
+      "alpha": 1.0,
+      "meta": 15
+    },
+    {
+      "uid": "buildcraftenergy:fluid_block_oil_residue_heat_0",
+      "name": "空气",
+      "color": "#390f39",
+      "alpha": 1.0,
+      "meta": 15
+    },
+    {
+      "uid": "buildcraftenergy:fluid_block_oil_residue_heat_1",
+      "name": "空气",
+      "color": "#390f39",
+      "alpha": 1.0,
+      "meta": 15
+    },
+    {
+      "uid": "buildcraftenergy:fluid_block_oil_residue_heat_2",
+      "name": "空气",
+      "color": "#390f39",
+      "alpha": 1.0,
+      "meta": 15
+    },
+    {
+      "uid": "buildcraftfactory:autoworkbench_item",
+      "name": "自动合成台",
+      "color": "#664e37",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "buildcraftfactory:chute",
+      "name": "Chute",
+      "color": "#5c5c5c",
+      "alpha": 1.0,
+      "meta": 5
+    },
+    {
+      "uid": "buildcraftfactory:flood_gate",
+      "name": "液闸",
+      "color": "#ababab",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "buildcraftfactory:mining_well",
+      "name": "矿井",
+      "color": "#b6b5b2",
+      "alpha": 1.0,
+      "meta": 3
+    },
+    {
+      "uid": "buildcraftfactory:pump",
+      "name": "液泵",
+      "color": "#a6a5a1",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "buildcraftfactory:tank",
+      "name": "储罐",
+      "color": "#881212",
+      "alpha": 1.0,
+      "meta": 0,
+      "variants": [
+        {
+          "color": "#891414",
+          "meta": 0
+        }
+      ]
+    },
+    {
+      "uid": "buildcraftrobotics:zone_planner",
+      "name": "ZonePlanner",
+      "color": "#a0a0a0",
+      "alpha": 1.0,
+      "meta": 3
+    },
+    {
+      "uid": "buildcraftsilicon:advanced_crafting_table",
+      "name": "高级工作台",
+      "color": "#49403e",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "buildcraftsilicon:assembly_table",
+      "name": "装配台",
+      "color": "#3f2b32",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "buildcraftsilicon:integration_table",
+      "name": "集成台",
+      "color": "#312b33",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "buildcraftsilicon:laser",
+      "name": "镭射器",
+      "color": "#221e24",
+      "alpha": 1.0,
+      "meta": 5
+    },
+    {
+      "uid": "buildcrafttransport:filtered_buffer",
+      "name": "过滤缓存器",
+      "color": "#634932",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "extrautils2:analogcrafter",
+      "name": "模拟合成台",
+      "color": "#7b5929",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "extrautils2:angelblock",
+      "name": "天使方块",
+      "color": "#2e261b",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "extrautils2:chunkloader",
+      "name": "区块加载之杖",
+      "color": "#644e2f",
+      "alpha": 1.0,
+      "meta": 3
+    },
+    {
+      "uid": "extrautils2:compressedcobblestone",
+      "name": "八重压缩圆石",
+      "color": "#656565",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "extrautils2:compresseddirt",
+      "name": "四重压缩泥土",
+      "color": "#694b34",
+      "alpha": 1.0,
+      "meta": 3
+    },
+    {
+      "uid": "extrautils2:compressedgravel",
+      "name": "二重压缩沙砾",
+      "color": "#5d5b59",
+      "alpha": 1.0,
+      "meta": 1
+    },
+    {
+      "uid": "extrautils2:compressednetherrack",
+      "name": "六重压缩地狱岩",
+      "color": "#592b29",
+      "alpha": 1.0,
+      "meta": 5
+    },
+    {
+      "uid": "extrautils2:compressedsand",
+      "name": "二重压缩沙子",
+      "color": "#a19b76",
+      "alpha": 1.0,
+      "meta": 1
+    },
+    {
+      "uid": "extrautils2:crafter",
+      "name": "合成器",
+      "color": "#645e54",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "extrautils2:creativechest",
+      "name": "创造模式箱子",
+      "color": "#62068b",
+      "alpha": 1.0,
+      "meta": 3
+    },
+    {
+      "uid": "extrautils2:creativeenergy",
+      "name": "创造模式能量源",
+      "color": "#6b0396",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "extrautils2:creativeharvest",
+      "name": "创造模式收割者",
+      "color": "#490366",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "extrautils2:cursedearth",
+      "name": "诅咒之土",
+      "color": "#835d40",
+      "alpha": 1.0,
+      "meta": 15
+    },
+    {
+      "uid": "extrautils2:decorativebedrock",
+      "name": "基岩原石",
+      "color": "#525252",
+      "alpha": 1.0,
+      "meta": 2
+    },
+    {
+      "uid": "extrautils2:decorativeglass",
+      "name": "红石玻璃",
+      "color": "#d7eaed",
+      "alpha": 0.4,
+      "meta": 5
+    },
+    {
+      "uid": "extrautils2:decorativesolid",
+      "name": "蓝色石英",
+      "color": "#7a7a7a",
+      "alpha": 1.0,
+      "meta": 6
+    },
+    {
+      "uid": "extrautils2:decorativesolidwood",
+      "name": "錾制木头",
+      "color": "#907543",
+      "alpha": 1.0,
+      "meta": 2
+    },
+    {
+      "uid": "extrautils2:drum",
+      "name": "创造桶",
+      "color": "#fbfbfb",
+      "alpha": 1.0,
+      "meta": 4
+    },
+    {
+      "uid": "extrautils2:enderlilly",
+      "name": "末影百合种子",
+      "color": "#0c4339",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "extrautils2:indexer",
+      "name": "检索器",
+      "color": "#343434",
+      "alpha": 1.0,
+      "meta": 3,
+      "variants": [
+        {
+          "color": "#676767",
+          "meta": 1
+        }
+      ]
+    },
+    {
+      "uid": "extrautils2:ineffableglass",
+      "name": "深色奇妙玻璃",
+      "color": "#d6f8fe",
+      "alpha": 0.4,
+      "meta": 3
+    },
+    {
+      "uid": "extrautils2:largishchest",
+      "name": "稍大的箱子",
+      "color": "#7a5a28",
+      "alpha": 1.0,
+      "meta": 1,
+      "variants": [
+        {
+          "color": "#7b5925",
+          "meta": 3
+        }
+      ]
+    },
+    {
+      "uid": "extrautils2:machine",
+      "name": "机械",
+      "color": "#737171",
+      "alpha": 1.0,
+      "meta": 15
+    },
+    {
+      "uid": "extrautils2:miner",
+      "name": "挖掘器",
+      "color": "#606060",
+      "alpha": 1.0,
+      "meta": 5,
+      "variants": [
+        {
+          "color": "#6c6c6c",
+          "meta": 1
+        }
+      ]
+    },
+    {
+      "uid": "extrautils2:minichest",
+      "name": "迷你箱子",
+      "color": "#544329",
+      "alpha": 1.0,
+      "meta": 3
+    },
+    {
+      "uid": "extrautils2:moonstone",
+      "name": "空气",
+      "color": "#7d7d7d",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "extrautils2:passivegenerator",
+      "name": "龙蛋发电机",
+      "color": "#5e5e60",
+      "alpha": 1.0,
+      "meta": 8
+    },
+    {
+      "uid": "extrautils2:pipe",
+      "name": "传输管道",
+      "color": "#5b5b5b",
+      "alpha": 1.0,
+      "meta": 15
+    },
+    {
+      "uid": "extrautils2:pipe_1",
+      "name": "空气",
+      "color": "#5b5b5b",
+      "alpha": 1.0,
+      "meta": 15
+    },
+    {
+      "uid": "extrautils2:pipe_2",
+      "name": "空气",
+      "color": "#5b5b5b",
+      "alpha": 1.0,
+      "meta": 15
+    },
+    {
+      "uid": "extrautils2:pipe_3",
+      "name": "空气",
+      "color": "#5b5b5b",
+      "alpha": 1.0,
+      "meta": 15
+    },
+    {
+      "uid": "extrautils2:playerchest",
+      "name": "玩家箱子",
+      "color": "#a69472",
+      "alpha": 1.0,
+      "meta": 3
+    },
+    {
+      "uid": "extrautils2:powerbattery",
+      "name": "无线RF电池",
+      "color": "#4d2723",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "extrautils2:poweroverload",
+      "name": "能量过载器",
+      "color": "#444d29",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "extrautils2:powertransmitter",
+      "name": "无线RF传输器",
+      "color": "#b6b6b6",
+      "alpha": 1.0,
+      "meta": 0,
+      "variants": [
+        {
+          "color": "#bbbbbb",
+          "meta": 5
+        }
+      ]
+    },
+    {
+      "uid": "extrautils2:quarry",
+      "name": "量子采石场",
+      "color": "#215548",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "extrautils2:quarryproxy",
+      "name": "量子采石场具现设备",
+      "color": "#15a57c",
+      "alpha": 1.0,
+      "meta": 1,
+      "variants": [
+        {
+          "color": "#11b083",
+          "meta": 0
+        },
+        {
+          "color": "#16aa7c",
+          "meta": 5
+        }
+      ]
+    },
+    {
+      "uid": "extrautils2:rainbowgenerator",
+      "name": "彩虹发电机（上半部分）",
+      "color": "#5e6e67",
+      "alpha": 1.0,
+      "meta": 2
+    },
+    {
+      "uid": "extrautils2:redorchid",
+      "name": "红兰花",
+      "color": "#a36b2c",
+      "alpha": 1.0,
+      "meta": 6
+    },
+    {
+      "uid": "extrautils2:redstoneclock",
+      "name": "红石钟",
+      "color": "#785451",
+      "alpha": 1.0,
+      "meta": 2
+    },
+    {
+      "uid": "extrautils2:redstonelantern",
+      "name": "红石灯笼",
+      "color": "#403735",
+      "alpha": 1.0,
+      "meta": 15
+    },
+    {
+      "uid": "extrautils2:resonator",
+      "name": "共振仪",
+      "color": "#662018",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "extrautils2:scanner",
+      "name": "扫描仪",
+      "color": "#606060",
+      "alpha": 1.0,
+      "meta": 5,
+      "variants": [
+        {
+          "color": "#786462",
+          "meta": 1
+        }
+      ]
+    },
+    {
+      "uid": "extrautils2:screen",
+      "name": "屏幕",
+      "color": "#363636",
+      "alpha": 1.0,
+      "meta": 3
+    },
+    {
+      "uid": "extrautils2:simpledecorative",
+      "name": "恶魔块",
+      "color": "#7d9e46",
+      "alpha": 1.0,
+      "meta": 2
+    },
+    {
+      "uid": "extrautils2:soundmuffler",
+      "name": "消音器",
+      "color": "#a4a4a4",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "extrautils2:spike_creative",
+      "name": "创造锥刺方块",
+      "color": "#6f00a5",
+      "alpha": 1.0,
+      "meta": 5
+    },
+    {
+      "uid": "extrautils2:spike_diamond",
+      "name": "钻石锥刺方块",
+      "color": "#61dbd5",
+      "alpha": 1.0,
+      "meta": 5
+    },
+    {
+      "uid": "extrautils2:spike_gold",
+      "name": "金锥刺方块",
+      "color": "#f9ec4e",
+      "alpha": 1.0,
+      "meta": 5
+    },
+    {
+      "uid": "extrautils2:spike_iron",
+      "name": "铁锥刺方块",
+      "color": "#dbdbdb",
+      "alpha": 1.0,
+      "meta": 5
+    },
+    {
+      "uid": "extrautils2:spike_stone",
+      "name": "石锥刺方块",
+      "color": "#717171",
+      "alpha": 1.0,
+      "meta": 5
+    },
+    {
+      "uid": "extrautils2:spike_wood",
+      "name": "木锥刺方块",
+      "color": "#9f814f",
+      "alpha": 1.0,
+      "meta": 5
+    },
+    {
+      "uid": "extrautils2:spotlight",
+      "name": "聚光灯",
+      "color": "#3a3a3a",
+      "alpha": 1.0,
+      "meta": 5
+    },
+    {
+      "uid": "extrautils2:supermobspawner",
+      "name": "重构的刷怪箱",
+      "color": "#303030",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "extrautils2:teleporter",
+      "name": "主世界之门",
+      "color": "#28515b",
+      "alpha": 1.0,
+      "meta": 5
+    },
+    {
+      "uid": "extrautils2:terraformer",
+      "name": "基本气象单元",
+      "color": "#546570",
+      "alpha": 1.0,
+      "meta": 9
+    },
+    {
+      "uid": "extrautils2:transferholder",
+      "name": "空气",
+      "color": "#5b5b5b",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "extrautils2:trashcan",
+      "name": "垃圾桶",
+      "color": "#3c3c3c",
+      "alpha": 1.0,
+      "meta": 3
+    },
+    {
+      "uid": "extrautils2:trashcanenergy",
+      "name": "垃圾桶（能量）",
+      "color": "#3c1717",
+      "alpha": 1.0,
+      "meta": 3
+    },
+    {
+      "uid": "extrautils2:trashcanfluid",
+      "name": "垃圾桶（流体）",
+      "color": "#26263c",
+      "alpha": 1.0,
+      "meta": 3
+    },
+    {
+      "uid": "extrautils2:trashchest",
+      "name": "垃圾回收箱",
+      "color": "#3b3b3b",
+      "alpha": 1.0,
+      "meta": 3
+    },
+    {
+      "uid": "extrautils2:user",
+      "name": "使用者",
+      "color": "#606060",
+      "alpha": 1.0,
+      "meta": 5,
+      "variants": [
+        {
+          "color": "#787878",
+          "meta": 1
+        }
+      ]
+    },
+    {
+      "uid": "forestry:alveary.fan",
+      "name": "蜂箱组风扇",
+      "color": "#503b1a",
+      "alpha": 1.0,
+      "meta": 0,
+      "variants": [
+        {
+          "color": "#523d20",
+          "meta": 0
+        }
+      ]
+    },
+    {
+      "uid": "forestry:alveary.heater",
+      "name": "蜂箱组加热器",
+      "color": "#543e1a",
+      "alpha": 1.0,
+      "meta": 0,
+      "variants": [
+        {
+          "color": "#614017",
+          "meta": 0
+        }
+      ]
+    },
+    {
+      "uid": "forestry:alveary.hygro",
+      "name": "蜂箱组保湿器",
+      "color": "#563f1b",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "forestry:alveary.plain",
+      "name": "蜂箱组",
+      "color": "#825d24",
+      "alpha": 1.0,
+      "meta": 0,
+      "variants": [
+        {
+          "color": "#8f6729",
+          "meta": 0
+        },
+        {
+          "color": "#9f722d",
+          "meta": 0
+        }
+      ]
+    },
+    {
+      "uid": "forestry:alveary.sieve",
+      "name": "蜂箱组滤网",
+      "color": "#7a5928",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "forestry:alveary.stabiliser",
+      "name": "蜂箱组稳定器",
+      "color": "#735121",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "forestry:alveary.swarmer",
+      "name": "蜂箱组克隆盒",
+      "color": "#916728",
+      "alpha": 1.0,
+      "meta": 0,
+      "variants": [
+        {
+          "color": "#956a2a",
+          "meta": 0
+        }
+      ]
+    },
+    {
+      "uid": "forestry:apiary",
+      "name": "蜂箱",
+      "color": "#8c662c",
+      "alpha": 1.0,
+      "meta": 5
+    },
+    {
+      "uid": "forestry:bee_combs_0",
+      "name": "Mossy Comb Block",
+      "color": "#bfbfbf",
+      "alpha": 1.0,
+      "meta": 15
+    },
+    {
+      "uid": "forestry:bee_combs_1",
+      "name": "Mellow Comb Block",
+      "color": "#bfbfbf",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "forestry:bee_house",
+      "name": "简易蜂房",
+      "color": "#957537",
+      "alpha": 1.0,
+      "meta": 5
+    },
+    {
+      "uid": "forestry:beehives",
+      "name": "温和蜂巢",
+      "color": "#a78a07",
+      "alpha": 1.0,
+      "meta": 2,
+      "variants": [
+        {
+          "name": "森林蜂巢",
+          "color": "#b0b197",
+          "meta": 0
+        },
+        {
+          "name": "草地蜂巢",
+          "color": "#6e280c",
+          "meta": 1
+        },
+        {
+          "name": "热带蜂巢",
+          "color": "#534716",
+          "meta": 3
+        },
+        {
+          "name": "末影蜂巢",
+          "color": "#18081c",
+          "meta": 4
+        },
+        {
+          "name": "凛冬蜂巢",
+          "color": "#d3f7f7",
+          "meta": 5
+        },
+        {
+          "name": "沼泽蜂巢",
+          "color": "#384716",
+          "meta": 6
+        },
+        {
+          "name": "迁居蜂巢",
+          "color": "#342008",
+          "meta": 7
+        }
+      ]
+    },
+    {
+      "uid": "forestry:bog_earth",
+      "name": "泥炭",
+      "color": "#0b0603",
+      "alpha": 1.0,
+      "meta": 3,
+      "variants": [
+        {
+          "name": "沼泽泥",
+          "color": "#221b17",
+          "meta": 2
+        }
+      ]
+    },
+    {
+      "uid": "forestry:charcoal",
+      "name": "Block of Charcoal",
+      "color": "#2a241f",
+      "alpha": 1.0,
+      "meta": 15
+    },
+    {
+      "uid": "forestry:cocoon",
+      "name": "Cocoon",
+      "color": "#749d58",
+      "alpha": 1.0,
+      "meta": 0,
+      "variants": [
+        {
+          "color": "#7e8a6c",
+          "meta": 0
+        },
+        {
+          "color": "#9c9b8a",
+          "meta": 0
+        },
+        {
+          "color": "#bdbcb1",
+          "meta": 0
+        }
+      ]
+    },
+    {
+      "uid": "forestry:cocoon.solid",
+      "name": "SolidCocoon",
+      "color": "#749d58",
+      "alpha": 1.0,
+      "meta": 0,
+      "variants": [
+        {
+          "color": "#7e8a6c",
+          "meta": 0
+        },
+        {
+          "color": "#9c9b8a",
+          "meta": 0
+        },
+        {
+          "color": "#bdbcb1",
+          "meta": 0
+        }
+      ]
+    },
+    {
+      "uid": "forestry:doors.acacia",
+      "name": "ArbDoor",
+      "color": "#82986d",
+      "alpha": 1.0,
+      "meta": 7,
+      "variants": [
+        {
+          "color": "#889d75",
+          "meta": 11
+        }
+      ]
+    },
+    {
+      "uid": "forestry:doors.balsa",
+      "name": "ArbDoor",
+      "color": "#978f87",
+      "alpha": 1.0,
+      "meta": 11,
+      "variants": [
+        {
+          "color": "#958d84",
+          "meta": 7
+        }
+      ]
+    },
+    {
+      "uid": "forestry:doors.baobab",
+      "name": "ArbDoor",
+      "color": "#686f48",
+      "alpha": 1.0,
+      "meta": 7,
+      "variants": [
+        {
+          "color": "#6f764d",
+          "meta": 11
+        }
+      ]
+    },
+    {
+      "uid": "forestry:doors.cherry",
+      "name": "ArbDoor",
+      "color": "#a0752e",
+      "alpha": 1.0,
+      "meta": 7,
+      "variants": [
+        {
+          "color": "#a1752e",
+          "meta": 11
+        }
+      ]
+    },
+    {
+      "uid": "forestry:doors.chestnut",
+      "name": "ArbDoor",
+      "color": "#938948",
+      "alpha": 1.0,
+      "meta": 7,
+      "variants": [
+        {
+          "color": "#93894e",
+          "meta": 11
+        }
+      ]
+    },
+    {
+      "uid": "forestry:doors.citrus",
+      "name": "ArbDoor",
+      "color": "#858f1e",
+      "alpha": 1.0,
+      "meta": 7,
+      "variants": [
+        {
+          "color": "#808a1b",
+          "meta": 11
+        }
+      ]
+    },
+    {
+      "uid": "forestry:doors.cocobolo",
+      "name": "ArbDoor",
+      "color": "#430a01",
+      "alpha": 1.0,
+      "meta": 7,
+      "variants": [
+        {
+          "color": "#330701",
+          "meta": 11
+        }
+      ]
+    },
+    {
+      "uid": "forestry:doors.ebony",
+      "name": "ArbDoor",
+      "color": "#655526",
+      "alpha": 1.0,
+      "meta": 7,
+      "variants": [
+        {
+          "color": "#6a5a25",
+          "meta": 11
+        }
+      ]
+    },
+    {
+      "uid": "forestry:doors.giganteum",
+      "name": "ArbDoor",
+      "color": "#504038",
+      "alpha": 1.0,
+      "meta": 7,
+      "variants": [
+        {
+          "color": "#4e4539",
+          "meta": 11
+        }
+      ]
+    },
+    {
+      "uid": "forestry:doors.greenheart",
+      "name": "ArbDoor",
+      "color": "#3b5e45",
+      "alpha": 1.0,
+      "meta": 7,
+      "variants": [
+        {
+          "color": "#3a5f45",
+          "meta": 11
+        }
+      ]
+    },
+    {
+      "uid": "forestry:doors.ipe",
+      "name": "ArbDoor",
+      "color": "#50301c",
+      "alpha": 1.0,
+      "meta": 7,
+      "variants": [
+        {
+          "color": "#543520",
+          "meta": 11
+        }
+      ]
+    },
+    {
+      "uid": "forestry:doors.kapok",
+      "name": "ArbDoor",
+      "color": "#605a2c",
+      "alpha": 1.0,
+      "meta": 11,
+      "variants": [
+        {
+          "color": "#5f5a2f",
+          "meta": 7
+        }
+      ]
+    },
+    {
+      "uid": "forestry:doors.larch",
+      "name": "ArbDoor",
+      "color": "#b98777",
+      "alpha": 1.0,
+      "meta": 7,
+      "variants": [
+        {
+          "color": "#bd9080",
+          "meta": 11
+        }
+      ]
+    },
+    {
+      "uid": "forestry:doors.lime",
+      "name": "ArbDoor",
+      "color": "#b89368",
+      "alpha": 1.0,
+      "meta": 11,
+      "variants": [
+        {
+          "color": "#b89469",
+          "meta": 7
+        }
+      ]
+    },
+    {
+      "uid": "forestry:doors.mahoe",
+      "name": "ArbDoor",
+      "color": "#60798b",
+      "alpha": 1.0,
+      "meta": 7,
+      "variants": [
+        {
+          "color": "#678194",
+          "meta": 11
+        }
+      ]
+    },
+    {
+      "uid": "forestry:doors.mahogany",
+      "name": "ArbDoor",
+      "color": "#5b3530",
+      "alpha": 1.0,
+      "meta": 7,
+      "variants": [
+        {
+          "color": "#62403c",
+          "meta": 11
+        }
+      ]
+    },
+    {
+      "uid": "forestry:doors.maple",
+      "name": "ArbDoor",
+      "color": "#865420",
+      "alpha": 1.0,
+      "meta": 11,
+      "variants": [
+        {
+          "color": "#945d23",
+          "meta": 7
+        }
+      ]
+    },
+    {
+      "uid": "forestry:doors.padauk",
+      "name": "ArbDoor",
+      "color": "#904e28",
+      "alpha": 1.0,
+      "meta": 11
+    },
+    {
+      "uid": "forestry:doors.palm",
+      "name": "ArbDoor",
+      "color": "#b77134",
+      "alpha": 1.0,
+      "meta": 7,
+      "variants": [
+        {
+          "color": "#be7d39",
+          "meta": 11
+        }
+      ]
+    },
+    {
+      "uid": "forestry:doors.papaya",
+      "name": "ArbDoor",
+      "color": "#d3c475",
+      "alpha": 1.0,
+      "meta": 11,
+      "variants": [
+        {
+          "color": "#d7c670",
+          "meta": 7
+        }
+      ]
+    },
+    {
+      "uid": "forestry:doors.pine",
+      "name": "ArbDoor",
+      "color": "#9d7b37",
+      "alpha": 1.0,
+      "meta": 11,
+      "variants": [
+        {
+          "color": "#a6823b",
+          "meta": 7
+        }
+      ]
+    },
+    {
+      "uid": "forestry:doors.plum",
+      "name": "ArbDoor",
+      "color": "#9f5a71",
+      "alpha": 1.0,
+      "meta": 7,
+      "variants": [
+        {
+          "color": "#a15c73",
+          "meta": 11
+        }
+      ]
+    },
+    {
+      "uid": "forestry:doors.poplar",
+      "name": "ArbDoor",
+      "color": "#b4b356",
+      "alpha": 1.0,
+      "meta": 7,
+      "variants": [
+        {
+          "color": "#b9b85b",
+          "meta": 11
+        }
+      ]
+    },
+    {
+      "uid": "forestry:doors.sequoia",
+      "name": "ArbDoor",
+      "color": "#7b564e",
+      "alpha": 1.0,
+      "meta": 7,
+      "variants": [
+        {
+          "color": "#79534e",
+          "meta": 11
+        }
+      ]
+    },
+    {
+      "uid": "forestry:doors.teak",
+      "name": "ArbDoor",
+      "color": "#6d6858",
+      "alpha": 1.0,
+      "meta": 11,
+      "variants": [
+        {
+          "color": "#6e6857",
+          "meta": 7
+        }
+      ]
+    },
+    {
+      "uid": "forestry:doors.walnut",
+      "name": "ArbDoor",
+      "color": "#514032",
+      "alpha": 1.0,
+      "meta": 7,
+      "variants": [
+        {
+          "color": "#4f3f32",
+          "meta": 11
+        }
+      ]
+    },
+    {
+      "uid": "forestry:doors.wenge",
+      "name": "ArbDoor",
+      "color": "#474137",
+      "alpha": 1.0,
+      "meta": 7,
+      "variants": [
+        {
+          "color": "#443f35",
+          "meta": 11
+        }
+      ]
+    },
+    {
+      "uid": "forestry:doors.willow",
+      "name": "ArbDoor",
+      "color": "#818246",
+      "alpha": 1.0,
+      "meta": 7,
+      "variants": [
+        {
+          "color": "#838448",
+          "meta": 11
+        }
+      ]
+    },
+    {
+      "uid": "forestry:doors.zebrawood",
+      "name": "ArbDoor",
+      "color": "#8d7046",
+      "alpha": 1.0,
+      "meta": 7,
+      "variants": [
+        {
+          "color": "#957549",
+          "meta": 11
+        }
+      ]
+    },
+    {
+      "uid": "forestry:fabricator",
+      "name": "热电子加工台",
+      "color": "#797a77",
+      "alpha": 1.0,
+      "meta": 5
+    },
+    {
+      "uid": "forestry:fence.gates.acacia",
+      "name": "ForestryFenceGate",
+      "color": "#87a078",
+      "alpha": 0.4,
+      "meta": 15
+    },
+    {
+      "uid": "forestry:fence.gates.balsa",
+      "name": "ForestryFenceGate",
+      "color": "#9f988f",
+      "alpha": 0.4,
+      "meta": 15
+    },
+    {
+      "uid": "forestry:fence.gates.baobab",
+      "name": "ForestryFenceGate",
+      "color": "#767e52",
+      "alpha": 0.4,
+      "meta": 15
+    },
+    {
+      "uid": "forestry:fence.gates.cherry",
+      "name": "ForestryFenceGate",
+      "color": "#9f722d",
+      "alpha": 0.4,
+      "meta": 15
+    },
+    {
+      "uid": "forestry:fence.gates.chestnut",
+      "name": "ForestryFenceGate",
+      "color": "#9b8e4b",
+      "alpha": 0.4,
+      "meta": 15
+    },
+    {
+      "uid": "forestry:fence.gates.citrus",
+      "name": "ForestryFenceGate",
+      "color": "#8b951a",
+      "alpha": 0.4,
+      "meta": 15
+    },
+    {
+      "uid": "forestry:fence.gates.cocobolo",
+      "name": "ForestryFenceGate",
+      "color": "#580c01",
+      "alpha": 0.4,
+      "meta": 15
+    },
+    {
+      "uid": "forestry:fence.gates.ebony",
+      "name": "ForestryFenceGate",
+      "color": "#312d28",
+      "alpha": 0.4,
+      "meta": 15
+    },
+    {
+      "uid": "forestry:fence.gates.fireproof.acacia",
+      "name": "ForestryFenceGate",
+      "color": "#87a078",
+      "alpha": 0.4,
+      "meta": 15
+    },
+    {
+      "uid": "forestry:fence.gates.fireproof.balsa",
+      "name": "ForestryFenceGate",
+      "color": "#9f988f",
+      "alpha": 0.4,
+      "meta": 15
+    },
+    {
+      "uid": "forestry:fence.gates.fireproof.baobab",
+      "name": "ForestryFenceGate",
+      "color": "#767e52",
+      "alpha": 0.4,
+      "meta": 15
+    },
+    {
+      "uid": "forestry:fence.gates.fireproof.cherry",
+      "name": "ForestryFenceGate",
+      "color": "#9f722d",
+      "alpha": 0.4,
+      "meta": 15
+    },
+    {
+      "uid": "forestry:fence.gates.fireproof.chestnut",
+      "name": "ForestryFenceGate",
+      "color": "#9b8e4b",
+      "alpha": 0.4,
+      "meta": 15
+    },
+    {
+      "uid": "forestry:fence.gates.fireproof.citrus",
+      "name": "ForestryFenceGate",
+      "color": "#8b951a",
+      "alpha": 0.4,
+      "meta": 15
+    },
+    {
+      "uid": "forestry:fence.gates.fireproof.cocobolo",
+      "name": "ForestryFenceGate",
+      "color": "#580c01",
+      "alpha": 0.4,
+      "meta": 15
+    },
+    {
+      "uid": "forestry:fence.gates.fireproof.ebony",
+      "name": "ForestryFenceGate",
+      "color": "#312d28",
+      "alpha": 0.4,
+      "meta": 15
+    },
+    {
+      "uid": "forestry:fence.gates.fireproof.giganteum",
+      "name": "ForestryFenceGate",
+      "color": "#542620",
+      "alpha": 0.4,
+      "meta": 15
+    },
+    {
+      "uid": "forestry:fence.gates.fireproof.greenheart",
+      "name": "ForestryFenceGate",
+      "color": "#40664b",
+      "alpha": 0.4,
+      "meta": 15
+    },
+    {
+      "uid": "forestry:fence.gates.fireproof.ipe",
+      "name": "ForestryFenceGate",
+      "color": "#522f20",
+      "alpha": 0.4,
+      "meta": 15
+    },
+    {
+      "uid": "forestry:fence.gates.fireproof.kapok",
+      "name": "ForestryFenceGate",
+      "color": "#645e2d",
+      "alpha": 0.4,
+      "meta": 15
+    },
+    {
+      "uid": "forestry:fence.gates.fireproof.larch",
+      "name": "ForestryFenceGate",
+      "color": "#c38c7b",
+      "alpha": 0.4,
+      "meta": 15
+    },
+    {
+      "uid": "forestry:fence.gates.fireproof.lime",
+      "name": "ForestryFenceGate",
+      "color": "#b99163",
+      "alpha": 0.4,
+      "meta": 15
+    },
+    {
+      "uid": "forestry:fence.gates.fireproof.mahoe",
+      "name": "ForestryFenceGate",
+      "color": "#6e879a",
+      "alpha": 0.4,
+      "meta": 15
+    },
+    {
+      "uid": "forestry:fence.gates.fireproof.mahogany",
+      "name": "ForestryFenceGate",
+      "color": "#603630",
+      "alpha": 0.4,
+      "meta": 15
+    },
+    {
+      "uid": "forestry:fence.gates.fireproof.maple",
+      "name": "ForestryFenceGate",
+      "color": "#9a6126",
+      "alpha": 0.4,
+      "meta": 15
+    },
+    {
+      "uid": "forestry:fence.gates.fireproof.padauk",
+      "name": "ForestryFenceGate",
+      "color": "#9c552c",
+      "alpha": 0.4,
+      "meta": 15
+    },
+    {
+      "uid": "forestry:fence.gates.fireproof.palm",
+      "name": "ForestryFenceGate",
+      "color": "#b9703c",
+      "alpha": 0.4,
+      "meta": 15
+    },
+    {
+      "uid": "forestry:fence.gates.fireproof.papaya",
+      "name": "ForestryFenceGate",
+      "color": "#d2be59",
+      "alpha": 0.4,
+      "meta": 15
+    },
+    {
+      "uid": "forestry:fence.gates.fireproof.pine",
+      "name": "ForestryFenceGate",
+      "color": "#b48e42",
+      "alpha": 0.4,
+      "meta": 15
+    },
+    {
+      "uid": "forestry:fence.gates.fireproof.plum",
+      "name": "ForestryFenceGate",
+      "color": "#9d596f",
+      "alpha": 0.4,
+      "meta": 15
+    },
+    {
+      "uid": "forestry:fence.gates.fireproof.poplar",
+      "name": "ForestryFenceGate",
+      "color": "#c2c268",
+      "alpha": 0.4,
+      "meta": 15
+    },
+    {
+      "uid": "forestry:fence.gates.fireproof.sequoia",
+      "name": "ForestryFenceGate",
+      "color": "#7b4d49",
+      "alpha": 0.4,
+      "meta": 15
+    },
+    {
+      "uid": "forestry:fence.gates.fireproof.teak",
+      "name": "ForestryFenceGate",
+      "color": "#6e695a",
+      "alpha": 0.4,
+      "meta": 15
+    },
+    {
+      "uid": "forestry:fence.gates.fireproof.walnut",
+      "name": "ForestryFenceGate",
+      "color": "#544336",
+      "alpha": 0.4,
+      "meta": 15
+    },
+    {
+      "uid": "forestry:fence.gates.fireproof.wenge",
+      "name": "ForestryFenceGate",
+      "color": "#4c463d",
+      "alpha": 0.4,
+      "meta": 15
+    },
+    {
+      "uid": "forestry:fence.gates.fireproof.willow",
+      "name": "ForestryFenceGate",
+      "color": "#93934c",
+      "alpha": 0.4,
+      "meta": 15
+    },
+    {
+      "uid": "forestry:fence.gates.fireproof.zebrawood",
+      "name": "ForestryFenceGate",
+      "color": "#a07d4c",
+      "alpha": 0.4,
+      "meta": 15
+    },
+    {
+      "uid": "forestry:fence.gates.giganteum",
+      "name": "ForestryFenceGate",
+      "color": "#542620",
+      "alpha": 0.4,
+      "meta": 15
+    },
+    {
+      "uid": "forestry:fence.gates.greenheart",
+      "name": "ForestryFenceGate",
+      "color": "#40664b",
+      "alpha": 0.4,
+      "meta": 15
+    },
+    {
+      "uid": "forestry:fence.gates.ipe",
+      "name": "ForestryFenceGate",
+      "color": "#522f20",
+      "alpha": 0.4,
+      "meta": 15
+    },
+    {
+      "uid": "forestry:fence.gates.kapok",
+      "name": "ForestryFenceGate",
+      "color": "#645e2d",
+      "alpha": 0.4,
+      "meta": 15
+    },
+    {
+      "uid": "forestry:fence.gates.larch",
+      "name": "ForestryFenceGate",
+      "color": "#c38c7b",
+      "alpha": 0.4,
+      "meta": 15
+    },
+    {
+      "uid": "forestry:fence.gates.lime",
+      "name": "ForestryFenceGate",
+      "color": "#b99163",
+      "alpha": 0.4,
+      "meta": 15
+    },
+    {
+      "uid": "forestry:fence.gates.mahoe",
+      "name": "ForestryFenceGate",
+      "color": "#6e879a",
+      "alpha": 0.4,
+      "meta": 15
+    },
+    {
+      "uid": "forestry:fence.gates.mahogany",
+      "name": "ForestryFenceGate",
+      "color": "#603630",
+      "alpha": 0.4,
+      "meta": 15
+    },
+    {
+      "uid": "forestry:fence.gates.maple",
+      "name": "ForestryFenceGate",
+      "color": "#9a6126",
+      "alpha": 0.4,
+      "meta": 15
+    },
+    {
+      "uid": "forestry:fence.gates.padauk",
+      "name": "ForestryFenceGate",
+      "color": "#9c552c",
+      "alpha": 0.4,
+      "meta": 15
+    },
+    {
+      "uid": "forestry:fence.gates.palm",
+      "name": "ForestryFenceGate",
+      "color": "#b9703c",
+      "alpha": 0.4,
+      "meta": 15
+    },
+    {
+      "uid": "forestry:fence.gates.papaya",
+      "name": "ForestryFenceGate",
+      "color": "#d2be59",
+      "alpha": 0.4,
+      "meta": 15
+    },
+    {
+      "uid": "forestry:fence.gates.pine",
+      "name": "ForestryFenceGate",
+      "color": "#b48e42",
+      "alpha": 0.4,
+      "meta": 15
+    },
+    {
+      "uid": "forestry:fence.gates.plum",
+      "name": "ForestryFenceGate",
+      "color": "#9d596f",
+      "alpha": 0.4,
+      "meta": 15
+    },
+    {
+      "uid": "forestry:fence.gates.poplar",
+      "name": "ForestryFenceGate",
+      "color": "#c2c268",
+      "alpha": 0.4,
+      "meta": 15
+    },
+    {
+      "uid": "forestry:fence.gates.sequoia",
+      "name": "ForestryFenceGate",
+      "color": "#7b4d49",
+      "alpha": 0.4,
+      "meta": 15
+    },
+    {
+      "uid": "forestry:fence.gates.teak",
+      "name": "ForestryFenceGate",
+      "color": "#6e695a",
+      "alpha": 0.4,
+      "meta": 15
+    },
+    {
+      "uid": "forestry:fence.gates.vanilla.fireproof.acacia",
+      "name": "ForestryFenceGate",
+      "color": "#a95b33",
+      "alpha": 0.4,
+      "meta": 15
+    },
+    {
+      "uid": "forestry:fence.gates.vanilla.fireproof.birch",
+      "name": "ForestryFenceGate",
+      "color": "#c3b37b",
+      "alpha": 0.4,
+      "meta": 15
+    },
+    {
+      "uid": "forestry:fence.gates.vanilla.fireproof.dark_oak",
+      "name": "ForestryFenceGate",
+      "color": "#3d2712",
+      "alpha": 0.4,
+      "meta": 15
+    },
+    {
+      "uid": "forestry:fence.gates.vanilla.fireproof.jungle",
+      "name": "ForestryFenceGate",
+      "color": "#9a6e4d",
+      "alpha": 0.4,
+      "meta": 15
+    },
+    {
+      "uid": "forestry:fence.gates.vanilla.fireproof.oak",
+      "name": "ForestryFenceGate",
+      "color": "#9c7f4e",
+      "alpha": 0.4,
+      "meta": 15
+    },
+    {
+      "uid": "forestry:fence.gates.vanilla.fireproof.spruce",
+      "name": "ForestryFenceGate",
+      "color": "#674d2e",
+      "alpha": 0.4,
+      "meta": 15
+    },
+    {
+      "uid": "forestry:fence.gates.walnut",
+      "name": "ForestryFenceGate",
+      "color": "#544336",
+      "alpha": 0.4,
+      "meta": 15
+    },
+    {
+      "uid": "forestry:fence.gates.wenge",
+      "name": "ForestryFenceGate",
+      "color": "#4c463d",
+      "alpha": 0.4,
+      "meta": 15
+    },
+    {
+      "uid": "forestry:fence.gates.willow",
+      "name": "ForestryFenceGate",
+      "color": "#93934c",
+      "alpha": 0.4,
+      "meta": 15
+    },
+    {
+      "uid": "forestry:fence.gates.zebrawood",
+      "name": "ForestryFenceGate",
+      "color": "#a07d4c",
+      "alpha": 0.4,
+      "meta": 15
+    },
+    {
+      "uid": "forestry:fences.0",
+      "name": "",
+      "color": "#544336",
+      "alpha": 0.4,
+      "meta": 13,
+      "variants": [
+        {
+          "color": "#c38c7b",
+          "meta": 0
+        },
+        {
+          "color": "#6e695a",
+          "meta": 1
+        },
+        {
+          "color": "#87a078",
+          "meta": 2
+        },
+        {
+          "color": "#b99163",
+          "meta": 3
+        },
+        {
+          "color": "#9b8e4b",
+          "meta": 4
+        },
+        {
+          "color": "#4c463d",
+          "meta": 5
+        },
+        {
+          "color": "#767e52",
+          "meta": 6
+        },
+        {
+          "color": "#7b4d49",
+          "meta": 7
+        },
+        {
+          "color": "#645e2d",
+          "meta": 8
+        },
+        {
+          "color": "#312d28",
+          "meta": 9
+        },
+        {
+          "color": "#603630",
+          "meta": 10
+        },
+        {
+          "color": "#9f988f",
+          "meta": 11
+        },
+        {
+          "color": "#93934c",
+          "meta": 12
+        },
+        {
+          "color": "#40664b",
+          "meta": 14
+        },
+        {
+          "color": "#9f722d",
+          "meta": 15
+        }
+      ]
+    },
+    {
+      "uid": "forestry:fences.1",
+      "name": "",
+      "color": "#b9703c",
+      "alpha": 0.4,
+      "meta": 2,
+      "variants": [
+        {
+          "color": "#6e879a",
+          "meta": 0
+        },
+        {
+          "color": "#c2c268",
+          "meta": 1
+        },
+        {
+          "color": "#d2be59",
+          "meta": 3
+        },
+        {
+          "color": "#b48e42",
+          "meta": 4
+        },
+        {
+          "color": "#9d596f",
+          "meta": 5
+        },
+        {
+          "color": "#9a6126",
+          "meta": 6
+        },
+        {
+          "color": "#8b951a",
+          "meta": 7
+        },
+        {
+          "color": "#542620",
+          "meta": 8
+        },
+        {
+          "color": "#522f20",
+          "meta": 9
+        },
+        {
+          "color": "#9c552c",
+          "meta": 10
+        },
+        {
+          "color": "#580c01",
+          "meta": 11
+        },
+        {
+          "color": "#a07d4c",
+          "meta": 12
+        }
+      ]
+    },
+    {
+      "uid": "forestry:fences.fireproof.0",
+      "name": "",
+      "color": "#544336",
+      "alpha": 0.4,
+      "meta": 13,
+      "variants": [
+        {
+          "color": "#c38c7b",
+          "meta": 0
+        },
+        {
+          "color": "#6e695a",
+          "meta": 1
+        },
+        {
+          "color": "#87a078",
+          "meta": 2
+        },
+        {
+          "color": "#b99163",
+          "meta": 3
+        },
+        {
+          "color": "#9b8e4b",
+          "meta": 4
+        },
+        {
+          "color": "#4c463d",
+          "meta": 5
+        },
+        {
+          "color": "#767e52",
+          "meta": 6
+        },
+        {
+          "color": "#7b4d49",
+          "meta": 7
+        },
+        {
+          "color": "#645e2d",
+          "meta": 8
+        },
+        {
+          "color": "#312d28",
+          "meta": 9
+        },
+        {
+          "color": "#603630",
+          "meta": 10
+        },
+        {
+          "color": "#9f988f",
+          "meta": 11
+        },
+        {
+          "color": "#93934c",
+          "meta": 12
+        },
+        {
+          "color": "#40664b",
+          "meta": 14
+        },
+        {
+          "color": "#9f722d",
+          "meta": 15
+        }
+      ]
+    },
+    {
+      "uid": "forestry:fences.fireproof.1",
+      "name": "",
+      "color": "#b9703c",
+      "alpha": 0.4,
+      "meta": 2,
+      "variants": [
+        {
+          "color": "#6e879a",
+          "meta": 0
+        },
+        {
+          "color": "#c2c268",
+          "meta": 1
+        },
+        {
+          "color": "#d2be59",
+          "meta": 3
+        },
+        {
+          "color": "#b48e42",
+          "meta": 4
+        },
+        {
+          "color": "#9d596f",
+          "meta": 5
+        },
+        {
+          "color": "#9a6126",
+          "meta": 6
+        },
+        {
+          "color": "#8b951a",
+          "meta": 7
+        },
+        {
+          "color": "#542620",
+          "meta": 8
+        },
+        {
+          "color": "#522f20",
+          "meta": 9
+        },
+        {
+          "color": "#9c552c",
+          "meta": 10
+        },
+        {
+          "color": "#580c01",
+          "meta": 11
+        },
+        {
+          "color": "#a07d4c",
+          "meta": 12
+        }
+      ]
+    },
+    {
+      "uid": "forestry:fences.vanilla.fireproof.0",
+      "name": "",
+      "color": "#674d2e",
+      "alpha": 0.4,
+      "meta": 1,
+      "variants": [
+        {
+          "color": "#9c7f4e",
+          "meta": 0
+        },
+        {
+          "color": "#c3b37b",
+          "meta": 2
+        },
+        {
+          "color": "#9a6e4d",
+          "meta": 3
+        },
+        {
+          "color": "#a95b33",
+          "meta": 4
+        },
+        {
+          "color": "#3d2712",
+          "meta": 5
+        }
+      ]
+    },
+    {
+      "uid": "forestry:fluid.bio.ethanol",
+      "name": "Ethanol",
+      "color": "#ff6e00",
+      "alpha": 0.3,
+      "meta": 15
+    },
+    {
+      "uid": "forestry:fluid.biomass",
+      "name": "生物质",
+      "color": "#638428",
+      "alpha": 0.3,
+      "meta": 15
+    },
+    {
+      "uid": "forestry:fluid.for.honey",
+      "name": "蜂蜜",
+      "color": "#ffad1e",
+      "alpha": 0.3,
+      "meta": 15
+    },
+    {
+      "uid": "forestry:fluid.glass",
+      "name": "液态玻璃",
+      "color": "#a3a3a3",
+      "alpha": 1.0,
+      "meta": 15
+    },
+    {
+      "uid": "forestry:fluid.ice",
+      "name": "碎冰",
+      "color": "#aff2ff",
+      "alpha": 0.3,
+      "meta": 15
+    },
+    {
+      "uid": "forestry:fluid.juice",
+      "name": "果汁",
+      "color": "#a7c971",
+      "alpha": 0.3,
+      "meta": 15
+    },
+    {
+      "uid": "forestry:fluid.milk",
+      "name": "牛奶",
+      "color": "#ffffff",
+      "alpha": 0.3,
+      "meta": 15
+    },
+    {
+      "uid": "forestry:fluid.seed.oil",
+      "name": "Seed Oil",
+      "color": "#ffffa8",
+      "alpha": 0.3,
+      "meta": 15
+    },
+    {
+      "uid": "forestry:fluid.short.mead",
+      "name": "蜂蜜酒",
+      "color": "#ef9900",
+      "alpha": 0.3,
+      "meta": 15
+    },
+    {
+      "uid": "forestry:greenhouse.door",
+      "name": "温室大门",
+      "color": "#926356",
+      "alpha": 1.0,
+      "meta": 11,
+      "variants": [
+        {
+          "color": "#667f33",
+          "meta": 11
+        }
+      ]
+    },
+    {
+      "uid": "forestry:greenhouse.window",
+      "name": "温室窗户",
+      "color": "#667f33",
+      "alpha": 1.0,
+      "meta": 3
+    },
+    {
+      "uid": "forestry:greenhouse.window_up",
+      "name": "温室天窗",
+      "color": "#667f33",
+      "alpha": 1.0,
+      "meta": 3
+    },
+    {
+      "uid": "forestry:humus",
+      "name": "腐殖土",
+      "color": "#221002",
+      "alpha": 1.0,
+      "meta": 3
+    },
+    {
+      "uid": "forestry:loam",
+      "name": "Loam",
+      "color": "#61492f",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "forestry:logs.0",
+      "name": "",
+      "color": "#737252",
+      "alpha": 1.0,
+      "meta": 14,
+      "variants": [
+        {
+          "color": "#685258",
+          "meta": 12
+        },
+        {
+          "color": "#353229",
+          "meta": 13
+        },
+        {
+          "color": "#716558",
+          "meta": 15
+        }
+      ]
+    },
+    {
+      "uid": "forestry:logs.1",
+      "name": "",
+      "color": "#5e5a3c",
+      "alpha": 1.0,
+      "meta": 12,
+      "variants": [
+        {
+          "color": "#6a5e51",
+          "meta": 13
+        },
+        {
+          "color": "#c8824f",
+          "meta": 14
+        },
+        {
+          "color": "#92400c",
+          "meta": 15
+        }
+      ]
+    },
+    {
+      "uid": "forestry:logs.2",
+      "name": "",
+      "color": "#8f7c6c",
+      "alpha": 1.0,
+      "meta": 14,
+      "variants": [
+        {
+          "color": "#52584f",
+          "meta": 12
+        },
+        {
+          "color": "#9f8051",
+          "meta": 13
+        },
+        {
+          "color": "#827b75",
+          "meta": 15
+        }
+      ]
+    },
+    {
+      "uid": "forestry:logs.3",
+      "name": "",
+      "color": "#601200",
+      "alpha": 1.0,
+      "meta": 15,
+      "variants": [
+        {
+          "color": "#a19a95",
+          "meta": 12
+        },
+        {
+          "color": "#90927a",
+          "meta": 13
+        },
+        {
+          "color": "#796652",
+          "meta": 14
+        }
+      ]
+    },
+    {
+      "uid": "forestry:logs.4",
+      "name": "",
+      "color": "#a47f41",
+      "alpha": 1.0,
+      "meta": 15,
+      "variants": [
+        {
+          "color": "#616248",
+          "meta": 12
+        },
+        {
+          "color": "#8ca687",
+          "meta": 13
+        },
+        {
+          "color": "#886f43",
+          "meta": 14
+        }
+      ]
+    },
+    {
+      "uid": "forestry:logs.5",
+      "name": "",
+      "color": "#5b4b39",
+      "alpha": 1.0,
+      "meta": 15,
+      "variants": [
+        {
+          "color": "#735649",
+          "meta": 12
+        },
+        {
+          "color": "#a77752",
+          "meta": 13
+        },
+        {
+          "color": "#8a8781",
+          "meta": 14
+        }
+      ]
+    },
+    {
+      "uid": "forestry:logs.6",
+      "name": "",
+      "color": "#c29444",
+      "alpha": 1.0,
+      "meta": 14,
+      "variants": [
+        {
+          "color": "#985923",
+          "meta": 12
+        },
+        {
+          "color": "#4b2c1d",
+          "meta": 13
+        },
+        {
+          "color": "#68563d",
+          "meta": 15
+        }
+      ]
+    },
+    {
+      "uid": "forestry:logs.7",
+      "name": "",
+      "color": "#9d816c",
+      "alpha": 1.0,
+      "meta": 12
+    },
+    {
+      "uid": "forestry:logs.fireproof.0",
+      "name": "",
+      "color": "#737252",
+      "alpha": 1.0,
+      "meta": 14,
+      "variants": [
+        {
+          "color": "#685258",
+          "meta": 12
+        },
+        {
+          "color": "#353229",
+          "meta": 13
+        },
+        {
+          "color": "#716558",
+          "meta": 15
+        }
+      ]
+    },
+    {
+      "uid": "forestry:logs.fireproof.1",
+      "name": "",
+      "color": "#5e5a3c",
+      "alpha": 1.0,
+      "meta": 12,
+      "variants": [
+        {
+          "color": "#6a5e51",
+          "meta": 13
+        },
+        {
+          "color": "#c8824f",
+          "meta": 14
+        },
+        {
+          "color": "#92400c",
+          "meta": 15
+        }
+      ]
+    },
+    {
+      "uid": "forestry:logs.fireproof.2",
+      "name": "",
+      "color": "#8f7c6c",
+      "alpha": 1.0,
+      "meta": 14,
+      "variants": [
+        {
+          "color": "#52584f",
+          "meta": 12
+        },
+        {
+          "color": "#9f8051",
+          "meta": 13
+        },
+        {
+          "color": "#827b75",
+          "meta": 15
+        }
+      ]
+    },
+    {
+      "uid": "forestry:logs.fireproof.3",
+      "name": "",
+      "color": "#601200",
+      "alpha": 1.0,
+      "meta": 15,
+      "variants": [
+        {
+          "color": "#a19a95",
+          "meta": 12
+        },
+        {
+          "color": "#90927a",
+          "meta": 13
+        },
+        {
+          "color": "#796652",
+          "meta": 14
+        }
+      ]
+    },
+    {
+      "uid": "forestry:logs.fireproof.4",
+      "name": "",
+      "color": "#a47f41",
+      "alpha": 1.0,
+      "meta": 15,
+      "variants": [
+        {
+          "color": "#616248",
+          "meta": 12
+        },
+        {
+          "color": "#8ca687",
+          "meta": 13
+        },
+        {
+          "color": "#886f43",
+          "meta": 14
+        }
+      ]
+    },
+    {
+      "uid": "forestry:logs.fireproof.5",
+      "name": "",
+      "color": "#5b4b39",
+      "alpha": 1.0,
+      "meta": 15,
+      "variants": [
+        {
+          "color": "#735649",
+          "meta": 12
+        },
+        {
+          "color": "#a77752",
+          "meta": 13
+        },
+        {
+          "color": "#8a8781",
+          "meta": 14
+        }
+      ]
+    },
+    {
+      "uid": "forestry:logs.fireproof.6",
+      "name": "",
+      "color": "#c29444",
+      "alpha": 1.0,
+      "meta": 14,
+      "variants": [
+        {
+          "color": "#985923",
+          "meta": 12
+        },
+        {
+          "color": "#4b2c1d",
+          "meta": 13
+        },
+        {
+          "color": "#68563d",
+          "meta": 15
+        }
+      ]
+    },
+    {
+      "uid": "forestry:logs.fireproof.7",
+      "name": "",
+      "color": "#9d816c",
+      "alpha": 1.0,
+      "meta": 12
+    },
+    {
+      "uid": "forestry:logs.vanilla.fireproof.0",
+      "name": "",
+      "color": "#2d1c0c",
+      "alpha": 1.0,
+      "meta": 13,
+      "variants": [
+        {
+          "color": "#665131",
+          "meta": 12
+        },
+        {
+          "color": "#cecec9",
+          "meta": 14
+        },
+        {
+          "color": "#57431a",
+          "meta": 15
+        }
+      ]
+    },
+    {
+      "uid": "forestry:logs.vanilla.fireproof.1",
+      "name": "",
+      "color": "#342817",
+      "alpha": 1.0,
+      "meta": 13,
+      "variants": [
+        {
+          "color": "#696359",
+          "meta": 12
+        }
+      ]
+    },
+    {
+      "uid": "forestry:mailbox",
+      "name": "信箱",
+      "color": "#445b8f",
+      "alpha": 1.0,
+      "meta": 5
+    },
+    {
+      "uid": "forestry:mushroom",
+      "name": "Mushroom",
+      "color": "#8a6953",
+      "alpha": 1.0,
+      "meta": 4,
+      "variants": [
+        {
+          "color": "#c33538",
+          "meta": 5
+        }
+      ]
+    },
+    {
+      "uid": "forestry:planks.0",
+      "name": "",
+      "color": "#544336",
+      "alpha": 1.0,
+      "meta": 13,
+      "variants": [
+        {
+          "color": "#c38c7b",
+          "meta": 0
+        },
+        {
+          "color": "#6e695a",
+          "meta": 1
+        },
+        {
+          "color": "#87a078",
+          "meta": 2
+        },
+        {
+          "color": "#b99163",
+          "meta": 3
+        },
+        {
+          "color": "#9b8e4b",
+          "meta": 4
+        },
+        {
+          "color": "#4c463d",
+          "meta": 5
+        },
+        {
+          "color": "#767e52",
+          "meta": 6
+        },
+        {
+          "color": "#7b4d49",
+          "meta": 7
+        },
+        {
+          "color": "#645e2d",
+          "meta": 8
+        },
+        {
+          "color": "#312d28",
+          "meta": 9
+        },
+        {
+          "color": "#603630",
+          "meta": 10
+        },
+        {
+          "color": "#9f988f",
+          "meta": 11
+        },
+        {
+          "color": "#93934c",
+          "meta": 12
+        },
+        {
+          "color": "#40664b",
+          "meta": 14
+        },
+        {
+          "color": "#9f722d",
+          "meta": 15
+        }
+      ]
+    },
+    {
+      "uid": "forestry:planks.1",
+      "name": "",
+      "color": "#b9703c",
+      "alpha": 1.0,
+      "meta": 2,
+      "variants": [
+        {
+          "color": "#6e879a",
+          "meta": 0
+        },
+        {
+          "color": "#c2c268",
+          "meta": 1
+        },
+        {
+          "color": "#d2be59",
+          "meta": 3
+        },
+        {
+          "color": "#b48e42",
+          "meta": 4
+        },
+        {
+          "color": "#9d596f",
+          "meta": 5
+        },
+        {
+          "color": "#9a6126",
+          "meta": 6
+        },
+        {
+          "color": "#8b951a",
+          "meta": 7
+        },
+        {
+          "color": "#542620",
+          "meta": 8
+        },
+        {
+          "color": "#522f20",
+          "meta": 9
+        },
+        {
+          "color": "#9c552c",
+          "meta": 10
+        },
+        {
+          "color": "#580c01",
+          "meta": 11
+        },
+        {
+          "color": "#a07d4c",
+          "meta": 12
+        }
+      ]
+    },
+    {
+      "uid": "forestry:planks.fireproof.0",
+      "name": "",
+      "color": "#544336",
+      "alpha": 1.0,
+      "meta": 13,
+      "variants": [
+        {
+          "color": "#c38c7b",
+          "meta": 0
+        },
+        {
+          "color": "#6e695a",
+          "meta": 1
+        },
+        {
+          "color": "#87a078",
+          "meta": 2
+        },
+        {
+          "color": "#b99163",
+          "meta": 3
+        },
+        {
+          "color": "#9b8e4b",
+          "meta": 4
+        },
+        {
+          "color": "#4c463d",
+          "meta": 5
+        },
+        {
+          "color": "#767e52",
+          "meta": 6
+        },
+        {
+          "color": "#7b4d49",
+          "meta": 7
+        },
+        {
+          "color": "#645e2d",
+          "meta": 8
+        },
+        {
+          "color": "#312d28",
+          "meta": 9
+        },
+        {
+          "color": "#603630",
+          "meta": 10
+        },
+        {
+          "color": "#9f988f",
+          "meta": 11
+        },
+        {
+          "color": "#93934c",
+          "meta": 12
+        },
+        {
+          "color": "#40664b",
+          "meta": 14
+        },
+        {
+          "color": "#9f722d",
+          "meta": 15
+        }
+      ]
+    },
+    {
+      "uid": "forestry:planks.fireproof.1",
+      "name": "",
+      "color": "#b9703c",
+      "alpha": 1.0,
+      "meta": 2,
+      "variants": [
+        {
+          "color": "#6e879a",
+          "meta": 0
+        },
+        {
+          "color": "#c2c268",
+          "meta": 1
+        },
+        {
+          "color": "#d2be59",
+          "meta": 3
+        },
+        {
+          "color": "#b48e42",
+          "meta": 4
+        },
+        {
+          "color": "#9d596f",
+          "meta": 5
+        },
+        {
+          "color": "#9a6126",
+          "meta": 6
+        },
+        {
+          "color": "#8b951a",
+          "meta": 7
+        },
+        {
+          "color": "#542620",
+          "meta": 8
+        },
+        {
+          "color": "#522f20",
+          "meta": 9
+        },
+        {
+          "color": "#9c552c",
+          "meta": 10
+        },
+        {
+          "color": "#580c01",
+          "meta": 11
+        },
+        {
+          "color": "#a07d4c",
+          "meta": 12
+        }
+      ]
+    },
+    {
+      "uid": "forestry:planks.vanilla.fireproof.0",
+      "name": "",
+      "color": "#674d2e",
+      "alpha": 1.0,
+      "meta": 1,
+      "variants": [
+        {
+          "color": "#9c7f4e",
+          "meta": 0
+        },
+        {
+          "color": "#c3b37b",
+          "meta": 2
+        },
+        {
+          "color": "#9a6e4d",
+          "meta": 3
+        },
+        {
+          "color": "#a95b33",
+          "meta": 4
+        },
+        {
+          "color": "#3d2712",
+          "meta": 5
+        }
+      ]
+    },
+    {
+      "uid": "forestry:pods.cocoa",
+      "name": "空气",
+      "color": "#8a8c40",
+      "alpha": 1.0,
+      "meta": 3,
+      "variants": [
+        {
+          "color": "#896b33",
+          "meta": 7
+        },
+        {
+          "color": "#91501e",
+          "meta": 11
+        }
+      ]
+    },
+    {
+      "uid": "forestry:pods.dates",
+      "name": "空气",
+      "color": "#ae7d24",
+      "alpha": 1.0,
+      "meta": 7,
+      "variants": [
+        {
+          "color": "#b5a842",
+          "meta": 3
+        },
+        {
+          "color": "#6e2320",
+          "meta": 11
+        }
+      ]
+    },
+    {
+      "uid": "forestry:pods.papaya",
+      "name": "空气",
+      "color": "#9f8d0f",
+      "alpha": 1.0,
+      "meta": 11,
+      "variants": [
+        {
+          "color": "#93b642",
+          "meta": 3
+        },
+        {
+          "color": "#87943c",
+          "meta": 7
+        }
+      ]
+    },
+    {
+      "uid": "forestry:raintank",
+      "name": "集雨蓄水槽",
+      "color": "#61646d",
+      "alpha": 1.0,
+      "meta": 5
+    },
+    {
+      "uid": "forestry:resource_storage",
+      "name": "锡块",
+      "color": "#a7cfe0",
+      "alpha": 1.0,
+      "meta": 2,
+      "variants": [
+        {
+          "name": "磷灰石块",
+          "color": "#529ac8",
+          "meta": 0
+        },
+        {
+          "name": "铜块",
+          "color": "#a76e3a",
+          "meta": 1
+        },
+        {
+          "name": "青铜块",
+          "color": "#9c8032",
+          "meta": 3
+        }
+      ]
+    },
+    {
+      "uid": "forestry:resources",
+      "name": "锡矿石",
+      "color": "#8e8d8c",
+      "alpha": 1.0,
+      "meta": 2,
+      "variants": [
+        {
+          "name": "磷矿石",
+          "color": "#72818a",
+          "meta": 0
+        },
+        {
+          "name": "铜矿石",
+          "color": "#868374",
+          "meta": 1
+        }
+      ]
+    },
+    {
+      "uid": "forestry:sapling_ge",
+      "name": "Sapling",
+      "color": "#726d30",
+      "alpha": 1.0,
+      "meta": 0,
+      "variants": [
+        {
+          "color": "#273822",
+          "meta": 0
+        },
+        {
+          "color": "#305612",
+          "meta": 0
+        },
+        {
+          "color": "#333a21",
+          "meta": 0
+        },
+        {
+          "color": "#38561c",
+          "meta": 0
+        },
+        {
+          "color": "#3e615e",
+          "meta": 0
+        },
+        {
+          "color": "#3f533c",
+          "meta": 0
+        },
+        {
+          "color": "#416b31",
+          "meta": 0
+        },
+        {
+          "color": "#476625",
+          "meta": 0
+        },
+        {
+          "color": "#4d784e",
+          "meta": 0
+        },
+        {
+          "color": "#4f4a28",
+          "meta": 0
+        },
+        {
+          "color": "#505e3b",
+          "meta": 0
+        },
+        {
+          "color": "#546143",
+          "meta": 0
+        },
+        {
+          "color": "#566e52",
+          "meta": 0
+        },
+        {
+          "color": "#57673d",
+          "meta": 0
+        },
+        {
+          "color": "#587f35",
+          "meta": 0
+        },
+        {
+          "color": "#5b6a3d",
+          "meta": 0
+        },
+        {
+          "color": "#5b7346",
+          "meta": 0
+        },
+        {
+          "color": "#5e703d",
+          "meta": 0
+        },
+        {
+          "color": "#5f482b",
+          "meta": 0
+        },
+        {
+          "color": "#61764a",
+          "meta": 0
+        },
+        {
+          "color": "#627b44",
+          "meta": 0
+        },
+        {
+          "color": "#726b2e",
+          "meta": 0
+        },
+        {
+          "color": "#727314",
+          "meta": 0
+        },
+        {
+          "color": "#748238",
+          "meta": 0
+        },
+        {
+          "color": "#766435",
+          "meta": 0
+        },
+        {
+          "color": "#769654",
+          "meta": 0
+        },
+        {
+          "color": "#776d3d",
+          "meta": 0
+        },
+        {
+          "color": "#79998d",
+          "meta": 0
+        },
+        {
+          "color": "#7e6108",
+          "meta": 0
+        },
+        {
+          "color": "#823852",
+          "meta": 0
+        },
+        {
+          "color": "#848372",
+          "meta": 0
+        },
+        {
+          "color": "#887632",
+          "meta": 0
+        },
+        {
+          "color": "#968e4f",
+          "meta": 0
+        },
+        {
+          "color": "#c1935b",
+          "meta": 0
+        }
+      ]
+    },
+    {
+      "uid": "forestry:slabs.0",
+      "name": "猴面包树台阶.name",
+      "color": "#767e52",
+      "alpha": 1.0,
+      "meta": 14,
+      "variants": [
+        {
+          "name": "落叶树台阶.name",
+          "color": "#c38c7b",
+          "meta": 8
+        },
+        {
+          "name": "柚树台阶.name",
+          "color": "#6e695a",
+          "meta": 9
+        },
+        {
+          "name": "金合欢树台阶.name",
+          "color": "#87a078",
+          "meta": 10
+        },
+        {
+          "name": "酸橙树台阶.name",
+          "color": "#b99163",
+          "meta": 11
+        },
+        {
+          "name": "栗树台阶.name",
+          "color": "#9b8e4b",
+          "meta": 12
+        },
+        {
+          "name": "崖豆树台阶.name",
+          "color": "#4c463d",
+          "meta": 13
+        },
+        {
+          "name": "红杉树台阶.name",
+          "color": "#7b4d49",
+          "meta": 15
+        }
+      ]
+    },
+    {
+      "uid": "forestry:slabs.1",
+      "name": "胡桃树台阶.name",
+      "color": "#544336",
+      "alpha": 1.0,
+      "meta": 13,
+      "variants": [
+        {
+          "name": "木棉树台阶.name",
+          "color": "#645e2d",
+          "meta": 8
+        },
+        {
+          "name": "乌檀树台阶.name",
+          "color": "#312d28",
+          "meta": 9
+        },
+        {
+          "name": "桃心树台阶.name",
+          "color": "#603630",
+          "meta": 10
+        },
+        {
+          "name": "巴尔杉树台阶.name",
+          "color": "#9f988f",
+          "meta": 11
+        },
+        {
+          "name": "柳树台阶.name",
+          "color": "#93934c",
+          "meta": 12
+        },
+        {
+          "name": "绿樟树台阶.name",
+          "color": "#40664b",
+          "meta": 14
+        },
+        {
+          "name": "樱树台阶.name",
+          "color": "#9f722d",
+          "meta": 15
+        }
+      ]
+    },
+    {
+      "uid": "forestry:slabs.2",
+      "name": "棕榈树台阶.name",
+      "color": "#b9703c",
+      "alpha": 1.0,
+      "meta": 10,
+      "variants": [
+        {
+          "name": "高槿树台阶.name",
+          "color": "#6e879a",
+          "meta": 8
+        },
+        {
+          "name": "白杨树台阶.name",
+          "color": "#c2c268",
+          "meta": 9
+        },
+        {
+          "name": "木瓜树台阶.name",
+          "color": "#d2be59",
+          "meta": 11
+        },
+        {
+          "name": "松树台阶.name",
+          "color": "#b48e42",
+          "meta": 12
+        },
+        {
+          "name": "李子树台阶.name",
+          "color": "#9d596f",
+          "meta": 13
+        },
+        {
+          "name": "枫树台阶.name",
+          "color": "#9a6126",
+          "meta": 14
+        },
+        {
+          "name": "柑橘树台阶.name",
+          "color": "#8b951a",
+          "meta": 15
+        }
+      ]
+    },
+    {
+      "uid": "forestry:slabs.3",
+      "name": "斑木树台阶.name",
+      "color": "#a07d4c",
+      "alpha": 1.0,
+      "meta": 12,
+      "variants": [
+        {
+          "name": "巨杉树台阶.name",
+          "color": "#542620",
+          "meta": 8
+        },
+        {
+          "name": "重蚁树台阶.name",
+          "color": "#522f20",
+          "meta": 9
+        },
+        {
+          "name": "紫檀树台阶.name",
+          "color": "#9c552c",
+          "meta": 10
+        },
+        {
+          "name": "黄檀树台阶.name",
+          "color": "#580c01",
+          "meta": 11
+        }
+      ]
+    },
+    {
+      "uid": "forestry:slabs.double.0",
+      "name": "猴面包树台阶.name",
+      "color": "#767e52",
+      "alpha": 1.0,
+      "meta": 6,
+      "variants": [
+        {
+          "name": "落叶树台阶.name",
+          "color": "#c38c7b",
+          "meta": 0
+        },
+        {
+          "name": "柚树台阶.name",
+          "color": "#6e695a",
+          "meta": 1
+        },
+        {
+          "name": "金合欢树台阶.name",
+          "color": "#87a078",
+          "meta": 2
+        },
+        {
+          "name": "酸橙树台阶.name",
+          "color": "#b99163",
+          "meta": 3
+        },
+        {
+          "name": "栗树台阶.name",
+          "color": "#9b8e4b",
+          "meta": 4
+        },
+        {
+          "name": "崖豆树台阶.name",
+          "color": "#4c463d",
+          "meta": 5
+        },
+        {
+          "name": "红杉树台阶.name",
+          "color": "#7b4d49",
+          "meta": 7
+        }
+      ]
+    },
+    {
+      "uid": "forestry:slabs.double.1",
+      "name": "胡桃树台阶.name",
+      "color": "#544336",
+      "alpha": 1.0,
+      "meta": 5,
+      "variants": [
+        {
+          "name": "木棉树台阶.name",
+          "color": "#645e2d",
+          "meta": 0
+        },
+        {
+          "name": "乌檀树台阶.name",
+          "color": "#312d28",
+          "meta": 1
+        },
+        {
+          "name": "桃心树台阶.name",
+          "color": "#603630",
+          "meta": 2
+        },
+        {
+          "name": "巴尔杉树台阶.name",
+          "color": "#9f988f",
+          "meta": 3
+        },
+        {
+          "name": "柳树台阶.name",
+          "color": "#93934c",
+          "meta": 4
+        },
+        {
+          "name": "绿樟树台阶.name",
+          "color": "#40664b",
+          "meta": 6
+        },
+        {
+          "name": "樱树台阶.name",
+          "color": "#9f722d",
+          "meta": 7
+        }
+      ]
+    },
+    {
+      "uid": "forestry:slabs.double.2",
+      "name": "棕榈树台阶.name",
+      "color": "#b9703c",
+      "alpha": 1.0,
+      "meta": 2,
+      "variants": [
+        {
+          "name": "高槿树台阶.name",
+          "color": "#6e879a",
+          "meta": 0
+        },
+        {
+          "name": "白杨树台阶.name",
+          "color": "#c2c268",
+          "meta": 1
+        },
+        {
+          "name": "木瓜树台阶.name",
+          "color": "#d2be59",
+          "meta": 3
+        },
+        {
+          "name": "松树台阶.name",
+          "color": "#b48e42",
+          "meta": 4
+        },
+        {
+          "name": "李子树台阶.name",
+          "color": "#9d596f",
+          "meta": 5
+        },
+        {
+          "name": "枫树台阶.name",
+          "color": "#9a6126",
+          "meta": 6
+        },
+        {
+          "name": "柑橘树台阶.name",
+          "color": "#8b951a",
+          "meta": 7
+        }
+      ]
+    },
+    {
+      "uid": "forestry:slabs.double.3",
+      "name": "斑木树台阶.name",
+      "color": "#a07d4c",
+      "alpha": 1.0,
+      "meta": 4,
+      "variants": [
+        {
+          "name": "巨杉树台阶.name",
+          "color": "#542620",
+          "meta": 0
+        },
+        {
+          "name": "重蚁树台阶.name",
+          "color": "#522f20",
+          "meta": 1
+        },
+        {
+          "name": "紫檀树台阶.name",
+          "color": "#9c552c",
+          "meta": 2
+        },
+        {
+          "name": "黄檀树台阶.name",
+          "color": "#580c01",
+          "meta": 3
+        }
+      ]
+    },
+    {
+      "uid": "forestry:slabs.double.fireproof.0",
+      "name": "抗燃猴面包树台阶.name",
+      "color": "#767e52",
+      "alpha": 1.0,
+      "meta": 6,
+      "variants": [
+        {
+          "name": "抗燃落叶树台阶.name",
+          "color": "#c38c7b",
+          "meta": 0
+        },
+        {
+          "name": "抗燃柚树台阶.name",
+          "color": "#6e695a",
+          "meta": 1
+        },
+        {
+          "name": "抗燃金合欢树台阶.name",
+          "color": "#87a078",
+          "meta": 2
+        },
+        {
+          "name": "抗燃酸橙树台阶.name",
+          "color": "#b99163",
+          "meta": 3
+        },
+        {
+          "name": "抗燃栗树台阶.name",
+          "color": "#9b8e4b",
+          "meta": 4
+        },
+        {
+          "name": "抗燃崖豆树台阶.name",
+          "color": "#4c463d",
+          "meta": 5
+        },
+        {
+          "name": "抗燃红杉树台阶.name",
+          "color": "#7b4d49",
+          "meta": 7
+        }
+      ]
+    },
+    {
+      "uid": "forestry:slabs.double.fireproof.1",
+      "name": "抗燃胡桃树台阶.name",
+      "color": "#544336",
+      "alpha": 1.0,
+      "meta": 5,
+      "variants": [
+        {
+          "name": "抗燃木棉树台阶.name",
+          "color": "#645e2d",
+          "meta": 0
+        },
+        {
+          "name": "抗燃乌檀树台阶.name",
+          "color": "#312d28",
+          "meta": 1
+        },
+        {
+          "name": "抗燃桃心树台阶.name",
+          "color": "#603630",
+          "meta": 2
+        },
+        {
+          "name": "抗燃巴尔杉树台阶.name",
+          "color": "#9f988f",
+          "meta": 3
+        },
+        {
+          "name": "抗燃柳树台阶.name",
+          "color": "#93934c",
+          "meta": 4
+        },
+        {
+          "name": "抗燃绿樟树台阶.name",
+          "color": "#40664b",
+          "meta": 6
+        },
+        {
+          "name": "抗燃樱树台阶.name",
+          "color": "#9f722d",
+          "meta": 7
+        }
+      ]
+    },
+    {
+      "uid": "forestry:slabs.double.fireproof.2",
+      "name": "抗燃棕榈树台阶.name",
+      "color": "#b9703c",
+      "alpha": 1.0,
+      "meta": 2,
+      "variants": [
+        {
+          "name": "抗燃高槿树台阶.name",
+          "color": "#6e879a",
+          "meta": 0
+        },
+        {
+          "name": "抗燃白杨树台阶.name",
+          "color": "#c2c268",
+          "meta": 1
+        },
+        {
+          "name": "抗燃木瓜树台阶.name",
+          "color": "#d2be59",
+          "meta": 3
+        },
+        {
+          "name": "抗燃松树台阶.name",
+          "color": "#b48e42",
+          "meta": 4
+        },
+        {
+          "name": "抗燃李子树台阶.name",
+          "color": "#9d596f",
+          "meta": 5
+        },
+        {
+          "name": "抗燃枫树台阶.name",
+          "color": "#9a6126",
+          "meta": 6
+        },
+        {
+          "name": "抗燃柑橘树台阶.name",
+          "color": "#8b951a",
+          "meta": 7
+        }
+      ]
+    },
+    {
+      "uid": "forestry:slabs.double.fireproof.3",
+      "name": "抗燃斑木树台阶.name",
+      "color": "#a07d4c",
+      "alpha": 1.0,
+      "meta": 4,
+      "variants": [
+        {
+          "name": "抗燃巨杉树台阶.name",
+          "color": "#542620",
+          "meta": 0
+        },
+        {
+          "name": "抗燃重蚁树台阶.name",
+          "color": "#522f20",
+          "meta": 1
+        },
+        {
+          "name": "抗燃紫檀树台阶.name",
+          "color": "#9c552c",
+          "meta": 2
+        },
+        {
+          "name": "抗燃黄檀树台阶.name",
+          "color": "#580c01",
+          "meta": 3
+        }
+      ]
+    },
+    {
+      "uid": "forestry:slabs.fireproof.0",
+      "name": "抗燃猴面包树台阶.name",
+      "color": "#767e52",
+      "alpha": 1.0,
+      "meta": 14,
+      "variants": [
+        {
+          "name": "抗燃落叶树台阶.name",
+          "color": "#c38c7b",
+          "meta": 8
+        },
+        {
+          "name": "抗燃柚树台阶.name",
+          "color": "#6e695a",
+          "meta": 9
+        },
+        {
+          "name": "抗燃金合欢树台阶.name",
+          "color": "#87a078",
+          "meta": 10
+        },
+        {
+          "name": "抗燃酸橙树台阶.name",
+          "color": "#b99163",
+          "meta": 11
+        },
+        {
+          "name": "抗燃栗树台阶.name",
+          "color": "#9b8e4b",
+          "meta": 12
+        },
+        {
+          "name": "抗燃崖豆树台阶.name",
+          "color": "#4c463d",
+          "meta": 13
+        },
+        {
+          "name": "抗燃红杉树台阶.name",
+          "color": "#7b4d49",
+          "meta": 15
+        }
+      ]
+    },
+    {
+      "uid": "forestry:slabs.fireproof.1",
+      "name": "抗燃胡桃树台阶.name",
+      "color": "#544336",
+      "alpha": 1.0,
+      "meta": 13,
+      "variants": [
+        {
+          "name": "抗燃木棉树台阶.name",
+          "color": "#645e2d",
+          "meta": 8
+        },
+        {
+          "name": "抗燃乌檀树台阶.name",
+          "color": "#312d28",
+          "meta": 9
+        },
+        {
+          "name": "抗燃桃心树台阶.name",
+          "color": "#603630",
+          "meta": 10
+        },
+        {
+          "name": "抗燃巴尔杉树台阶.name",
+          "color": "#9f988f",
+          "meta": 11
+        },
+        {
+          "name": "抗燃柳树台阶.name",
+          "color": "#93934c",
+          "meta": 12
+        },
+        {
+          "name": "抗燃绿樟树台阶.name",
+          "color": "#40664b",
+          "meta": 14
+        },
+        {
+          "name": "抗燃樱树台阶.name",
+          "color": "#9f722d",
+          "meta": 15
+        }
+      ]
+    },
+    {
+      "uid": "forestry:slabs.fireproof.2",
+      "name": "抗燃棕榈树台阶.name",
+      "color": "#b9703c",
+      "alpha": 1.0,
+      "meta": 10,
+      "variants": [
+        {
+          "name": "抗燃高槿树台阶.name",
+          "color": "#6e879a",
+          "meta": 8
+        },
+        {
+          "name": "抗燃白杨树台阶.name",
+          "color": "#c2c268",
+          "meta": 9
+        },
+        {
+          "name": "抗燃木瓜树台阶.name",
+          "color": "#d2be59",
+          "meta": 11
+        },
+        {
+          "name": "抗燃松树台阶.name",
+          "color": "#b48e42",
+          "meta": 12
+        },
+        {
+          "name": "抗燃李子树台阶.name",
+          "color": "#9d596f",
+          "meta": 13
+        },
+        {
+          "name": "抗燃枫树台阶.name",
+          "color": "#9a6126",
+          "meta": 14
+        },
+        {
+          "name": "抗燃柑橘树台阶.name",
+          "color": "#8b951a",
+          "meta": 15
+        }
+      ]
+    },
+    {
+      "uid": "forestry:slabs.fireproof.3",
+      "name": "抗燃斑木树台阶.name",
+      "color": "#a07d4c",
+      "alpha": 1.0,
+      "meta": 12,
+      "variants": [
+        {
+          "name": "抗燃巨杉树台阶.name",
+          "color": "#542620",
+          "meta": 8
+        },
+        {
+          "name": "抗燃重蚁树台阶.name",
+          "color": "#522f20",
+          "meta": 9
+        },
+        {
+          "name": "抗燃紫檀树台阶.name",
+          "color": "#9c552c",
+          "meta": 10
+        },
+        {
+          "name": "抗燃黄檀树台阶.name",
+          "color": "#580c01",
+          "meta": 11
+        }
+      ]
+    },
+    {
+      "uid": "forestry:slabs.vanilla.double.fireproof.0",
+      "name": "抗燃云杉台阶.name",
+      "color": "#674d2e",
+      "alpha": 1.0,
+      "meta": 1,
+      "variants": [
+        {
+          "name": "抗燃橡木台阶.name",
+          "color": "#9c7f4e",
+          "meta": 0
+        },
+        {
+          "name": "抗燃桦木台阶.name",
+          "color": "#c3b37b",
+          "meta": 2
+        },
+        {
+          "name": "抗燃丛林台阶.name",
+          "color": "#9a6e4d",
+          "meta": 3
+        },
+        {
+          "name": "抗燃金合欢木台阶.name",
+          "color": "#a95b33",
+          "meta": 4
+        },
+        {
+          "name": "抗燃深色橡木台阶.name",
+          "color": "#3d2712",
+          "meta": 5
+        }
+      ]
+    },
+    {
+      "uid": "forestry:slabs.vanilla.fireproof.0",
+      "name": "抗燃云杉台阶.name",
+      "color": "#674d2e",
+      "alpha": 1.0,
+      "meta": 9,
+      "variants": [
+        {
+          "name": "抗燃橡木台阶.name",
+          "color": "#9c7f4e",
+          "meta": 8
+        },
+        {
+          "name": "抗燃桦木台阶.name",
+          "color": "#c3b37b",
+          "meta": 10
+        },
+        {
+          "name": "抗燃丛林台阶.name",
+          "color": "#9a6e4d",
+          "meta": 11
+        },
+        {
+          "name": "抗燃金合欢木台阶.name",
+          "color": "#a95b33",
+          "meta": 12
+        },
+        {
+          "name": "抗燃深色橡木台阶.name",
+          "color": "#3d2712",
+          "meta": 13
+        }
+      ]
+    },
+    {
+      "uid": "forestry:stairs.acacia",
+      "name": "ForestryStairs",
+      "color": "#87a078",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "forestry:stairs.balsa",
+      "name": "ForestryStairs",
+      "color": "#9f988f",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "forestry:stairs.baobab",
+      "name": "ForestryStairs",
+      "color": "#767e52",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "forestry:stairs.cherry",
+      "name": "ForestryStairs",
+      "color": "#9f722d",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "forestry:stairs.chestnut",
+      "name": "ForestryStairs",
+      "color": "#9b8e4b",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "forestry:stairs.citrus",
+      "name": "ForestryStairs",
+      "color": "#8b951a",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "forestry:stairs.cocobolo",
+      "name": "ForestryStairs",
+      "color": "#580c01",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "forestry:stairs.ebony",
+      "name": "ForestryStairs",
+      "color": "#312d28",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "forestry:stairs.fireproof.acacia",
+      "name": "ForestryStairs",
+      "color": "#87a078",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "forestry:stairs.fireproof.balsa",
+      "name": "ForestryStairs",
+      "color": "#9f988f",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "forestry:stairs.fireproof.baobab",
+      "name": "ForestryStairs",
+      "color": "#767e52",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "forestry:stairs.fireproof.cherry",
+      "name": "ForestryStairs",
+      "color": "#9f722d",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "forestry:stairs.fireproof.chestnut",
+      "name": "ForestryStairs",
+      "color": "#9b8e4b",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "forestry:stairs.fireproof.citrus",
+      "name": "ForestryStairs",
+      "color": "#8b951a",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "forestry:stairs.fireproof.cocobolo",
+      "name": "ForestryStairs",
+      "color": "#580c01",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "forestry:stairs.fireproof.ebony",
+      "name": "ForestryStairs",
+      "color": "#312d28",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "forestry:stairs.fireproof.giganteum",
+      "name": "ForestryStairs",
+      "color": "#542620",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "forestry:stairs.fireproof.greenheart",
+      "name": "ForestryStairs",
+      "color": "#40664b",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "forestry:stairs.fireproof.ipe",
+      "name": "ForestryStairs",
+      "color": "#522f20",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "forestry:stairs.fireproof.kapok",
+      "name": "ForestryStairs",
+      "color": "#645e2d",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "forestry:stairs.fireproof.larch",
+      "name": "ForestryStairs",
+      "color": "#c38c7b",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "forestry:stairs.fireproof.lime",
+      "name": "ForestryStairs",
+      "color": "#b99163",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "forestry:stairs.fireproof.mahoe",
+      "name": "ForestryStairs",
+      "color": "#6e879a",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "forestry:stairs.fireproof.mahogany",
+      "name": "ForestryStairs",
+      "color": "#603630",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "forestry:stairs.fireproof.maple",
+      "name": "ForestryStairs",
+      "color": "#9a6126",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "forestry:stairs.fireproof.padauk",
+      "name": "ForestryStairs",
+      "color": "#9c552c",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "forestry:stairs.fireproof.palm",
+      "name": "ForestryStairs",
+      "color": "#b9703c",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "forestry:stairs.fireproof.papaya",
+      "name": "ForestryStairs",
+      "color": "#d2be59",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "forestry:stairs.fireproof.pine",
+      "name": "ForestryStairs",
+      "color": "#b48e42",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "forestry:stairs.fireproof.plum",
+      "name": "ForestryStairs",
+      "color": "#9d596f",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "forestry:stairs.fireproof.poplar",
+      "name": "ForestryStairs",
+      "color": "#c2c268",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "forestry:stairs.fireproof.sequoia",
+      "name": "ForestryStairs",
+      "color": "#7b4d49",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "forestry:stairs.fireproof.teak",
+      "name": "ForestryStairs",
+      "color": "#6e695a",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "forestry:stairs.fireproof.walnut",
+      "name": "ForestryStairs",
+      "color": "#544336",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "forestry:stairs.fireproof.wenge",
+      "name": "ForestryStairs",
+      "color": "#4c463d",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "forestry:stairs.fireproof.willow",
+      "name": "ForestryStairs",
+      "color": "#93934c",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "forestry:stairs.fireproof.zebrawood",
+      "name": "ForestryStairs",
+      "color": "#a07d4c",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "forestry:stairs.giganteum",
+      "name": "ForestryStairs",
+      "color": "#542620",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "forestry:stairs.greenheart",
+      "name": "ForestryStairs",
+      "color": "#40664b",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "forestry:stairs.ipe",
+      "name": "ForestryStairs",
+      "color": "#522f20",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "forestry:stairs.kapok",
+      "name": "ForestryStairs",
+      "color": "#645e2d",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "forestry:stairs.larch",
+      "name": "ForestryStairs",
+      "color": "#c38c7b",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "forestry:stairs.lime",
+      "name": "ForestryStairs",
+      "color": "#b99163",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "forestry:stairs.mahoe",
+      "name": "ForestryStairs",
+      "color": "#6e879a",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "forestry:stairs.mahogany",
+      "name": "ForestryStairs",
+      "color": "#603630",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "forestry:stairs.maple",
+      "name": "ForestryStairs",
+      "color": "#9a6126",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "forestry:stairs.padauk",
+      "name": "ForestryStairs",
+      "color": "#9c552c",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "forestry:stairs.palm",
+      "name": "ForestryStairs",
+      "color": "#b9703c",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "forestry:stairs.papaya",
+      "name": "ForestryStairs",
+      "color": "#d2be59",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "forestry:stairs.pine",
+      "name": "ForestryStairs",
+      "color": "#b48e42",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "forestry:stairs.plum",
+      "name": "ForestryStairs",
+      "color": "#9d596f",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "forestry:stairs.poplar",
+      "name": "ForestryStairs",
+      "color": "#c2c268",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "forestry:stairs.sequoia",
+      "name": "ForestryStairs",
+      "color": "#7b4d49",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "forestry:stairs.teak",
+      "name": "ForestryStairs",
+      "color": "#6e695a",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "forestry:stairs.vanilla.fireproof.acacia",
+      "name": "ForestryStairs",
+      "color": "#a95b33",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "forestry:stairs.vanilla.fireproof.birch",
+      "name": "ForestryStairs",
+      "color": "#c3b37b",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "forestry:stairs.vanilla.fireproof.dark_oak",
+      "name": "ForestryStairs",
+      "color": "#3d2712",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "forestry:stairs.vanilla.fireproof.jungle",
+      "name": "ForestryStairs",
+      "color": "#9a6e4d",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "forestry:stairs.vanilla.fireproof.oak",
+      "name": "ForestryStairs",
+      "color": "#9c7f4e",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "forestry:stairs.vanilla.fireproof.spruce",
+      "name": "ForestryStairs",
+      "color": "#674d2e",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "forestry:stairs.walnut",
+      "name": "ForestryStairs",
+      "color": "#544336",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "forestry:stairs.wenge",
+      "name": "ForestryStairs",
+      "color": "#4c463d",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "forestry:stairs.willow",
+      "name": "ForestryStairs",
+      "color": "#93934c",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "forestry:stairs.zebrawood",
+      "name": "ForestryStairs",
+      "color": "#a07d4c",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "forestry:stamp_collector",
+      "name": "集邮箱",
+      "color": "#5d719e",
+      "alpha": 1.0,
+      "meta": 5
+    },
+    {
+      "uid": "forestry:trade_station",
+      "name": "贸易站",
+      "color": "#445b8f",
+      "alpha": 1.0,
+      "meta": 5
+    },
+    {
+      "uid": "forestry:wood_pile",
+      "name": "Wood Pile",
+      "color": "#665131",
+      "alpha": 1.0,
+      "meta": 15
+    },
+    {
+      "uid": "forestry:worktable",
+      "name": "工作台",
+      "color": "#968a55",
+      "alpha": 1.0,
+      "meta": 5
+    },
+    {
+      "uid": "immersiveengineering:cloth_device",
+      "name": "气球",
+      "color": "#ffffff",
+      "alpha": 1.0,
+      "meta": 1,
+      "variants": [
+        {
+          "name": "Strip Curtain",
+          "color": "#e5c9a7",
+          "meta": 2
+        }
+      ]
+    },
+    {
+      "uid": "immersiveengineering:connector",
+      "name": "电流互感器",
+      "color": "#ffffff",
+      "alpha": 1.0,
+      "meta": 11,
+      "variants": [
+        {
+          "name": "结构性接线器",
+          "color": "#4d4d4d",
+          "meta": 6
+        },
+        {
+          "name": "断路刀闸",
+          "color": "#5c524b",
+          "meta": 9
+        },
+        {
+          "name": "红石控制断路刀闸",
+          "color": "#4f4845",
+          "meta": 10
+        },
+        {
+          "name": "Redstone Wire Connector",
+          "color": "#a0826e",
+          "meta": 12
+        }
+      ]
+    },
+    {
+      "uid": "immersiveengineering:conveyor",
+      "name": "Conveyor",
+      "color": "#884830",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "immersiveengineering:fluidbiodiesel",
+      "name": "Biodiesel",
+      "color": "#56340e",
+      "alpha": 0.3,
+      "meta": 15
+    },
+    {
+      "uid": "immersiveengineering:fluidconcrete",
+      "name": "Liquid Concrete",
+      "color": "#a5a5a5",
+      "alpha": 0.3,
+      "meta": 15
+    },
+    {
+      "uid": "immersiveengineering:fluidcreosote",
+      "name": "Creosote Oil",
+      "color": "#361300",
+      "alpha": 0.3,
+      "meta": 15
+    },
+    {
+      "uid": "immersiveengineering:fluidethanol",
+      "name": "Ethanol",
+      "color": "#d3d3ce",
+      "alpha": 0.3,
+      "meta": 15
+    },
+    {
+      "uid": "immersiveengineering:fluidplantoil",
+      "name": "Plant Oil",
+      "color": "#918f4a",
+      "alpha": 0.3,
+      "meta": 15
+    },
+    {
+      "uid": "immersiveengineering:hemp",
+      "name": "工业大麻",
+      "color": "#237033",
+      "alpha": 1.0,
+      "meta": 0,
+      "variants": [
+        {
+          "color": "#236e33",
+          "meta": 1
+        },
+        {
+          "color": "#247234",
+          "meta": 2
+        },
+        {
+          "color": "#247235",
+          "meta": 3
+        },
+        {
+          "color": "#416933",
+          "meta": 4
+        },
+        {
+          "color": "#436532",
+          "meta": 5
+        }
+      ]
+    },
+    {
+      "uid": "immersiveengineering:metal_decoration0",
+      "name": "高压线圈",
+      "color": "#4f4f4f",
+      "alpha": 1.0,
+      "meta": 2,
+      "variants": [
+        {
+          "name": "铜线圈",
+          "color": "#b5735b",
+          "meta": 0
+        },
+        {
+          "name": "琥珀金线圈",
+          "color": "#d5a360",
+          "meta": 1
+        },
+        {
+          "name": "红石工程块",
+          "color": "#694d4d",
+          "meta": 3
+        },
+        {
+          "name": "轻型工程块",
+          "color": "#71685c",
+          "meta": 4
+        },
+        {
+          "name": "重型工程块",
+          "color": "#4e4c47",
+          "meta": 5
+        },
+        {
+          "name": "发电机模块",
+          "color": "#715645",
+          "meta": 6
+        },
+        {
+          "name": "散热器模块",
+          "color": "#323232",
+          "meta": 7
+        }
+      ]
+    },
+    {
+      "uid": "immersiveengineering:metal_decoration1",
+      "name": "钢栅栏",
+      "color": "#525252",
+      "alpha": 1.0,
+      "meta": 0,
+      "variants": [
+        {
+          "name": "钢脚手架",
+          "color": "#444444",
+          "meta": 3
+        },
+        {
+          "name": "铝栅栏",
+          "color": "#bbccca",
+          "meta": 4
+        },
+        {
+          "name": "铝脚手架",
+          "color": "#a9b7b6",
+          "meta": 7
+        }
+      ]
+    },
+    {
+      "uid": "immersiveengineering:metal_decoration2",
+      "name": "钢杆",
+      "color": "#404040",
+      "alpha": 1.0,
+      "meta": 0,
+      "variants": [
+        {
+          "name": "铝杆",
+          "color": "#656a6b",
+          "meta": 2
+        },
+        {
+          "name": "灯",
+          "color": "#604b3a",
+          "meta": 4
+        },
+        {
+          "name": "Razor Wire",
+          "color": "#4a4340",
+          "meta": 5
+        },
+        {
+          "name": "Engineer\u0027s Toolbox",
+          "color": "#ffffff",
+          "meta": 6
+        }
+      ]
+    },
+    {
+      "uid": "immersiveengineering:metal_device0",
+      "name": "金属桶",
+      "color": "#8b8b8b",
+      "alpha": 1.0,
+      "meta": 4,
+      "variants": [
+        {
+          "name": "低压电容器",
+          "color": "#5b3726",
+          "meta": 0
+        },
+        {
+          "name": "中压电容器",
+          "color": "#5d3522",
+          "meta": 1
+        },
+        {
+          "name": "高压电容器",
+          "color": "#5e3621",
+          "meta": 2
+        },
+        {
+          "name": "创造电容器",
+          "color": "#5b3028",
+          "meta": 3
+        },
+        {
+          "name": "液泵",
+          "color": "#777777",
+          "meta": 5
+        },
+        {
+          "name": "液泵",
+          "color": "#ffffff",
+          "meta": 5
+        },
+        {
+          "name": "Fluid Outlet",
+          "color": "#818181",
+          "meta": 6
+        }
+      ]
+    },
+    {
+      "uid": "immersiveengineering:metal_device1",
+      "name": "Tesla Coil",
+      "color": "#ffffff",
+      "alpha": 1.0,
+      "meta": 8,
+      "variants": [
+        {
+          "name": "外置加热器",
+          "color": "#494c50",
+          "meta": 1
+        },
+        {
+          "name": "外置加热器",
+          "color": "#5b5351",
+          "meta": 1
+        },
+        {
+          "name": "动能发电机",
+          "color": "#6c6b6b",
+          "meta": 2
+        },
+        {
+          "name": "充电站",
+          "color": "#785f52",
+          "meta": 5
+        },
+        {
+          "name": "输液管",
+          "color": "#838383",
+          "meta": 6
+        },
+        {
+          "name": "岩芯钻井",
+          "color": "#59514d",
+          "meta": 7
+        },
+        {
+          "name": "Floodlight",
+          "color": "#6e6352",
+          "meta": 9
+        },
+        {
+          "name": "Floodlight",
+          "color": "#756a59",
+          "meta": 9
+        },
+        {
+          "name": "Chemthrower Turret",
+          "color": "#554b45",
+          "meta": 10
+        },
+        {
+          "name": "Gun Turret",
+          "color": "#5e5248",
+          "meta": 11
+        },
+        {
+          "name": "MetalDevice1",
+          "color": "#675b54",
+          "meta": 12
+        },
+        {
+          "name": "Garden Cloche",
+          "color": "#72615b",
+          "meta": 13
+        }
+      ]
+    },
+    {
+      "uid": "immersiveengineering:metal_multiblock",
+      "name": "Mixer",
+      "color": "#ffffff",
+      "alpha": 1.0,
+      "meta": 15,
+      "variants": [
+        {
+          "name": "自动化工程师装配台",
+          "color": "#6d8fc3",
+          "meta": 5
+        },
+        {
+          "name": "灌装机",
+          "color": "#504b4a",
+          "meta": 6
+        },
+        {
+          "name": "斗轮",
+          "color": "#515451",
+          "meta": 12
+        },
+        {
+          "name": "电弧炉",
+          "color": "#555351",
+          "meta": 13
+        }
+      ]
+    },
+    {
+      "uid": "immersiveengineering:ore",
+      "name": "镍矿石",
+      "color": "#7c7c7c",
+      "alpha": 1.0,
+      "meta": 4,
+      "variants": [
+        {
+          "name": "铜矿石",
+          "color": "#787a79",
+          "meta": 0
+        },
+        {
+          "name": "铝土矿石",
+          "color": "#7a7978",
+          "meta": 1
+        },
+        {
+          "name": "铅矿石",
+          "color": "#777778",
+          "meta": 2
+        },
+        {
+          "name": "银矿石",
+          "color": "#7d7e7e",
+          "meta": 3
+        },
+        {
+          "name": "铀矿石",
+          "color": "#787a78",
+          "meta": 5
+        }
+      ]
+    },
+    {
+      "uid": "immersiveengineering:sheetmetal",
+      "name": "钢板金属块",
+      "color": "#4b4b4b",
+      "alpha": 1.0,
+      "meta": 8,
+      "variants": [
+        {
+          "name": "铜板金属块",
+          "color": "#c66e21",
+          "meta": 0
+        },
+        {
+          "name": "铝板金属块",
+          "color": "#b9cac8",
+          "meta": 1
+        },
+        {
+          "name": "铅板金属块",
+          "color": "#36393f",
+          "meta": 2
+        },
+        {
+          "name": "银板金属块",
+          "color": "#89a8a6",
+          "meta": 3
+        },
+        {
+          "name": "镍板金属块",
+          "color": "#767b6c",
+          "meta": 4
+        },
+        {
+          "name": "铀板金属块",
+          "color": "#4f7252",
+          "meta": 5
+        },
+        {
+          "name": "康铜板金属块",
+          "color": "#db664c",
+          "meta": 6
+        },
+        {
+          "name": "琥珀金板金属块",
+          "color": "#e1a251",
+          "meta": 7
+        },
+        {
+          "name": "铁板金属块",
+          "color": "#b2b2b2",
+          "meta": 9
+        },
+        {
+          "name": "金板金属块",
+          "color": "#a98e2e",
+          "meta": 10
+        }
+      ]
+    },
+    {
+      "uid": "immersiveengineering:sheetmetal_slab",
+      "name": "钢板金属块台阶",
+      "color": "#4b4b4b",
+      "alpha": 1.0,
+      "meta": 8,
+      "variants": [
+        {
+          "name": "铜板金属块台阶",
+          "color": "#c66e21",
+          "meta": 0
+        },
+        {
+          "name": "铝板金属块台阶",
+          "color": "#b9cac8",
+          "meta": 1
+        },
+        {
+          "name": "铅板金属块台阶",
+          "color": "#36393f",
+          "meta": 2
+        },
+        {
+          "name": "银板金属块台阶",
+          "color": "#89a8a6",
+          "meta": 3
+        },
+        {
+          "name": "镍板金属块台阶",
+          "color": "#767b6c",
+          "meta": 4
+        },
+        {
+          "name": "铀板金属块台阶",
+          "color": "#4f7252",
+          "meta": 5
+        },
+        {
+          "name": "康铜板金属块台阶",
+          "color": "#db664c",
+          "meta": 6
+        },
+        {
+          "name": "琥珀金板金属块台阶",
+          "color": "#e1a251",
+          "meta": 7
+        },
+        {
+          "name": "铁板金属块台阶",
+          "color": "#b2b2b2",
+          "meta": 9
+        },
+        {
+          "name": "金板金属块台阶",
+          "color": "#a98e2e",
+          "meta": 10
+        }
+      ]
+    },
+    {
+      "uid": "immersiveengineering:stone_decoration",
+      "name": "焦炉砖",
+      "color": "#474747",
+      "alpha": 1.0,
+      "meta": 0,
+      "variants": [
+        {
+          "name": "高炉砖",
+          "color": "#3e1f15",
+          "meta": 1
+        },
+        {
+          "name": "强化高炉砖",
+          "color": "#4a3832",
+          "meta": 2
+        },
+        {
+          "name": "焦煤块",
+          "color": "#272727",
+          "meta": 3
+        },
+        {
+          "name": "麻凝土",
+          "color": "#55544d",
+          "meta": 4
+        },
+        {
+          "name": "混凝土",
+          "color": "#776d66",
+          "meta": 5
+        },
+        {
+          "name": "混凝土砖",
+          "color": "#776d65",
+          "meta": 6
+        },
+        {
+          "name": "镀铅混凝土",
+          "color": "#605b5d",
+          "meta": 7
+        },
+        {
+          "name": "绝缘玻璃",
+          "color": "#21b163",
+          "meta": 8
+        },
+        {
+          "name": "Quickdry Concrete",
+          "color": "#ffffff",
+          "meta": 9
+        },
+        {
+          "name": "Kiln Brick",
+          "color": "#6d473c",
+          "meta": 10
+        }
+      ]
+    },
+    {
+      "uid": "immersiveengineering:stone_decoration_slab",
+      "name": "焦炉砖台阶",
+      "color": "#474747",
+      "alpha": 1.0,
+      "meta": 0,
+      "variants": [
+        {
+          "name": "高炉砖台阶",
+          "color": "#3e1f15",
+          "meta": 1
+        },
+        {
+          "name": "强化高炉砖台阶",
+          "color": "#4a3832",
+          "meta": 2
+        },
+        {
+          "name": "焦煤台阶",
+          "color": "#272727",
+          "meta": 3
+        },
+        {
+          "name": "麻凝土台阶",
+          "color": "#55544d",
+          "meta": 4
+        },
+        {
+          "name": "混凝土台阶",
+          "color": "#776d66",
+          "meta": 5
+        },
+        {
+          "name": "混凝土砖台阶",
+          "color": "#776d65",
+          "meta": 6
+        },
+        {
+          "name": "镀铅混凝土台阶",
+          "color": "#605b5d",
+          "meta": 7
+        },
+        {
+          "name": "绝缘玻璃台阶",
+          "color": "#21b163",
+          "meta": 8
+        },
+        {
+          "name": "IESlab",
+          "color": "#ffffff",
+          "meta": 9
+        },
+        {
+          "name": "Kiln Brick Slab",
+          "color": "#6d473c",
+          "meta": 10
+        }
+      ]
+    },
+    {
+      "uid": "immersiveengineering:stone_decoration_stairs_concrete",
+      "name": "混凝土楼梯",
+      "color": "#776d66",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "immersiveengineering:stone_decoration_stairs_concrete_leaded",
+      "name": "镀铅混凝土楼梯",
+      "color": "#605b5d",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "immersiveengineering:stone_decoration_stairs_concrete_tile",
+      "name": "混凝土砖楼梯",
+      "color": "#776d65",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "immersiveengineering:stone_decoration_stairs_hempcrete",
+      "name": "麻凝土楼梯",
+      "color": "#55544d",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "immersiveengineering:stone_device",
+      "name": "焦炉",
+      "color": "#474747",
+      "alpha": 1.0,
+      "meta": 0,
+      "variants": [
+        {
+          "name": "高炉",
+          "color": "#3e1f15",
+          "meta": 1
+        },
+        {
+          "name": "Concrete Chunk",
+          "color": "#776d66",
+          "meta": 5
+        },
+        {
+          "name": "Core Sample",
+          "color": "#ffffff",
+          "meta": 6
+        },
+        {
+          "name": "Alloy Kiln",
+          "color": "#7b5b4a",
+          "meta": 7
+        }
+      ]
+    },
+    {
+      "uid": "immersiveengineering:storage",
+      "name": "铀块",
+      "color": "#4e4e4e",
+      "alpha": 1.0,
+      "meta": 5,
+      "variants": [
+        {
+          "name": "铜块",
+          "color": "#6ec6a0",
+          "meta": 0
+        },
+        {
+          "name": "铝块",
+          "color": "#bbccca",
+          "meta": 1
+        },
+        {
+          "name": "铅块",
+          "color": "#46495b",
+          "meta": 2
+        },
+        {
+          "name": "银块",
+          "color": "#aad4d4",
+          "meta": 3
+        },
+        {
+          "name": "镍块",
+          "color": "#949a8a",
+          "meta": 4
+        },
+        {
+          "name": "康铜块",
+          "color": "#ce6d56",
+          "meta": 6
+        },
+        {
+          "name": "琥珀金块",
+          "color": "#ebd07f",
+          "meta": 7
+        },
+        {
+          "name": "钢块",
+          "color": "#525252",
+          "meta": 8
+        }
+      ]
+    },
+    {
+      "uid": "immersiveengineering:storage_slab",
+      "name": "钢台阶",
+      "color": "#525252",
+      "alpha": 1.0,
+      "meta": 8,
+      "variants": [
+        {
+          "name": "铝台阶",
+          "color": "#bbccca",
+          "meta": 1
+        },
+        {
+          "name": "铅台阶",
+          "color": "#46495b",
+          "meta": 2
+        },
+        {
+          "name": "银台阶",
+          "color": "#aad4d4",
+          "meta": 3
+        },
+        {
+          "name": "镍台阶",
+          "color": "#949a8a",
+          "meta": 4
+        },
+        {
+          "name": "铀台阶",
+          "color": "#6ec6a0",
+          "meta": 5
+        },
+        {
+          "name": "康铜台阶",
+          "color": "#ce6d56",
+          "meta": 6
+        },
+        {
+          "name": "琥珀金台阶",
+          "color": "#ebd07f",
+          "meta": 7
+        }
+      ]
+    },
+    {
+      "uid": "immersiveengineering:treated_wood",
+      "name": "防腐木板",
+      "color": "#542f1f",
+      "alpha": 1.0,
+      "meta": 0,
+      "variants": [
+        {
+          "color": "#4d2d1e",
+          "meta": 1
+        },
+        {
+          "color": "#4d2d1f",
+          "meta": 2
+        }
+      ]
+    },
+    {
+      "uid": "immersiveengineering:treated_wood_slab",
+      "name": "防腐木台阶",
+      "color": "#542f1f",
+      "alpha": 1.0,
+      "meta": 0,
+      "variants": [
+        {
+          "color": "#4d2d1e",
+          "meta": 1
+        },
+        {
+          "color": "#4d2d1f",
+          "meta": 2
+        }
+      ]
+    },
+    {
+      "uid": "immersiveengineering:treated_wood_stairs0",
+      "name": "防腐木楼梯",
+      "color": "#542f1f",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "immersiveengineering:treated_wood_stairs1",
+      "name": "防腐木楼梯",
+      "color": "#4d2d1e",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "immersiveengineering:treated_wood_stairs2",
+      "name": "防腐木楼梯",
+      "color": "#4d2d1f",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "immersiveengineering:wooden_decoration",
+      "name": "防腐木脚手架",
+      "color": "#542f1f",
+      "alpha": 1.0,
+      "meta": 1
+    },
+    {
+      "uid": "immersiveengineering:wooden_device0",
+      "name": "工程师装配台",
+      "color": "#ffffff",
+      "alpha": 1.0,
+      "meta": 2,
+      "variants": [
+        {
+          "name": "木质储存箱",
+          "color": "#482719",
+          "meta": 0
+        },
+        {
+          "name": "木桶",
+          "color": "#532e1d",
+          "meta": 1
+        },
+        {
+          "name": "物品路由器",
+          "color": "#524e4c",
+          "meta": 3
+        },
+        {
+          "name": "火药桶",
+          "color": "#452a1d",
+          "meta": 4
+        },
+        {
+          "name": "强化储存箱",
+          "color": "#473933",
+          "meta": 5
+        },
+        {
+          "name": "Turntable",
+          "color": "#664738",
+          "meta": 6
+        },
+        {
+          "name": "Fluid Router",
+          "color": "#4b4745",
+          "meta": 7
+        }
+      ]
+    },
+    {
+      "uid": "immersiveengineering:wooden_device1",
+      "name": "木质壁挂支架",
+      "color": "#ffffff",
+      "alpha": 1.0,
+      "meta": 4,
+      "variants": [
+        {
+          "name": "水车",
+          "color": "#2c1912",
+          "meta": 0
+        },
+        {
+          "name": "风车",
+          "color": "#554539",
+          "meta": 1
+        },
+        {
+          "name": "改良风车",
+          "color": "#b5a796",
+          "meta": 2
+        },
+        {
+          "name": "木杆",
+          "color": "#493328",
+          "meta": 3
+        }
+      ]
+    },
+    {
+      "uid": "immersivepetroleum:dummy",
+      "name": "IPBase",
+      "color": "#7d7d7d",
+      "alpha": 1.0,
+      "meta": 2
+    },
+    {
+      "uid": "immersivepetroleum:fluid_crude_oil",
+      "name": "原油",
+      "color": "#111111",
+      "alpha": 0.3,
+      "meta": 15
+    },
+    {
+      "uid": "immersivepetroleum:fluid_diesel",
+      "name": "柴油",
+      "color": "#5f4a1a",
+      "alpha": 0.3,
+      "meta": 15
+    },
+    {
+      "uid": "immersivepetroleum:fluid_gasoline",
+      "name": "Gasoline",
+      "color": "#83713d",
+      "alpha": 0.3,
+      "meta": 15
+    },
+    {
+      "uid": "immersivepetroleum:fluid_lubricant",
+      "name": "Lubricant",
+      "color": "#8b7128",
+      "alpha": 0.3,
+      "meta": 15
+    },
+    {
+      "uid": "immersivepetroleum:metal_device",
+      "name": "Automatic Lubricator",
+      "color": "#ffffff",
+      "alpha": 1.0,
+      "meta": 0,
+      "variants": [
+        {
+          "name": "Portable Generator",
+          "color": "#424242",
+          "meta": 1
+        }
+      ]
+    },
+    {
+      "uid": "immersivepetroleum:metal_multiblock",
+      "name": "Pumpjack",
+      "color": "#ffffff",
+      "alpha": 1.0,
+      "meta": 3
+    },
+    {
+      "uid": "immersivepetroleum:stone_decoration",
+      "name": "沥青混凝土",
+      "color": "#2d2d2d",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "minecraft:acacia_door",
+      "name": "空气",
+      "color": "#9b5836",
+      "alpha": 1.0,
+      "meta": 7,
+      "variants": [
+        {
+          "color": "#a05c3a",
+          "meta": 11
+        }
+      ]
+    },
+    {
+      "uid": "minecraft:acacia_fence",
+      "name": "金合欢栅栏",
+      "color": "#a95b33",
+      "alpha": 0.4,
+      "meta": 0
+    },
+    {
+      "uid": "minecraft:acacia_fence_gate",
+      "name": "金合欢栅栏门",
+      "color": "#a95b33",
+      "alpha": 0.4,
+      "meta": 15
+    },
+    {
+      "uid": "minecraft:acacia_stairs",
+      "name": "金合欢木楼梯",
+      "color": "#a95b33",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "minecraft:activator_rail",
+      "name": "激活铁轨",
+      "color": "#8d5146",
+      "alpha": 1.0,
+      "meta": 13,
+      "variants": [
+        {
+          "color": "#685347",
+          "meta": 5
+        }
+      ]
+    },
+    {
+      "uid": "minecraft:anvil",
+      "name": "铁砧",
+      "color": "#404040",
+      "alpha": 1.0,
+      "meta": 11
+    },
+    {
+      "uid": "minecraft:beacon",
+      "name": "信标",
+      "color": "#daf0f4",
+      "alpha": 0.4,
+      "meta": 0
+    },
+    {
+      "uid": "minecraft:bed",
+      "name": "空气",
+      "color": "#8e1616",
+      "alpha": 1.0,
+      "meta": 3,
+      "variants": [
+        {
+          "color": "#af7474",
+          "meta": 15
+        }
+      ]
+    },
+    {
+      "uid": "minecraft:bedrock",
+      "name": "基岩",
+      "color": "#535353",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "minecraft:beetroots",
+      "name": "空气",
+      "color": "#507135",
+      "alpha": 1.0,
+      "meta": 3,
+      "variants": [
+        {
+          "color": "#01ab10",
+          "meta": 0
+        },
+        {
+          "color": "#01bb0f",
+          "meta": 1
+        },
+        {
+          "color": "#00be10",
+          "meta": 2
+        }
+      ]
+    },
+    {
+      "uid": "minecraft:birch_door",
+      "name": "空气",
+      "color": "#ccc28e",
+      "alpha": 1.0,
+      "meta": 7,
+      "variants": [
+        {
+          "color": "#dad2af",
+          "meta": 11
+        }
+      ]
+    },
+    {
+      "uid": "minecraft:birch_fence",
+      "name": "白桦木栅栏",
+      "color": "#c3b37b",
+      "alpha": 0.4,
+      "meta": 0
+    },
+    {
+      "uid": "minecraft:birch_fence_gate",
+      "name": "白桦木栅栏门",
+      "color": "#c3b37b",
+      "alpha": 0.4,
+      "meta": 15
+    },
+    {
+      "uid": "minecraft:birch_stairs",
+      "name": "桦木楼梯",
+      "color": "#c3b37b",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "minecraft:black_shulker_box",
+      "name": "黑色潜影盒",
+      "color": "#302e2e",
+      "alpha": 1.0,
+      "meta": 5
+    },
+    {
+      "uid": "minecraft:blue_shulker_box",
+      "name": "蓝色潜影盒",
+      "color": "#5c68c0",
+      "alpha": 1.0,
+      "meta": 5
+    },
+    {
+      "uid": "minecraft:bone_block",
+      "name": "骨块",
+      "color": "#e0dcc8",
+      "alpha": 1.0,
+      "meta": 8
+    },
+    {
+      "uid": "minecraft:bookshelf",
+      "name": "书架",
+      "color": "#6b5839",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "minecraft:brewing_stand",
+      "name": "空气",
+      "color": "#7c6751",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "minecraft:brick_block",
+      "name": "砖块",
+      "color": "#926356",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "minecraft:brick_stairs",
+      "name": "砖楼梯",
+      "color": "#926356",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "minecraft:brown_mushroom",
+      "name": "蘑菇",
+      "color": "#8a6953",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "minecraft:brown_mushroom_block",
+      "name": "蘑菇",
+      "color": "#8d6a53",
+      "alpha": 1.0,
+      "meta": 15
+    },
+    {
+      "uid": "minecraft:brown_shulker_box",
+      "name": "棕色潜影盒",
+      "color": "#846754",
+      "alpha": 1.0,
+      "meta": 5
+    },
+    {
+      "uid": "minecraft:cactus",
+      "name": "仙人掌",
+      "color": "#0d6618",
+      "alpha": 1.0,
+      "meta": 15
+    },
+    {
+      "uid": "minecraft:cake",
+      "name": "空气",
+      "color": "#bc8d71",
+      "alpha": 1.0,
+      "meta": 6
+    },
+    {
+      "uid": "minecraft:carpet",
+      "name": "白色地毯",
+      "color": "#dddddd",
+      "alpha": 1.0,
+      "meta": 0,
+      "variants": [
+        {
+          "name": "橙色地毯",
+          "color": "#db7d3e",
+          "meta": 1
+        },
+        {
+          "name": "品红色地毯",
+          "color": "#b350bc",
+          "meta": 2
+        },
+        {
+          "name": "淡蓝色地毯",
+          "color": "#6a8ac9",
+          "meta": 3
+        },
+        {
+          "name": "黄色地毯",
+          "color": "#b1a627",
+          "meta": 4
+        },
+        {
+          "name": "黄绿色地毯",
+          "color": "#41ae38",
+          "meta": 5
+        },
+        {
+          "name": "粉红色地毯",
+          "color": "#d08499",
+          "meta": 6
+        },
+        {
+          "name": "灰色地毯",
+          "color": "#404040",
+          "meta": 7
+        },
+        {
+          "name": "淡灰色地毯",
+          "color": "#9aa1a1",
+          "meta": 8
+        },
+        {
+          "name": "青色地毯",
+          "color": "#2e6e89",
+          "meta": 9
+        },
+        {
+          "name": "紫色地毯",
+          "color": "#7e3db5",
+          "meta": 10
+        },
+        {
+          "name": "蓝色地毯",
+          "color": "#2e388d",
+          "meta": 11
+        },
+        {
+          "name": "棕色地毯",
+          "color": "#4f321f",
+          "meta": 12
+        },
+        {
+          "name": "绿色地毯",
+          "color": "#35461b",
+          "meta": 13
+        },
+        {
+          "name": "红色地毯",
+          "color": "#963430",
+          "meta": 14
+        },
+        {
+          "name": "黑色地毯",
+          "color": "#191616",
+          "meta": 15
+        }
+      ]
+    },
+    {
+      "uid": "minecraft:carrots",
+      "name": "空气",
+      "color": "#01bb0f",
+      "alpha": 1.0,
+      "meta": 3,
+      "variants": [
+        {
+          "color": "#01ab10",
+          "meta": 1
+        },
+        {
+          "color": "#00be10",
+          "meta": 6
+        },
+        {
+          "color": "#158002",
+          "meta": 7
+        }
+      ]
+    },
+    {
+      "uid": "minecraft:cauldron",
+      "name": "空气",
+      "color": "#3e3e3e",
+      "alpha": 1.0,
+      "meta": 3
+    },
+    {
+      "uid": "minecraft:chain_command_block",
+      "name": "连锁型命令方块",
+      "color": "#809a8f",
+      "alpha": 1.0,
+      "meta": 5,
+      "variants": [
+        {
+          "color": "#7e968c",
+          "meta": 8
+        },
+        {
+          "color": "#819f92",
+          "meta": 9
+        },
+        {
+          "color": "#7f9b8f",
+          "meta": 13
+        }
+      ]
+    },
+    {
+      "uid": "minecraft:chest",
+      "name": "箱子",
+      "color": "#9c7f4e",
+      "alpha": 1.0,
+      "meta": 5
+    },
+    {
+      "uid": "minecraft:chorus_flower",
+      "name": "紫颂花",
+      "color": "#856785",
+      "alpha": 1.0,
+      "meta": 4,
+      "variants": [
+        {
+          "color": "#623f60",
+          "meta": 5
+        }
+      ]
+    },
+    {
+      "uid": "minecraft:chorus_plant",
+      "name": "紫颂植物",
+      "color": "#603b60",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "minecraft:clay",
+      "name": "粘土块",
+      "color": "#9ea4b0",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "minecraft:coal_block",
+      "name": "煤炭块",
+      "color": "#121212",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "minecraft:coal_ore",
+      "name": "煤矿石",
+      "color": "#737373",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "minecraft:cobblestone",
+      "name": "圆石",
+      "color": "#7a7a7a",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "minecraft:cobblestone_wall",
+      "name": "圆石墙",
+      "color": "#7a7a7a",
+      "alpha": 1.0,
+      "meta": 0,
+      "variants": [
+        {
+          "name": "苔石墙",
+          "color": "#677967",
+          "meta": 1
+        }
+      ]
+    },
+    {
+      "uid": "minecraft:cocoa",
+      "name": "空气",
+      "color": "#8a8c40",
+      "alpha": 1.0,
+      "meta": 3,
+      "variants": [
+        {
+          "color": "#896b33",
+          "meta": 7
+        },
+        {
+          "color": "#91501e",
+          "meta": 11
+        }
+      ]
+    },
+    {
+      "uid": "minecraft:command_block",
+      "name": "命令方块",
+      "color": "#ac846c",
+      "alpha": 1.0,
+      "meta": 9,
+      "variants": [
+        {
+          "color": "#a7816c",
+          "meta": 5
+        },
+        {
+          "color": "#a37f6b",
+          "meta": 8
+        },
+        {
+          "color": "#a8816b",
+          "meta": 13
+        }
+      ]
+    },
+    {
+      "uid": "minecraft:crafting_table",
+      "name": "工作台",
+      "color": "#735f3f",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "minecraft:cyan_shulker_box",
+      "name": "青色潜影盒",
+      "color": "#3b7f9b",
+      "alpha": 1.0,
+      "meta": 5
+    },
+    {
+      "uid": "minecraft:dark_oak_door",
+      "name": "空气",
+      "color": "#412c17",
+      "alpha": 1.0,
+      "meta": 7,
+      "variants": [
+        {
+          "color": "#452f19",
+          "meta": 11
+        }
+      ]
+    },
+    {
+      "uid": "minecraft:dark_oak_fence",
+      "name": "深色橡木栅栏",
+      "color": "#3d2712",
+      "alpha": 0.4,
+      "meta": 0
+    },
+    {
+      "uid": "minecraft:dark_oak_fence_gate",
+      "name": "深色橡木栅栏门",
+      "color": "#3d2712",
+      "alpha": 0.4,
+      "meta": 15
+    },
+    {
+      "uid": "minecraft:dark_oak_stairs",
+      "name": "深色橡木楼梯 ",
+      "color": "#3d2712",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "minecraft:daylight_detector",
+      "name": "阳光传感器",
+      "color": "#82745e",
+      "alpha": 1.0,
+      "meta": 15
+    },
+    {
+      "uid": "minecraft:daylight_detector_inverted",
+      "name": "空气",
+      "color": "#6a6d70",
+      "alpha": 1.0,
+      "meta": 15
+    },
+    {
+      "uid": "minecraft:deadbush",
+      "name": "枯死的灌木",
+      "color": "#7b4f19",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "minecraft:detector_rail",
+      "name": "探测铁轨",
+      "color": "#786559",
+      "alpha": 1.0,
+      "meta": 5,
+      "variants": [
+        {
+          "color": "#895c50",
+          "meta": 13
+        }
+      ]
+    },
+    {
+      "uid": "minecraft:diamond_block",
+      "name": "钻石块",
+      "color": "#61dbd5",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "minecraft:diamond_ore",
+      "name": "钻石矿石",
+      "color": "#818c8f",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "minecraft:dirt",
+      "name": "灰化土",
+      "color": "#7a5739",
+      "alpha": 1.0,
+      "meta": 2,
+      "variants": [
+        {
+          "name": "砂土",
+          "color": "#77553b",
+          "meta": 1
+        },
+        {
+          "color": "#866043",
+          "meta": 2
+        }
+      ]
+    },
+    {
+      "uid": "minecraft:dispenser",
+      "name": "发射器",
+      "color": "#606060",
+      "alpha": 1.0,
+      "meta": 13,
+      "variants": [
+        {
+          "color": "#565656",
+          "meta": 9
+        }
+      ]
+    },
+    {
+      "uid": "minecraft:double_plant",
+      "name": "向日葵",
+      "color": "#7d7d7d",
+      "alpha": 1.0,
+      "meta": 11,
+      "variants": [
+        {
+          "color": "#733d07",
+          "meta": 11
+        },
+        {
+          "color": "#84858d",
+          "meta": 11
+        },
+        {
+          "color": "#929292",
+          "meta": 11
+        },
+        {
+          "color": "#94948c",
+          "meta": 11
+        },
+        {
+          "color": "#eac521",
+          "meta": 11
+        }
+      ]
+    },
+    {
+      "uid": "minecraft:double_stone_slab",
+      "name": "空气",
+      "color": "#a6a6a6",
+      "alpha": 1.0,
+      "meta": 0,
+      "variants": [
+        {
+          "color": "#d8d19d",
+          "meta": 1
+        },
+        {
+          "color": "#9f9f9f",
+          "meta": 8
+        },
+        {
+          "color": "#dad29e",
+          "meta": 9
+        },
+        {
+          "color": "#9c7f4e",
+          "meta": 10
+        },
+        {
+          "color": "#926356",
+          "meta": 12
+        },
+        {
+          "color": "#7a7a7a",
+          "meta": 13
+        },
+        {
+          "color": "#2c161a",
+          "meta": 14
+        },
+        {
+          "color": "#ece9e2",
+          "meta": 15
+        }
+      ]
+    },
+    {
+      "uid": "minecraft:double_stone_slab2",
+      "name": "空气",
+      "color": "#a5541d",
+      "alpha": 1.0,
+      "meta": 0,
+      "variants": [
+        {
+          "color": "#a6551d",
+          "meta": 8
+        }
+      ]
+    },
+    {
+      "uid": "minecraft:double_wooden_slab",
+      "name": "空气",
+      "color": "#674d2e",
+      "alpha": 1.0,
+      "meta": 1,
+      "variants": [
+        {
+          "color": "#9c7f4e",
+          "meta": 0
+        },
+        {
+          "color": "#c3b37b",
+          "meta": 2
+        },
+        {
+          "color": "#9a6e4d",
+          "meta": 3
+        },
+        {
+          "color": "#a95b33",
+          "meta": 4
+        },
+        {
+          "color": "#3d2712",
+          "meta": 5
+        }
+      ]
+    },
+    {
+      "uid": "minecraft:dragon_egg",
+      "name": "龙蛋",
+      "color": "#0c090f",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "minecraft:dropper",
+      "name": "投掷器",
+      "color": "#606060",
+      "alpha": 1.0,
+      "meta": 13,
+      "variants": [
+        {
+          "color": "#565656",
+          "meta": 9
+        }
+      ]
+    },
+    {
+      "uid": "minecraft:emerald_block",
+      "name": "绿宝石块",
+      "color": "#51d975",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "minecraft:emerald_ore",
+      "name": "绿宝石矿石",
+      "color": "#6d8074",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "minecraft:enchanting_table",
+      "name": "附魔台",
+      "color": "#12101b",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "minecraft:end_bricks",
+      "name": "末地石砖",
+      "color": "#e1e6aa",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "minecraft:end_portal_frame",
+      "name": "末地传送门",
+      "color": "#93a07b",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "minecraft:end_rod",
+      "name": "末地烛",
+      "color": "#dcc5cd",
+      "alpha": 1.0,
+      "meta": 5
+    },
+    {
+      "uid": "minecraft:end_stone",
+      "name": "末地石",
+      "color": "#dddfa5",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "minecraft:ender_chest",
+      "name": "末影箱",
+      "color": "#14121d",
+      "alpha": 1.0,
+      "meta": 5
+    },
+    {
+      "uid": "minecraft:farmland",
+      "name": "耕地",
+      "color": "#866043",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "minecraft:fence",
+      "name": "橡木栅栏",
+      "color": "#9c7f4e",
+      "alpha": 0.4,
+      "meta": 0
+    },
+    {
+      "uid": "minecraft:fence_gate",
+      "name": "橡木栅栏门",
+      "color": "#9c7f4e",
+      "alpha": 0.4,
+      "meta": 15
+    },
+    {
+      "uid": "minecraft:fire",
+      "name": "空气",
+      "color": "#d48e34",
+      "alpha": 1.0,
+      "meta": 15
+    },
+    {
+      "uid": "minecraft:flower_pot",
+      "name": "空气",
+      "color": "#764133",
+      "alpha": 1.0,
+      "meta": 15
+    },
+    {
+      "uid": "minecraft:flowing_lava",
+      "name": "空气",
+      "color": "#d8681a",
+      "alpha": 1.0,
+      "meta": 15
+    },
+    {
+      "uid": "minecraft:flowing_water",
+      "name": "空气",
+      "color": "#2e43f4",
+      "alpha": 0.3,
+      "meta": 15
+    },
+    {
+      "uid": "minecraft:frosted_ice",
+      "name": "空气",
+      "color": "#7dadff",
+      "alpha": 0.8,
+      "meta": 0,
+      "variants": [
+        {
+          "color": "#84b2ff",
+          "meta": 1
+        },
+        {
+          "color": "#89b5ff",
+          "meta": 2
+        },
+        {
+          "color": "#93bcff",
+          "meta": 3
+        }
+      ]
+    },
+    {
+      "uid": "minecraft:furnace",
+      "name": "熔炉",
+      "color": "#4e4e4e",
+      "alpha": 1.0,
+      "meta": 2,
+      "variants": [
+        {
+          "color": "#717171",
+          "meta": 5
+        }
+      ]
+    },
+    {
+      "uid": "minecraft:glass",
+      "name": "玻璃",
+      "color": "#daf0f4",
+      "alpha": 0.4,
+      "meta": 0
+    },
+    {
+      "uid": "minecraft:glass_pane",
+      "name": "玻璃板",
+      "color": "#daf0f4",
+      "alpha": 0.4,
+      "meta": 0
+    },
+    {
+      "uid": "minecraft:glowstone",
+      "name": "萤石",
+      "color": "#8f7645",
+      "alpha": 0.4,
+      "meta": 0
+    },
+    {
+      "uid": "minecraft:gold_block",
+      "name": "金块",
+      "color": "#f9ec4e",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "minecraft:gold_ore",
+      "name": "金矿石",
+      "color": "#8f8b7c",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "minecraft:golden_rail",
+      "name": "充能铁轨",
+      "color": "#846c48",
+      "alpha": 1.0,
+      "meta": 5,
+      "variants": [
+        {
+          "color": "#9a6846",
+          "meta": 13
+        }
+      ]
+    },
+    {
+      "uid": "minecraft:grass",
+      "name": "草方块",
+      "color": "#866043",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "minecraft:grass_path",
+      "name": "草径",
+      "color": "#866043",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "minecraft:gravel",
+      "name": "沙砾",
+      "color": "#7e7c7a",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "minecraft:gray_shulker_box",
+      "name": "灰色潜影盒",
+      "color": "#4c4b4b",
+      "alpha": 1.0,
+      "meta": 5
+    },
+    {
+      "uid": "minecraft:green_shulker_box",
+      "name": "绿色潜影盒",
+      "color": "#66794b",
+      "alpha": 1.0,
+      "meta": 5
+    },
+    {
+      "uid": "minecraft:hardened_clay",
+      "name": "硬化粘土",
+      "color": "#965c42",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "minecraft:hay_block",
+      "name": "干草块",
+      "color": "#9d7412",
+      "alpha": 1.0,
+      "meta": 8
+    },
+    {
+      "uid": "minecraft:heavy_weighted_pressure_plate",
+      "name": "测重压力板（重质）",
+      "color": "#dbdbdb",
+      "alpha": 1.0,
+      "meta": 15
+    },
+    {
+      "uid": "minecraft:hopper",
+      "name": "漏斗",
+      "color": "#3e3e3e",
+      "alpha": 1.0,
+      "meta": 13
+    },
+    {
+      "uid": "minecraft:ice",
+      "name": "冰",
+      "color": "#7dadff",
+      "alpha": 0.8,
+      "meta": 0
+    },
+    {
+      "uid": "minecraft:iron_bars",
+      "name": "铁栏杆",
+      "color": "#6d6c6a",
+      "alpha": 0.4,
+      "meta": 0
+    },
+    {
+      "uid": "minecraft:iron_block",
+      "name": "铁块",
+      "color": "#dbdbdb",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "minecraft:iron_door",
+      "name": "空气",
+      "color": "#a3a3a3",
+      "alpha": 1.0,
+      "meta": 7,
+      "variants": [
+        {
+          "color": "#bababa",
+          "meta": 11
+        }
+      ]
+    },
+    {
+      "uid": "minecraft:iron_ore",
+      "name": "铁矿石",
+      "color": "#87827e",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "minecraft:iron_trapdoor",
+      "name": "铁活板门",
+      "color": "#c7c7c7",
+      "alpha": 1.0,
+      "meta": 15
+    },
+    {
+      "uid": "minecraft:jukebox",
+      "name": "唱片机",
+      "color": "#644332",
+      "alpha": 1.0,
+      "meta": 1
+    },
+    {
+      "uid": "minecraft:jungle_door",
+      "name": "空气",
+      "color": "#9c7354",
+      "alpha": 1.0,
+      "meta": 11,
+      "variants": [
+        {
+          "color": "#966d4e",
+          "meta": 7
+        }
+      ]
+    },
+    {
+      "uid": "minecraft:jungle_fence",
+      "name": "丛林木栅栏",
+      "color": "#9a6e4d",
+      "alpha": 0.4,
+      "meta": 0
+    },
+    {
+      "uid": "minecraft:jungle_fence_gate",
+      "name": "丛林木栅栏门",
+      "color": "#9a6e4d",
+      "alpha": 0.4,
+      "meta": 15
+    },
+    {
+      "uid": "minecraft:jungle_stairs",
+      "name": "丛林木楼梯",
+      "color": "#9a6e4d",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "minecraft:ladder",
+      "name": "梯子",
+      "color": "#795f34",
+      "alpha": 1.0,
+      "meta": 5
+    },
+    {
+      "uid": "minecraft:lapis_block",
+      "name": "青金石块",
+      "color": "#264389",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "minecraft:lapis_ore",
+      "name": "青金石矿石",
+      "color": "#667086",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "minecraft:lava",
+      "name": "空气",
+      "color": "#d8681a",
+      "alpha": 1.0,
+      "meta": 15
+    },
+    {
+      "uid": "minecraft:leaves",
+      "name": "白桦树叶",
+      "color": "#878787",
+      "alpha": 1.0,
+      "meta": 14,
+      "variants": [
+        {
+          "name": "云杉树叶",
+          "color": "#747474",
+          "meta": 13
+        },
+        {
+          "name": "丛林树叶",
+          "color": "#918e86",
+          "meta": 15
+        }
+      ]
+    },
+    {
+      "uid": "minecraft:leaves2",
+      "name": "深色橡树树叶",
+      "color": "#878787",
+      "alpha": 1.0,
+      "meta": 13
+    },
+    {
+      "uid": "minecraft:lever",
+      "name": "拉杆",
+      "color": "#7a7a7a",
+      "alpha": 1.0,
+      "meta": 15
+    },
+    {
+      "uid": "minecraft:light_blue_shulker_box",
+      "name": "淡蓝色潜影盒",
+      "color": "#5781c3",
+      "alpha": 1.0,
+      "meta": 5
+    },
+    {
+      "uid": "minecraft:light_weighted_pressure_plate",
+      "name": "测重压力板（轻质）",
+      "color": "#f9ec4e",
+      "alpha": 1.0,
+      "meta": 15
+    },
+    {
+      "uid": "minecraft:lime_shulker_box",
+      "name": "黄绿色潜影盒",
+      "color": "#3bab2f",
+      "alpha": 1.0,
+      "meta": 5
+    },
+    {
+      "uid": "minecraft:lit_furnace",
+      "name": "空气",
+      "color": "#717171",
+      "alpha": 1.0,
+      "meta": 5,
+      "variants": [
+        {
+          "color": "#7d6655",
+          "meta": 2
+        }
+      ]
+    },
+    {
+      "uid": "minecraft:lit_pumpkin",
+      "name": "南瓜灯",
+      "color": "#b9851c",
+      "alpha": 1.0,
+      "meta": 2,
+      "variants": [
+        {
+          "color": "#c57817",
+          "meta": 3
+        }
+      ]
+    },
+    {
+      "uid": "minecraft:lit_redstone_lamp",
+      "name": "空气",
+      "color": "#775937",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "minecraft:lit_redstone_ore",
+      "name": "空气",
+      "color": "#846b6b",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "minecraft:log",
+      "name": "橡木",
+      "color": "#2d1c0c",
+      "alpha": 1.0,
+      "meta": 13,
+      "variants": [
+        {
+          "color": "#665131",
+          "meta": 12
+        },
+        {
+          "color": "#cecec9",
+          "meta": 14
+        },
+        {
+          "color": "#57431a",
+          "meta": 15
+        }
+      ]
+    },
+    {
+      "uid": "minecraft:log2",
+      "name": "橡木",
+      "color": "#342817",
+      "alpha": 1.0,
+      "meta": 13,
+      "variants": [
+        {
+          "color": "#696359",
+          "meta": 12
+        }
+      ]
+    },
+    {
+      "uid": "minecraft:magenta_shulker_box",
+      "name": "品红色潜影盒",
+      "color": "#ae58b6",
+      "alpha": 1.0,
+      "meta": 5
+    },
+    {
+      "uid": "minecraft:magma",
+      "name": "岩浆块",
+      "color": "#864119",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "minecraft:melon_block",
+      "name": "西瓜",
+      "color": "#8d9124",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "minecraft:melon_stem",
+      "name": "空气",
+      "color": "#999999",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "minecraft:mob_spawner",
+      "name": "刷怪箱",
+      "color": "#1a2731",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "minecraft:monster_egg",
+      "name": "石头怪物蛋",
+      "color": "#7d7d7d",
+      "alpha": 1.0,
+      "meta": 0,
+      "variants": [
+        {
+          "name": "石砖怪物蛋",
+          "color": "#7a7a7a",
+          "meta": 2
+        },
+        {
+          "name": "苔石砖怪物蛋",
+          "color": "#72776a",
+          "meta": 3
+        },
+        {
+          "name": "錾制石砖怪物蛋",
+          "color": "#767676",
+          "meta": 5
+        }
+      ]
+    },
+    {
+      "uid": "minecraft:mossy_cobblestone",
+      "name": "苔石",
+      "color": "#677967",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "minecraft:mycelium",
+      "name": "菌丝",
+      "color": "#866043",
+      "alpha": 1.0,
+      "meta": 0,
+      "variants": [
+        {
+          "color": "#715849",
+          "meta": 0
+        }
+      ]
+    },
+    {
+      "uid": "minecraft:nether_brick",
+      "name": "地狱砖块",
+      "color": "#2c161a",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "minecraft:nether_brick_fence",
+      "name": "地狱砖栅栏",
+      "color": "#2c161a",
+      "alpha": 0.4,
+      "meta": 0
+    },
+    {
+      "uid": "minecraft:nether_brick_stairs",
+      "name": "地狱砖楼梯",
+      "color": "#2c161a",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "minecraft:nether_wart",
+      "name": "空气",
+      "color": "#6a0e1e",
+      "alpha": 1.0,
+      "meta": 0,
+      "variants": [
+        {
+          "color": "#6c0f16",
+          "meta": 2
+        },
+        {
+          "color": "#6f1211",
+          "meta": 3
+        }
+      ]
+    },
+    {
+      "uid": "minecraft:nether_wart_block",
+      "name": "地狱疣块",
+      "color": "#750607",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "minecraft:netherrack",
+      "name": "地狱岩",
+      "color": "#6f3634",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "minecraft:noteblock",
+      "name": "音符盒",
+      "color": "#644332",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "minecraft:oak_stairs",
+      "name": "橡木楼梯",
+      "color": "#9c7f4e",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "minecraft:observer",
+      "name": "侦测器",
+      "color": "#616161",
+      "alpha": 1.0,
+      "meta": 13,
+      "variants": [
+        {
+          "color": "#444242",
+          "meta": 0
+        },
+        {
+          "color": "#484141",
+          "meta": 8
+        },
+        {
+          "color": "#666565",
+          "meta": 9
+        }
+      ]
+    },
+    {
+      "uid": "minecraft:obsidian",
+      "name": "黑曜石",
+      "color": "#14121d",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "minecraft:orange_shulker_box",
+      "name": "橙色潜影盒",
+      "color": "#c2682c",
+      "alpha": 1.0,
+      "meta": 5
+    },
+    {
+      "uid": "minecraft:packed_ice",
+      "name": "浮冰",
+      "color": "#a5c2f5",
+      "alpha": 0.8,
+      "meta": 0
+    },
+    {
+      "uid": "minecraft:pink_shulker_box",
+      "name": "粉色潜影盒",
+      "color": "#c3798e",
+      "alpha": 1.0,
+      "meta": 5
+    },
+    {
+      "uid": "minecraft:piston",
+      "name": "活塞",
+      "color": "#606060",
+      "alpha": 1.0,
+      "meta": 8,
+      "variants": [
+        {
+          "color": "#998159",
+          "meta": 1
+        },
+        {
+          "color": "#6a665f",
+          "meta": 13
+        }
+      ]
+    },
+    {
+      "uid": "minecraft:piston_head",
+      "name": "空气",
+      "color": "#998159",
+      "alpha": 1.0,
+      "meta": 1,
+      "variants": [
+        {
+          "color": "#8d9263",
+          "meta": 9
+        },
+        {
+          "color": "#6a665f",
+          "meta": 13
+        }
+      ]
+    },
+    {
+      "uid": "minecraft:planks",
+      "name": "云杉木板",
+      "color": "#674d2e",
+      "alpha": 1.0,
+      "meta": 1,
+      "variants": [
+        {
+          "name": "橡木木板",
+          "color": "#9c7f4e",
+          "meta": 0
+        },
+        {
+          "name": "白桦木板",
+          "color": "#c3b37b",
+          "meta": 2
+        },
+        {
+          "name": "丛林木板",
+          "color": "#9a6e4d",
+          "meta": 3
+        },
+        {
+          "name": "金合欢木板",
+          "color": "#a95b33",
+          "meta": 4
+        },
+        {
+          "name": "深色橡木木板",
+          "color": "#3d2712",
+          "meta": 5
+        }
+      ]
+    },
+    {
+      "uid": "minecraft:portal",
+      "name": "空气",
+      "color": "#590cc0",
+      "alpha": 1.0,
+      "meta": 2
+    },
+    {
+      "uid": "minecraft:potatoes",
+      "name": "空气",
+      "color": "#22aa24",
+      "alpha": 1.0,
+      "meta": 7,
+      "variants": [
+        {
+          "color": "#01ab10",
+          "meta": 1
+        },
+        {
+          "color": "#01bb0f",
+          "meta": 3
+        },
+        {
+          "color": "#00be10",
+          "meta": 6
+        }
+      ]
+    },
+    {
+      "uid": "minecraft:powered_comparator",
+      "name": "空气",
+      "color": "#9f9f9f",
+      "alpha": 1.0,
+      "meta": 15
+    },
+    {
+      "uid": "minecraft:powered_repeater",
+      "name": "空气",
+      "color": "#9f9f9f",
+      "alpha": 1.0,
+      "meta": 15
+    },
+    {
+      "uid": "minecraft:prismarine",
+      "name": "海晶石砖",
+      "color": "#63a08f",
+      "alpha": 1.0,
+      "meta": 1,
+      "variants": [
+        {
+          "name": "海晶石",
+          "color": "#6aaa96",
+          "meta": 0
+        },
+        {
+          "name": "暗海晶石",
+          "color": "#3b574b",
+          "meta": 2
+        }
+      ]
+    },
+    {
+      "uid": "minecraft:pumpkin",
+      "name": "南瓜",
+      "color": "#8e4c0c",
+      "alpha": 1.0,
+      "meta": 2,
+      "variants": [
+        {
+          "color": "#c57817",
+          "meta": 3
+        }
+      ]
+    },
+    {
+      "uid": "minecraft:pumpkin_stem",
+      "name": "空气",
+      "color": "#999999",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "minecraft:purple_shulker_box",
+      "name": "紫色潜影盒",
+      "color": "#8b608b",
+      "alpha": 1.0,
+      "meta": 5
+    },
+    {
+      "uid": "minecraft:purpur_block",
+      "name": "紫珀块",
+      "color": "#a679a6",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "minecraft:purpur_double_slab",
+      "name": "空气",
+      "color": "#a679a6",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "minecraft:purpur_pillar",
+      "name": "竖纹紫珀块",
+      "color": "#aa7eaa",
+      "alpha": 1.0,
+      "meta": 8
+    },
+    {
+      "uid": "minecraft:purpur_slab",
+      "name": "紫珀台阶",
+      "color": "#a679a6",
+      "alpha": 1.0,
+      "meta": 8
+    },
+    {
+      "uid": "minecraft:purpur_stairs",
+      "name": "紫珀楼梯",
+      "color": "#a679a6",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "minecraft:quartz_block",
+      "name": "石英块",
+      "color": "#ece9e2",
+      "alpha": 1.0,
+      "meta": 0,
+      "variants": [
+        {
+          "name": "錾制石英块",
+          "color": "#e7e4dc",
+          "meta": 1
+        },
+        {
+          "color": "#e7e3db",
+          "meta": 4
+        }
+      ]
+    },
+    {
+      "uid": "minecraft:quartz_ore",
+      "name": "下界石英矿石",
+      "color": "#7d544f",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "minecraft:quartz_stairs",
+      "name": "石英楼梯",
+      "color": "#ece9e2",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "minecraft:rail",
+      "name": "铁轨",
+      "color": "#796c58",
+      "alpha": 1.0,
+      "meta": 5,
+      "variants": [
+        {
+          "color": "#786b56",
+          "meta": 9
+        }
+      ]
+    },
+    {
+      "uid": "minecraft:red_flower",
+      "name": "白色郁金香",
+      "color": "#b0b0b0",
+      "alpha": 1.0,
+      "meta": 6,
+      "variants": [
+        {
+          "name": "兰花",
+          "color": "#1e7eb6",
+          "meta": 1
+        },
+        {
+          "name": "绒球葱",
+          "color": "#8549b6",
+          "meta": 2
+        },
+        {
+          "name": "茜草花",
+          "color": "#9da1a7",
+          "meta": 3
+        },
+        {
+          "name": "红色郁金香",
+          "color": "#980406",
+          "meta": 4
+        },
+        {
+          "name": "橙色郁金香",
+          "color": "#a3581a",
+          "meta": 5
+        },
+        {
+          "name": "粉红色郁金香",
+          "color": "#b09ab0",
+          "meta": 7
+        },
+        {
+          "name": "滨菊",
+          "color": "#b3b3b3",
+          "meta": 8
+        }
+      ]
+    },
+    {
+      "uid": "minecraft:red_mushroom",
+      "name": "蘑菇",
+      "color": "#c33538",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "minecraft:red_mushroom_block",
+      "name": "蘑菇",
+      "color": "#b62524",
+      "alpha": 1.0,
+      "meta": 15
+    },
+    {
+      "uid": "minecraft:red_nether_brick",
+      "name": "红色地狱砖",
+      "color": "#440406",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "minecraft:red_sandstone",
+      "name": "平滑红沙石",
+      "color": "#a8551e",
+      "alpha": 1.0,
+      "meta": 2,
+      "variants": [
+        {
+          "name": "红沙石",
+          "color": "#a5541d",
+          "meta": 0
+        },
+        {
+          "name": "錾制红沙石",
+          "color": "#a2521b",
+          "meta": 1
+        }
+      ]
+    },
+    {
+      "uid": "minecraft:red_sandstone_stairs",
+      "name": "红沙石楼梯",
+      "color": "#a5541d",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "minecraft:red_shulker_box",
+      "name": "红色潜影盒",
+      "color": "#b94f4c",
+      "alpha": 1.0,
+      "meta": 5
+    },
+    {
+      "uid": "minecraft:redstone_block",
+      "name": "红石块",
+      "color": "#ab1b09",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "minecraft:redstone_lamp",
+      "name": "红石灯",
+      "color": "#462b1a",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "minecraft:redstone_ore",
+      "name": "红石矿石",
+      "color": "#846b6b",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "minecraft:redstone_wire",
+      "name": "空气",
+      "color": "#f0f0f0",
+      "alpha": 1.0,
+      "meta": 15
+    },
+    {
+      "uid": "minecraft:reeds",
+      "name": "空气",
+      "color": "#94c065",
+      "alpha": 1.0,
+      "meta": 15
+    },
+    {
+      "uid": "minecraft:repeating_command_block",
+      "name": "循环型命令方块",
+      "color": "#7b6bab",
+      "alpha": 1.0,
+      "meta": 9,
+      "variants": [
+        {
+          "color": "#7a6aa6",
+          "meta": 5
+        },
+        {
+          "color": "#7969a2",
+          "meta": 8
+        },
+        {
+          "color": "#7969a8",
+          "meta": 13
+        }
+      ]
+    },
+    {
+      "uid": "minecraft:sand",
+      "name": "红沙",
+      "color": "#a95821",
+      "alpha": 1.0,
+      "meta": 1,
+      "variants": [
+        {
+          "name": "沙子",
+          "color": "#dbd3a0",
+          "meta": 0
+        }
+      ]
+    },
+    {
+      "uid": "minecraft:sandstone",
+      "name": "沙石",
+      "color": "#d8d19d",
+      "alpha": 1.0,
+      "meta": 0,
+      "variants": [
+        {
+          "name": "錾制沙石",
+          "color": "#d7d09a",
+          "meta": 1
+        },
+        {
+          "name": "平滑沙石",
+          "color": "#dbd3a1",
+          "meta": 2
+        }
+      ]
+    },
+    {
+      "uid": "minecraft:sandstone_stairs",
+      "name": "沙石楼梯",
+      "color": "#d8d19d",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "minecraft:sapling",
+      "name": "橡树树苗",
+      "color": "#476625",
+      "alpha": 1.0,
+      "meta": 8,
+      "variants": [
+        {
+          "color": "#333a21",
+          "meta": 9
+        },
+        {
+          "color": "#769654",
+          "meta": 10
+        },
+        {
+          "color": "#305612",
+          "meta": 11
+        },
+        {
+          "color": "#727314",
+          "meta": 12
+        },
+        {
+          "color": "#38561c",
+          "meta": 13
+        }
+      ]
+    },
+    {
+      "uid": "minecraft:sea_lantern",
+      "name": "海晶灯",
+      "color": "#acc8be",
+      "alpha": 0.4,
+      "meta": 0
+    },
+    {
+      "uid": "minecraft:silver_shulker_box",
+      "name": "淡灰色潜影盒",
+      "color": "#989595",
+      "alpha": 1.0,
+      "meta": 5
+    },
+    {
+      "uid": "minecraft:slime",
+      "name": "粘液块",
+      "color": "#78c865",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "minecraft:snow",
+      "name": "雪",
+      "color": "#effbfb",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "minecraft:snow_layer",
+      "name": "雪",
+      "color": "#effbfb",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "minecraft:soul_sand",
+      "name": "灵魂沙",
+      "color": "#544033",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "minecraft:sponge",
+      "name": "海绵",
+      "color": "#c2c354",
+      "alpha": 1.0,
+      "meta": 0,
+      "variants": [
+        {
+          "name": "湿海绵",
+          "color": "#a09e3f",
+          "meta": 1
+        }
+      ]
+    },
+    {
+      "uid": "minecraft:spruce_door",
+      "name": "空气",
+      "color": "#614b31",
+      "alpha": 1.0,
+      "meta": 7,
+      "variants": [
+        {
+          "color": "#604a31",
+          "meta": 11
+        }
+      ]
+    },
+    {
+      "uid": "minecraft:spruce_fence",
+      "name": "云杉木栅栏",
+      "color": "#674d2e",
+      "alpha": 0.4,
+      "meta": 0
+    },
+    {
+      "uid": "minecraft:spruce_fence_gate",
+      "name": "云杉木栅栏门",
+      "color": "#674d2e",
+      "alpha": 0.4,
+      "meta": 15
+    },
+    {
+      "uid": "minecraft:spruce_stairs",
+      "name": "云杉木楼梯",
+      "color": "#674d2e",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "minecraft:stained_glass",
+      "name": "白色染色玻璃",
+      "color": "#ffffff",
+      "alpha": 0.4,
+      "meta": 0,
+      "variants": [
+        {
+          "name": "橙色染色玻璃",
+          "color": "#d87f33",
+          "meta": 1
+        },
+        {
+          "name": "品红色染色玻璃",
+          "color": "#b24cd8",
+          "meta": 2
+        },
+        {
+          "name": "淡蓝色染色玻璃",
+          "color": "#6699d8",
+          "meta": 3
+        },
+        {
+          "name": "黄色染色玻璃",
+          "color": "#e5e533",
+          "meta": 4
+        },
+        {
+          "name": "黄绿色染色玻璃",
+          "color": "#7fcc19",
+          "meta": 5
+        },
+        {
+          "name": "粉红色染色玻璃",
+          "color": "#f27fa5",
+          "meta": 6
+        },
+        {
+          "name": "灰色染色玻璃",
+          "color": "#4c4c4c",
+          "meta": 7
+        },
+        {
+          "name": "淡灰色染色玻璃",
+          "color": "#999999",
+          "meta": 8
+        },
+        {
+          "name": "青色染色玻璃",
+          "color": "#4c7f99",
+          "meta": 9
+        },
+        {
+          "name": "紫色染色玻璃",
+          "color": "#7f3fb2",
+          "meta": 10
+        },
+        {
+          "name": "蓝色染色玻璃",
+          "color": "#334cb2",
+          "meta": 11
+        },
+        {
+          "name": "棕色染色玻璃",
+          "color": "#664c33",
+          "meta": 12
+        },
+        {
+          "name": "绿色染色玻璃",
+          "color": "#667f33",
+          "meta": 13
+        },
+        {
+          "name": "红色染色玻璃",
+          "color": "#993333",
+          "meta": 14
+        },
+        {
+          "name": "黑色染色玻璃",
+          "color": "#191919",
+          "meta": 15
+        }
+      ]
+    },
+    {
+      "uid": "minecraft:stained_glass_pane",
+      "name": "白色染色玻璃板",
+      "color": "#ffffff",
+      "alpha": 0.4,
+      "meta": 0,
+      "variants": [
+        {
+          "name": "橙色染色玻璃板",
+          "color": "#d87f33",
+          "meta": 1
+        },
+        {
+          "name": "品红色染色玻璃板",
+          "color": "#b24cd8",
+          "meta": 2
+        },
+        {
+          "name": "淡蓝色染色玻璃板",
+          "color": "#6699d8",
+          "meta": 3
+        },
+        {
+          "name": "黄色染色玻璃板",
+          "color": "#e5e533",
+          "meta": 4
+        },
+        {
+          "name": "黄绿色染色玻璃板",
+          "color": "#7fcc19",
+          "meta": 5
+        },
+        {
+          "name": "粉红色染色玻璃板",
+          "color": "#f27fa5",
+          "meta": 6
+        },
+        {
+          "name": "灰色染色玻璃板",
+          "color": "#4c4c4c",
+          "meta": 7
+        },
+        {
+          "name": "淡灰色染色玻璃板",
+          "color": "#999999",
+          "meta": 8
+        },
+        {
+          "name": "青色染色玻璃板",
+          "color": "#4c7f99",
+          "meta": 9
+        },
+        {
+          "name": "紫色染色玻璃板",
+          "color": "#7f3fb2",
+          "meta": 10
+        },
+        {
+          "name": "蓝色染色玻璃板",
+          "color": "#334cb2",
+          "meta": 11
+        },
+        {
+          "name": "棕色染色玻璃板",
+          "color": "#664c33",
+          "meta": 12
+        },
+        {
+          "name": "绿色染色玻璃板",
+          "color": "#667f33",
+          "meta": 13
+        },
+        {
+          "name": "红色染色玻璃板",
+          "color": "#993333",
+          "meta": 14
+        },
+        {
+          "name": "黑色染色玻璃板",
+          "color": "#191919",
+          "meta": 15
+        }
+      ]
+    },
+    {
+      "uid": "minecraft:stained_hardened_clay",
+      "name": "紫色硬化粘土",
+      "color": "#764656",
+      "alpha": 1.0,
+      "meta": 10,
+      "variants": [
+        {
+          "name": "白色硬化粘土",
+          "color": "#d1b2a1",
+          "meta": 0
+        },
+        {
+          "name": "橙色硬化粘土",
+          "color": "#a15325",
+          "meta": 1
+        },
+        {
+          "name": "品红色硬化粘土",
+          "color": "#95586c",
+          "meta": 2
+        },
+        {
+          "name": "淡蓝色硬化粘土",
+          "color": "#716c89",
+          "meta": 3
+        },
+        {
+          "name": "黄色硬化粘土",
+          "color": "#ba8523",
+          "meta": 4
+        },
+        {
+          "name": "黄绿色硬化粘土",
+          "color": "#677534",
+          "meta": 5
+        },
+        {
+          "name": "粉红色硬化粘土",
+          "color": "#a14e4e",
+          "meta": 6
+        },
+        {
+          "name": "灰色硬化粘土",
+          "color": "#392a23",
+          "meta": 7
+        },
+        {
+          "name": "淡灰色硬化粘土",
+          "color": "#876a61",
+          "meta": 8
+        },
+        {
+          "name": "青色硬化粘土",
+          "color": "#565b5b",
+          "meta": 9
+        },
+        {
+          "name": "蓝色硬化粘土",
+          "color": "#4a3b5b",
+          "meta": 11
+        },
+        {
+          "name": "棕色硬化粘土",
+          "color": "#4d3323",
+          "meta": 12
+        },
+        {
+          "name": "绿色硬化粘土",
+          "color": "#4c532a",
+          "meta": 13
+        },
+        {
+          "name": "红色硬化粘土",
+          "color": "#8f3d2e",
+          "meta": 14
+        },
+        {
+          "name": "黑色硬化粘土",
+          "color": "#251610",
+          "meta": 15
+        }
+      ]
+    },
+    {
+      "uid": "minecraft:sticky_piston",
+      "name": "粘性活塞",
+      "color": "#606060",
+      "alpha": 1.0,
+      "meta": 8,
+      "variants": [
+        {
+          "color": "#8d9263",
+          "meta": 1
+        },
+        {
+          "color": "#6a665f",
+          "meta": 13
+        }
+      ]
+    },
+    {
+      "uid": "minecraft:stone",
+      "name": "石头",
+      "color": "#7d7d7d",
+      "alpha": 1.0,
+      "meta": 0,
+      "variants": [
+        {
+          "name": "花岗岩",
+          "color": "#997162",
+          "meta": 1
+        },
+        {
+          "name": "磨制花岗岩",
+          "color": "#9f7262",
+          "meta": 2
+        },
+        {
+          "name": "闪长岩",
+          "color": "#b3b3b6",
+          "meta": 3
+        },
+        {
+          "name": "磨制闪长岩",
+          "color": "#b7b7b9",
+          "meta": 4
+        },
+        {
+          "name": "安山岩",
+          "color": "#828383",
+          "meta": 5
+        },
+        {
+          "name": "磨制安山岩",
+          "color": "#858586",
+          "meta": 6
+        }
+      ]
+    },
+    {
+      "uid": "minecraft:stone_brick_stairs",
+      "name": "石砖楼梯",
+      "color": "#7a7a7a",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "minecraft:stone_button",
+      "name": "按钮",
+      "color": "#7d7d7d",
+      "alpha": 1.0,
+      "meta": 13
+    },
+    {
+      "uid": "minecraft:stone_pressure_plate",
+      "name": "石质压力板",
+      "color": "#7d7d7d",
+      "alpha": 1.0,
+      "meta": 1
+    },
+    {
+      "uid": "minecraft:stone_slab",
+      "name": "石台阶",
+      "color": "#a6a6a6",
+      "alpha": 1.0,
+      "meta": 8,
+      "variants": [
+        {
+          "color": "#d8d19d",
+          "meta": 9
+        },
+        {
+          "color": "#9c7f4e",
+          "meta": 10
+        },
+        {
+          "color": "#926356",
+          "meta": 12
+        },
+        {
+          "color": "#7a7a7a",
+          "meta": 13
+        },
+        {
+          "color": "#2c161a",
+          "meta": 14
+        },
+        {
+          "color": "#ece9e2",
+          "meta": 15
+        }
+      ]
+    },
+    {
+      "uid": "minecraft:stone_slab2",
+      "name": "红沙石台阶",
+      "color": "#a5541d",
+      "alpha": 1.0,
+      "meta": 8
+    },
+    {
+      "uid": "minecraft:stone_stairs",
+      "name": "圆石楼梯",
+      "color": "#7a7a7a",
+      "alpha": 1.0,
+      "meta": 7
+    },
+    {
+      "uid": "minecraft:stonebrick",
+      "name": "石砖",
+      "color": "#7a7a7a",
+      "alpha": 1.0,
+      "meta": 0,
+      "variants": [
+        {
+          "name": "苔石砖",
+          "color": "#72776a",
+          "meta": 1
+        },
+        {
+          "name": "錾制石砖",
+          "color": "#767676",
+          "meta": 3
+        }
+      ]
+    },
+    {
+      "uid": "minecraft:structure_block",
+      "name": "结构方块",
+      "color": "#564757",
+      "alpha": 1.0,
+      "meta": 0,
+      "variants": [
+        {
+          "color": "#453946",
+          "meta": 1
+        },
+        {
+          "color": "#443945",
+          "meta": 2
+        },
+        {
+          "color": "#4f4150",
+          "meta": 3
+        }
+      ]
+    },
+    {
+      "uid": "minecraft:tnt",
+      "name": "TNT",
+      "color": "#a95c47",
+      "alpha": 1.0,
+      "meta": 1
+    },
+    {
+      "uid": "minecraft:trapdoor",
+      "name": "活板门",
+      "color": "#7e5d2d",
+      "alpha": 1.0,
+      "meta": 15
+    },
+    {
+      "uid": "minecraft:trapped_chest",
+      "name": "陷阱箱",
+      "color": "#9c7f4e",
+      "alpha": 1.0,
+      "meta": 5
+    },
+    {
+      "uid": "minecraft:tripwire",
+      "name": "空气",
+      "color": "#818181",
+      "alpha": 1.0,
+      "meta": 13
+    },
+    {
+      "uid": "minecraft:tripwire_hook",
+      "name": "绊线钩",
+      "color": "#9c7f4e",
+      "alpha": 1.0,
+      "meta": 15
+    },
+    {
+      "uid": "minecraft:unpowered_comparator",
+      "name": "空气",
+      "color": "#9f9f9f",
+      "alpha": 1.0,
+      "meta": 15
+    },
+    {
+      "uid": "minecraft:unpowered_repeater",
+      "name": "空气",
+      "color": "#9f9f9f",
+      "alpha": 1.0,
+      "meta": 15
+    },
+    {
+      "uid": "minecraft:vine",
+      "name": "藤蔓",
+      "color": "#6f6f6f",
+      "alpha": 0.2,
+      "meta": 15
+    },
+    {
+      "uid": "minecraft:water",
+      "name": "空气",
+      "color": "#2e43f4",
+      "alpha": 0.3,
+      "meta": 15
+    },
+    {
+      "uid": "minecraft:waterlily",
+      "name": "睡莲",
+      "color": "#767676",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "minecraft:web",
+      "name": "蜘蛛网",
+      "color": "#dcdcdc",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "minecraft:wheat",
+      "name": "空气",
+      "color": "#427b07",
+      "alpha": 1.0,
+      "meta": 5,
+      "variants": [
+        {
+          "color": "#00b312",
+          "meta": 0
+        },
+        {
+          "color": "#12ac0f",
+          "meta": 1
+        },
+        {
+          "color": "#1c890b",
+          "meta": 2
+        },
+        {
+          "color": "#258b08",
+          "meta": 3
+        },
+        {
+          "color": "#2e8007",
+          "meta": 4
+        },
+        {
+          "color": "#507607",
+          "meta": 6
+        },
+        {
+          "color": "#566607",
+          "meta": 7
+        }
+      ]
+    },
+    {
+      "uid": "minecraft:white_shulker_box",
+      "name": "白色潜影盒",
+      "color": "#cdc9c9",
+      "alpha": 1.0,
+      "meta": 5
+    },
+    {
+      "uid": "minecraft:wooden_button",
+      "name": "按钮",
+      "color": "#9c7f4e",
+      "alpha": 1.0,
+      "meta": 13
+    },
+    {
+      "uid": "minecraft:wooden_door",
+      "name": "空气",
+      "color": "#866532",
+      "alpha": 1.0,
+      "meta": 7,
+      "variants": [
+        {
+          "color": "#866733",
+          "meta": 11
+        }
+      ]
+    },
+    {
+      "uid": "minecraft:wooden_pressure_plate",
+      "name": "木质压力板",
+      "color": "#9c7f4e",
+      "alpha": 1.0,
+      "meta": 1
+    },
+    {
+      "uid": "minecraft:wooden_slab",
+      "name": "橡木台阶",
+      "color": "#674d2e",
+      "alpha": 1.0,
+      "meta": 9,
+      "variants": [
+        {
+          "color": "#9c7f4e",
+          "meta": 8
+        },
+        {
+          "color": "#c3b37b",
+          "meta": 10
+        },
+        {
+          "color": "#9a6e4d",
+          "meta": 11
+        },
+        {
+          "color": "#a95b33",
+          "meta": 12
+        },
+        {
+          "color": "#3d2712",
+          "meta": 13
+        }
+      ]
+    },
+    {
+      "uid": "minecraft:wool",
+      "name": "白色羊毛",
+      "color": "#dddddd",
+      "alpha": 1.0,
+      "meta": 0,
+      "variants": [
+        {
+          "name": "橙色羊毛",
+          "color": "#db7d3e",
+          "meta": 1
+        },
+        {
+          "name": "品红色羊毛",
+          "color": "#b350bc",
+          "meta": 2
+        },
+        {
+          "name": "淡蓝色羊毛",
+          "color": "#6a8ac9",
+          "meta": 3
+        },
+        {
+          "name": "黄色羊毛",
+          "color": "#b1a627",
+          "meta": 4
+        },
+        {
+          "name": "黄绿色羊毛",
+          "color": "#41ae38",
+          "meta": 5
+        },
+        {
+          "name": "粉红色羊毛",
+          "color": "#d08499",
+          "meta": 6
+        },
+        {
+          "name": "灰色羊毛",
+          "color": "#404040",
+          "meta": 7
+        },
+        {
+          "name": "淡灰色羊毛",
+          "color": "#9aa1a1",
+          "meta": 8
+        },
+        {
+          "name": "青色羊毛",
+          "color": "#2e6e89",
+          "meta": 9
+        },
+        {
+          "name": "紫色羊毛",
+          "color": "#7e3db5",
+          "meta": 10
+        },
+        {
+          "name": "蓝色羊毛",
+          "color": "#2e388d",
+          "meta": 11
+        },
+        {
+          "name": "棕色羊毛",
+          "color": "#4f321f",
+          "meta": 12
+        },
+        {
+          "name": "绿色羊毛",
+          "color": "#35461b",
+          "meta": 13
+        },
+        {
+          "name": "红色羊毛",
+          "color": "#963430",
+          "meta": 14
+        },
+        {
+          "name": "黑色羊毛",
+          "color": "#191616",
+          "meta": 15
+        }
+      ]
+    },
+    {
+      "uid": "minecraft:yellow_flower",
+      "name": "蒲公英",
+      "color": "#afb401",
+      "alpha": 1.0,
+      "meta": 0
+    },
+    {
+      "uid": "minecraft:yellow_shulker_box",
+      "name": "黄色潜影盒",
+      "color": "#b6ab31",
+      "alpha": 1.0,
+      "meta": 5
+    }
+  ]
+}
