@@ -1,0 +1,18 @@
+{
+  "id": "-1, 235_-1,31,235",
+  "name": "-1, 235",
+  "icon": "waypoint-normal.png",
+  "x": -1,
+  "y": 31,
+  "z": 235,
+  "r": 55,
+  "g": 8,
+  "b": 182,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    7
+  ],
+  "persistent": true
+}

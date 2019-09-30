@@ -1,0 +1,18 @@
+{
+  "id": "门_-304,73,208",
+  "name": "门",
+  "icon": "waypoint-normal.png",
+  "x": -304,
+  "y": 73,
+  "z": 208,
+  "r": 180,
+  "g": 109,
+  "b": 136,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    -1
+  ],
+  "persistent": true
+}

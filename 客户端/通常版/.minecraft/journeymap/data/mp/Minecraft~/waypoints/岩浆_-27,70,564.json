@@ -1,0 +1,18 @@
+{
+  "id": "岩浆_-27,70,564",
+  "name": "岩浆",
+  "icon": "waypoint-normal.png",
+  "x": -27,
+  "y": 70,
+  "z": 564,
+  "r": 73,
+  "g": 7,
+  "b": 172,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

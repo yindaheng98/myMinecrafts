@@ -1,0 +1,18 @@
+{
+  "id": "家2_-342,101,296",
+  "name": "家2",
+  "icon": "waypoint-normal.png",
+  "x": -342,
+  "y": 101,
+  "z": 296,
+  "r": 246,
+  "g": 149,
+  "b": 26,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

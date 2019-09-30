@@ -1,0 +1,853 @@
+[00:29:27] [main/INFO]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[00:29:27] [main/INFO]: Loading tweak class name optifine.OptiFineForgeTweaker
+[00:29:27] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[00:29:27] [main/INFO]: Forge Mod Loader version 14.23.4.2705 for Minecraft 1.12.2 loading
+[00:29:27] [main/INFO]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_191, running on Windows 10:amd64:10.0, installed at C:\Program Files\Java\jre1.8.0_191
+[00:29:29] [main/INFO]: Searching F:\Minecraft1.12.2-Adventure\.minecraft\mods for mods
+[00:29:29] [main/INFO]: Calling tweak class optifine.OptiFineForgeTweaker
+[00:29:29] [main/INFO]: [optifine.OptiFineForgeTweaker:dbg:56]: OptiFineForgeTweaker: acceptOptions
+[00:29:29] [main/INFO]: [optifine.OptiFineForgeTweaker:dbg:56]: OptiFineForgeTweaker: injectIntoClassLoader
+[00:29:29] [main/INFO]: [optifine.OptiFineClassTransformer:dbg:221]: OptiFine ClassTransformer
+[00:29:29] [main/INFO]: [optifine.OptiFineClassTransformer:dbg:221]: OptiFine ZIP file: C:\Users\Howard Yin\AppData\Roaming\.minecraft\libraries\net\optifine\optifine\1.12.2-HD_U\optifine-1.12.2-HD_U.jar
+[00:29:29] [main/INFO]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[00:29:29] [main/INFO]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[00:29:29] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[00:29:29] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[00:29:29] [main/INFO]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[00:29:31] [main/INFO]: Found valid fingerprint for Minecraft Forge. Certificate fingerprint e3c3d50c7c986df74c645c0ac54639741c90a557
+[00:29:31] [main/INFO]: Found valid fingerprint for Minecraft. Certificate fingerprint cd99959656f753dc28d863b46769f7f8fbaefcfc
+[00:29:31] [main/INFO]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[00:29:31] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[00:29:31] [main/INFO]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[00:29:31] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[00:29:31] [main/INFO]: [optifine.OptiFineForgeTweaker:dbg:56]: OptiFineForgeTweaker: getLaunchArguments
+[00:29:31] [main/INFO]: Launching wrapped minecraft {net.minecraft.client.main.Main}
+[00:29:33] [main/INFO]: Setting user: yinn
+[00:29:37] [main/INFO]: [OptiFine] *** Reflector Forge ***
+[00:29:37] [main/INFO]: [OptiFine] (Reflector) Class not present: mods.betterfoliage.client.BetterFoliageClient
+[00:29:38] [main/INFO]: [OptiFine] *** Reflector Vanilla ***
+[00:29:39] [main/WARN]: Skipping bad option: lastServer:
+[00:29:39] [main/INFO]: LWJGL Version: 2.9.4
+[00:29:40] [main/INFO]: [OptiFine] 
+[00:29:40] [main/INFO]: [OptiFine] OptiFine_1.12.2_HD_U_E2
+[00:29:40] [main/INFO]: [OptiFine] Build: 20180728-185429
+[00:29:40] [main/INFO]: [OptiFine] OS: Windows 10 (amd64) version 10.0
+[00:29:40] [main/INFO]: [OptiFine] Java: 1.8.0_191, Oracle Corporation
+[00:29:40] [main/INFO]: [OptiFine] VM: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+[00:29:40] [main/INFO]: [OptiFine] LWJGL: 2.9.4
+[00:29:40] [main/INFO]: [OptiFine] OpenGL: GeForce 940MX/PCIe/SSE2, version 4.6.0 NVIDIA 398.26, NVIDIA Corporation
+[00:29:40] [main/INFO]: [OptiFine] OpenGL Version: 4.6.0
+[00:29:41] [main/INFO]: [OptiFine] Maximum texture size: 16384x16384
+[00:29:41] [VersionCheck/INFO]: [OptiFine] Checking for new version
+[00:29:41] [VersionCheck/INFO]: [OptiFine] Version found: <!DOCTYPE html>
+[00:29:41] [main/INFO]: [Shaders] ShadersMod version: 2.4.12
+[00:29:41] [main/INFO]: [Shaders] OpenGL Version: 4.6.0 NVIDIA 398.26
+[00:29:41] [main/INFO]: [Shaders] Vendor:  NVIDIA Corporation
+[00:29:41] [main/INFO]: [Shaders] Renderer: GeForce 940MX/PCIe/SSE2
+[00:29:41] [main/INFO]: [Shaders] Capabilities:  2.0  2.1  3.0  3.2  4.0 
+[00:29:41] [main/INFO]: [Shaders] GL_MAX_DRAW_BUFFERS: 8
+[00:29:41] [main/INFO]: [Shaders] GL_MAX_COLOR_ATTACHMENTS_EXT: 8
+[00:29:41] [main/INFO]: [Shaders] GL_MAX_TEXTURE_IMAGE_UNITS: 32
+[00:29:41] [main/INFO]: [Shaders] Load ShadersMod configuration.
+[00:29:41] [main/INFO]: [Shaders] No shaderpack loaded.
+[00:29:41] [main/INFO]: [OptiFine] [Shaders] Delayed loading of block mappings after resources are loaded
+[00:29:42] [main/INFO]: Forge Mod Loader has detected optifine OptiFine_1.12.2_HD_U_E2, enabling compatibility features
+[00:29:42] [main/INFO]: -- System Details --
+Details:
+	Minecraft Version: 1.12.2
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_191, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 125332432 bytes (119 MB) / 335544320 bytes (320 MB) up to 2147483648 bytes (2048 MB)
+	JVM Flags: 11 total; -XX:+UnlockExperimentalVMOptions -XX:+UseG1GC -XX:G1NewSizePercent=20 -XX:G1ReservePercent=20 -XX:MaxGCPauseMillis=50 -XX:G1HeapRegionSize=16M -XX:-UseAdaptiveSizePolicy -XX:-OmitStackTraceInFastThrow -Xmn128m -Xmx2048m -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: 
+	Loaded coremods (and transformers): 
+	GL info: ' Vendor: 'NVIDIA Corporation' Version: '4.6.0 NVIDIA 398.26' Renderer: 'GeForce 940MX/PCIe/SSE2'
+[00:29:42] [main/INFO]: MinecraftForge v14.23.4.2705 Initialized
+[00:29:42] [main/INFO]: Starts to replace vanilla recipe ingredients with ore ingredients.
+[00:29:42] [main/INFO]: Replaced 1036 ore ingredients
+[00:29:42] [main/INFO]: Searching F:\Minecraft1.12.2-Adventure\.minecraft\mods for mods
+[00:29:45] [main/INFO]: Forge Mod Loader has identified 25 mods to load
+[00:29:45] [Thread-3/INFO]: Using alternative sync timing : 200 frames of Display.update took 3165511203 nanos
+[00:29:46] [main/INFO]: Attempting connection with missing mods [minecraft, mcp, FML, forge, aether, extendedrenderer, coroutil, configmod, epicsiegemod, flansmodapocalypse, flansmod, waila, infernalmobs, jei, journeymap, orbis_api, stacksize, bspkrscore, treecapitator, twilightforest, wawla, weather2, worldeditcuife2, worldedit, zombieawareness] at CLIENT
+[00:29:46] [main/INFO]: Attempting connection with missing mods [minecraft, mcp, FML, forge, aether, extendedrenderer, coroutil, configmod, epicsiegemod, flansmodapocalypse, flansmod, waila, infernalmobs, jei, journeymap, orbis_api, stacksize, bspkrscore, treecapitator, twilightforest, wawla, weather2, worldeditcuife2, worldedit, zombieawareness] at SERVER
+[00:29:48] [main/ERROR]: The mod flansmod appears to have an invalid event annotation EventHandler. This annotation can only apply to methods with recognized event arguments - it will not be called
+[00:29:49] [main/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Aether II, FMLFileResourcePack:Extended Renderer, FMLFileResourcePack:CoroUtil Library, FMLFileResourcePack:Extended Mod Config, FMLFileResourcePack:Epic Siege Mod, FMLFileResourcePack:Flan's Mod: Apocalypse, FMLFileResourcePack:Flan's Mod, FMLFileResourcePack:Waila, FMLFileResourcePack:Infernal Mobs, FMLFileResourcePack:Just Enough Items, FMLFileResourcePack:JourneyMap, FMLFileResourcePack:Orbis API, FMLFileResourcePack:Stacksize Mod, FMLFileResourcePack:bspkrsCore, FMLFileResourcePack:Treecapitator, FMLFileResourcePack:The Twilight Forest, FMLFileResourcePack:What Are We Looking At, FMLFileResourcePack:Localized Weather & Storms, FMLFileResourcePack:WorldEdit CUI Forge Edition 2, FMLFileResourcePack:WorldEdit, FMLFileResourcePack:Zombie Awareness, Invictus_4.3.1.zip, Soartex_Fanver4.1.0.zip
+[00:29:49] [main/WARN]: ResourcePack: ignored non-lowercase namespace: CREDITS.txt in F:\Minecraft1.12.2-Adventure\.minecraft\mods\aether_ii-1.12.2-1.0.10.jar
+[00:29:49] [main/WARN]: ResourcePack: ignored non-lowercase namespace: LICENSE in F:\Minecraft1.12.2-Adventure\.minecraft\mods\aether_ii-1.12.2-1.0.10.jar
+[00:29:49] [main/INFO]: Processing ObjectHolder annotations
+[00:29:50] [main/INFO]: Found 1401 ObjectHolder annotations
+[00:29:50] [main/INFO]: Identifying ItemStackHolder annotations
+[00:29:50] [main/INFO]: Found 0 ItemStackHolder annotations
+[00:29:50] [main/INFO]: Configured a dormant chunk cache size of 0
+[00:29:50] [Forge Version Check/INFO]: [worldeditcuife2] Starting version check at https://raw.githubusercontent.com/hexosse/WorldEditCUI-Forge-Edition-2/master/update.json
+[00:29:50] [main/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `aether.altar`, expected `aether`. This could be a intended override, but in most cases indicates a broken mod.
+[00:29:50] [main/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `aether.holystone_furnace`, expected `aether`. This could be a intended override, but in most cases indicates a broken mod.
+[00:29:50] [main/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `aether.skyroot_chest`, expected `aether`. This could be a intended override, but in most cases indicates a broken mod.
+[00:29:50] [main/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `aether.skyroot_sign`, expected `aether`. This could be a intended override, but in most cases indicates a broken mod.
+[00:29:50] [main/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `aether.multiblock_dummy`, expected `aether`. This could be a intended override, but in most cases indicates a broken mod.
+[00:29:50] [main/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `aether.moa_egg`, expected `aether`. This could be a intended override, but in most cases indicates a broken mod.
+[00:29:50] [main/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `aether.icestone_cooler`, expected `aether`. This could be a intended override, but in most cases indicates a broken mod.
+[00:29:50] [main/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `aether.incubator`, expected `aether`. This could be a intended override, but in most cases indicates a broken mod.
+[00:29:50] [main/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `aether.present`, expected `aether`. This could be a intended override, but in most cases indicates a broken mod.
+[00:29:50] [main/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `aether.wildcard`, expected `aether`. This could be a intended override, but in most cases indicates a broken mod.
+[00:29:50] [main/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `aether.masonry_bench`, expected `aether`. This could be a intended override, but in most cases indicates a broken mod.
+[00:29:50] [main/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `aether.outpost_campfire`, expected `aether`. This could be a intended override, but in most cases indicates a broken mod.
+[00:29:50] [main/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `aether.aether_teleporter`, expected `aether`. This could be a intended override, but in most cases indicates a broken mod.
+[00:29:50] [main/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `aether.skyroot_bed`, expected `aether`. This could be a intended override, but in most cases indicates a broken mod.
+[00:29:52] [Forge Version Check/INFO]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[00:29:52] [Forge Version Check/INFO]: [twilightforest] Starting version check at https://raw.githubusercontent.com/TeamTwilight/twilightforest/1.12.x/update.json
+[00:29:52] [main/INFO]: [com.flansmod.common.FlansMod:log:709]: [Flan's Mod] Preinitialising Flan's mod.
+[00:29:52] [main/INFO]: [com.flansmod.common.FlansMod:log:709]: [Flan's Mod] Registering Renderers
+[00:29:53] [main/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `teamsspawner`, expected `flansmod`. This could be a intended override, but in most cases indicates a broken mod.
+[00:29:53] [main/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `paintjobtable`, expected `flansmod`. This could be a intended override, but in most cases indicates a broken mod.
+[00:29:53] [main/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `itemholder`, expected `flansmod`. This could be a intended override, but in most cases indicates a broken mod.
+[00:29:53] [main/INFO]: [com.flansmod.common.FlansMod:log:709]: [Flan's Mod] Loaded content pack : Apocalypse-Content Pack-1.12.2-5.5.2.jar
+[00:29:53] [main/INFO]: [com.flansmod.common.FlansMod:log:709]: [Flan's Mod] Loaded content pack : Mecha Parts-Content Pack-1.12.2-5.5.2.jar
+[00:29:53] [main/INFO]: [com.flansmod.common.FlansMod:log:709]: [Flan's Mod] Loaded content pack : Modern Warfare-Content Pack-1.12.2-5.5.2.jar
+[00:29:53] [main/INFO]: [com.flansmod.common.FlansMod:log:709]: [Flan's Mod] Loaded content pack : Nerf-Content Pack-1.12.2-5.5.2.jar
+[00:29:53] [main/INFO]: [com.flansmod.common.FlansMod:log:709]: [Flan's Mod] Loaded content pack : Simple Parts-Content Pack-1.12.2-5.5.2.jar
+[00:29:53] [main/INFO]: [com.flansmod.common.FlansMod:log:709]: [Flan's Mod] Loaded content pack : Titan-Content Pack-1.12.2-5.5.2.jar
+[00:29:53] [main/INFO]: [com.flansmod.common.FlansMod:log:709]: [Flan's Mod] Loaded content pack : WW2-Content Pack-1.12.2-5.5.2.jar
+[00:29:53] [main/INFO]: [com.flansmod.common.FlansMod:log:709]: [Flan's Mod] Loaded content pack : Ye Olde-Content Pack-1.12.2-5.5.2.jar
+[00:29:53] [main/INFO]: [com.flansmod.common.FlansMod:log:709]: [Flan's Mod] Loaded content pack : Zombie-Content Pack-1.12.2-5.5.2.jar
+[00:29:53] [main/INFO]: [com.flansmod.common.FlansMod:log:709]: [Flan's Mod] Loaded textures and models.
+[00:29:54] [main/INFO]: [com.flansmod.common.FlansMod:log:709]: [Flan's Mod] Loaded part.
+[00:29:54] [main/INFO]: [com.flansmod.common.FlansMod:log:709]: [Flan's Mod] Loaded bullet.
+[00:29:54] [main/INFO]: [com.flansmod.common.FlansMod:log:709]: [Flan's Mod] Loaded attachment.
+[00:29:54] [main/INFO]: [com.flansmod.common.FlansMod:log:709]: [Flan's Mod] Loaded grenade.
+[00:29:54] [main/INFO]: [com.flansmod.common.FlansMod:log:709]: [Flan's Mod] Loaded gun.
+[00:29:54] [main/INFO]: [com.flansmod.common.FlansMod:log:709]: [Flan's Mod] Loaded aa.
+[00:29:55] [main/INFO]: [com.flansmod.common.FlansMod:log:709]: [Flan's Mod] Could not find mediumtankTurret when adding recipe for Hellcat
+[00:29:55] [main/INFO]: [com.flansmod.common.FlansMod:log:709]: [Flan's Mod] Could not find mediumtankBody when adding recipe for Hellcat
+[00:29:55] [main/INFO]: [com.flansmod.common.FlansMod:log:709]: [Flan's Mod] Could not find mediumtankTurret when adding recipe for M10
+[00:29:55] [main/INFO]: [com.flansmod.common.FlansMod:log:709]: [Flan's Mod] Could not find mediumtankBody when adding recipe for M10
+[00:29:55] [main/INFO]: [com.flansmod.common.FlansMod:log:709]: [Flan's Mod] Loaded vehicle.
+[00:29:56] [main/INFO]: [com.flansmod.common.FlansMod:log:709]: [Flan's Mod] Loaded plane.
+[00:29:56] [main/INFO]: [com.flansmod.common.FlansMod:log:709]: [Flan's Mod] Loaded mechaItem.
+[00:29:56] [main/INFO]: [com.flansmod.common.FlansMod:log:709]: [Flan's Mod] Loaded mecha.
+[00:29:56] [main/INFO]: [com.flansmod.common.FlansMod:log:709]: [Flan's Mod] Loaded tool.
+[00:29:56] [main/INFO]: [com.flansmod.common.FlansMod:log:709]: [Flan's Mod] Loaded armour.
+[00:29:56] [main/INFO]: [com.flansmod.common.FlansMod:log:709]: [Flan's Mod] Loaded armourBox.
+[00:29:56] [main/INFO]: [com.flansmod.common.FlansMod:log:709]: [Flan's Mod] Loaded box.
+[00:29:56] [main/INFO]: [com.flansmod.common.FlansMod:log:709]: [Flan's Mod] Loaded playerClass.
+[00:29:56] [main/INFO]: [com.flansmod.common.FlansMod:log:709]: [Flan's Mod] Loaded team.
+[00:29:56] [main/INFO]: [com.flansmod.common.FlansMod:log:709]: [Flan's Mod] Loaded itemHolder.
+[00:29:56] [main/INFO]: [com.flansmod.common.FlansMod:log:709]: [Flan's Mod] Loaded rewardBox.
+[00:29:56] [main/INFO]: [com.flansmod.common.FlansMod:log:709]: [Flan's Mod] Invalid info type in loadout: mwMedicKit
+[00:29:56] [main/INFO]: [com.flansmod.common.FlansMod:log:709]: [Flan's Mod] Invalid info type in loadout: mwMedicKit
+[00:29:56] [main/INFO]: [com.flansmod.common.FlansMod:log:709]: [Flan's Mod] Loaded loadout.
+[00:29:56] [main/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Aether II, FMLFileResourcePack:Extended Renderer, FMLFileResourcePack:CoroUtil Library, FMLFileResourcePack:Extended Mod Config, FMLFileResourcePack:Epic Siege Mod, FMLFileResourcePack:Flan's Mod: Apocalypse, FMLFileResourcePack:Flan's Mod, FMLFileResourcePack:Waila, FMLFileResourcePack:Infernal Mobs, FMLFileResourcePack:Just Enough Items, FMLFileResourcePack:JourneyMap, FMLFileResourcePack:Orbis API, FMLFileResourcePack:Stacksize Mod, FMLFileResourcePack:bspkrsCore, FMLFileResourcePack:Treecapitator, FMLFileResourcePack:The Twilight Forest, FMLFileResourcePack:What Are We Looking At, FMLFileResourcePack:Localized Weather & Storms, FMLFileResourcePack:WorldEdit CUI Forge Edition 2, FMLFileResourcePack:WorldEdit, FMLFileResourcePack:Zombie Awareness, FMLFileResourcePack:Flan's Mod : Apocalypse-Content Pack-1.12.2-5.5.2.jar, FMLFileResourcePack:Flan's Mod : Mecha Parts-Content Pack-1.12.2-5.5.2.jar, FMLFileResourcePack:Flan's Mod : Modern Warfare-Content Pack-1.12.2-5.5.2.jar, FMLFileResourcePack:Flan's Mod : Nerf-Content Pack-1.12.2-5.5.2.jar, FMLFileResourcePack:Flan's Mod : Simple Parts-Content Pack-1.12.2-5.5.2.jar, FMLFileResourcePack:Flan's Mod : Titan-Content Pack-1.12.2-5.5.2.jar, FMLFileResourcePack:Flan's Mod : WW2-Content Pack-1.12.2-5.5.2.jar, FMLFileResourcePack:Flan's Mod : Ye Olde-Content Pack-1.12.2-5.5.2.jar, FMLFileResourcePack:Flan's Mod : Zombie-Content Pack-1.12.2-5.5.2.jar, Invictus_4.3.1.zip, Soartex_Fanver4.1.0.zip
+[00:29:56] [main/WARN]: ResourcePack: ignored non-lowercase namespace: CREDITS.txt in F:\Minecraft1.12.2-Adventure\.minecraft\mods\aether_ii-1.12.2-1.0.10.jar
+[00:29:56] [main/WARN]: ResourcePack: ignored non-lowercase namespace: LICENSE in F:\Minecraft1.12.2-Adventure\.minecraft\mods\aether_ii-1.12.2-1.0.10.jar
+[00:29:57] [main/INFO]: [com.flansmod.common.FlansMod:log:709]: [Flan's Mod] Preinitializing complete.
+[00:29:57] [main/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `powercube`, expected `flansmodapocalypse`. This could be a intended override, but in most cases indicates a broken mod.
+[00:29:57] [main/INFO]: No plugins for JourneyMap API discovered.
+[00:29:57] [main/INFO]: Proceeding to load tree/mod configs from file.
+[00:29:58] [main/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `firefly`, expected `twilightforest`. This could be a intended override, but in most cases indicates a broken mod.
+[00:29:58] [main/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `cicada`, expected `twilightforest`. This could be a intended override, but in most cases indicates a broken mod.
+[00:29:58] [main/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `moonworm`, expected `twilightforest`. This could be a intended override, but in most cases indicates a broken mod.
+[00:29:58] [main/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `naga_spawner`, expected `twilightforest`. This could be a intended override, but in most cases indicates a broken mod.
+[00:29:58] [main/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `lich_spawner`, expected `twilightforest`. This could be a intended override, but in most cases indicates a broken mod.
+[00:29:58] [main/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `hydra_spawner`, expected `twilightforest`. This could be a intended override, but in most cases indicates a broken mod.
+[00:29:58] [main/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `smoker`, expected `twilightforest`. This could be a intended override, but in most cases indicates a broken mod.
+[00:29:58] [main/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `popping_jet`, expected `twilightforest`. This could be a intended override, but in most cases indicates a broken mod.
+[00:29:58] [main/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `flame_jet`, expected `twilightforest`. This could be a intended override, but in most cases indicates a broken mod.
+[00:29:58] [main/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `tower_builder`, expected `twilightforest`. This could be a intended override, but in most cases indicates a broken mod.
+[00:29:58] [main/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `tower_reverter`, expected `twilightforest`. This could be a intended override, but in most cases indicates a broken mod.
+[00:29:58] [main/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `trophy`, expected `twilightforest`. This could be a intended override, but in most cases indicates a broken mod.
+[00:29:58] [main/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `tower_boss_spawner`, expected `twilightforest`. This could be a intended override, but in most cases indicates a broken mod.
+[00:29:58] [main/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `ghast_trap_inactive`, expected `twilightforest`. This could be a intended override, but in most cases indicates a broken mod.
+[00:29:58] [main/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `ghast_trap_active`, expected `twilightforest`. This could be a intended override, but in most cases indicates a broken mod.
+[00:29:58] [main/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `carminite_reactor_active`, expected `twilightforest`. This could be a intended override, but in most cases indicates a broken mod.
+[00:29:58] [main/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `knight_phantom_spawner`, expected `twilightforest`. This could be a intended override, but in most cases indicates a broken mod.
+[00:29:58] [main/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `snow_queen_spawner`, expected `twilightforest`. This could be a intended override, but in most cases indicates a broken mod.
+[00:29:58] [main/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `cinder_furnace`, expected `twilightforest`. This could be a intended override, but in most cases indicates a broken mod.
+[00:29:58] [main/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `minoshroom_spawner`, expected `twilightforest`. This could be a intended override, but in most cases indicates a broken mod.
+[00:29:58] [main/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `alpha_yeti_spawner`, expected `twilightforest`. This could be a intended override, but in most cases indicates a broken mod.
+[00:29:58] [main/INFO]: twilightforest has skipped compatibility for mod Baubles.
+[00:29:58] [main/INFO]: twilightforest has skipped compatibility for mod Chisel.
+[00:29:58] [main/INFO]: twilightforest has loaded compatibility for mod Just Enough Items.
+[00:29:58] [main/INFO]: twilightforest has skipped compatibility for mod Tinkers' Construct.
+[00:29:58] [main/INFO]: twilightforest has skipped compatibility for mod Thaumcraft.
+[00:29:59] [main/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `repairing_block`, expected `coroutil`. This could be a intended override, but in most cases indicates a broken mod.
+[00:29:59] [main/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `tornado_siren`, expected `weather2`. This could be a intended override, but in most cases indicates a broken mod.
+[00:29:59] [main/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `tornado_siren_manual`, expected `weather2`. This could be a intended override, but in most cases indicates a broken mod.
+[00:29:59] [main/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `wind_vane`, expected `weather2`. This could be a intended override, but in most cases indicates a broken mod.
+[00:29:59] [main/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `weather_forecast`, expected `weather2`. This could be a intended override, but in most cases indicates a broken mod.
+[00:29:59] [main/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `weather_machine`, expected `weather2`. This could be a intended override, but in most cases indicates a broken mod.
+[00:29:59] [main/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `weather_deflector`, expected `weather2`. This could be a intended override, but in most cases indicates a broken mod.
+[00:29:59] [main/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `anemometer`, expected `weather2`. This could be a intended override, but in most cases indicates a broken mod.
+[00:29:59] [main/INFO]: [com.flansmod.common.FlansMod:log:709]: [Flan's Mod] Registering Blocks
+[00:29:59] [main/INFO]: Applying holder lookups
+[00:29:59] [main/INFO]: Holder lookups applied
+[00:29:59] [main/INFO]: [com.flansmod.common.FlansMod:log:709]: [Flan's Mod] Registering Items
+[00:29:59] [main/INFO]: Applying holder lookups
+[00:29:59] [main/INFO]: Holder lookups applied
+[00:30:00] [main/INFO]: [com.flansmod.common.FlansMod:log:709]: [Flan's Mod] Registering Entities
+[00:30:00] [main/INFO]: [com.flansmod.common.FlansMod:log:709]: [Flan's Mod] Registering sounds.
+[00:30:00] [main/INFO]: Applying holder lookups
+[00:30:00] [main/INFO]: Holder lookups applied
+[00:30:00] [main/INFO]: [com.flansmod.common.FlansMod:log:709]: [Flan's Mod] Registering models.
+[00:30:00] [main/INFO]: Applying holder lookups
+[00:30:00] [main/INFO]: Holder lookups applied
+[00:30:00] [main/INFO]: Injecting itemstacks
+[00:30:00] [main/INFO]: Itemstack injection complete
+[00:30:00] [main/INFO]: [OptiFine] *** Reloading textures ***
+[00:30:00] [main/INFO]: [OptiFine] Resource packs: Invictus_4.3.1.zip, Soartex_Fanver4.1.0.zip
+[00:30:01] [main/WARN]: File flansmod:sounds/turrettraverse1.ogg does not exist, cannot add it to event flansmod:turrettraverse1
+[00:30:01] [main/WARN]: File flansmod:sounds/turrettraverse2.ogg does not exist, cannot add it to event flansmod:turrettraverse2
+[00:30:01] [main/WARN]: Missing sound for event: flansmod:flakexplode
+[00:30:01] [main/WARN]: Missing sound for event: flansmod:shell
+[00:30:01] [main/WARN]: Missing sound for event: flansmod:jeepidle
+[00:30:01] [main/WARN]: Missing sound for event: flansmod:jeepmove
+[00:30:01] [main/WARN]: Missing sound for event: flansmod:none
+[00:30:01] [main/WARN]: Missing sound for event: flansmod:57mmgun
+[00:30:01] [main/WARN]: Missing sound for event: flansmod:75mmgun
+[00:30:01] [main/WARN]: Missing sound for event: flansmod:88mmgun
+[00:30:01] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[00:30:01] [Thread-5/INFO]: Initializing LWJGL OpenAL
+[00:30:01] [Thread-5/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[00:30:01] [Thread-5/INFO]: OpenAL initialized.
+[00:30:01] [Sound Library Loader/INFO]: Sound engine started
+[00:30:04] [main/INFO]: [OptiFine] CustomItems: mcpatcher/cit/armor/camo/camo_layer_1.properties
+[00:30:04] [main/INFO]: [OptiFine] CustomItems: mcpatcher/cit/armor/camo/camo_layer_2_overlay.properties
+[00:30:04] [main/INFO]: [OptiFine] CustomItems: mcpatcher/cit/armor/cowstume/cowstume_layer_1_overlay.properties
+[00:30:04] [main/INFO]: [OptiFine] CustomItems: mcpatcher/cit/armor/cowstume/cowstume_layer_2_overlay.properties
+[00:30:04] [main/INFO]: [OptiFine] CustomItems: mcpatcher/cit/armor/suit/glasses.properties
+[00:30:04] [main/INFO]: [OptiFine] CustomItems: mcpatcher/cit/armor/suit/suit_layer_1.properties
+[00:30:04] [main/INFO]: [OptiFine] CustomItems: mcpatcher/cit/armor/suit/suit_layer_2.properties
+[00:30:04] [main/INFO]: [OptiFine] CustomItems: mcpatcher/cit/bread/doughnut.properties
+[00:30:04] [main/INFO]: [OptiFine] CustomItems: mcpatcher/cit/potion/normal/damageboost.properties
+[00:30:04] [main/INFO]: [OptiFine] CustomItems: mcpatcher/cit/potion/normal/fireresistance.properties
+[00:30:04] [main/INFO]: [OptiFine] CustomItems: mcpatcher/cit/potion/normal/harm.properties
+[00:30:04] [main/INFO]: [OptiFine] CustomItems: mcpatcher/cit/potion/normal/heal.properties
+[00:30:04] [main/INFO]: [OptiFine] CustomItems: mcpatcher/cit/potion/normal/invisibility.properties
+[00:30:04] [main/INFO]: [OptiFine] CustomItems: mcpatcher/cit/potion/normal/moveslowdown.properties
+[00:30:04] [main/INFO]: [OptiFine] CustomItems: mcpatcher/cit/potion/normal/movespeed.properties
+[00:30:04] [main/INFO]: [OptiFine] CustomItems: mcpatcher/cit/potion/normal/nightvision.properties
+[00:30:04] [main/INFO]: [OptiFine] CustomItems: mcpatcher/cit/potion/normal/poison.properties
+[00:30:04] [main/INFO]: [OptiFine] CustomItems: mcpatcher/cit/potion/normal/regeneration.properties
+[00:30:04] [main/INFO]: [OptiFine] CustomItems: mcpatcher/cit/potion/normal/weakness.properties
+[00:30:04] [main/INFO]: [OptiFine] CustomItems: mcpatcher/cit/potion/splash/damageboost.properties
+[00:30:04] [main/INFO]: [OptiFine] CustomItems: mcpatcher/cit/potion/splash/fireresistance.properties
+[00:30:04] [main/INFO]: [OptiFine] CustomItems: mcpatcher/cit/potion/splash/harm.properties
+[00:30:04] [main/INFO]: [OptiFine] CustomItems: mcpatcher/cit/potion/splash/heal.properties
+[00:30:04] [main/INFO]: [OptiFine] CustomItems: mcpatcher/cit/potion/splash/invisibility.properties
+[00:30:04] [main/INFO]: [OptiFine] CustomItems: mcpatcher/cit/potion/splash/moveslowdown.properties
+[00:30:04] [main/INFO]: [OptiFine] CustomItems: mcpatcher/cit/potion/splash/movespeed.properties
+[00:30:04] [main/INFO]: [OptiFine] CustomItems: mcpatcher/cit/potion/splash/nightvision.properties
+[00:30:04] [main/INFO]: [OptiFine] CustomItems: mcpatcher/cit/potion/splash/poison.properties
+[00:30:04] [main/INFO]: [OptiFine] CustomItems: mcpatcher/cit/potion/splash/regeneration.properties
+[00:30:04] [main/INFO]: [OptiFine] CustomItems: mcpatcher/cit/potion/splash/weakness.properties
+[00:30:04] [main/INFO]: [OptiFine] CustomItems: mcpatcher/cit/tools/diamond/axe/bane.properties
+[00:30:04] [main/INFO]: [OptiFine] CustomItems: mcpatcher/cit/tools/diamond/pickaxe/fortune.properties
+[00:30:04] [main/INFO]: [OptiFine] CustomItems: mcpatcher/cit/tools/diamond/shovel/looting.properties
+[00:30:04] [main/INFO]: [OptiFine] CustomItems: mcpatcher/cit/tools/diamond/sword/bane.properties
+[00:30:04] [main/INFO]: [OptiFine] CustomItems: mcpatcher/cit/tools/gold/axe/bane_smite.properties
+[00:30:04] [main/INFO]: [OptiFine] CustomItems: mcpatcher/cit/tools/gold/axe/efficiency.properties
+[00:30:04] [main/INFO]: [OptiFine] CustomItems: mcpatcher/cit/tools/gold/axe/sharpness.properties
+[00:30:04] [main/INFO]: [OptiFine] CustomItems: mcpatcher/cit/tools/gold/axe/unbreaking.properties
+[00:30:04] [main/INFO]: [OptiFine] CustomItems: mcpatcher/cit/tools/gold/pickaxe/efficiency.properties
+[00:30:04] [main/INFO]: [OptiFine] CustomItems: mcpatcher/cit/tools/gold/pickaxe/silk_touch.properties
+[00:30:04] [main/INFO]: [OptiFine] CustomItems: mcpatcher/cit/tools/gold/pickaxe/unbreaking.properties
+[00:30:04] [main/INFO]: [OptiFine] CustomItems: mcpatcher/cit/tools/gold/shovel/efficiency.properties
+[00:30:04] [main/INFO]: [OptiFine] CustomItems: mcpatcher/cit/tools/gold/shovel/unbreaking.properties
+[00:30:04] [main/INFO]: [OptiFine] CustomItems: mcpatcher/cit/tools/gold/sword/bane_smite.properties
+[00:30:05] [main/INFO]: [OptiFine] CustomItems: mcpatcher/cit/tools/gold/sword/sharpness.properties
+[00:30:05] [main/INFO]: [OptiFine] CustomItems: mcpatcher/cit/tools/iron/axe/bane_smite.properties
+[00:30:05] [main/INFO]: [OptiFine] CustomItems: mcpatcher/cit/tools/iron/axe/efficiency.properties
+[00:30:05] [main/INFO]: [OptiFine] CustomItems: mcpatcher/cit/tools/iron/axe/sharpness.properties
+[00:30:05] [main/INFO]: [OptiFine] CustomItems: mcpatcher/cit/tools/iron/axe/unbreaking.properties
+[00:30:05] [main/INFO]: [OptiFine] CustomItems: mcpatcher/cit/tools/iron/pickaxe/efficiency.properties
+[00:30:05] [main/INFO]: [OptiFine] CustomItems: mcpatcher/cit/tools/iron/pickaxe/silk_touch.properties
+[00:30:05] [main/INFO]: [OptiFine] CustomItems: mcpatcher/cit/tools/iron/pickaxe/unbreaking.properties
+[00:30:05] [main/INFO]: [OptiFine] CustomItems: mcpatcher/cit/tools/iron/shovel/efficiency.properties
+[00:30:05] [main/INFO]: [OptiFine] CustomItems: mcpatcher/cit/tools/iron/shovel/unbreaking.properties
+[00:30:05] [main/INFO]: [OptiFine] CustomItems: mcpatcher/cit/tools/iron/sword/bane_smite.properties
+[00:30:05] [main/INFO]: [OptiFine] CustomItems: mcpatcher/cit/tools/iron/sword/sharpness.properties
+[00:30:05] [main/INFO]: [OptiFine] CustomItems: mcpatcher/cit/potion/linger/damageboost.properties
+[00:30:05] [main/INFO]: [OptiFine] CustomItems: mcpatcher/cit/potion/linger/fireresistance.properties
+[00:30:05] [main/INFO]: [OptiFine] CustomItems: mcpatcher/cit/potion/linger/harm.properties
+[00:30:05] [main/INFO]: [OptiFine] CustomItems: mcpatcher/cit/potion/linger/heal.properties
+[00:30:05] [main/INFO]: [OptiFine] CustomItems: mcpatcher/cit/potion/linger/moveslowdown.properties
+[00:30:05] [main/INFO]: [OptiFine] CustomItems: mcpatcher/cit/potion/linger/movespeed.properties
+[00:30:05] [main/INFO]: [OptiFine] CustomItems: mcpatcher/cit/potion/linger/nightvision.properties
+[00:30:05] [main/INFO]: [OptiFine] CustomItems: mcpatcher/cit/potion/linger/poison.properties
+[00:30:05] [main/INFO]: [OptiFine] CustomItems: mcpatcher/cit/potion/linger/regeneration.properties
+[00:30:05] [main/INFO]: [OptiFine] CustomItems: mcpatcher/cit/potion/linger/weakness.properties
+[00:30:05] [main/INFO]: [OptiFine] CustomItems: mcpatcher/cit/potion/normal/damageboost.properties
+[00:30:05] [main/INFO]: [OptiFine] CustomItems: mcpatcher/cit/potion/normal/fireresistance.properties
+[00:30:05] [main/INFO]: [OptiFine] CustomItems: mcpatcher/cit/potion/normal/harm.properties
+[00:30:05] [main/INFO]: [OptiFine] CustomItems: mcpatcher/cit/potion/normal/heal.properties
+[00:30:05] [main/INFO]: [OptiFine] CustomItems: mcpatcher/cit/potion/normal/moveslowdown.properties
+[00:30:05] [main/INFO]: [OptiFine] CustomItems: mcpatcher/cit/potion/normal/movespeed.properties
+[00:30:05] [main/INFO]: [OptiFine] CustomItems: mcpatcher/cit/potion/normal/nightvision.properties
+[00:30:05] [main/INFO]: [OptiFine] CustomItems: mcpatcher/cit/potion/normal/poison.properties
+[00:30:05] [main/INFO]: [OptiFine] CustomItems: mcpatcher/cit/potion/normal/regeneration.properties
+[00:30:05] [main/INFO]: [OptiFine] CustomItems: mcpatcher/cit/potion/normal/weakness.properties
+[00:30:05] [main/INFO]: [OptiFine] CustomItems: mcpatcher/cit/potion/splash/damageboost.properties
+[00:30:05] [main/INFO]: [OptiFine] CustomItems: mcpatcher/cit/potion/splash/fireresistance.properties
+[00:30:05] [main/INFO]: [OptiFine] CustomItems: mcpatcher/cit/potion/splash/harm.properties
+[00:30:05] [main/INFO]: [OptiFine] CustomItems: mcpatcher/cit/potion/splash/heal.properties
+[00:30:05] [main/INFO]: [OptiFine] CustomItems: mcpatcher/cit/potion/splash/moveslowdown.properties
+[00:30:05] [main/INFO]: [OptiFine] CustomItems: mcpatcher/cit/potion/splash/movespeed.properties
+[00:30:05] [main/INFO]: [OptiFine] CustomItems: mcpatcher/cit/potion/splash/nightvision.properties
+[00:30:05] [main/INFO]: [OptiFine] CustomItems: mcpatcher/cit/potion/splash/poison.properties
+[00:30:05] [main/INFO]: [OptiFine] CustomItems: mcpatcher/cit/potion/splash/regeneration.properties
+[00:30:05] [main/INFO]: [OptiFine] CustomItems: mcpatcher/cit/potion/splash/weakness.properties
+[00:30:05] [main/INFO]: [OptiFine] Multitexture: false
+[00:30:05] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/acacia_bark/acacia_bark_repeat.properties
+[00:30:05] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/brick/brick.properties
+[00:30:05] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/brick/brick_center.properties
+[00:30:05] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/brick/brick_edges.properties
+[00:30:05] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/brick/brick_top.properties
+[00:30:05] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/glass/black/glass_black.properties
+[00:30:05] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/glass/blue/glass_blue.properties
+[00:30:05] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/glass/brown/glass_brown.properties
+[00:30:05] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/glass/cyan/glass_cyan.properties
+[00:30:05] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/glass/default/glass_block.properties
+[00:30:05] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/glass/default/glass_pane.properties
+[00:30:05] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/glass/gray/glass_gray.properties
+[00:30:05] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/glass/green/glass_green.properties
+[00:30:05] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/glass/light_blue/glass_light_blue.properties
+[00:30:05] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/glass/lime/glass_lime.properties
+[00:30:05] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/glass/magenta/glass_magenta.properties
+[00:30:05] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/glass/orange/glass_orange.properties
+[00:30:05] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/glass/pink/glass_pink.properties
+[00:30:05] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/glass/purple/glass_purple.properties
+[00:30:05] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/glass/red/glass_red.properties
+[00:30:05] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/glass/silver/glass_silver.properties
+[00:30:05] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/glass/white/glass_white.properties
+[00:30:05] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/glass/yellow/glass_yellow.properties
+[00:30:05] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/glowstone/glowstone_hell.properties
+[00:30:05] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/glowstone/glowstone_sky.properties
+[00:30:05] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/grass/grass_top_clover.properties
+[00:30:05] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/gravel/gravel.properties
+[00:30:05] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/log_birch/log_eucalyptus.properties
+[00:30:05] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/log_birch/log_eucalyptus_top.properties
+[00:30:05] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/log_jungle/log_jungle.properties
+[00:30:05] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/mob_spawner/mob_spawner.properties
+[00:30:05] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/obsidian/obsidian_sky.properties
+[00:30:05] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stonebrick_carved/stonebrick_carved.properties
+[00:30:05] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/wool/black/black.properties
+[00:30:05] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/wool/blue/blue.properties
+[00:30:05] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/wool/brown/brown.properties
+[00:30:05] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/wool/cyan/cyan.properties
+[00:30:05] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/wool/gray/gray.properties
+[00:30:05] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/wool/green/green.properties
+[00:30:05] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/wool/light_blue/light_blue.properties
+[00:30:05] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/wool/lime/lime.properties
+[00:30:05] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/wool/magenta/magenta.properties
+[00:30:05] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/wool/orange/orange.properties
+[00:30:05] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/wool/pink/pink.properties
+[00:30:05] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/wool/purple/purple.properties
+[00:30:05] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/wool/red/red.properties
+[00:30:05] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/wool/silver/silver.properties
+[00:30:05] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/wool/white/white.properties
+[00:30:05] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/wool/yellow/yellow.properties
+[00:30:05] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/models/deadbush/deadbush.properties
+[00:30:05] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/models/diode/diode_side.properties
+[00:30:05] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/models/fern/fern.properties
+[00:30:05] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/models/flower_dandelion/flower_dandelion_swamp.properties
+[00:30:05] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/models/flower_rose/flower_rose_swamp.properties
+[00:30:05] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/models/reeds/reeds.properties
+[00:30:05] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/models/vine/vine.properties
+[00:30:05] [main/INFO]: [OptiFine] Multipass connected textures: true
+[00:30:05] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/bookshelf/brim/bookshelf.properties
+[00:30:05] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/bookshelf/color/bookshelf.properties
+[00:30:05] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/bookshelf/react/bookshelf.properties
+[00:30:05] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/bookshelf/tome/bookshelf.properties
+[00:30:05] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/grass_side_fancy/grass_side_2.properties
+[00:30:05] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/grass_side_fancy/grass_side_overlay_2.properties
+[00:30:05] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/grass_side_fancy/grass_side_swamp.properties
+[00:30:05] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/grass_side_fancy/grass_side_yellow.properties
+[00:30:05] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/gravel/fine/gravel_repeat.properties
+[00:30:05] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/gravel/gravel_hell.properties
+[00:30:05] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/log_acacia/log_acacia.properties
+[00:30:05] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/log_birch/log_eucalyptus.properties
+[00:30:05] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/log_birch/log_eucalyptus_top.properties
+[00:30:05] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/log_dark_oak/horizontal.properties
+[00:30:05] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/log_jungle/log_jungle.properties
+[00:30:05] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/log_oak/log_oak_swamp.properties
+[00:30:05] [main/WARN]: [OptiFine] File not found: textures/blocks/log_oak_2.png
+[00:30:05] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/log_oak/log_oak_swamp_top.properties
+[00:30:05] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/sandstone_normal/sandstone_normal_layers.properties
+[00:30:05] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_brown/coal_ore_brown.properties
+[00:30:05] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_brown/coal_ore_brown_terrain.properties
+[00:30:05] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_brown/diamond_ore_brown.properties
+[00:30:05] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_brown/diamond_ore_brown_terrain.properties
+[00:30:05] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_brown/emerald_ore_brown.properties
+[00:30:05] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_brown/emerald_ore_brown_terrain.properties
+[00:30:05] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_brown/gold_ore_brown.properties
+[00:30:05] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_brown/gold_ore_brown_terrain.properties
+[00:30:05] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_brown/iron_ore_brown.properties
+[00:30:05] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_brown/iron_ore_brown_terrain.properties
+[00:30:05] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_brown/lapis_ore_brown.properties
+[00:30:05] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_brown/lapis_ore_brown_terrain.properties
+[00:30:05] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_brown/redstone_ore_brown.properties
+[00:30:05] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_brown/redstone_ore_brown_terrain.properties
+[00:30:05] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_brown/stone_brown.properties
+[00:30:05] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_brown/stone_brown_terrain.properties
+[00:30:05] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_chalk/coal_ore/band_1.properties
+[00:30:05] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_chalk/coal_ore/band_10.properties
+[00:30:05] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_chalk/coal_ore/band_2.properties
+[00:30:05] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_chalk/coal_ore/band_3.properties
+[00:30:05] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_chalk/coal_ore/band_4.properties
+[00:30:05] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_chalk/coal_ore/band_5.properties
+[00:30:05] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_chalk/coal_ore/band_6.properties
+[00:30:05] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_chalk/coal_ore/band_7.properties
+[00:30:05] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_chalk/coal_ore/band_8.properties
+[00:30:05] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_chalk/coal_ore/band_9.properties
+[00:30:05] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_chalk/diamond_ore/band_1.properties
+[00:30:05] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_chalk/diamond_ore/band_10.properties
+[00:30:05] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_chalk/diamond_ore/band_2.properties
+[00:30:05] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_chalk/diamond_ore/band_3.properties
+[00:30:05] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_chalk/diamond_ore/band_4.properties
+[00:30:05] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_chalk/diamond_ore/band_5.properties
+[00:30:05] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_chalk/diamond_ore/band_6.properties
+[00:30:05] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_chalk/diamond_ore/band_7.properties
+[00:30:05] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_chalk/diamond_ore/band_8.properties
+[00:30:05] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_chalk/diamond_ore/band_9.properties
+[00:30:05] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_chalk/emerald_ore/band_1.properties
+[00:30:05] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_chalk/emerald_ore/band_10.properties
+[00:30:05] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_chalk/emerald_ore/band_2.properties
+[00:30:05] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_chalk/emerald_ore/band_3.properties
+[00:30:05] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_chalk/emerald_ore/band_4.properties
+[00:30:05] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_chalk/emerald_ore/band_5.properties
+[00:30:05] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_chalk/emerald_ore/band_6.properties
+[00:30:05] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_chalk/emerald_ore/band_7.properties
+[00:30:05] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_chalk/emerald_ore/band_8.properties
+[00:30:05] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_chalk/emerald_ore/band_9.properties
+[00:30:05] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_chalk/gold_ore/band_1.properties
+[00:30:05] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_chalk/gold_ore/band_10.properties
+[00:30:05] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_chalk/gold_ore/band_2.properties
+[00:30:05] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_chalk/gold_ore/band_3.properties
+[00:30:05] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_chalk/gold_ore/band_4.properties
+[00:30:05] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_chalk/gold_ore/band_5.properties
+[00:30:05] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_chalk/gold_ore/band_6.properties
+[00:30:05] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_chalk/gold_ore/band_7.properties
+[00:30:05] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_chalk/gold_ore/band_8.properties
+[00:30:05] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_chalk/gold_ore/band_9.properties
+[00:30:05] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_chalk/iron_ore/band_1.properties
+[00:30:05] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_chalk/iron_ore/band_10.properties
+[00:30:05] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_chalk/iron_ore/band_2.properties
+[00:30:05] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_chalk/iron_ore/band_3.properties
+[00:30:05] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_chalk/iron_ore/band_4.properties
+[00:30:05] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_chalk/iron_ore/band_5.properties
+[00:30:05] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_chalk/iron_ore/band_6.properties
+[00:30:05] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_chalk/iron_ore/band_7.properties
+[00:30:05] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_chalk/iron_ore/band_8.properties
+[00:30:05] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_chalk/iron_ore/band_9.properties
+[00:30:05] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_chalk/lapis_ore/band_1.properties
+[00:30:05] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_chalk/lapis_ore/band_10.properties
+[00:30:05] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_chalk/lapis_ore/band_2.properties
+[00:30:05] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_chalk/lapis_ore/band_3.properties
+[00:30:05] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_chalk/lapis_ore/band_4.properties
+[00:30:05] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_chalk/lapis_ore/band_5.properties
+[00:30:05] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_chalk/lapis_ore/band_6.properties
+[00:30:05] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_chalk/lapis_ore/band_7.properties
+[00:30:05] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_chalk/lapis_ore/band_8.properties
+[00:30:05] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_chalk/lapis_ore/band_9.properties
+[00:30:05] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_chalk/redstone_ore/band_1.properties
+[00:30:05] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_chalk/redstone_ore/band_10.properties
+[00:30:05] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_chalk/redstone_ore/band_2.properties
+[00:30:05] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_chalk/redstone_ore/band_3.properties
+[00:30:05] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_chalk/redstone_ore/band_4.properties
+[00:30:05] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_chalk/redstone_ore/band_5.properties
+[00:30:05] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_chalk/redstone_ore/band_6.properties
+[00:30:05] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_chalk/redstone_ore/band_7.properties
+[00:30:05] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_chalk/redstone_ore/band_8.properties
+[00:30:05] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_chalk/redstone_ore/band_9.properties
+[00:30:05] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_chalk/stone_chalk_1.properties
+[00:30:05] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_chalk/stone_chalk_10.properties
+[00:30:05] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_chalk/stone_chalk_2.properties
+[00:30:05] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_chalk/stone_chalk_3.properties
+[00:30:05] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_chalk/stone_chalk_4.properties
+[00:30:05] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_chalk/stone_chalk_5.properties
+[00:30:05] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_chalk/stone_chalk_6.properties
+[00:30:05] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_chalk/stone_chalk_7.properties
+[00:30:05] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_chalk/stone_chalk_8.properties
+[00:30:05] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_chalk/stone_chalk_9.properties
+[00:30:05] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_lime/coal_ore_lime.properties
+[00:30:05] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_lime/diamond_ore_lime.properties
+[00:30:05] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_lime/emerald_ore_lime.properties
+[00:30:05] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_lime/gold_ore_lime.properties
+[00:30:05] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_lime/iron_ore_lime.properties
+[00:30:05] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_lime/lapis_ore_lime.properties
+[00:30:05] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_lime/redstone_ore_lime.properties
+[00:30:05] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_lime/stone_lime.properties
+[00:30:05] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stonebrick/stonebrick.properties
+[00:30:05] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stonebrick/stonebrick_top.properties
+[00:30:05] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/models/deadbush/deadbush_scraggly.properties
+[00:30:05] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/models/flower_blue_orchid/flower_blue_orchid_swamp.properties
+[00:30:05] [main/WARN]: [OptiFine] File not found: textures/blocks/flower_blue_orchid_2.png
+[00:30:05] [main/WARN]: [OptiFine] File not found: textures/blocks/flower_blue_orchid_3.png
+[00:30:05] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/models/flower_dandelion/flower_dandelion_savanna.properties
+[00:30:05] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/models/flower_dandelion/flower_dandelion_swamp.properties
+[00:30:05] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/models/flower_poppy/flower_rose_savanna.properties
+[00:30:05] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/models/vine/vine.properties
+[00:30:05] [main/INFO]: [OptiFine] Multipass connected textures: true
+[00:30:05] [main/INFO]: [OptiFine] Multipass connected textures: true
+[00:30:05] [main/INFO]: [OptiFine] BetterGrass: Parsing default configuration optifine/bettergrass.properties
+[00:30:06] [main/INFO]: Autogenerated twilightforest:blocks/molten_fiery_still from minecraft:blocks/lava_still
+[00:30:06] [main/ERROR]: Using missing texture, unable to load minecraft:textures/blocks/log_oak_2.png, java.io.FileNotFoundException
+[00:30:06] [main/ERROR]: Using missing texture, unable to load minecraft:textures/blocks/flower_blue_orchid_2.png, java.io.FileNotFoundException
+[00:30:06] [main/ERROR]: Using missing texture, unable to load minecraft:textures/blocks/flower_blue_orchid_3.png, java.io.FileNotFoundException
+[00:30:06] [main/INFO]: [OptiFine] Scaled non power of 2: twilightforest:blocks/ironwood_pattern, 48 -> 64
+[00:30:07] [main/INFO]: Autogenerated twilightforest:blocks/molten_knightmetal_still from minecraft:blocks/lava_still with min value of 0.49803922 and max value 0.654902
+[00:30:07] [main/INFO]: Autogenerated twilightforest:blocks/molten_knightmetal_flow from minecraft:blocks/lava_flow with min value of 0.5019608 and max value 0.63529414
+[00:30:08] [main/INFO]: Autogenerated twilightforest:blocks/fluid_fiery_still from minecraft:blocks/water_still with min value of 0.58431375 and max value 0.72156864
+[00:30:08] [main/INFO]: Autogenerated twilightforest:blocks/fluid_fiery_flow from minecraft:blocks/water_flow with min value of 0.6117647 and max value 0.7019608
+[00:30:08] [main/INFO]: Autogenerated twilightforest:blocks/molten_fiery_flow from minecraft:blocks/lava_flow
+[00:30:09] [main/INFO]: [OptiFine] Custom loader sprites: 9
+[00:30:09] [main/INFO]: [OptiFine] Sprite dependencies: 12
+[00:30:09] [main/INFO]: Created: 4096x4096 textures-atlas
+[00:30:10] [main/INFO]: [OptiFine] Animated sprites: 65
+[00:30:10] [main/INFO]: [CoroUtil.forge.CULog:log:14]: Weather2: Setting up foliage replacers
+[00:30:11] [main/INFO]: [OptiFine] ItemOverrideCache: minecraft:angle=129 -> minecraft:item/compass ...
+[00:30:11] [main/WARN]: Unable to resolve texture due to upward reference: #all in twilightforest:models/block/giant_cobblestone.json
+[00:30:11] [main/ERROR]: Exception loading model for variant aether:wildcard#inventory, normal location exception: 
+net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception loading model aether:item/wildcard with loader VanillaLoader.INSTANCE, skipping
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:153) ~[ModelLoaderRegistry.class:?]
+	at net.minecraftforge.client.model.ModelLoader.func_177590_d(ModelLoader.java:304) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.func_177577_b(ModelBakery.java:194) ~[cgb.class:?]
+	at net.minecraftforge.client.model.ModelLoader.func_177570_a(ModelLoader.java:153) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelManager.func_110549_a(ModelManager.java:28) [cgc.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.func_110542_a(SimpleReloadableResourceManager.java:121) [cev.class:?]
+	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:512) [bib.class:?]
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:377) [bib.class:?]
+	at net.minecraft.client.main.Main.main(SourceFile:123) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_191]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_191]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_191]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_191]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+Caused by: java.io.FileNotFoundException: aether:models/item/wildcard.json
+	at net.minecraft.client.resources.FallbackResourceManager.func_110536_a(FallbackResourceManager.java:69) ~[cei.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.func_110536_a(SimpleReloadableResourceManager.java:65) ~[cev.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.func_177594_c(ModelBakery.java:365) ~[cgb.class:?]
+	at net.minecraftforge.client.model.ModelLoader.access$1600(ModelLoader.java:117) ~[ModelLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoader$VanillaLoader.loadModel(ModelLoader.java:870) ~[ModelLoader$VanillaLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:149) ~[ModelLoaderRegistry.class:?]
+	... 14 more
+[00:30:11] [main/ERROR]: Exception loading model for variant aether:wildcard#inventory, blockstate location exception: 
+net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception loading model aether:wildcard#inventory with loader VariantLoader.INSTANCE, skipping
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:153) ~[ModelLoaderRegistry.class:?]
+	at net.minecraftforge.client.model.ModelLoader.func_177590_d(ModelLoader.java:312) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.func_177577_b(ModelBakery.java:194) ~[cgb.class:?]
+	at net.minecraftforge.client.model.ModelLoader.func_177570_a(ModelLoader.java:153) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelManager.func_110549_a(ModelManager.java:28) [cgc.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.func_110542_a(SimpleReloadableResourceManager.java:121) [cev.class:?]
+	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:512) [bib.class:?]
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:377) [bib.class:?]
+	at net.minecraft.client.main.Main.main(SourceFile:123) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_191]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_191]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_191]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_191]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+Caused by: net.minecraft.client.renderer.block.model.ModelBlockDefinition$MissingVariantException
+	at net.minecraft.client.renderer.block.model.ModelBlockDefinition.func_188004_c(ModelBlockDefinition.java:83) ~[bvv.class:?]
+	at net.minecraftforge.client.model.ModelLoader$VariantLoader.loadModel(ModelLoader.java:1182) ~[ModelLoader$VariantLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:149) ~[ModelLoaderRegistry.class:?]
+	... 14 more
+[00:30:11] [main/ERROR]: Exception loading model for variant aether:wildcard#normal
+net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception loading model aether:wildcard#normal with loader VariantLoader.INSTANCE, skipping
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:153) ~[ModelLoaderRegistry.class:?]
+	at net.minecraftforge.client.model.ModelLoader.func_177569_a(ModelLoader.java:237) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.loadBlock(ModelBakery.java:166) ~[cgb.class:?]
+	at net.minecraftforge.client.model.ModelLoader.func_188640_b(ModelLoader.java:225) ~[ModelLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoader.func_177570_a(ModelLoader.java:152) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelManager.func_110549_a(ModelManager.java:28) [cgc.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.func_110542_a(SimpleReloadableResourceManager.java:121) [cev.class:?]
+	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:512) [bib.class:?]
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:377) [bib.class:?]
+	at net.minecraft.client.main.Main.main(SourceFile:123) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_191]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_191]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_191]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_191]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+Caused by: net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception loading model aether:block/wildcard with loader VanillaLoader.INSTANCE, skipping
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:153) ~[ModelLoaderRegistry.class:?]
+	at net.minecraftforge.client.model.ModelLoader$WeightedRandomModel.<init>(ModelLoader.java:667) ~[ModelLoader$WeightedRandomModel.class:?]
+	at net.minecraftforge.client.model.ModelLoader$VariantLoader.loadModel(ModelLoader.java:1183) ~[ModelLoader$VariantLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:149) ~[ModelLoaderRegistry.class:?]
+	... 15 more
+Caused by: java.io.FileNotFoundException: aether:models/block/wildcard.json
+	at net.minecraft.client.resources.FallbackResourceManager.func_110536_a(FallbackResourceManager.java:69) ~[cei.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.func_110536_a(SimpleReloadableResourceManager.java:65) ~[cev.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.func_177594_c(ModelBakery.java:365) ~[cgb.class:?]
+	at net.minecraftforge.client.model.ModelLoader.access$1600(ModelLoader.java:117) ~[ModelLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoader$VanillaLoader.loadModel(ModelLoader.java:870) ~[ModelLoader$VanillaLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:149) ~[ModelLoaderRegistry.class:?]
+	at net.minecraftforge.client.model.ModelLoader$WeightedRandomModel.<init>(ModelLoader.java:667) ~[ModelLoader$WeightedRandomModel.class:?]
+	at net.minecraftforge.client.model.ModelLoader$VariantLoader.loadModel(ModelLoader.java:1183) ~[ModelLoader$VariantLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:149) ~[ModelLoaderRegistry.class:?]
+	... 15 more
+[00:30:13] [main/INFO]: [com.flansmod.common.FlansMod:log:709]: [Flan's Mod] Registering Recipes.
+[00:30:13] [main/INFO]: Applying holder lookups
+[00:30:13] [main/INFO]: Holder lookups applied
+[00:30:13] [main/WARN]: Unable to read property: type with value: 0 for blockstate: {Properties:{type:"0"},Name:"aether:tall_aether_grass"}
+[00:30:14] [main/INFO]: [com.flansmod.common.FlansMod:log:709]: [Flan's Mod] Initialising Flan's Mod.
+[00:30:14] [main/INFO]: [com.flansmod.common.FlansMod:log:709]: [Flan's Mod] Loading Flan's mod client side.
+[00:30:14] [main/INFO]: [com.flansmod.common.FlansMod:log:709]: [Flan's Mod] Loading complete.
+[00:30:14] [main/INFO]: InfernalMobsCore load() completed! Modifiers ready: 8, config file at: F:\Minecraft1.12.2-Adventure\.minecraft\config\infernalmobs.cfg
+[00:30:15] [main/ERROR]: Default theme not found in F:\Minecraft1.12.2-Adventure\.minecraft\journeymap\icon\theme\victorian_\Victorian.theme2.json: Victorian (SUPPRESSED)
+[00:30:15] [main/INFO]: JourneyMap log initialized.
+[00:30:15] [main/INFO]: initialize ENTER
+[00:30:15] [pool-5-thread-1/ERROR]: Failed to contact GameAnalytics server
+[00:30:15] [main/INFO]: [ClientAPI] built with JourneyMap API 1.4
+[00:30:15] [main/INFO]: Initializing plugins with Client API: journeymap.client.api.impl.ClientAPI
+[00:30:15] [main/INFO]: initialize EXIT, elapsed count 0 avg ?ms
+[00:30:15] [main/INFO]: Injecting itemstacks
+[00:30:15] [main/INFO]: Itemstack injection complete
+[00:30:15] [main/WARN]: No types have been added to Biome aether:aether_highlands, types have been assigned on a best-effort guess: [PLAINS]
+[00:30:15] [main/WARN]: No types have been added to Biome aether:aether_magnetic_hills, types have been assigned on a best-effort guess: [PLAINS]
+[00:30:15] [main/WARN]: No types have been added to Biome aether:aether_arctic_peaks, types have been assigned on a best-effort guess: [SNOWY, PLAINS, COLD]
+[00:30:15] [main/WARN]: No types have been added to Biome aether:aether_forgotten_highlands, types have been assigned on a best-effort guess: [PLAINS, COLD]
+[00:30:15] [main/WARN]: No types have been added to Biome aether:aether_irradiated_forests, types have been assigned on a best-effort guess: [PLAINS, COLD]
+[00:30:15] [main/WARN]: No types have been added to Biome aether:aether_void, types have been assigned on a best-effort guess: [PLAINS]
+[00:30:15] [main/WARN]: No types have been added to Biome aether:instanced_zone, types have been assigned on a best-effort guess: [DRY, PLAINS]
+[00:30:15] [main/WARN]: No types have been added to Biome flansmodapocalypse:deepcanyon_apocalypse, types have been assigned on a best-effort guess: [DRY, SANDY, RIVER, HOT, PLAINS, WATER]
+[00:30:15] [main/WARN]: No types have been added to Biome flansmodapocalypse:canyon_apocalypse, types have been assigned on a best-effort guess: [DRY, SANDY, RIVER, HOT, PLAINS, WATER]
+[00:30:15] [main/WARN]: No types have been added to Biome flansmodapocalypse:desert_apocalypse, types have been assigned on a best-effort guess: [DRY, SANDY, HOT, PLAINS]
+[00:30:15] [main/WARN]: No types have been added to Biome flansmodapocalypse:plateau_apocalypse, types have been assigned on a best-effort guess: [DRY, SANDY, HOT, PLAINS]
+[00:30:15] [main/WARN]: No types have been added to Biome flansmodapocalypse:highplateau_apocalypse, types have been assigned on a best-effort guess: [DRY, SANDY, HOT, PLAINS]
+[00:30:15] [main/WARN]: No types have been added to Biome flansmodapocalypse:sulphurpits_apocalypse, types have been assigned on a best-effort guess: [DRY, SANDY, RIVER, HOT, PLAINS, WATER]
+[00:30:16] [main/INFO]: Added entity icons from journeymap:icon/entity. Success: false
+[00:30:16] [main/INFO]: Preloaded theme textures: 71
+[00:30:16] [JM-VersionCheck-1/ERROR]: Could not check version URL
+com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: Use JsonReader.setLenient(true) to accept malformed JSON at line 1 column 12 path $
+	at com.google.gson.JsonParser.parse(JsonParser.java:65) ~[JsonParser.class:?]
+	at com.google.gson.JsonParser.parse(JsonParser.java:45) ~[JsonParser.class:?]
+	at journeymap.common.version.VersionCheck$1.run(VersionCheck.java:134) [VersionCheck$1.class:1.12.2-5.5.0rc1]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [?:1.8.0_191]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [?:1.8.0_191]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_191]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_191]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_191]
+Caused by: com.google.gson.stream.MalformedJsonException: Use JsonReader.setLenient(true) to accept malformed JSON at line 1 column 12 path $
+	at com.google.gson.stream.JsonReader.syntaxError(JsonReader.java:1559) ~[JsonReader.class:?]
+	at com.google.gson.stream.JsonReader.checkLenient(JsonReader.java:1401) ~[JsonReader.class:?]
+	at com.google.gson.stream.JsonReader.doPeek(JsonReader.java:542) ~[JsonReader.class:?]
+	at com.google.gson.stream.JsonReader.peek(JsonReader.java:425) ~[JsonReader.class:?]
+	at com.google.gson.JsonParser.parse(JsonParser.java:60) ~[JsonParser.class:?]
+	... 7 more
+[00:30:16] [main/INFO]: Updated size(" + newStackSize + ") for item name: mushroom_stew / UnlocalizedName = item.mushroomStew
+[00:30:16] [main/INFO]: Updated size(" + newStackSize + ") for item name: beetroot_soup / UnlocalizedName = item.beetroot_soup
+[00:30:16] [main/INFO]: Updated size(" + newStackSize + ") for item name: rabbit_stew / UnlocalizedName = item.rabbitStew
+[00:30:16] [main/INFO]: Updated size(" + newStackSize + ") for item name: egg / UnlocalizedName = item.egg
+[00:30:16] [main/INFO]: Updated size(" + newStackSize + ") for item name: boat / UnlocalizedName = item.boat.oak
+[00:30:16] [main/INFO]: Updated size(" + newStackSize + ") for item name: minecart / UnlocalizedName = item.minecart
+[00:30:16] [main/INFO]: Updated size(" + newStackSize + ") for item name: spruce_boat / UnlocalizedName = item.boat.spruce
+[00:30:16] [main/INFO]: Updated size(" + newStackSize + ") for item name: birch_boat / UnlocalizedName = item.boat.birch
+[00:30:16] [main/INFO]: Updated size(" + newStackSize + ") for item name: jungle_boat / UnlocalizedName = item.boat.jungle
+[00:30:16] [main/INFO]: Updated size(" + newStackSize + ") for item name: acacia_boat / UnlocalizedName = item.boat.acacia
+[00:30:16] [main/INFO]: Updated size(" + newStackSize + ") for item name: dark_oak_boat / UnlocalizedName = item.boat.dark_oak
+[00:30:16] [main/INFO]: Updated size(" + newStackSize + ") for item name: saddle / UnlocalizedName = item.saddle
+[00:30:16] [main/INFO]: Updated size(" + newStackSize + ") for item name: snowball / UnlocalizedName = item.snowball
+[00:30:16] [main/INFO]: Updated size(" + newStackSize + ") for item name: ender_pearl / UnlocalizedName = item.enderPearl
+[00:30:16] [main/INFO]: Updated size(" + newStackSize + ") for item name: wooden_door / UnlocalizedName = item.doorOak
+[00:30:16] [main/INFO]: Updated size(" + newStackSize + ") for item name: iron_door / UnlocalizedName = item.doorIron
+[00:30:16] [main/INFO]: Updated size(" + newStackSize + ") for item name: iron_horse_armor / UnlocalizedName = item.horsearmormetal
+[00:30:16] [main/INFO]: Updated size(" + newStackSize + ") for item name: diamond_horse_armor / UnlocalizedName = item.horsearmordiamond
+[00:30:16] [main/INFO]: Updated size(" + newStackSize + ") for item name: golden_horse_armor / UnlocalizedName = item.horsearmorgold
+[00:30:16] [main/INFO]: Updated size(" + newStackSize + ") for item name: enchanted_book / UnlocalizedName = item.enchantedBook
+[00:30:16] [main/INFO]: Updated size(" + newStackSize + ") for item name: sign / UnlocalizedName = item.sign
+[00:30:16] [main/INFO]: Updated size(" + newStackSize + ") for item name: bucket / UnlocalizedName = item.bucket
+[00:30:16] [main/INFO]: Updated size(" + newStackSize + ") for item name: water_bucket / UnlocalizedName = item.bucketWater
+[00:30:16] [main/INFO]: Updated size(" + newStackSize + ") for item name: milk_bucket / UnlocalizedName = item.milk
+[00:30:16] [main/INFO]: Updated size(" + newStackSize + ") for item name: lava_bucket / UnlocalizedName = item.bucketLava
+[00:30:16] [main/INFO]: Updated size(" + newStackSize + ") for item name: cake / UnlocalizedName = item.cake
+[00:30:16] [main/INFO]: Updated size(" + newStackSize + ") for item name: bed / UnlocalizedName = item.bed
+[00:30:16] [main/INFO]: Updated size(" + newStackSize + ") for item name: record_13 / UnlocalizedName = item.record
+[00:30:16] [main/INFO]: Updated size(" + newStackSize + ") for item name: record_cat / UnlocalizedName = item.record
+[00:30:16] [main/INFO]: Updated size(" + newStackSize + ") for item name: record_blocks / UnlocalizedName = item.record
+[00:30:16] [main/INFO]: Updated size(" + newStackSize + ") for item name: record_chirp / UnlocalizedName = item.record
+[00:30:16] [main/INFO]: Updated size(" + newStackSize + ") for item name: record_far / UnlocalizedName = item.record
+[00:30:16] [main/INFO]: Updated size(" + newStackSize + ") for item name: record_mall / UnlocalizedName = item.record
+[00:30:16] [main/INFO]: Updated size(" + newStackSize + ") for item name: record_mellohi / UnlocalizedName = item.record
+[00:30:16] [main/INFO]: Updated size(" + newStackSize + ") for item name: record_stal / UnlocalizedName = item.record
+[00:30:16] [main/INFO]: Updated size(" + newStackSize + ") for item name: record_strad / UnlocalizedName = item.record
+[00:30:16] [main/INFO]: Updated size(" + newStackSize + ") for item name: record_ward / UnlocalizedName = item.record
+[00:30:16] [main/INFO]: Updated size(" + newStackSize + ") for item name: record_11 / UnlocalizedName = item.record
+[00:30:16] [main/INFO]: Updated size(" + newStackSize + ") for item name: record_wait / UnlocalizedName = item.record
+[00:30:16] [main/INFO]: Updated size(" + newStackSize + ") for item name: flansmod:aa12ammo / UnlocalizedName = item.aa12Ammo
+[00:30:16] [main/INFO]: Updated size(" + newStackSize + ") for item name: flansmod:betacmag / UnlocalizedName = item.betaCMag
+[00:30:16] [main/INFO]: Updated size(" + newStackSize + ") for item name: flansmod:barrettammo / UnlocalizedName = item.barrettAmmo
+[00:30:16] [main/INFO]: Updated size(" + newStackSize + ") for item name: flansmod:barrettexplosiveammo / UnlocalizedName = item.barrettExplosiveAmmo
+[00:30:16] [main/INFO]: Updated size(" + newStackSize + ") for item name: flansmod:barrettcompactammo / UnlocalizedName = item.barrettCompactAmmo
+[00:30:16] [main/INFO]: Updated size(" + newStackSize + ") for item name: flansmod:flamethrowerammo / UnlocalizedName = item.flamethrowerAmmo
+[00:30:16] [main/INFO]: Updated size(" + newStackSize + ") for item name: flansmod:fuelcan / UnlocalizedName = item.fuelCan
+[00:30:16] [main/INFO]: Updated size(" + newStackSize + ") for item name: flansmod:50calammo / UnlocalizedName = item.50CalAmmo
+[00:30:16] [main/INFO]: Updated unique size(1) for item name: potion / UnlocalizedName = item.potion
+[00:30:16] [main/INFO]: Updated unique size(64) for item name: written_book / UnlocalizedName = item.writtenBook
+[00:30:16] [main/INFO]: Updated unique size(64) for item name: writable_book / UnlocalizedName = item.writingBook
+[00:30:16] [main/INFO]: Prioritizing User and IMC mod configs...
+[00:30:16] [main/INFO]: Registering items and trees...
+[00:30:16] [main/INFO]: WorldEdit for Forge (version 6.1.8) is loaded
+[00:30:16] [main/INFO]: Starting Waila...
+[00:30:16] [main/INFO]: Gathering annotated plugins...
+[00:30:16] [main/INFO]: Gathering wrapped IMC plugins...
+[00:30:16] [main/INFO]: Registering plugins...
+[00:30:16] [main/INFO]: Registering plugin at mcp.mobius.waila.addons.core.PluginCore
+[00:30:16] [main/INFO]: Registering plugin at mcp.mobius.waila.addons.capability.PluginCapability
+[00:30:16] [main/INFO]: Registering plugin at mcp.mobius.waila.addons.minecraft.PluginMinecraft
+[00:30:17] [main/INFO]: Registering plugin at net.darkhax.wawla.engine.waila.EntityProvider
+[00:30:17] [main/INFO]: Registering plugin at net.darkhax.wawla.engine.waila.TileProvider
+[00:30:17] [main/INFO]: Starting Waila took 76.53 ms
+[00:30:17] [main/INFO]: Starting JEI...
+[00:30:17] [main/INFO]: Registering recipe categories...
+[00:30:17] [main/INFO]: Registering recipe categories took 36.05 ms
+[00:30:17] [main/INFO]: Registering mod plugins...
+[00:30:17] [main/INFO]: Registering mod plugins took 251.4 ms
+[00:30:17] [main/INFO]: Building recipe registry...
+[00:30:17] [main/INFO]: Building recipe registry took 141.7 ms
+[00:30:17] [main/INFO]: Building ingredient list...
+[00:30:17] [main/INFO]: Building ingredient list took 128.2 ms
+[00:30:17] [main/INFO]: Building ingredient filter...
+[00:30:18] [main/INFO]: Building ingredient filter took 410.4 ms
+[00:30:18] [main/INFO]: Building runtime...
+[00:30:18] [main/INFO]: Building runtime took 102.2 ms
+[00:30:18] [main/INFO]: Starting JEI took 1.493 s
+[00:30:18] [main/INFO]: Forge Mod Loader has successfully loaded 25 mods
+[00:30:18] [main/ERROR]: A critical error occurred instantiating the gui factory for mod treecapitator
+java.lang.ClassCastException: class bspkrs.treecapitator.fml.gui.ModGuiFactoryHandler
+	at java.lang.Class.asSubclass(Unknown Source) ~[?:1.8.0_191]
+	at net.minecraftforge.fml.client.FMLClientHandler.finishMinecraftLoading(FMLClientHandler.java:372) [FMLClientHandler.class:?]
+	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:534) [bib.class:?]
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:377) [bib.class:?]
+	at net.minecraft.client.main.Main.main(SourceFile:123) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_191]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_191]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_191]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_191]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+[00:30:18] [main/WARN]: Skipping bad option: lastServer:
+[00:30:19] [main/WARN]: ERROR : Couldn't load Narrator library : Unable to load library 'SAPIWrapper_x64': Native library (win32-x86-64/SAPIWrapper_x64.dll) not found in resource path ([file:/F:/Minecraft1.12.2-Adventure/.minecraft/libraries/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar, file:/F:/Minecraft1.12.2-Adventure/.minecraft/libraries/com/google/guava/guava/21.0/guava-21.0.jar, file:/F:/Minecraft1.12.2-Adventure/.minecraft/libraries/com/ibm/icu/icu4j-core-mojang/51.2/icu4j-core-mojang-51.2.jar, file:/F:/Minecraft1.12.2-Adventure/.minecraft/libraries/com/mojang/authlib/1.5.25/authlib-1.5.25.jar, file:/F:/Minecraft1.12.2-Adventure/.minecraft/libraries/com/mojang/patchy/1.1/patchy-1.1.jar, file:/F:/Minecraft1.12.2-Adventure/.minecraft/libraries/com/mojang/realms/1.10.17/realms-1.10.17.jar, file:/F:/Minecraft1.12.2-Adventure/.minecraft/libraries/com/mojang/text2speech/1.10.3/text2speech-1.10.3.jar, file:/F:/Minecraft1.12.2-Adventure/.minecraft/libraries/com/paulscode/codecjorbis/20101023/codecjorbis-20101023.jar, file:/F:/Minecraft1.12.2-Adventure/.minecraft/libraries/com/paulscode/codecwav/20101023/codecwav-20101023.jar, file:/F:/Minecraft1.12.2-Adventure/.minecraft/libraries/com/paulscode/libraryjavasound/20101123/libraryjavasound-20101123.jar, file:/F:/Minecraft1.12.2-Adventure/.minecraft/libraries/com/paulscode/librarylwjglopenal/20100824/librarylwjglopenal-20100824.jar, file:/F:/Minecraft1.12.2-Adventure/.minecraft/libraries/com/paulscode/soundsystem/20120107/soundsystem-20120107.jar, file:/F:/Minecraft1.12.2-Adventure/.minecraft/libraries/com/typesafe/akka/akka-actor_2.11/2.3.3/akka-actor_2.11-2.3.3.jar, file:/F:/Minecraft1.12.2-Adventure/.minecraft/libraries/com/typesafe/config/1.2.1/config-1.2.1.jar, file:/F:/Minecraft1.12.2-Adventure/.minecraft/libraries/commons-codec/commons-codec/1.10/commons-codec-1.10.jar, file:/F:/Minecraft1.12.2-Adventure/.minecraft/libraries/commons-io/commons-io/2.5/commons-io-2.5.jar, file:/F:/Minecraft1.12.2-Adventure/.minecraft/libraries/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3.jar, file:/F:/Minecraft1.12.2-Adventure/.minecraft/libraries/io/netty/netty-all/4.1.9.Final/netty-all-4.1.9.Final.jar, file:/F:/Minecraft1.12.2-Adventure/.minecraft/libraries/it/unimi/dsi/fastutil/7.1.0/fastutil-7.1.0.jar, file:/F:/Minecraft1.12.2-Adventure/.minecraft/libraries/java3d/vecmath/1.5.2/vecmath-1.5.2.jar, file:/F:/Minecraft1.12.2-Adventure/.minecraft/libraries/jline/jline/2.13/jline-2.13.jar, file:/F:/Minecraft1.12.2-Adventure/.minecraft/libraries/lzma/lzma/0.0.1/lzma-0.0.1.jar, file:/F:/Minecraft1.12.2-Adventure/.minecraft/libraries/net/java/dev/jna/jna/4.4.0/jna-4.4.0.jar, file:/F:/Minecraft1.12.2-Adventure/.minecraft/libraries/net/java/dev/jna/platform/3.4.0/platform-3.4.0.jar, file:/F:/Minecraft1.12.2-Adventure/.minecraft/libraries/net/java/jinput/jinput/2.0.5/jinput-2.0.5.jar, file:/F:/Minecraft1.12.2-Adventure/.minecraft/libraries/net/java/jutils/jutils/1.0.0/jutils-1.0.0.jar, file:/F:/Minecraft1.12.2-Adventure/.minecraft/libraries/net/minecraft/launchwrapper/1.12/launchwrapper-1.12.jar, file:/C:/Users/Howard%20Yin/AppData/Roaming/.minecraft/libraries/net/minecraftforge/forge/1.12.2-14.23.4.2705/forge-1.12.2-14.23.4.2705.jar, file:/C:/Users/Howard%20Yin/AppData/Roaming/.minecraft/libraries/net/optifine/optifine/1.12.2-HD_U/optifine-1.12.2-HD_U.jar, file:/F:/Minecraft1.12.2-Adventure/.minecraft/libraries/net/sf/jopt-simple/jopt-simple/5.0.3/jopt-simple-5.0.3.jar, file:/F:/Minecraft1.12.2-Adventure/.minecraft/libraries/net/sf/trove4j/trove4j/3.0.3/trove4j-3.0.3.jar, file:/F:/Minecraft1.12.2-Adventure/.minecraft/libraries/org/apache/commons/commons-compress/1.8.1/commons-compress-1.8.1.jar, file:/F:/Minecraft1.12.2-Adventure/.minecraft/libraries/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.jar, file:/F:/Minecraft1.12.2-Adventure/.minecraft/libraries/org/apache/httpcomponents/httpclient/4.3.3/httpclient-4.3.3.jar, file:/F:/Minecraft1.12.2-Adventure/.minecraft/libraries/org/apache/httpcomponents/httpcore/4.3.2/httpcore-4.3.2.jar, file:/F:/Minecraft1.12.2-Adventure/.minecraft/libraries/org/apache/logging/log4j/log4j-api/2.8.1/log4j-api-2.8.1.jar, file:/F:/Minecraft1.12.2-Adventure/.minecraft/libraries/org/apache/logging/log4j/log4j-core/2.8.1/log4j-core-2.8.1.jar, file:/C:/Users/Howard%20Yin/AppData/Roaming/.minecraft/libraries/org/apache/maven/maven-artifact/3.5.3/maven-artifact-3.5.3.jar, file:/F:/Minecraft1.12.2-Adventure/.minecraft/libraries/org/lwjgl/lwjgl/lwjgl/2.9.4-nightly-20150209/lwjgl-2.9.4-nightly-20150209.jar, file:/F:/Minecraft1.12.2-Adventure/.minecraft/libraries/org/lwjgl/lwjgl/lwjgl_util/2.9.4-nightly-20150209/lwjgl_util-2.9.4-nightly-20150209.jar, file:/F:/Minecraft1.12.2-Adventure/.minecraft/libraries/org/ow2/asm/asm-all/5.2/asm-all-5.2.jar, file:/F:/Minecraft1.12.2-Adventure/.minecraft/libraries/org/scala-lang/plugins/scala-continuations-library_2.11/1.0.2/scala-continuations-library_2.11-1.0.2.jar, file:/F:/Minecraft1.12.2-Adventure/.minecraft/libraries/org/scala-lang/plugins/scala-continuations-plugin_2.11.1/1.0.2/scala-continuations-plugin_2.11.1-1.0.2.jar, file:/F:/Minecraft1.12.2-Adventure/.minecraft/libraries/org/scala-lang/scala-actors-migration_2.11/1.1.0/scala-actors-migration_2.11-1.1.0.jar, file:/F:/Minecraft1.12.2-Adventure/.minecraft/libraries/org/scala-lang/scala-compiler/2.11.1/scala-compiler-2.11.1.jar, file:/F:/Minecraft1.12.2-Adventure/.minecraft/libraries/org/scala-lang/scala-library/2.11.1/scala-library-2.11.1.jar, file:/F:/Minecraft1.12.2-Adventure/.minecraft/libraries/org/scala-lang/scala-parser-combinators_2.11/1.0.1/scala-parser-combinators_2.11-1.0.1.jar, file:/F:/Minecraft1.12.2-Adventure/.minecraft/libraries/org/scala-lang/scala-reflect/2.11.1/scala-reflect-2.11.1.jar, file:/F:/Minecraft1.12.2-Adventure/.minecraft/libraries/org/scala-lang/scala-swing_2.11/1.0.1/scala-swing_2.11-1.0.1.jar, file:/F:/Minecraft1.12.2-Adventure/.minecraft/libraries/org/scala-lang/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.jar, file:/F:/Minecraft1.12.2-Adventure/.minecraft/libraries/oshi-project/oshi-core/1.1/oshi-core-1.1.jar, file:/F:/Minecraft1.12.2-Adventure/.minecraft/versions/1.12.2/1.12.2.jar, asmgen:/, file:/F:/Minecraft1.12.2-Adventure/.minecraft/mods/orbis_api-1.12.2-1.1.7.jar, file:/F:/Minecraft1.12.2-Adventure/.minecraft/mods/aether_ii-1.12.2-1.0.10.jar, file:/F:/Minecraft1.12.2-Adventure/.minecraft/mods/coroutil-1.12.1-1.2.13.jar, file:/F:/Minecraft1.12.2-Adventure/.minecraft/mods/EpicSiegeMod-13.162.jar, file:/F:/Minecraft1.12.2-Adventure/.minecraft/mods/Flan's%20Mod-1.12.2-5.5.2.jar, file:/F:/Minecraft1.12.2-Adventure/.minecraft/mods/Hwyla-1.8.26-B41_1.12.2.jar, file:/F:/Minecraft1.12.2-Adventure/.minecraft/mods/InfernalMobs-1.12.2.jar, file:/F:/Minecraft1.12.2-Adventure/.minecraft/mods/jei_1.12.2-4.11.0.202.jar, file:/F:/Minecraft1.12.2-Adventure/.minecraft/mods/journeymap-1.12.2-5.5.0rc1.jar, file:/F:/Minecraft1.12.2-Adventure/.minecraft/mods/stacksize-1.12.2-1.0.jar, file:/F:/Minecraft1.12.2-Adventure/.minecraft/mods/Treecapitator-1.12-at_0.9a.jar, file:/F:/Minecraft1.12.2-Adventure/.minecraft/mods/twilightforest-1.12.2-3.7.424-universal.jar, file:/F:/Minecraft1.12.2-Adventure/.minecraft/mods/Wawla-1.12.2-2.5.257.jar, file:/F:/Minecraft1.12.2-Adventure/.minecraft/mods/weather2-1.12.1-2.6.12.jar, file:/F:/Minecraft1.12.2-Adventure/.minecraft/mods/worldedit-forge-mc1.12-6.1.8-dist.jar, file:/F:/Minecraft1.12.2-Adventure/.minecraft/mods/WorldEdit+CUI+Forge+Edition+2-2.1.2-mf-1.12.2-14.23.0.2487.jar, file:/F:/Minecraft1.12.2-Adventure/.minecraft/mods/zombieawareness-1.12.1-1.11.14.jar, file:/F:/Minecraft1.12.2-Adventure/.minecraft/Flan/Apocalypse-Content%20Pack-1.12.2-5.5.2.jar, file:/F:/Minecraft1.12.2-Adventure/.minecraft/Flan/Mecha%20Parts-Content%20Pack-1.12.2-5.5.2.jar, file:/F:/Minecraft1.12.2-Adventure/.minecraft/Flan/Modern%20Warfare-Content%20Pack-1.12.2-5.5.2.jar, file:/F:/Minecraft1.12.2-Adventure/.minecraft/Flan/Nerf-Content%20Pack-1.12.2-5.5.2.jar, file:/F:/Minecraft1.12.2-Adventure/.minecraft/Flan/Simple%20Parts-Content%20Pack-1.12.2-5.5.2.jar, file:/F:/Minecraft1.12.2-Adventure/.minecraft/Flan/Titan-Content%20Pack-1.12.2-5.5.2.jar, file:/F:/Minecraft1.12.2-Adventure/.minecraft/Flan/WW2-Content%20Pack-1.12.2-5.5.2.jar, file:/F:/Minecraft1.12.2-Adventure/.minecraft/Flan/Ye%20Olde-Content%20Pack-1.12.2-5.5.2.jar, file:/F:/Minecraft1.12.2-Adventure/.minecraft/Flan/Zombie-Content%20Pack-1.12.2-5.5.2.jar])
+ERROR : Couldn't load Narrator library : Unable to load library 'SAPIWrapper_x86': Native library (win32-x86-64/SAPIWrapper_x86.dll) not found in resource path ([file:/F:/Minecraft1.12.2-Adventure/.minecraft/libraries/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar, file:/F:/Minecraft1.12.2-Adventure/.minecraft/libraries/com/google/guava/guava/21.0/guava-21.0.jar, file:/F:/Minecraft1.12.2-Adventure/.minecraft/libraries/com/ibm/icu/icu4j-core-mojang/51.2/icu4j-core-mojang-51.2.jar, file:/F:/Minecraft1.12.2-Adventure/.minecraft/libraries/com/mojang/authlib/1.5.25/authlib-1.5.25.jar, file:/F:/Minecraft1.12.2-Adventure/.minecraft/libraries/com/mojang/patchy/1.1/patchy-1.1.jar, file:/F:/Minecraft1.12.2-Adventure/.minecraft/libraries/com/mojang/realms/1.10.17/realms-1.10.17.jar, file:/F:/Minecraft1.12.2-Adventure/.minecraft/libraries/com/mojang/text2speech/1.10.3/text2speech-1.10.3.jar, file:/F:/Minecraft1.12.2-Adventure/.minecraft/libraries/com/paulscode/codecjorbis/20101023/codecjorbis-20101023.jar, file:/F:/Minecraft1.12.2-Adventure/.minecraft/libraries/com/paulscode/codecwav/20101023/codecwav-20101023.jar, file:/F:/Minecraft1.12.2-Adventure/.minecraft/libraries/com/paulscode/libraryjavasound/20101123/libraryjavasound-20101123.jar, file:/F:/Minecraft1.12.2-Adventure/.minecraft/libraries/com/paulscode/librarylwjglopenal/20100824/librarylwjglopenal-20100824.jar, file:/F:/Minecraft1.12.2-Adventure/.minecraft/libraries/com/paulscode/soundsystem/20120107/soundsystem-20120107.jar, file:/F:/Minecraft1.12.2-Adventure/.minecraft/libraries/com/typesafe/akka/akka-actor_2.11/2.3.3/akka-actor_2.11-2.3.3.jar, file:/F:/Minecraft1.12.2-Adventure/.minecraft/libraries/com/typesafe/config/1.2.1/config-1.2.1.jar, file:/F:/Minecraft1.12.2-Adventure/.minecraft/libraries/commons-codec/commons-codec/1.10/commons-codec-1.10.jar, file:/F:/Minecraft1.12.2-Adventure/.minecraft/libraries/commons-io/commons-io/2.5/commons-io-2.5.jar, file:/F:/Minecraft1.12.2-Adventure/.minecraft/libraries/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3.jar, file:/F:/Minecraft1.12.2-Adventure/.minecraft/libraries/io/netty/netty-all/4.1.9.Final/netty-all-4.1.9.Final.jar, file:/F:/Minecraft1.12.2-Adventure/.minecraft/libraries/it/unimi/dsi/fastutil/7.1.0/fastutil-7.1.0.jar, file:/F:/Minecraft1.12.2-Adventure/.minecraft/libraries/java3d/vecmath/1.5.2/vecmath-1.5.2.jar, file:/F:/Minecraft1.12.2-Adventure/.minecraft/libraries/jline/jline/2.13/jline-2.13.jar, file:/F:/Minecraft1.12.2-Adventure/.minecraft/libraries/lzma/lzma/0.0.1/lzma-0.0.1.jar, file:/F:/Minecraft1.12.2-Adventure/.minecraft/libraries/net/java/dev/jna/jna/4.4.0/jna-4.4.0.jar, file:/F:/Minecraft1.12.2-Adventure/.minecraft/libraries/net/java/dev/jna/platform/3.4.0/platform-3.4.0.jar, file:/F:/Minecraft1.12.2-Adventure/.minecraft/libraries/net/java/jinput/jinput/2.0.5/jinput-2.0.5.jar, file:/F:/Minecraft1.12.2-Adventure/.minecraft/libraries/net/java/jutils/jutils/1.0.0/jutils-1.0.0.jar, file:/F:/Minecraft1.12.2-Adventure/.minecraft/libraries/net/minecraft/launchwrapper/1.12/launchwrapper-1.12.jar, file:/C:/Users/Howard%20Yin/AppData/Roaming/.minecraft/libraries/net/minecraftforge/forge/1.12.2-14.23.4.2705/forge-1.12.2-14.23.4.2705.jar, file:/C:/Users/Howard%20Yin/AppData/Roaming/.minecraft/libraries/net/optifine/optifine/1.12.2-HD_U/optifine-1.12.2-HD_U.jar, file:/F:/Minecraft1.12.2-Adventure/.minecraft/libraries/net/sf/jopt-simple/jopt-simple/5.0.3/jopt-simple-5.0.3.jar, file:/F:/Minecraft1.12.2-Adventure/.minecraft/libraries/net/sf/trove4j/trove4j/3.0.3/trove4j-3.0.3.jar, file:/F:/Minecraft1.12.2-Adventure/.minecraft/libraries/org/apache/commons/commons-compress/1.8.1/commons-compress-1.8.1.jar, file:/F:/Minecraft1.12.2-Adventure/.minecraft/libraries/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.jar, file:/F:/Minecraft1.12.2-Adventure/.minecraft/libraries/org/apache/httpcomponents/httpclient/4.3.3/httpclient-4.3.3.jar, file:/F:/Minecraft1.12.2-Adventure/.minecraft/libraries/org/apache/httpcomponents/httpcore/4.3.2/httpcore-4.3.2.jar, file:/F:/Minecraft1.12.2-Adventure/.minecraft/libraries/org/apache/logging/log4j/log4j-api/2.8.1/log4j-api-2.8.1.jar, file:/F:/Minecraft1.12.2-Adventure/.minecraft/libraries/org/apache/logging/log4j/log4j-core/2.8.1/log4j-core-2.8.1.jar, file:/C:/Users/Howard%20Yin/AppData/Roaming/.minecraft/libraries/org/apache/maven/maven-artifact/3.5.3/maven-artifact-3.5.3.jar, file:/F:/Minecraft1.12.2-Adventure/.minecraft/libraries/org/lwjgl/lwjgl/lwjgl/2.9.4-nightly-20150209/lwjgl-2.9.4-nightly-20150209.jar, file:/F:/Minecraft1.12.2-Adventure/.minecraft/libraries/org/lwjgl/lwjgl/lwjgl_util/2.9.4-nightly-20150209/lwjgl_util-2.9.4-nightly-20150209.jar, file:/F:/Minecraft1.12.2-Adventure/.minecraft/libraries/org/ow2/asm/asm-all/5.2/asm-all-5.2.jar, file:/F:/Minecraft1.12.2-Adventure/.minecraft/libraries/org/scala-lang/plugins/scala-continuations-library_2.11/1.0.2/scala-continuations-library_2.11-1.0.2.jar, file:/F:/Minecraft1.12.2-Adventure/.minecraft/libraries/org/scala-lang/plugins/scala-continuations-plugin_2.11.1/1.0.2/scala-continuations-plugin_2.11.1-1.0.2.jar, file:/F:/Minecraft1.12.2-Adventure/.minecraft/libraries/org/scala-lang/scala-actors-migration_2.11/1.1.0/scala-actors-migration_2.11-1.1.0.jar, file:/F:/Minecraft1.12.2-Adventure/.minecraft/libraries/org/scala-lang/scala-compiler/2.11.1/scala-compiler-2.11.1.jar, file:/F:/Minecraft1.12.2-Adventure/.minecraft/libraries/org/scala-lang/scala-library/2.11.1/scala-library-2.11.1.jar, file:/F:/Minecraft1.12.2-Adventure/.minecraft/libraries/org/scala-lang/scala-parser-combinators_2.11/1.0.1/scala-parser-combinators_2.11-1.0.1.jar, file:/F:/Minecraft1.12.2-Adventure/.minecraft/libraries/org/scala-lang/scala-reflect/2.11.1/scala-reflect-2.11.1.jar, file:/F:/Minecraft1.12.2-Adventure/.minecraft/libraries/org/scala-lang/scala-swing_2.11/1.0.1/scala-swing_2.11-1.0.1.jar, file:/F:/Minecraft1.12.2-Adventure/.minecraft/libraries/org/scala-lang/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.jar, file:/F:/Minecraft1.12.2-Adventure/.minecraft/libraries/oshi-project/oshi-core/1.1/oshi-core-1.1.jar, file:/F:/Minecraft1.12.2-Adventure/.minecraft/versions/1.12.2/1.12.2.jar, asmgen:/, file:/F:/Minecraft1.12.2-Adventure/.minecraft/mods/orbis_api-1.12.2-1.1.7.jar, file:/F:/Minecraft1.12.2-Adventure/.minecraft/mods/aether_ii-1.12.2-1.0.10.jar, file:/F:/Minecraft1.12.2-Adventure/.minecraft/mods/coroutil-1.12.1-1.2.13.jar, file:/F:/Minecraft1.12.2-Adventure/.minecraft/mods/EpicSiegeMod-13.162.jar, file:/F:/Minecraft1.12.2-Adventure/.minecraft/mods/Flan's%20Mod-1.12.2-5.5.2.jar, file:/F:/Minecraft1.12.2-Adventure/.minecraft/mods/Hwyla-1.8.26-B41_1.12.2.jar, file:/F:/Minecraft1.12.2-Adventure/.minecraft/mods/InfernalMobs-1.12.2.jar, file:/F:/Minecraft1.12.2-Adventure/.minecraft/mods/jei_1.12.2-4.11.0.202.jar, file:/F:/Minecraft1.12.2-Adventure/.minecraft/mods/journeymap-1.12.2-5.5.0rc1.jar, file:/F:/Minecraft1.12.2-Adventure/.minecraft/mods/stacksize-1.12.2-1.0.jar, file:/F:/Minecraft1.12.2-Adventure/.minecraft/mods/Treecapitator-1.12-at_0.9a.jar, file:/F:/Minecraft1.12.2-Adventure/.minecraft/mods/twilightforest-1.12.2-3.7.424-universal.jar, file:/F:/Minecraft1.12.2-Adventure/.minecraft/mods/Wawla-1.12.2-2.5.257.jar, file:/F:/Minecraft1.12.2-Adventure/.minecraft/mods/weather2-1.12.1-2.6.12.jar, file:/F:/Minecraft1.12.2-Adventure/.minecraft/mods/worldedit-forge-mc1.12-6.1.8-dist.jar, file:/F:/Minecraft1.12.2-Adventure/.minecraft/mods/WorldEdit+CUI+Forge+Edition+2-2.1.2-mf-1.12.2-14.23.0.2487.jar, file:/F:/Minecraft1.12.2-Adventure/.minecraft/mods/zombieawareness-1.12.1-1.11.14.jar, file:/F:/Minecraft1.12.2-Adventure/.minecraft/Flan/Apocalypse-Content%20Pack-1.12.2-5.5.2.jar, file:/F:/Minecraft1.12.2-Adventure/.minecraft/Flan/Mecha%20Parts-Content%20Pack-1.12.2-5.5.2.jar, file:/F:/Minecraft1.12.2-Adventure/.minecraft/Flan/Modern%20Warfare-Content%20Pack-1.12.2-5.5.2.jar, file:/F:/Minecraft1.12.2-Adventure/.minecraft/Flan/Nerf-Content%20Pack-1.12.2-5.5.2.jar, file:/F:/Minecraft1.12.2-Adventure/.minecraft/Flan/Simple%20Parts-Content%20Pack-1.12.2-5.5.2.jar, file:/F:/Minecraft1.12.2-Adventure/.minecraft/Flan/Titan-Content%20Pack-1.12.2-5.5.2.jar, file:/F:/Minecraft1.12.2-Adventure/.minecraft/Flan/WW2-Content%20Pack-1.12.2-5.5.2.jar, file:/F:/Minecraft1.12.2-Adventure/.minecraft/Flan/Ye%20Olde-Content%20Pack-1.12.2-5.5.2.jar, file:/F:/Minecraft1.12.2-Adventure/.minecraft/Flan/Zombie-Content%20Pack-1.12.2-5.5.2.jar])
+
+[00:30:19] [main/INFO]: [OptiFine] *** Reloading custom textures ***
+[00:30:19] [main/INFO]: [OptiFine] Texture animation: mcpatcher/anim/blinkingwolf.properties
+[00:30:19] [main/INFO]: [OptiFine] Skipped: mcpatcher/anim/blinkingwolf.properties, target texture not loaded from same resource pack
+[00:30:19] [main/INFO]: [OptiFine] Texture animation: mcpatcher/anim/blinkingwolftame.properties
+[00:30:19] [main/INFO]: [OptiFine] Skipped: mcpatcher/anim/blinkingwolftame.properties, target texture not loaded from same resource pack
+[00:30:19] [main/INFO]: [OptiFine] Texture animation: mcpatcher/anim/clouds/cloud_remover.properties
+[00:30:19] [main/WARN]: [OptiFine] TextureAnimation: Animation coordinates are outside the target texture: textures/environment/clouds.png
+[00:30:19] [main/INFO]: [OptiFine] Texture animation: mcpatcher/anim/blinkingblacksmith.properties
+[00:30:19] [main/INFO]: [OptiFine] Texture animation: mcpatcher/anim/blinkingbutcher.properties
+[00:30:19] [main/INFO]: [OptiFine] Texture animation: mcpatcher/anim/blinkingbutcher2.properties
+[00:30:19] [main/INFO]: [OptiFine] Texture animation: mcpatcher/anim/blinkingcatblack.properties
+[00:30:19] [main/INFO]: [OptiFine] Texture animation: mcpatcher/anim/blinkingcatred.properties
+[00:30:19] [main/INFO]: [OptiFine] Texture animation: mcpatcher/anim/blinkingcatsiamese.properties
+[00:30:19] [main/INFO]: [OptiFine] Texture animation: mcpatcher/anim/blinkingchicken.properties
+[00:30:19] [main/INFO]: [OptiFine] Texture animation: mcpatcher/anim/blinkingcow.properties
+[00:30:19] [main/INFO]: [OptiFine] Texture animation: mcpatcher/anim/blinkingcow2.properties
+[00:30:19] [main/INFO]: [OptiFine] Texture animation: mcpatcher/anim/blinkingcow3.properties
+[00:30:19] [main/INFO]: [OptiFine] Texture animation: mcpatcher/anim/blinkingcow4.properties
+[00:30:19] [main/INFO]: [OptiFine] Texture animation: mcpatcher/anim/blinkingfarmer.properties
+[00:30:19] [main/INFO]: [OptiFine] Texture animation: mcpatcher/anim/blinkingfarmer2.properties
+[00:30:19] [main/INFO]: [OptiFine] Texture animation: mcpatcher/anim/blinkinglibrarian.properties
+[00:30:19] [main/INFO]: [OptiFine] Texture animation: mcpatcher/anim/blinkinglibrarian2.properties
+[00:30:19] [main/INFO]: [OptiFine] Texture animation: mcpatcher/anim/blinkingpig.properties
+[00:30:19] [main/INFO]: [OptiFine] Texture animation: mcpatcher/anim/blinkingpriest.properties
+[00:30:19] [main/INFO]: [OptiFine] Texture animation: mcpatcher/anim/blinkingpriest2.properties
+[00:30:19] [main/INFO]: [OptiFine] Texture animation: mcpatcher/anim/blinkingsheep.properties
+[00:30:19] [main/INFO]: [OptiFine] Texture animation: mcpatcher/anim/blinkingsquid.properties
+[00:30:19] [main/INFO]: [OptiFine] Texture animation: mcpatcher/anim/blinkingvillager.properties
+[00:30:19] [main/INFO]: [OptiFine] Texture animation: mcpatcher/anim/blinkingwolf.properties
+[00:30:19] [main/INFO]: [OptiFine] Texture animation: mcpatcher/anim/blinkingwolf2.properties
+[00:30:19] [main/INFO]: [OptiFine] Texture animation: mcpatcher/anim/blinkingwolftame.properties
+[00:30:19] [main/INFO]: [OptiFine] Texture animation: mcpatcher/anim/blinkingwolftame2.properties
+[00:30:19] [main/INFO]: [OptiFine] Texture animation: mcpatcher/anim/creeper2tnt.properties
+[00:30:19] [main/INFO]: [OptiFine] Texture animation: mcpatcher/anim/flame.properties
+[00:30:19] [main/INFO]: [OptiFine] Texture animation: mcpatcher/anim/flame2.properties
+[00:30:20] [main/INFO]: [OptiFine] CustomColors: Colormap mcpatcher/colormap/water.png
+[00:30:20] [main/INFO]: [OptiFine] CustomColors: Colormap mcpatcher/colormap/pine.png
+[00:30:20] [main/INFO]: [OptiFine] CustomColors: Colormap mcpatcher/colormap/birch.png
+[00:30:20] [main/INFO]: [OptiFine] CustomColors: Colormap mcpatcher/colormap/swampgrass.png
+[00:30:20] [main/INFO]: [OptiFine] CustomColors: Colormap mcpatcher/colormap/swampfoliage.png
+[00:30:20] [main/INFO]: [OptiFine] CustomColors: Colormap mcpatcher/colormap/sky0.png
+[00:30:20] [main/INFO]: [OptiFine] CustomColors: Colormap mcpatcher/colormap/fog0.png
+[00:30:20] [main/INFO]: [OptiFine] CustomColors: Colormap mcpatcher/colormap/underwater.png
+[00:30:20] [main/INFO]: [OptiFine] CustomColors: Colormap mcpatcher/colormap/underlava.png
+[00:30:20] [main/INFO]: [OptiFine] CustomColors: Colormap mcpatcher/colormap/redstone.png
+[00:30:20] [main/INFO]: [OptiFine] CustomColors: Colormap mcpatcher/colormap/xporb.png
+[00:30:20] [main/INFO]: [OptiFine] CustomColors: Colormap mcpatcher/colormap/durability.png
+[00:30:20] [main/INFO]: [OptiFine] CustomColors: Colormap mcpatcher/colormap/pumpkinstem.png
+[00:30:20] [main/INFO]: [OptiFine] CustomColors: Colormap mcpatcher/colormap/melonstem.png
+[00:30:20] [main/INFO]: [OptiFine] CustomColors: Colormap mcpatcher/colormap/myceliumparticle.png
+[00:30:20] [main/INFO]: [OptiFine] CustomColors: Colormap mcpatcher/lightmap/world-1.png
+[00:30:20] [main/INFO]: [OptiFine] CustomColors: Colormap mcpatcher/lightmap/world0.png
+[00:30:20] [main/INFO]: [OptiFine] CustomColors: Colormap mcpatcher/lightmap/world1.png
+[00:30:20] [main/INFO]: [OptiFine] CustomColors: Loading mcpatcher/color.properties
+[00:30:20] [main/INFO]: [OptiFine] CustomColors: particle.water = 76bccc
+[00:30:20] [main/INFO]: [OptiFine] CustomColors: particle.portal = 511a93
+[00:30:20] [main/INFO]: [OptiFine] CustomColors: lilypad = ffffff
+[00:30:20] [main/INFO]: [OptiFine] CustomColors: text.xpbar = 76b048
+[00:30:20] [main/INFO]: [OptiFine] CustomColors: text.boss = 5a2a66
+[00:30:20] [main/INFO]: [OptiFine] CustomColors: fog.nether = 3f1b13
+[00:30:20] [main/INFO]: [OptiFine] CustomColors: fog.end = 18151a
+[00:30:20] [main/INFO]: [OptiFine] CustomColors: sky.end = 18151a
+[00:30:20] [main/INFO]: [OptiFine] CustomColors: Block palette: palette.block.~/colormap/sandclay.png = 12 82
+[00:30:20] [main/INFO]: [OptiFine] CustomColors: Colormap mcpatcher/colormap/sandclay.png
+[00:30:20] [main/INFO]: [OptiFine] CustomColors: Block palette: palette.block.~/colormap/log.png = 17
+[00:30:20] [main/INFO]: [OptiFine] CustomColors: Colormap mcpatcher/colormap/log.png
+[00:30:20] [main/INFO]: [OptiFine] CustomColors: Spawn egg shell colors: 11
+[00:30:20] [main/INFO]: [OptiFine] CustomColors: Spawn egg spot colors: 12
+[00:30:20] [main/INFO]: [OptiFine] CustomColors: Wolf collar colors: 16
+[00:30:20] [main/INFO]: [OptiFine] CustomColors: Sheep colors: 15
+[00:30:20] [main/INFO]: [OptiFine] CustomColors: Map colors: 14
+[00:30:20] [main/INFO]: [OptiFine] CustomColors: Potion colors: 1
+[00:30:20] [main/INFO]: [OptiFine] CustomSky properties: mcpatcher/sky/world0/sky1.properties
+[00:30:20] [main/INFO]: [OptiFine] CustomSky properties: mcpatcher/sky/world0/sky2.properties
+[00:30:20] [main/INFO]: [OptiFine] CustomSky properties: mcpatcher/sky/world0/sky3.properties
+[00:30:20] [main/INFO]: [OptiFine] CustomSky properties: mcpatcher/sky/world0/sky4.properties
+[00:30:20] [main/INFO]: [OptiFine] CustomSky properties: mcpatcher/sky/world0/sky5.properties
+[00:30:20] [main/INFO]: [OptiFine] CustomSky properties: mcpatcher/sky/world0/sky6.properties
+[00:30:20] [main/INFO]: [OptiFine] CustomSky properties: mcpatcher/sky/world0/sky7.properties
+[00:30:20] [main/INFO]: [OptiFine] CustomSky properties: mcpatcher/sky/world0/sky8.properties
+[00:30:20] [main/INFO]: [OptiFine] CustomSky properties: mcpatcher/sky/world0/sky9.properties
+[00:30:21] [main/INFO]: [OptiFine] CustomSky properties: mcpatcher/sky/world0/sky10.properties
+[00:30:21] [main/INFO]: [OptiFine] CustomSky properties: mcpatcher/sky/world0/sky11.properties
+[00:30:21] [main/INFO]: [OptiFine] CustomSky properties: mcpatcher/sky/world0/sky12.properties
+[00:30:21] [main/INFO]: [OptiFine] RandomEntities: textures/entity/iron_golem.png, variants: 3
+[00:30:21] [main/INFO]: [OptiFine] RandomEntities: textures/entity/spider/cave_spider.png, variants: 3
+[00:30:21] [main/INFO]: [OptiFine] RandomEntities: textures/entity/villager/butcher.png, variants: 3
+[00:30:21] [main/INFO]: [OptiFine] RandomEntities: textures/entity/villager/farmer.png, variants: 4
+[00:30:21] [main/INFO]: [OptiFine] RandomEntities: textures/entity/villager/librarian.png, variants: 4
+[00:30:21] [main/INFO]: [OptiFine] RandomEntities: textures/entity/villager/priest.png, variants: 3
+[00:30:21] [main/INFO]: [OptiFine] RandomEntities: textures/entity/villager/villager.png, variants: 2
+[00:30:21] [main/INFO]: [OptiFine] RandomEntities: textures/entity/zombie/zombie.png, variants: 2
+[00:30:21] [main/INFO]: [OptiFine] RandomEntities: textures/entity/bat.png, variants: 4
+[00:30:21] [main/INFO]: [OptiFine] RandomEntities: textures/entity/chicken.png, variants: 2
+[00:30:21] [main/INFO]: [OptiFine] RandomEntities: textures/entity/cow/cow.png, variants: 4
+[00:30:21] [main/INFO]: [OptiFine] RandomEntities: textures/entity/cow/mooshroom.png, variants: 2
+[00:30:21] [main/INFO]: [OptiFine] RandomEntities: textures/entity/creeper/creeper.png, properties: mcpatcher/mob/creeper/creeper.properties
+[00:30:21] [main/INFO]: [OptiFine] RandomEntities: textures/entity/ghast/ghast.png, variants: 2
+[00:30:21] [main/INFO]: [OptiFine] RandomEntities: textures/entity/ghast/ghast_shooting.png, variants: 2
+[00:30:21] [main/INFO]: [OptiFine] RandomEntities: textures/entity/horse/donkey.png, variants: 2
+[00:30:21] [main/INFO]: [OptiFine] RandomEntities: textures/entity/pig/pig.png, properties: mcpatcher/mob/pig/pig.properties
+[00:30:21] [main/INFO]: [OptiFine] RandomEntities: textures/entity/skeleton/wither_skeleton.png, variants: 2
+[00:30:21] [main/INFO]: [OptiFine] RandomEntities: textures/entity/slime/slime.png, properties: mcpatcher/mob/slime/slime.properties
+[00:30:21] [main/INFO]: [OptiFine] RandomEntities: textures/entity/witch.png, variants: 5
+[00:30:21] [main/INFO]: [OptiFine] RandomEntities: textures/entity/wolf/wolf.png, properties: mcpatcher/mob/wolf/wolf.properties
+[00:30:21] [main/INFO]: [OptiFine] RandomEntities: textures/entity/wolf/wolf_angry.png, properties: mcpatcher/mob/wolf/wolf.properties
+[00:30:21] [main/INFO]: [OptiFine] RandomEntities: textures/entity/wolf/wolf_collar.png, properties: mcpatcher/mob/wolf/wolf.properties
+[00:30:21] [main/INFO]: [OptiFine] RandomEntities: textures/entity/wolf/wolf_tame.png, properties: mcpatcher/mob/wolf/wolf.properties
+[00:30:21] [main/INFO]: [OptiFine] RandomEntities: textures/entity/zombie_pigman.png, properties: mcpatcher/mob/zombie_pigman.properties
+[00:30:21] [main/INFO]: [OptiFine] Texture pack clouds: fast
+[00:35:55] [Netty Client IO #0/INFO]: Attempting connection with missing mods [aether, extendedrenderer, coroutil, configmod, epicsiegemod, waila, infernalmobs, jei, orbis_api, stacksize, wawla, weather2, worldeditcuife2, zombieawareness] at SERVER
+[00:35:58] [main/INFO]: Connecting to 192.168.31.81, 25565
+[00:36:04] [Netty Client IO #1/INFO]: Server protocol version 2
+[00:36:04] [Netty Client IO #1/INFO]: Unexpected packet during modded negotiation - assuming vanilla or keepalives : net.minecraft.network.play.server.SPacketDisconnect
+[00:36:16] [main/INFO]: Stopping!
+[00:36:16] [main/INFO]: SoundSystem shutting down...
+[00:36:17] [main/WARN]: Author: Paul Lamb, www.paulscode.com

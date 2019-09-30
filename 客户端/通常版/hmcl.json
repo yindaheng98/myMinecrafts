@@ -1,0 +1,49 @@
+{
+  "last": "当前目录",
+  "backgroundType": 0,
+  "commonpath": "C:\\Users\\Howard Yin\\AppData\\Roaming\\.minecraft",
+  "hasProxy": false,
+  "hasProxyAuth": false,
+  "proxyType": 0,
+  "downloadtype": 0,
+  "configurations": {
+    "当前目录": {
+      "global": {
+        "usesGlobal": false,
+        "javaArgs": "",
+        "minecraftArgs": "",
+        "maxMemory": 2048,
+        "permSize": "",
+        "width": 854,
+        "height": 480,
+        "javaDir": "",
+        "precalledCommand": "",
+        "serverIp": "",
+        "java": "Default",
+        "wrapper": "",
+        "fullscreen": false,
+        "noJVMArgs": false,
+        "notCheckGame": false,
+        "noCommon": false,
+        "showLogs": false,
+        "gameDir": "",
+        "launcherVisibility": 1,
+        "gameDirType": 0,
+        "defaultJavaPath": "C:\\Program Files\\Java\\jre1.8.0_181\\bin\\java"
+      },
+      "gameDir": "F:\\Minecraft1.12.2-Adventure\\.minecraft"
+    }
+  },
+  "accounts": [
+    {
+      "type": "offline",
+      "uuid": "b15ca0546d623aa2876c5504bf552e63",
+      "username": "yinn"
+    }
+  ],
+  "selectedAccount": "yinn:yinn",
+  "fontFamily": "Consolas",
+  "fontSize": 12.0,
+  "logLines": 100,
+  "authlibInjectorServerURLs": []
+}
