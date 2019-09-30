@@ -1,0 +1,49 @@
+{
+  "last": "Default",
+  "backgroundType": 0,
+  "commonpath": "F:\\VGAME\\Minecraft1.12.2_jdzh",
+  "hasProxy": false,
+  "hasProxyAuth": false,
+  "proxyType": 0,
+  "downloadtype": 1,
+  "configurations": {
+    "Default": {
+      "global": {
+        "usesGlobal": false,
+        "javaArgs": "",
+        "minecraftArgs": "",
+        "maxMemory": 4096,
+        "permSize": "",
+        "width": 854,
+        "height": 480,
+        "javaDir": "",
+        "precalledCommand": "",
+        "serverIp": "",
+        "java": "1.8.0_191",
+        "wrapper": "",
+        "fullscreen": false,
+        "noJVMArgs": false,
+        "notCheckGame": false,
+        "noCommon": false,
+        "showLogs": false,
+        "gameDir": "",
+        "launcherVisibility": 1,
+        "gameDirType": 0,
+        "defaultJavaPath": "C:\\Program Files\\Java\\jre1.8.0_191\\bin\\java"
+      },
+      "gameDir": ".minecraft"
+    }
+  },
+  "accounts": [
+    {
+      "type": "offline",
+      "uuid": "b15ca0546d623aa2876c5504bf552e63",
+      "username": "yinn"
+    }
+  ],
+  "selectedAccount": "yinn:yinn",
+  "fontFamily": "Consolas",
+  "fontSize": 12.0,
+  "logLines": 500,
+  "authlibInjectorServerURLs": []
+}

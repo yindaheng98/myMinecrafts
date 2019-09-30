@@ -1,0 +1,577 @@
+[12:14:46] [main/DEBUG] [FML/]: Injecting tracing printstreams for STDOUT/STDERR.
+[12:14:46] [main/INFO] [FML/]: Forge Mod Loader version 14.23.0.2512 for Minecraft 1.12.2 loading
+[12:14:46] [main/INFO] [FML/]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_161, running on Windows 10:amd64:10.0, installed at C:\Program Files\Java\jre1.8.0_161
+[12:14:46] [main/DEBUG] [FML/]: Java classpath at launch is:
+[12:14:46] [main/DEBUG] [FML/]:     H:\game\Minecraft1.12.2_jdzh\.minecraft\libraries\net\minecraftforge\forge\1.12.2-14.23.0.2512\forge-1.12.2-14.23.0.2512.jar
+[12:14:46] [main/DEBUG] [FML/]:     H:\game\Minecraft1.12.2_jdzh\.minecraft\libraries\net\minecraft\launchwrapper\1.12\launchwrapper-1.12.jar
+[12:14:46] [main/DEBUG] [FML/]:     H:\game\Minecraft1.12.2_jdzh\.minecraft\libraries\org\ow2\asm\asm-all\5.2\asm-all-5.2.jar
+[12:14:46] [main/DEBUG] [FML/]:     H:\game\Minecraft1.12.2_jdzh\.minecraft\libraries\jline\jline\2.13\jline-2.13.jar
+[12:14:46] [main/DEBUG] [FML/]:     H:\game\Minecraft1.12.2_jdzh\.minecraft\libraries\com\typesafe\akka\akka-actor_2.11\2.3.3\akka-actor_2.11-2.3.3.jar
+[12:14:46] [main/DEBUG] [FML/]:     H:\game\Minecraft1.12.2_jdzh\.minecraft\libraries\com\typesafe\config\1.2.1\config-1.2.1.jar
+[12:14:46] [main/DEBUG] [FML/]:     H:\game\Minecraft1.12.2_jdzh\.minecraft\libraries\org\scala-lang\scala-actors-migration_2.11\1.1.0\scala-actors-migration_2.11-1.1.0.jar
+[12:14:46] [main/DEBUG] [FML/]:     H:\game\Minecraft1.12.2_jdzh\.minecraft\libraries\org\scala-lang\scala-compiler\2.11.1\scala-compiler-2.11.1.jar
+[12:14:46] [main/DEBUG] [FML/]:     H:\game\Minecraft1.12.2_jdzh\.minecraft\libraries\org\scala-lang\plugins\scala-continuations-library_2.11\1.0.2\scala-continuations-library_2.11-1.0.2.jar
+[12:14:46] [main/DEBUG] [FML/]:     H:\game\Minecraft1.12.2_jdzh\.minecraft\libraries\org\scala-lang\plugins\scala-continuations-plugin_2.11.1\1.0.2\scala-continuations-plugin_2.11.1-1.0.2.jar
+[12:14:46] [main/DEBUG] [FML/]:     H:\game\Minecraft1.12.2_jdzh\.minecraft\libraries\org\scala-lang\scala-library\2.11.1\scala-library-2.11.1.jar
+[12:14:46] [main/DEBUG] [FML/]:     H:\game\Minecraft1.12.2_jdzh\.minecraft\libraries\org\scala-lang\scala-parser-combinators_2.11\1.0.1\scala-parser-combinators_2.11-1.0.1.jar
+[12:14:46] [main/DEBUG] [FML/]:     H:\game\Minecraft1.12.2_jdzh\.minecraft\libraries\org\scala-lang\scala-reflect\2.11.1\scala-reflect-2.11.1.jar
+[12:14:46] [main/DEBUG] [FML/]:     H:\game\Minecraft1.12.2_jdzh\.minecraft\libraries\org\scala-lang\scala-swing_2.11\1.0.1\scala-swing_2.11-1.0.1.jar
+[12:14:46] [main/DEBUG] [FML/]:     H:\game\Minecraft1.12.2_jdzh\.minecraft\libraries\org\scala-lang\scala-xml_2.11\1.0.2\scala-xml_2.11-1.0.2.jar
+[12:14:46] [main/DEBUG] [FML/]:     H:\game\Minecraft1.12.2_jdzh\.minecraft\libraries\lzma\lzma\0.0.1\lzma-0.0.1.jar
+[12:14:46] [main/DEBUG] [FML/]:     H:\game\Minecraft1.12.2_jdzh\.minecraft\libraries\net\sf\jopt-simple\jopt-simple\5.0.3\jopt-simple-5.0.3.jar
+[12:14:46] [main/DEBUG] [FML/]:     H:\game\Minecraft1.12.2_jdzh\.minecraft\libraries\java3d\vecmath\1.5.2\vecmath-1.5.2.jar
+[12:14:46] [main/DEBUG] [FML/]:     H:\game\Minecraft1.12.2_jdzh\.minecraft\libraries\net\sf\trove4j\trove4j\3.0.3\trove4j-3.0.3.jar
+[12:14:46] [main/DEBUG] [FML/]:     H:\game\Minecraft1.12.2_jdzh\.minecraft\libraries\com\mojang\patchy\1.1\patchy-1.1.jar
+[12:14:46] [main/DEBUG] [FML/]:     H:\game\Minecraft1.12.2_jdzh\.minecraft\libraries\oshi-project\oshi-core\1.1\oshi-core-1.1.jar
+[12:14:46] [main/DEBUG] [FML/]:     H:\game\Minecraft1.12.2_jdzh\.minecraft\libraries\net\java\dev\jna\jna\4.4.0\jna-4.4.0.jar
+[12:14:46] [main/DEBUG] [FML/]:     H:\game\Minecraft1.12.2_jdzh\.minecraft\libraries\net\java\dev\jna\platform\3.4.0\platform-3.4.0.jar
+[12:14:46] [main/DEBUG] [FML/]:     H:\game\Minecraft1.12.2_jdzh\.minecraft\libraries\com\ibm\icu\icu4j-core-mojang\51.2\icu4j-core-mojang-51.2.jar
+[12:14:46] [main/DEBUG] [FML/]:     H:\game\Minecraft1.12.2_jdzh\.minecraft\libraries\net\sf\jopt-simple\jopt-simple\5.0.3\jopt-simple-5.0.3.jar
+[12:14:46] [main/DEBUG] [FML/]:     H:\game\Minecraft1.12.2_jdzh\.minecraft\libraries\com\paulscode\codecjorbis\20101023\codecjorbis-20101023.jar
+[12:14:46] [main/DEBUG] [FML/]:     H:\game\Minecraft1.12.2_jdzh\.minecraft\libraries\com\paulscode\codecwav\20101023\codecwav-20101023.jar
+[12:14:46] [main/DEBUG] [FML/]:     H:\game\Minecraft1.12.2_jdzh\.minecraft\libraries\com\paulscode\libraryjavasound\20101123\libraryjavasound-20101123.jar
+[12:14:46] [main/DEBUG] [FML/]:     H:\game\Minecraft1.12.2_jdzh\.minecraft\libraries\com\paulscode\librarylwjglopenal\20100824\librarylwjglopenal-20100824.jar
+[12:14:46] [main/DEBUG] [FML/]:     H:\game\Minecraft1.12.2_jdzh\.minecraft\libraries\com\paulscode\soundsystem\20120107\soundsystem-20120107.jar
+[12:14:46] [main/DEBUG] [FML/]:     H:\game\Minecraft1.12.2_jdzh\.minecraft\libraries\io\netty\netty-all\4.1.9.Final\netty-all-4.1.9.Final.jar
+[12:14:46] [main/DEBUG] [FML/]:     H:\game\Minecraft1.12.2_jdzh\.minecraft\libraries\com\google\guava\guava\21.0\guava-21.0.jar
+[12:14:46] [main/DEBUG] [FML/]:     H:\game\Minecraft1.12.2_jdzh\.minecraft\libraries\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar
+[12:14:46] [main/DEBUG] [FML/]:     H:\game\Minecraft1.12.2_jdzh\.minecraft\libraries\commons-io\commons-io\2.5\commons-io-2.5.jar
+[12:14:46] [main/DEBUG] [FML/]:     H:\game\Minecraft1.12.2_jdzh\.minecraft\libraries\commons-codec\commons-codec\1.10\commons-codec-1.10.jar
+[12:14:46] [main/DEBUG] [FML/]:     H:\game\Minecraft1.12.2_jdzh\.minecraft\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar
+[12:14:46] [main/DEBUG] [FML/]:     H:\game\Minecraft1.12.2_jdzh\.minecraft\libraries\net\java\jutils\jutils\1.0.0\jutils-1.0.0.jar
+[12:14:46] [main/DEBUG] [FML/]:     H:\game\Minecraft1.12.2_jdzh\.minecraft\libraries\com\google\code\gson\gson\2.8.0\gson-2.8.0.jar
+[12:14:46] [main/DEBUG] [FML/]:     H:\game\Minecraft1.12.2_jdzh\.minecraft\libraries\com\mojang\authlib\1.5.25\authlib-1.5.25.jar
+[12:14:46] [main/DEBUG] [FML/]:     H:\game\Minecraft1.12.2_jdzh\.minecraft\libraries\com\mojang\realms\1.10.17\realms-1.10.17.jar
+[12:14:46] [main/DEBUG] [FML/]:     H:\game\Minecraft1.12.2_jdzh\.minecraft\libraries\org\apache\commons\commons-compress\1.8.1\commons-compress-1.8.1.jar
+[12:14:46] [main/DEBUG] [FML/]:     H:\game\Minecraft1.12.2_jdzh\.minecraft\libraries\org\apache\httpcomponents\httpclient\4.3.3\httpclient-4.3.3.jar
+[12:14:46] [main/DEBUG] [FML/]:     H:\game\Minecraft1.12.2_jdzh\.minecraft\libraries\commons-logging\commons-logging\1.1.3\commons-logging-1.1.3.jar
+[12:14:46] [main/DEBUG] [FML/]:     H:\game\Minecraft1.12.2_jdzh\.minecraft\libraries\org\apache\httpcomponents\httpcore\4.3.2\httpcore-4.3.2.jar
+[12:14:46] [main/DEBUG] [FML/]:     H:\game\Minecraft1.12.2_jdzh\.minecraft\libraries\it\unimi\dsi\fastutil\7.1.0\fastutil-7.1.0.jar
+[12:14:46] [main/DEBUG] [FML/]:     H:\game\Minecraft1.12.2_jdzh\.minecraft\libraries\org\apache\logging\log4j\log4j-api\2.8.1\log4j-api-2.8.1.jar
+[12:14:46] [main/DEBUG] [FML/]:     H:\game\Minecraft1.12.2_jdzh\.minecraft\libraries\org\apache\logging\log4j\log4j-core\2.8.1\log4j-core-2.8.1.jar
+[12:14:46] [main/DEBUG] [FML/]:     H:\game\Minecraft1.12.2_jdzh\.minecraft\libraries\org\lwjgl\lwjgl\lwjgl\2.9.4-nightly-20150209\lwjgl-2.9.4-nightly-20150209.jar
+[12:14:46] [main/DEBUG] [FML/]:     H:\game\Minecraft1.12.2_jdzh\.minecraft\libraries\org\lwjgl\lwjgl\lwjgl_util\2.9.4-nightly-20150209\lwjgl_util-2.9.4-nightly-20150209.jar
+[12:14:46] [main/DEBUG] [FML/]:     H:\game\Minecraft1.12.2_jdzh\.minecraft\libraries\com\mojang\text2speech\1.10.3\text2speech-1.10.3.jar
+[12:14:46] [main/DEBUG] [FML/]:     H:\game\Minecraft1.12.2_jdzh\.minecraft\versions\1.12.2\1.12.2.jar
+[12:14:46] [main/DEBUG] [FML/]: Java library path at launch is:
+[12:14:46] [main/DEBUG] [FML/]:     H:\game\Minecraft1.12.2_jdzh\.minecraft\versions\1.12.2-forge1.12.2-14.23.0.2512\1.12.2-forge1.12.2-14.23.0.2512-natives
+[12:14:46] [main/DEBUG] [FML/]: Enabling runtime deobfuscation
+[12:14:46] [main/DEBUG] [FML/]: Instantiating coremod class FMLCorePlugin
+[12:14:46] [main/DEBUG] [FML/]: Found signing certificates for coremod FMLCorePlugin (net.minecraftforge.fml.relauncher.FMLCorePlugin)
+[12:14:46] [main/DEBUG] [FML/]: Found certificate e3c3d50c7c986df74c645c0ac54639741c90a557
+[12:14:46] [main/DEBUG] [FML/]: Added access transformer class net.minecraftforge.fml.common.asm.transformers.AccessTransformer to enqueued access transformers
+[12:14:46] [main/DEBUG] [FML/]: Enqueued coremod FMLCorePlugin
+[12:14:46] [main/DEBUG] [FML/]: Instantiating coremod class FMLForgePlugin
+[12:14:46] [main/DEBUG] [FML/]: Found signing certificates for coremod FMLForgePlugin (net.minecraftforge.classloading.FMLForgePlugin)
+[12:14:46] [main/DEBUG] [FML/]: Found certificate e3c3d50c7c986df74c645c0ac54639741c90a557
+[12:14:46] [main/DEBUG] [FML/]: Enqueued coremod FMLForgePlugin
+[12:14:46] [main/DEBUG] [FML/]: All fundamental core mods are successfully located
+[12:14:46] [main/DEBUG] [FML/]: Attempting to load commandline specified mods, relative to H:\game\Minecraft1.12.2_jdzh\.minecraft
+[12:14:46] [main/DEBUG] [FML/]: Discovering coremods
+[12:14:46] [main/DEBUG] [FML/]: Examining for coremod candidacy journeymap-1.12.2-5.5.0rc1.jar
+[12:14:46] [main/DEBUG] [FML/]: Not found coremod data in journeymap-1.12.2-5.5.0rc1.jar
+[12:14:46] [main/DEBUG] [FML/]: Examining for coremod candidacy OptiFine_1.12.2_HD_U_C6.jar
+[12:14:46] [main/INFO] [FML/]: Loading tweaker optifine.OptiFineForgeTweaker from OptiFine_1.12.2_HD_U_C6.jar
+[12:14:46] [main/INFO] [LaunchWrapper/]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[12:14:46] [main/INFO] [LaunchWrapper/]: Loading tweak class name optifine.OptiFineForgeTweaker
+[12:14:46] [main/INFO] [LaunchWrapper/]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[12:14:46] [main/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[12:14:46] [main/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[12:14:46] [main/INFO] [LaunchWrapper/]: Calling tweak class optifine.OptiFineForgeTweaker
+[12:14:46] [main/INFO] [STDOUT/]: [optifine.OptiFineForgeTweaker:dbg:56]: OptiFineForgeTweaker: acceptOptions
+[12:14:46] [main/INFO] [STDOUT/]: [optifine.OptiFineForgeTweaker:dbg:56]: OptiFineForgeTweaker: injectIntoClassLoader
+[12:14:46] [main/INFO] [STDOUT/]: [optifine.OptiFineClassTransformer:dbg:225]: file:/H:/game/Minecraft1.12.2_jdzh/.minecraft/mods/OptiFine_1.12.2_HD_U_C6.jar
+[12:14:46] [main/INFO] [STDOUT/]: [optifine.OptiFineClassTransformer:dbg:225]: URI: file:/H:/game/Minecraft1.12.2_jdzh/.minecraft/mods/OptiFine_1.12.2_HD_U_C6.jar
+[12:14:46] [main/INFO] [STDOUT/]: [optifine.OptiFineClassTransformer:dbg:225]: /H:/game/Minecraft1.12.2_jdzh/.minecraft/mods/OptiFine_1.12.2_HD_U_C6.jar
+[12:14:46] [main/INFO] [STDOUT/]: [optifine.OptiFineClassTransformer:dbg:225]: OptiFine ClassTransformer
+[12:14:46] [main/INFO] [STDOUT/]: [optifine.OptiFineClassTransformer:dbg:225]: OptiFine URL: file:/H:/game/Minecraft1.12.2_jdzh/.minecraft/mods/OptiFine_1.12.2_HD_U_C6.jar
+[12:14:46] [main/INFO] [STDOUT/]: [optifine.OptiFineClassTransformer:dbg:225]: OptiFine ZIP file: H:\game\Minecraft1.12.2_jdzh\.minecraft\mods\OptiFine_1.12.2_HD_U_C6.jar
+[12:14:46] [main/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[12:14:46] [main/DEBUG] [FML/]: Injecting coremod FMLCorePlugin \{net.minecraftforge.fml.relauncher.FMLCorePlugin\} class transformers
+[12:14:46] [main/TRACE] [FML/]: Registering transformer net.minecraftforge.fml.common.asm.transformers.BlamingTransformer
+[12:14:46] [main/TRACE] [FML/]: Registering transformer net.minecraftforge.fml.common.asm.transformers.SideTransformer
+[12:14:46] [main/TRACE] [FML/]: Registering transformer net.minecraftforge.fml.common.asm.transformers.EventSubscriptionTransformer
+[12:14:46] [main/TRACE] [FML/]: Registering transformer net.minecraftforge.fml.common.asm.transformers.EventSubscriberTransformer
+[12:14:46] [main/DEBUG] [FML/]: Injection complete
+[12:14:46] [main/DEBUG] [FML/]: Running coremod plugin for FMLCorePlugin \{net.minecraftforge.fml.relauncher.FMLCorePlugin\}
+[12:14:46] [main/DEBUG] [FML/]: Running coremod plugin FMLCorePlugin
+[12:14:47] [main/DEBUG] [FML/]: Injecting tracing printstreams for STDOUT/STDERR.
+[12:14:47] [main/DEBUG] [FML/]: Read 1022 binary patches
+[12:14:47] [main/DEBUG] [FML/]: Loading deobfuscation resource /deobfuscation_data-1.12.2.lzma with 36083 records
+[12:14:48] [main/INFO] [FML/]: Found valid fingerprint for Minecraft Forge. Certificate fingerprint e3c3d50c7c986df74c645c0ac54639741c90a557
+[12:14:48] [main/INFO] [FML/]: Found valid fingerprint for Minecraft. Certificate fingerprint cd99959656f753dc28d863b46769f7f8fbaefcfc
+[12:14:48] [main/DEBUG] [FML/]: Coremod plugin class FMLCorePlugin run successfully
+[12:14:48] [main/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[12:14:48] [main/DEBUG] [FML/]: Injecting coremod FMLForgePlugin \{net.minecraftforge.classloading.FMLForgePlugin\} class transformers
+[12:14:48] [main/DEBUG] [FML/]: Injection complete
+[12:14:48] [main/DEBUG] [FML/]: Running coremod plugin for FMLForgePlugin \{net.minecraftforge.classloading.FMLForgePlugin\}
+[12:14:48] [main/DEBUG] [FML/]: Running coremod plugin FMLForgePlugin
+[12:14:48] [main/DEBUG] [FML/]: Coremod plugin class FMLForgePlugin run successfully
+[12:14:48] [main/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[12:14:48] [main/DEBUG] [FML/]: Loaded 208 rules from AccessTransformer config file forge_at.cfg
+[12:14:48] [main/DEBUG] [FML/]: Loaded 1 rules from AccessTransformer mod jar file H:\game\Minecraft1.12.2_jdzh\.minecraft\mods\journeymap-1.12.2-5.5.0rc1.jar!META-INF/journeymap_at.cfg
+
+[12:14:48] [main/DEBUG] [FML/]: Validating minecraft
+[12:14:48] [main/DEBUG] [FML/]: Minecraft validated, launching...
+[12:14:48] [main/INFO] [LaunchWrapper/]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[12:14:48] [main/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[12:14:48] [main/INFO] [STDOUT/]: [optifine.OptiFineForgeTweaker:dbg:56]: OptiFineForgeTweaker: getLaunchArguments
+[12:14:48] [main/INFO] [LaunchWrapper/]: Launching wrapped minecraft {net.minecraft.client.main.Main}
+[12:14:54] [main/DEBUG] [FML/]: Creating vanilla freeze snapshot
+[12:14:54] [main/DEBUG] [FML/]: Vanilla freeze snapshot created
+[12:14:54] [main/INFO] [Config/]: [OptiFine] *** Reflector Forge ***
+[12:14:54] [main/INFO] [Config/]: [OptiFine] (Reflector) Class not present: mods.betterfoliage.client.BetterFoliageClient
+[12:14:55] [main/INFO] [Config/]: [OptiFine] *** Reflector Vanilla ***
+[12:14:57] [main/INFO] [Config/]: [OptiFine] 
+[12:14:57] [main/INFO] [Config/]: [OptiFine] OptiFine_1.12.2_HD_U_C6
+[12:14:57] [main/INFO] [Config/]: [OptiFine] Build: 20171003-125633
+[12:14:57] [main/INFO] [Config/]: [OptiFine] OS: Windows 10 (amd64) version 10.0
+[12:14:57] [main/INFO] [Config/]: [OptiFine] Java: 1.8.0_161, Oracle Corporation
+[12:14:57] [main/INFO] [Config/]: [OptiFine] VM: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+[12:14:57] [main/INFO] [Config/]: [OptiFine] LWJGL: 2.9.4
+[12:14:57] [main/INFO] [Config/]: [OptiFine] OpenGL: GeForce GTX 1050 Ti/PCIe/SSE2, version 4.5.0 NVIDIA 385.54, NVIDIA Corporation
+[12:14:57] [main/INFO] [Config/]: [OptiFine] OpenGL Version: 4.5.0
+[12:14:57] [main/INFO] [Config/]: [OptiFine] Maximum texture size: 32768x32768
+[12:14:58] [main/INFO] [shadersmod.common.SMCLog/]: [Shaders] ShadersMod version: 2.4.12
+[12:14:58] [main/INFO] [shadersmod.common.SMCLog/]: [Shaders] OpenGL Version: 4.5.0 NVIDIA 385.54
+[12:14:58] [main/INFO] [shadersmod.common.SMCLog/]: [Shaders] Vendor:  NVIDIA Corporation
+[12:14:58] [main/INFO] [shadersmod.common.SMCLog/]: [Shaders] Renderer: GeForce GTX 1050 Ti/PCIe/SSE2
+[12:14:58] [main/INFO] [shadersmod.common.SMCLog/]: [Shaders] Capabilities:  2.0  2.1  3.0  3.2  4.0 
+[12:14:58] [main/INFO] [shadersmod.common.SMCLog/]: [Shaders] GL_MAX_DRAW_BUFFERS: 8
+[12:14:58] [main/INFO] [shadersmod.common.SMCLog/]: [Shaders] GL_MAX_COLOR_ATTACHMENTS_EXT: 8
+[12:14:58] [main/INFO] [shadersmod.common.SMCLog/]: [Shaders] GL_MAX_TEXTURE_IMAGE_UNITS: 32
+[12:14:58] [main/INFO] [shadersmod.common.SMCLog/]: [Shaders] Load ShadersMod configuration.
+[12:14:58] [main/INFO] [shadersmod.common.SMCLog/]: [Shaders] Save ShadersMod configuration.
+[12:14:58] [main/INFO] [shadersmod.common.SMCLog/]: [Shaders] No shaderpack loaded.
+[12:14:58] [main/DEBUG] [FML/]: Bar Finished: Loading Resource - LanguageManager took 0.002s
+[12:14:58] [main/INFO] [FML/]: Forge Mod Loader has detected optifine OptiFine_1.12.2_HD_U_C6, enabling compatibility features
+[12:14:58] [main/INFO] [FML/]: Could not load splash.properties, will create a default one
+[12:14:58] [main/INFO] [FML/]: -- System Details --
+Details:
+	Minecraft Version: 1.12.2
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_161, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 21762864 bytes (20 MB) / 149946368 bytes (143 MB) up to 4294967296 bytes (4096 MB)
+	JVM Flags: 5 total; -XX:+UseG1GC -XX:-UseAdaptiveSizePolicy -XX:-OmitStackTraceInFastThrow -Xms128M -Xmx4096M
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: 
+	Loaded coremods (and transformers): 
+	GL info: ' Vendor: 'NVIDIA Corporation' Version: '4.5.0 NVIDIA 385.54' Renderer: 'GeForce GTX 1050 Ti/PCIe/SSE2'
+[12:14:58] [main/INFO] [FML/]: MinecraftForge v14.23.0.2512 Initialized
+[12:14:58] [main/INFO] [FML/]: Starts to replace vanilla recipe ingredients with ore ingredients.
+[12:14:58] [main/INFO] [FML/]: Replaced 1036 ore ingredients
+[12:14:58] [main/DEBUG] [FML/]: File H:\game\Minecraft1.12.2_jdzh\.minecraft\config\injectedDependencies.json not found. No dependencies injected
+[12:14:58] [main/DEBUG] [FML/]: Building injected Mod Containers [net.minecraftforge.fml.common.FMLContainer, net.minecraftforge.common.ForgeModContainer]
+[12:14:58] [main/DEBUG] [FML/]: Attempting to load mods contained in the minecraft jar file and associated classes
+[12:14:58] [main/DEBUG] [FML/]: Found a minecraft related file at H:\game\Minecraft1.12.2_jdzh\.minecraft\libraries\net\minecraftforge\forge\1.12.2-14.23.0.2512\forge-1.12.2-14.23.0.2512.jar, examining for mod candidates
+[12:14:59] [main/TRACE] [FML/]: Skipping known library file H:\game\Minecraft1.12.2_jdzh\.minecraft\libraries\net\minecraft\launchwrapper\1.12\launchwrapper-1.12.jar
+[12:14:59] [main/TRACE] [FML/]: Skipping known library file H:\game\Minecraft1.12.2_jdzh\.minecraft\libraries\org\ow2\asm\asm-all\5.2\asm-all-5.2.jar
+[12:14:59] [main/TRACE] [FML/]: Skipping known library file H:\game\Minecraft1.12.2_jdzh\.minecraft\libraries\jline\jline\2.13\jline-2.13.jar
+[12:14:59] [main/TRACE] [FML/]: Skipping known library file H:\game\Minecraft1.12.2_jdzh\.minecraft\libraries\com\typesafe\akka\akka-actor_2.11\2.3.3\akka-actor_2.11-2.3.3.jar
+[12:14:59] [main/TRACE] [FML/]: Skipping known library file H:\game\Minecraft1.12.2_jdzh\.minecraft\libraries\com\typesafe\config\1.2.1\config-1.2.1.jar
+[12:14:59] [main/TRACE] [FML/]: Skipping known library file H:\game\Minecraft1.12.2_jdzh\.minecraft\libraries\org\scala-lang\scala-actors-migration_2.11\1.1.0\scala-actors-migration_2.11-1.1.0.jar
+[12:14:59] [main/TRACE] [FML/]: Skipping known library file H:\game\Minecraft1.12.2_jdzh\.minecraft\libraries\org\scala-lang\scala-compiler\2.11.1\scala-compiler-2.11.1.jar
+[12:14:59] [main/TRACE] [FML/]: Skipping known library file H:\game\Minecraft1.12.2_jdzh\.minecraft\libraries\org\scala-lang\plugins\scala-continuations-library_2.11\1.0.2\scala-continuations-library_2.11-1.0.2.jar
+[12:14:59] [main/TRACE] [FML/]: Skipping known library file H:\game\Minecraft1.12.2_jdzh\.minecraft\libraries\org\scala-lang\plugins\scala-continuations-plugin_2.11.1\1.0.2\scala-continuations-plugin_2.11.1-1.0.2.jar
+[12:14:59] [main/TRACE] [FML/]: Skipping known library file H:\game\Minecraft1.12.2_jdzh\.minecraft\libraries\org\scala-lang\scala-library\2.11.1\scala-library-2.11.1.jar
+[12:14:59] [main/TRACE] [FML/]: Skipping known library file H:\game\Minecraft1.12.2_jdzh\.minecraft\libraries\org\scala-lang\scala-parser-combinators_2.11\1.0.1\scala-parser-combinators_2.11-1.0.1.jar
+[12:14:59] [main/TRACE] [FML/]: Skipping known library file H:\game\Minecraft1.12.2_jdzh\.minecraft\libraries\org\scala-lang\scala-reflect\2.11.1\scala-reflect-2.11.1.jar
+[12:14:59] [main/TRACE] [FML/]: Skipping known library file H:\game\Minecraft1.12.2_jdzh\.minecraft\libraries\org\scala-lang\scala-swing_2.11\1.0.1\scala-swing_2.11-1.0.1.jar
+[12:14:59] [main/TRACE] [FML/]: Skipping known library file H:\game\Minecraft1.12.2_jdzh\.minecraft\libraries\org\scala-lang\scala-xml_2.11\1.0.2\scala-xml_2.11-1.0.2.jar
+[12:14:59] [main/TRACE] [FML/]: Skipping known library file H:\game\Minecraft1.12.2_jdzh\.minecraft\libraries\lzma\lzma\0.0.1\lzma-0.0.1.jar
+[12:14:59] [main/TRACE] [FML/]: Skipping known library file H:\game\Minecraft1.12.2_jdzh\.minecraft\libraries\net\sf\jopt-simple\jopt-simple\5.0.3\jopt-simple-5.0.3.jar
+[12:14:59] [main/TRACE] [FML/]: Skipping known library file H:\game\Minecraft1.12.2_jdzh\.minecraft\libraries\java3d\vecmath\1.5.2\vecmath-1.5.2.jar
+[12:14:59] [main/TRACE] [FML/]: Skipping known library file H:\game\Minecraft1.12.2_jdzh\.minecraft\libraries\net\sf\trove4j\trove4j\3.0.3\trove4j-3.0.3.jar
+[12:14:59] [main/DEBUG] [FML/]: Found a minecraft related file at H:\game\Minecraft1.12.2_jdzh\.minecraft\libraries\com\mojang\patchy\1.1\patchy-1.1.jar, examining for mod candidates
+[12:14:59] [main/TRACE] [FML/]: Skipping known library file H:\game\Minecraft1.12.2_jdzh\.minecraft\libraries\oshi-project\oshi-core\1.1\oshi-core-1.1.jar
+[12:14:59] [main/TRACE] [FML/]: Skipping known library file H:\game\Minecraft1.12.2_jdzh\.minecraft\libraries\net\java\dev\jna\jna\4.4.0\jna-4.4.0.jar
+[12:14:59] [main/TRACE] [FML/]: Skipping known library file H:\game\Minecraft1.12.2_jdzh\.minecraft\libraries\net\java\dev\jna\platform\3.4.0\platform-3.4.0.jar
+[12:14:59] [main/TRACE] [FML/]: Skipping known library file H:\game\Minecraft1.12.2_jdzh\.minecraft\libraries\com\ibm\icu\icu4j-core-mojang\51.2\icu4j-core-mojang-51.2.jar
+[12:14:59] [main/TRACE] [FML/]: Skipping known library file H:\game\Minecraft1.12.2_jdzh\.minecraft\libraries\net\sf\jopt-simple\jopt-simple\5.0.3\jopt-simple-5.0.3.jar
+[12:14:59] [main/TRACE] [FML/]: Skipping known library file H:\game\Minecraft1.12.2_jdzh\.minecraft\libraries\com\paulscode\codecjorbis\20101023\codecjorbis-20101023.jar
+[12:14:59] [main/TRACE] [FML/]: Skipping known library file H:\game\Minecraft1.12.2_jdzh\.minecraft\libraries\com\paulscode\codecwav\20101023\codecwav-20101023.jar
+[12:14:59] [main/TRACE] [FML/]: Skipping known library file H:\game\Minecraft1.12.2_jdzh\.minecraft\libraries\com\paulscode\libraryjavasound\20101123\libraryjavasound-20101123.jar
+[12:14:59] [main/TRACE] [FML/]: Skipping known library file H:\game\Minecraft1.12.2_jdzh\.minecraft\libraries\com\paulscode\librarylwjglopenal\20100824\librarylwjglopenal-20100824.jar
+[12:14:59] [main/TRACE] [FML/]: Skipping known library file H:\game\Minecraft1.12.2_jdzh\.minecraft\libraries\com\paulscode\soundsystem\20120107\soundsystem-20120107.jar
+[12:14:59] [main/TRACE] [FML/]: Skipping known library file H:\game\Minecraft1.12.2_jdzh\.minecraft\libraries\io\netty\netty-all\4.1.9.Final\netty-all-4.1.9.Final.jar
+[12:14:59] [main/TRACE] [FML/]: Skipping known library file H:\game\Minecraft1.12.2_jdzh\.minecraft\libraries\com\google\guava\guava\21.0\guava-21.0.jar
+[12:14:59] [main/TRACE] [FML/]: Skipping known library file H:\game\Minecraft1.12.2_jdzh\.minecraft\libraries\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar
+[12:14:59] [main/TRACE] [FML/]: Skipping known library file H:\game\Minecraft1.12.2_jdzh\.minecraft\libraries\commons-io\commons-io\2.5\commons-io-2.5.jar
+[12:14:59] [main/TRACE] [FML/]: Skipping known library file H:\game\Minecraft1.12.2_jdzh\.minecraft\libraries\commons-codec\commons-codec\1.10\commons-codec-1.10.jar
+[12:14:59] [main/TRACE] [FML/]: Skipping known library file H:\game\Minecraft1.12.2_jdzh\.minecraft\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar
+[12:14:59] [main/TRACE] [FML/]: Skipping known library file H:\game\Minecraft1.12.2_jdzh\.minecraft\libraries\net\java\jutils\jutils\1.0.0\jutils-1.0.0.jar
+[12:14:59] [main/TRACE] [FML/]: Skipping known library file H:\game\Minecraft1.12.2_jdzh\.minecraft\libraries\com\google\code\gson\gson\2.8.0\gson-2.8.0.jar
+[12:14:59] [main/TRACE] [FML/]: Skipping known library file H:\game\Minecraft1.12.2_jdzh\.minecraft\libraries\com\mojang\authlib\1.5.25\authlib-1.5.25.jar
+[12:14:59] [main/TRACE] [FML/]: Skipping known library file H:\game\Minecraft1.12.2_jdzh\.minecraft\libraries\com\mojang\realms\1.10.17\realms-1.10.17.jar
+[12:14:59] [main/TRACE] [FML/]: Skipping known library file H:\game\Minecraft1.12.2_jdzh\.minecraft\libraries\org\apache\commons\commons-compress\1.8.1\commons-compress-1.8.1.jar
+[12:14:59] [main/TRACE] [FML/]: Skipping known library file H:\game\Minecraft1.12.2_jdzh\.minecraft\libraries\org\apache\httpcomponents\httpclient\4.3.3\httpclient-4.3.3.jar
+[12:14:59] [main/TRACE] [FML/]: Skipping known library file H:\game\Minecraft1.12.2_jdzh\.minecraft\libraries\commons-logging\commons-logging\1.1.3\commons-logging-1.1.3.jar
+[12:14:59] [main/TRACE] [FML/]: Skipping known library file H:\game\Minecraft1.12.2_jdzh\.minecraft\libraries\org\apache\httpcomponents\httpcore\4.3.2\httpcore-4.3.2.jar
+[12:14:59] [main/TRACE] [FML/]: Skipping known library file H:\game\Minecraft1.12.2_jdzh\.minecraft\libraries\it\unimi\dsi\fastutil\7.1.0\fastutil-7.1.0.jar
+[12:14:59] [main/TRACE] [FML/]: Skipping known library file H:\game\Minecraft1.12.2_jdzh\.minecraft\libraries\org\apache\logging\log4j\log4j-api\2.8.1\log4j-api-2.8.1.jar
+[12:14:59] [main/TRACE] [FML/]: Skipping known library file H:\game\Minecraft1.12.2_jdzh\.minecraft\libraries\org\apache\logging\log4j\log4j-core\2.8.1\log4j-core-2.8.1.jar
+[12:14:59] [main/TRACE] [FML/]: Skipping known library file H:\game\Minecraft1.12.2_jdzh\.minecraft\libraries\org\lwjgl\lwjgl\lwjgl\2.9.4-nightly-20150209\lwjgl-2.9.4-nightly-20150209.jar
+[12:14:59] [main/TRACE] [FML/]: Skipping known library file H:\game\Minecraft1.12.2_jdzh\.minecraft\libraries\org\lwjgl\lwjgl\lwjgl_util\2.9.4-nightly-20150209\lwjgl_util-2.9.4-nightly-20150209.jar
+[12:14:59] [main/DEBUG] [FML/]: Found a minecraft related file at H:\game\Minecraft1.12.2_jdzh\.minecraft\libraries\com\mojang\text2speech\1.10.3\text2speech-1.10.3.jar, examining for mod candidates
+[12:14:59] [main/DEBUG] [FML/]: Found a minecraft related file at H:\game\Minecraft1.12.2_jdzh\.minecraft\versions\1.12.2\1.12.2.jar, examining for mod candidates
+[12:14:59] [main/TRACE] [FML/]: Skipping known library file H:\game\Minecraft1.12.2_jdzh\.minecraft\mods\OptiFine_1.12.2_HD_U_C6.jar
+[12:14:59] [main/DEBUG] [FML/]: Minecraft jar mods loaded successfully
+[12:14:59] [main/INFO] [FML/]: Found 0 mods from the command line. Injecting into mod discoverer
+[12:14:59] [main/INFO] [FML/]: Searching H:\game\Minecraft1.12.2_jdzh\.minecraft\mods for mods
+[12:14:59] [main/DEBUG] [FML/]: Found a candidate zip or jar file journeymap-1.12.2-5.5.0rc1.jar
+[12:14:59] [main/TRACE] [FML/]: Skipping already parsed coremod or tweaker OptiFine_1.12.2_HD_U_C6.jar
+[12:14:59] [main/DEBUG] [FML/]: Examining file forge-1.12.2-14.23.0.2512.jar for potential mods
+[12:14:59] [main/DEBUG] [FML/]: The mod container forge-1.12.2-14.23.0.2512.jar appears to be missing an mcmod.info file
+[12:14:59] [main/DEBUG] [FML/]: Examining file patchy-1.1.jar for potential mods
+[12:14:59] [main/DEBUG] [FML/]: The mod container patchy-1.1.jar appears to be missing an mcmod.info file
+[12:14:59] [main/DEBUG] [FML/]: Examining file text2speech-1.10.3.jar for potential mods
+[12:14:59] [main/DEBUG] [FML/]: The mod container text2speech-1.10.3.jar appears to be missing an mcmod.info file
+[12:14:59] [main/DEBUG] [FML/]: Examining file 1.12.2.jar for potential mods
+[12:14:59] [main/DEBUG] [FML/]: The mod container 1.12.2.jar appears to be missing an mcmod.info file
+[12:15:00] [main/DEBUG] [FML/]: Examining file journeymap-1.12.2-5.5.0rc1.jar for potential mods
+[12:15:00] [main/TRACE] [FML/]: Located mcmod.info file in file journeymap-1.12.2-5.5.0rc1.jar
+[12:15:00] [main/DEBUG] [FML/]: Identified a mod of type Lnet/minecraftforge/fml/common/Mod; (journeymap.common.Journeymap) - loading
+[12:15:00] [main/TRACE] [journeymap/]: Using mcmod dependency info : [] [Forge@[14.23.0.2487,)] []
+[12:15:00] [main/INFO] [FML/]: Forge Mod Loader has identified 5 mods to load
+[12:15:00] [main/DEBUG] [FML/]: Found API journeymap.client.api.display (owned by journeymap providing journeymap|client-api-display) embedded in journeymap
+[12:15:00] [main/DEBUG] [FML/]: Found API journeymap.client.api.model (owned by journeymap providing journeymap|client-api-model) embedded in journeymap
+[12:15:00] [main/DEBUG] [FML/]: Found API journeymap.client.api.event (owned by journeymap providing journeymap|client-api-event) embedded in journeymap
+[12:15:00] [main/DEBUG] [FML/]: Found API journeymap.client.api.util (owned by journeymap providing journeymap|client-api-util) embedded in journeymap
+[12:15:00] [main/DEBUG] [FML/]: Found API journeymap.client.api (owned by journeymap providing journeymap|client-api) embedded in journeymap
+[12:15:00] [main/DEBUG] [FML/]: Creating API container dummy for API journeymap|client-api-model: owner: journeymap, dependents: []
+[12:15:00] [main/DEBUG] [FML/]: Creating API container dummy for API journeymap|client-api-display: owner: journeymap, dependents: []
+[12:15:00] [main/DEBUG] [FML/]: Creating API container dummy for API journeymap|client-api: owner: journeymap, dependents: []
+[12:15:00] [main/DEBUG] [FML/]: Creating API container dummy for API journeymap|client-api-event: owner: journeymap, dependents: []
+[12:15:00] [main/DEBUG] [FML/]: Creating API container dummy for API journeymap|client-api-util: owner: journeymap, dependents: []
+[12:15:00] [main/TRACE] [FML/]: Received a system property request ''
+[12:15:00] [main/TRACE] [FML/]: System property request managing the state of 0 mods
+[12:15:00] [main/DEBUG] [FML/]: After merging, found state information for 0 mods
+[12:15:00] [main/DEBUG] [Forge Mod Loader/]: Mod Forge Mod Loader is missing a pack.mcmeta file, substituting a dummy one
+[12:15:00] [main/DEBUG] [Minecraft Forge/]: Mod Minecraft Forge is missing a pack.mcmeta file, substituting a dummy one
+[12:15:00] [main/DEBUG] [journeymap/]: Enabling mod journeymap
+[12:15:00] [main/DEBUG] [JourneyMap/]: Mod JourneyMap is missing a pack.mcmeta file, substituting a dummy one
+[12:15:00] [main/TRACE] [FML/]: Verifying mod requirements are satisfied
+[12:15:00] [main/TRACE] [FML/]: All mod requirements are satisfied
+[12:15:00] [main/TRACE] [FML/]: Sorting mods into an ordered list
+[12:15:00] [main/TRACE] [FML/]: Mod sorting completed successfully
+[12:15:00] [main/DEBUG] [FML/]: Mod sorting data
+[12:15:00] [main/DEBUG] [FML/]: 	journeymap(JourneyMap:1.12.2-5.5.0rc1): journeymap-1.12.2-5.5.0rc1.jar ()
+[12:15:00] [main/DEBUG] [FML/]: 	journeymap|client-api-model(API: journeymap|client-api-model:1.4): journeymap-1.12.2-5.5.0rc1.jar ()
+[12:15:00] [main/DEBUG] [FML/]: 	journeymap|client-api-display(API: journeymap|client-api-display:1.4): journeymap-1.12.2-5.5.0rc1.jar ()
+[12:15:00] [main/DEBUG] [FML/]: 	journeymap|client-api(API: journeymap|client-api:1.4): journeymap-1.12.2-5.5.0rc1.jar ()
+[12:15:00] [main/DEBUG] [FML/]: 	journeymap|client-api-event(API: journeymap|client-api-event:1.4): journeymap-1.12.2-5.5.0rc1.jar ()
+[12:15:00] [main/DEBUG] [FML/]: 	journeymap|client-api-util(API: journeymap|client-api-util:1.4): journeymap-1.12.2-5.5.0rc1.jar ()
+[12:15:00] [main/DEBUG] [FML/]: Loading @Config anotation data
+[12:15:00] [main/TRACE] [minecraft/minecraft]: Sending event FMLConstructionEvent to mod minecraft
+[12:15:00] [main/TRACE] [minecraft/minecraft]: Sent event FMLConstructionEvent to mod minecraft
+[12:15:00] [main/DEBUG] [FML/]: Bar Step: Construction - Minecraft took 0.002s
+[12:15:00] [main/TRACE] [mcp/mcp]: Sending event FMLConstructionEvent to mod mcp
+[12:15:00] [main/TRACE] [mcp/mcp]: Sent event FMLConstructionEvent to mod mcp
+[12:15:00] [main/DEBUG] [FML/]: Bar Step: Construction - Minecraft Coder Pack took 0.001s
+[12:15:00] [main/TRACE] [FML/FML]: Sending event FMLConstructionEvent to mod FML
+[12:15:00] [main/TRACE] [FML/FML]: Mod FML is using network checker : Invoking method checkModLists
+[12:15:00] [main/TRACE] [FML/FML]: Testing mod FML to verify it accepts its own version in a remote connection
+[12:15:00] [main/TRACE] [FML/FML]: The mod FML accepts its own version (8.0.99.99)
+[12:15:00] [main/INFO] [FML/FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, journeymap] at CLIENT
+[12:15:00] [main/INFO] [FML/FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, journeymap] at SERVER
+[12:15:01] [main/TRACE] [FML/FML]: Sent event FMLConstructionEvent to mod FML
+[12:15:01] [main/DEBUG] [FML/]: Bar Step: Construction - Forge Mod Loader took 0.670s
+[12:15:01] [main/TRACE] [forge/forge]: Sending event FMLConstructionEvent to mod forge
+[12:15:01] [main/DEBUG] [forge/forge]: Preloading CrashReport Classes
+[12:15:01] [main/DEBUG] [forge/forge]: 	net/minecraftforge/common/util/TextTable
+[12:15:01] [main/DEBUG] [forge/forge]: 	net/minecraftforge/common/util/TextTable$Alignment
+[12:15:01] [main/DEBUG] [forge/forge]: 	net/minecraftforge/common/util/TextTable$Column
+[12:15:01] [main/DEBUG] [forge/forge]: 	net/minecraftforge/common/util/TextTable$Row
+[12:15:01] [main/DEBUG] [forge/forge]: 	net/minecraftforge/fml/client/SplashProgress$1
+[12:15:01] [main/DEBUG] [forge/forge]: 	net/minecraftforge/fml/common/FMLCommonHandler$1
+[12:15:01] [main/DEBUG] [forge/forge]: 	net/minecraftforge/fml/common/Loader$1
+[12:15:01] [main/TRACE] [FML/forge]: Mod forge is using network checker : No network checking performed
+[12:15:01] [main/TRACE] [FML/forge]: Testing mod forge to verify it accepts its own version in a remote connection
+[12:15:01] [main/TRACE] [FML/forge]: The mod forge accepts its own version (14.23.0.2512)
+[12:15:01] [main/DEBUG] [FML/forge]: Attempting to inject @Config classes into forge for type INSTANCE
+[12:15:01] [main/TRACE] [forge/forge]: Sent event FMLConstructionEvent to mod forge
+[12:15:01] [main/DEBUG] [FML/]: Bar Step: Construction - Minecraft Forge took 0.089s
+[12:15:01] [main/TRACE] [journeymap/journeymap]: Sending event FMLConstructionEvent to mod journeymap
+[12:15:01] [main/TRACE] [FML/journeymap]: Mod journeymap is using network checker : Invoking method checkModLists
+[12:15:01] [main/TRACE] [FML/journeymap]: Testing mod journeymap to verify it accepts its own version in a remote connection
+[12:15:01] [main/TRACE] [FML/journeymap]: The mod journeymap accepts its own version (1.12.2-5.5.0rc1)
+[12:15:01] [main/DEBUG] [FML/journeymap]: Attempting to inject @SidedProxy classes into journeymap
+[12:15:01] [main/DEBUG] [FML/journeymap]: Attempting to inject @EventBusSubscriber classes into the eventbus for journeymap
+[12:15:01] [main/DEBUG] [FML/journeymap]: Attempting to inject @Config classes into journeymap for type INSTANCE
+[12:15:01] [main/TRACE] [journeymap/journeymap]: Sent event FMLConstructionEvent to mod journeymap
+[12:15:01] [main/DEBUG] [FML/]: Bar Step: Construction - JourneyMap took 0.101s
+[12:15:01] [main/DEBUG] [FML/]: Bar Finished: Construction took 0.864s
+[12:15:01] [main/DEBUG] [FML/]: Mod signature data
+[12:15:01] [main/DEBUG] [FML/]:  	Valid Signatures:
+[12:15:01] [main/DEBUG] [FML/]: 		(e3c3d50c7c986df74c645c0ac54639741c90a557) FML	(Forge Mod Loader	8.0.99.99)	forge-1.12.2-14.23.0.2512.jar
+[12:15:01] [main/DEBUG] [FML/]: 		(e3c3d50c7c986df74c645c0ac54639741c90a557) forge	(Minecraft Forge	14.23.0.2512)	forge-1.12.2-14.23.0.2512.jar
+[12:15:01] [main/DEBUG] [FML/]:  	Missing Signatures:
+[12:15:01] [main/DEBUG] [FML/]: 		minecraft	(Minecraft	1.12.2)	minecraft.jar
+[12:15:01] [main/DEBUG] [FML/]: 		mcp	(Minecraft Coder Pack	9.42)	minecraft.jar
+[12:15:01] [main/DEBUG] [FML/]: 		journeymap	(JourneyMap	1.12.2-5.5.0rc1)	journeymap-1.12.2-5.5.0rc1.jar
+[12:15:01] [main/DEBUG] [FML/]: Bar Step: Loading Resources - Default took 0.010s
+[12:15:01] [main/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:Forge Mod Loader took 0.002s
+[12:15:01] [main/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:Minecraft Forge took 0.002s
+[12:15:01] [main/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:JourneyMap took 0.001s
+[12:15:01] [main/DEBUG] [FML/]: Bar Finished: Reloading - LanguageManager took 0.086s
+[12:15:01] [main/DEBUG] [FML/]: Bar Step: Loading Resources - Reloading listeners took 0.086s
+[12:15:01] [main/DEBUG] [FML/]: Bar Finished: Loading Resources took 0.101s
+[12:15:01] [main/DEBUG] [Forge Mod Loader/]: Mod Forge Mod Loader is missing a pack.mcmeta file, substituting a dummy one
+[12:15:01] [main/DEBUG] [Minecraft Forge/]: Mod Minecraft Forge is missing a pack.mcmeta file, substituting a dummy one
+[12:15:01] [main/DEBUG] [JourneyMap/]: Mod JourneyMap is missing a pack.mcmeta file, substituting a dummy one
+[12:15:01] [main/INFO] [FML/]: Processing ObjectHolder annotations
+[12:15:01] [main/INFO] [FML/]: Found 1168 ObjectHolder annotations
+[12:15:01] [main/INFO] [FML/]: Identifying ItemStackHolder annotations
+[12:15:01] [main/INFO] [FML/]: Found 0 ItemStackHolder annotations
+[12:15:01] [main/TRACE] [minecraft/minecraft]: Sending event FMLPreInitializationEvent to mod minecraft
+[12:15:01] [main/TRACE] [minecraft/minecraft]: Sent event FMLPreInitializationEvent to mod minecraft
+[12:15:01] [main/DEBUG] [FML/]: Bar Step: PreInitialization - Minecraft took 0.001s
+[12:15:01] [main/TRACE] [mcp/mcp]: Sending event FMLPreInitializationEvent to mod mcp
+[12:15:01] [main/TRACE] [mcp/mcp]: Sent event FMLPreInitializationEvent to mod mcp
+[12:15:01] [main/DEBUG] [FML/]: Bar Step: PreInitialization - Minecraft Coder Pack took 0.001s
+[12:15:01] [main/TRACE] [FML/FML]: Sending event FMLPreInitializationEvent to mod FML
+[12:15:01] [main/TRACE] [FML/FML]: Sent event FMLPreInitializationEvent to mod FML
+[12:15:01] [main/DEBUG] [FML/]: Bar Step: PreInitialization - Forge Mod Loader took 0.000s
+[12:15:01] [main/TRACE] [forge/forge]: Sending event FMLPreInitializationEvent to mod forge
+[12:15:01] [main/INFO] [FML/forge]: Configured a dormant chunk cache size of 0
+[12:15:01] [main/TRACE] [forge/forge]: Sent event FMLPreInitializationEvent to mod forge
+[12:15:01] [main/DEBUG] [FML/]: Bar Step: PreInitialization - Minecraft Forge took 0.094s
+[12:15:01] [main/TRACE] [journeymap/journeymap]: Sending event FMLPreInitializationEvent to mod journeymap
+[12:15:01] [main/INFO] [journeymap/journeymap]: No plugins for JourneyMap API discovered.
+[12:15:01] [main/TRACE] [journeymap/journeymap]: Sent event FMLPreInitializationEvent to mod journeymap
+[12:15:01] [main/DEBUG] [FML/]: Bar Step: PreInitialization - JourneyMap took 0.009s
+[12:15:01] [main/DEBUG] [FML/]: Bar Finished: PreInitialization took 0.105s
+[12:15:01] [main/INFO] [FML/]: Applying holder lookups
+[12:15:01] [main/INFO] [FML/]: Holder lookups applied
+[12:15:01] [main/INFO] [FML/]: Applying holder lookups
+[12:15:01] [main/INFO] [FML/]: Holder lookups applied
+[12:15:01] [main/INFO] [FML/]: Applying holder lookups
+[12:15:01] [main/INFO] [FML/]: Holder lookups applied
+[12:15:01] [main/INFO] [FML/]: Applying holder lookups
+[12:15:01] [main/INFO] [FML/]: Holder lookups applied
+[12:15:01] [main/INFO] [FML/]: Injecting itemstacks
+[12:15:01] [main/INFO] [FML/]: Itemstack injection complete
+[12:15:01] [main/INFO] [Config/]: [OptiFine] *** Reloading textures ***
+[12:15:01] [main/INFO] [Config/]: [OptiFine] Resource packs: Default
+[12:15:01] [main/DEBUG] [FML/]: Bar Finished: Loading Resource - TextureManager took 0.005s
+[12:15:02] [main/DEBUG] [FML/]: Bar Finished: Loading Resource - SoundHandler took 0.826s
+[12:15:02] [main/DEBUG] [FML/]: Bar Finished: Loading Resource - FontRenderer took 0.004s
+[12:15:02] [main/DEBUG] [FML/]: Bar Finished: Loading Resource - FontRenderer took 0.005s
+[12:15:02] [main/DEBUG] [FML/]: Bar Finished: Loading Resource - GrassColorReloadListener took 0.008s
+[12:15:02] [main/DEBUG] [FML/]: Bar Finished: Loading Resource - FoliageColorReloadListener took 0.008s
+[12:15:02] [main/DEBUG] [FML/]: Bar Step: Rendering Setup - GL Setup took 0.001s
+[12:15:02] [main/DEBUG] [FML/]: Bar Step: Rendering Setup - Loading Texture Map took 0.003s
+[12:15:02] [main/DEBUG] [FML/]: Bar Finished: Loading Resource - B3DLoader took 0.000s
+[12:15:02] [main/DEBUG] [FML/]: Bar Finished: Loading Resource - OBJLoader took 0.000s
+[12:15:02] [main/DEBUG] [FML/]: Bar Finished: Loading Resource - ModelFluid$FluidLoader took 0.000s
+[12:15:02] [main/DEBUG] [FML/]: Bar Finished: Loading Resource - ItemLayerModel$Loader took 0.000s
+[12:15:02] [main/DEBUG] [FML/]: Bar Finished: Loading Resource - MultiLayerModel$Loader took 0.000s
+[12:15:02] [main/DEBUG] [FML/]: Bar Finished: Loading Resource - ModelDynBucket$LoaderDynBucket took 0.000s
+[12:15:03] [main/DEBUG] [FML/]: Bar Finished: ModelLoader: blocks took 1.113s
+[12:15:04] [main/DEBUG] [FML/]: Bar Finished: ModelLoader: items took 0.391s
+[12:15:04] [main/INFO] [Config/]: [OptiFine] Multitexture: false
+[12:15:04] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/0_glass_white/glass_pane_white.properties
+[12:15:04] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/0_glass_white/glass_white.properties
+[12:15:04] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/10_glass_purple/glass_pane_purple.properties
+[12:15:04] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/10_glass_purple/glass_purple.properties
+[12:15:04] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/11_glass_blue/glass_blue.properties
+[12:15:04] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/11_glass_blue/glass_pane_blue.properties
+[12:15:04] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/12_glass_brown/glass_brown.properties
+[12:15:04] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/12_glass_brown/glass_pane_brown.properties
+[12:15:04] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/13_glass_green/glass_green.properties
+[12:15:04] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/13_glass_green/glass_pane_green.properties
+[12:15:04] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/14_glass_red/glass_pane_red.properties
+[12:15:04] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/14_glass_red/glass_red.properties
+[12:15:04] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/15_glass_black/glass_black.properties
+[12:15:04] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/15_glass_black/glass_pane_black.properties
+[12:15:04] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/1_glass_orange/glass_orange.properties
+[12:15:04] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/1_glass_orange/glass_pane_orange.properties
+[12:15:04] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/2_glass_magenta/glass_magenta.properties
+[12:15:04] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/2_glass_magenta/glass_pane_magenta.properties
+[12:15:04] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/3_glass_light_blue/glass_light_blue.properties
+[12:15:04] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/3_glass_light_blue/glass_pane_light_blue.properties
+[12:15:04] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/4_glass_yellow/glass_pane_yellow.properties
+[12:15:04] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/4_glass_yellow/glass_yellow.properties
+[12:15:04] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/5_glass_lime/glass_lime.properties
+[12:15:04] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/5_glass_lime/glass_pane_lime.properties
+[12:15:04] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/6_glass_pink/glass_pane_pink.properties
+[12:15:04] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/6_glass_pink/glass_pink.properties
+[12:15:04] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/7_glass_gray/glass_gray.properties
+[12:15:04] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/7_glass_gray/glass_pane_gray.properties
+[12:15:04] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/8_glass_silver/glass_pane_silver.properties
+[12:15:04] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/8_glass_silver/glass_silver.properties
+[12:15:04] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/9_glass_cyan/glass_cyan.properties
+[12:15:04] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/9_glass_cyan/glass_pane_cyan.properties
+[12:15:04] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/bookshelf.properties
+[12:15:04] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/glass.properties
+[12:15:04] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/glasspane.properties
+[12:15:04] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/sandstone.properties
+[12:15:04] [main/INFO] [Config/]: [OptiFine] Multipass connected textures: false
+[12:15:04] [main/INFO] [Config/]: [OptiFine] BetterGrass: Parsing default configuration optifine/bettergrass.properties
+[12:15:05] [main/INFO] [Config/]: [OptiFine] Custom loader: TextureAtlasSprite{name='minecraft:white', frameCount=1, rotated=false, x=0, y=0, height=16, width=16, u0=0.0, u1=0.0, v0=0.0, v1=0.0}
+[12:15:06] [main/DEBUG] [FML/]: Bar Finished: ModelLoader: baking took 0.670s
+[12:15:06] [main/DEBUG] [FML/]: Bar Finished: Loading Resource - ModelManager took 4.353s
+[12:15:06] [main/DEBUG] [FML/]: Bar Step: Rendering Setup - Loading Model Manager took 4.376s
+[12:15:07] [main/DEBUG] [FML/]: Bar Finished: Loading Resource - RenderItem took 0.003s
+[12:15:07] [main/DEBUG] [FML/]: Bar Step: Rendering Setup - Loading Item Renderer took 0.161s
+[12:15:07] [main/DEBUG] [FML/]: Bar Finished: Loading Resource - EntityRenderer took 0.000s
+[12:15:07] [main/DEBUG] [FML/]: Bar Finished: Loading Resource - BlockRendererDispatcher took 0.000s
+[12:15:07] [main/DEBUG] [FML/]: Bar Finished: Loading Resource - RenderGlobal took 0.000s
+[12:15:07] [main/DEBUG] [FML/]: Bar Finished: Loading Resource - SearchTreeManager took 0.088s
+[12:15:07] [main/DEBUG] [FML/]: Bar Step: Rendering Setup - Loading Entity Renderer took 0.398s
+[12:15:07] [main/DEBUG] [FML/]: Bar Finished: Rendering Setup took 4.938s
+[12:15:07] [main/INFO] [FML/]: Applying holder lookups
+[12:15:07] [main/INFO] [FML/]: Holder lookups applied
+[12:15:07] [main/TRACE] [minecraft/minecraft]: Sending event FMLInitializationEvent to mod minecraft
+[12:15:07] [main/TRACE] [minecraft/minecraft]: Sent event FMLInitializationEvent to mod minecraft
+[12:15:07] [main/DEBUG] [FML/]: Bar Step: Initialization - Minecraft took 0.000s
+[12:15:07] [main/TRACE] [mcp/mcp]: Sending event FMLInitializationEvent to mod mcp
+[12:15:07] [main/TRACE] [mcp/mcp]: Sent event FMLInitializationEvent to mod mcp
+[12:15:07] [main/DEBUG] [FML/]: Bar Step: Initialization - Minecraft Coder Pack took 0.000s
+[12:15:07] [main/TRACE] [FML/FML]: Sending event FMLInitializationEvent to mod FML
+[12:15:07] [main/TRACE] [FML/FML]: Sent event FMLInitializationEvent to mod FML
+[12:15:07] [main/DEBUG] [FML/]: Bar Step: Initialization - Forge Mod Loader took 0.000s
+[12:15:07] [main/TRACE] [forge/forge]: Sending event FMLInitializationEvent to mod forge
+[12:15:07] [main/TRACE] [forge/forge]: Sent event FMLInitializationEvent to mod forge
+[12:15:07] [main/DEBUG] [FML/]: Bar Step: Initialization - Minecraft Forge took 0.000s
+[12:15:07] [main/TRACE] [journeymap/journeymap]: Sending event FMLInitializationEvent to mod journeymap
+[12:15:07] [main/TRACE] [journeymap/journeymap]: Initializing themes ...
+[12:15:08] [main/ERROR] [journeymap/journeymap]: Default theme not found in H:\game\Minecraft1.12.2_jdzh\.minecraft\journeymap\icon\theme\flat\OceanMonument.theme2.json: OceanMonument (SUPPRESSED)
+[12:15:08] [main/INFO] [journeymap/journeymap]: core (FirstLoaded) Setting config file to version "5.5.0rc1": journeymap.core.config
+[12:15:08] [main/WARN] [journeymap/journeymap]: core (Valid) Render distance 6 is less than CoreProperties.renderDistanceSurfaceMax
+[12:15:08] [main/INFO] [journeymap/journeymap]: core (Valid) Creating config file: H:\game\Minecraft1.12.2_jdzh\.minecraft\journeymap\config\5.5\journeymap.core.config
+[12:15:08] [main/INFO] [journeymap/journeymap]: fullmap (FirstLoaded) Setting config file to version "5.5.0rc1": journeymap.fullmap.config
+[12:15:08] [main/INFO] [journeymap/journeymap]: fullmap (Valid) Creating config file: H:\game\Minecraft1.12.2_jdzh\.minecraft\journeymap\config\5.5\journeymap.fullmap.config
+[12:15:08] [main/INFO] [journeymap/journeymap]: minimap (Initialized) Setting config file to version "5.5.0rc1": journeymap.minimap.config
+[12:15:08] [main/INFO] [journeymap/journeymap]: minimap (Valid) Creating config file: H:\game\Minecraft1.12.2_jdzh\.minecraft\journeymap\config\5.5\journeymap.minimap.config
+[12:15:08] [main/INFO] [journeymap/journeymap]: minimap2 (FirstLoaded) Setting config file to version "5.5.0rc1": journeymap.minimap2.config
+[12:15:08] [main/INFO] [journeymap/journeymap]: minimap2 (Valid) Creating config file: H:\game\Minecraft1.12.2_jdzh\.minecraft\journeymap\config\5.5\journeymap.minimap2.config
+[12:15:08] [main/INFO] [journeymap/journeymap]: topo (FirstLoaded) Setting config file to version "5.5.0rc1": journeymap.topo.config
+[12:15:08] [main/INFO] [journeymap/journeymap]: topo (Valid) Creating config file: H:\game\Minecraft1.12.2_jdzh\.minecraft\journeymap\config\5.5\journeymap.topo.config
+[12:15:08] [main/INFO] [journeymap/journeymap]: webmap (FirstLoaded) Setting config file to version "5.5.0rc1": journeymap.webmap.config
+[12:15:08] [main/INFO] [journeymap/journeymap]: webmap (Valid) Creating config file: H:\game\Minecraft1.12.2_jdzh\.minecraft\journeymap\config\5.5\journeymap.webmap.config
+[12:15:08] [main/INFO] [journeymap/journeymap]: waypoint (FirstLoaded) Setting config file to version "5.5.0rc1": journeymap.waypoint.config
+[12:15:08] [main/INFO] [journeymap/journeymap]: waypoint (Valid) Creating config file: H:\game\Minecraft1.12.2_jdzh\.minecraft\journeymap\config\5.5\journeymap.waypoint.config
+[12:15:08] [main/INFO] [journeymap/journeymap]: JourneyMap log initialized.
+[12:15:08] [main/INFO] [journeymap/journeymap]: initialize ENTER
+[12:15:08] [main/WARN] [journeymap/journeymap]: core (Initialized) Bad configField entry during updateFrom(): optionsManagerViewed=null
+[12:15:08] [main/WARN] [journeymap/journeymap]: core (Initialized) Bad configField entry during updateFrom(): splashViewed=null
+[12:15:08] [main/INFO] [journeymap/journeymap]: [ClientAPI] built with JourneyMap API 1.4
+[12:15:08] [main/INFO] [journeymap/journeymap]: Initializing plugins with Client API: journeymap.client.api.impl.ClientAPI
+[12:15:08] [main/INFO] [journeymap/journeymap]: initialize EXIT, elapsed count 0 avg ?ms
+[12:15:08] [main/TRACE] [journeymap/journeymap]: Sent event FMLInitializationEvent to mod journeymap
+[12:15:08] [main/DEBUG] [FML/]: Bar Step: Initialization - JourneyMap took 0.769s
+[12:15:08] [main/DEBUG] [FML/]: Bar Finished: Initialization took 0.771s
+[12:15:08] [main/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod minecraft
+[12:15:08] [main/TRACE] [minecraft/minecraft]: Sending event IMCEvent to mod minecraft
+[12:15:08] [main/TRACE] [minecraft/minecraft]: Sent event IMCEvent to mod minecraft
+[12:15:08] [main/DEBUG] [FML/]: Bar Step: InterModComms$IMC - Minecraft took 0.005s
+[12:15:08] [main/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod mcp
+[12:15:08] [main/TRACE] [mcp/mcp]: Sending event IMCEvent to mod mcp
+[12:15:08] [main/TRACE] [mcp/mcp]: Sent event IMCEvent to mod mcp
+[12:15:08] [main/DEBUG] [FML/]: Bar Step: InterModComms$IMC - Minecraft Coder Pack took 0.000s
+[12:15:08] [main/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod FML
+[12:15:08] [main/TRACE] [FML/FML]: Sending event IMCEvent to mod FML
+[12:15:08] [main/TRACE] [FML/FML]: Sent event IMCEvent to mod FML
+[12:15:08] [main/DEBUG] [FML/]: Bar Step: InterModComms$IMC - Forge Mod Loader took 0.000s
+[12:15:08] [main/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod forge
+[12:15:08] [main/TRACE] [forge/forge]: Sending event IMCEvent to mod forge
+[12:15:08] [main/TRACE] [forge/forge]: Sent event IMCEvent to mod forge
+[12:15:08] [main/DEBUG] [FML/]: Bar Step: InterModComms$IMC - Minecraft Forge took 0.000s
+[12:15:08] [main/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod journeymap
+[12:15:08] [main/TRACE] [journeymap/journeymap]: Sending event IMCEvent to mod journeymap
+[12:15:08] [main/TRACE] [journeymap/journeymap]: Sent event IMCEvent to mod journeymap
+[12:15:08] [main/DEBUG] [FML/]: Bar Step: InterModComms$IMC - JourneyMap took 0.001s
+[12:15:08] [main/DEBUG] [FML/]: Bar Finished: InterModComms$IMC took 0.006s
+[12:15:08] [main/INFO] [FML/]: Injecting itemstacks
+[12:15:08] [main/INFO] [FML/]: Itemstack injection complete
+[12:15:08] [main/TRACE] [minecraft/minecraft]: Sending event FMLPostInitializationEvent to mod minecraft
+[12:15:08] [main/TRACE] [minecraft/minecraft]: Sent event FMLPostInitializationEvent to mod minecraft
+[12:15:08] [main/DEBUG] [FML/]: Bar Step: PostInitialization - Minecraft took 0.001s
+[12:15:08] [main/TRACE] [mcp/mcp]: Sending event FMLPostInitializationEvent to mod mcp
+[12:15:08] [main/TRACE] [mcp/mcp]: Sent event FMLPostInitializationEvent to mod mcp
+[12:15:08] [main/DEBUG] [FML/]: Bar Step: PostInitialization - Minecraft Coder Pack took 0.000s
+[12:15:08] [main/TRACE] [FML/FML]: Sending event FMLPostInitializationEvent to mod FML
+[12:15:08] [main/TRACE] [FML/FML]: Sent event FMLPostInitializationEvent to mod FML
+[12:15:08] [main/DEBUG] [FML/]: Bar Step: PostInitialization - Forge Mod Loader took 0.000s
+[12:15:08] [main/TRACE] [forge/forge]: Sending event FMLPostInitializationEvent to mod forge
+[12:15:08] [main/TRACE] [forge/forge]: Sent event FMLPostInitializationEvent to mod forge
+[12:15:08] [main/DEBUG] [FML/]: Bar Step: PostInitialization - Minecraft Forge took 0.014s
+[12:15:08] [main/TRACE] [journeymap/journeymap]: Sending event FMLPostInitializationEvent to mod journeymap
+[12:15:08] [main/DEBUG] [journeymap/journeymap]: postInitialize ENTER
+[12:15:08] [main/DEBUG] [journeymap/journeymap]: Handler registered: journeymap.client.forge.event.KeyEventHandler
+[12:15:08] [main/DEBUG] [journeymap/journeymap]: Handler registered: journeymap.client.forge.event.ChatEventHandler
+[12:15:08] [main/DEBUG] [journeymap/journeymap]: Handler registered: journeymap.client.forge.event.StateTickHandler
+[12:15:08] [main/DEBUG] [journeymap/journeymap]: Handler registered: journeymap.client.forge.event.WorldEventHandler
+[12:15:08] [main/DEBUG] [journeymap/journeymap]: Handler registered: journeymap.client.forge.event.WaypointBeaconHandler
+[12:15:08] [main/DEBUG] [journeymap/journeymap]: Handler registered: journeymap.client.forge.event.TextureAtlasHandler
+[12:15:08] [main/DEBUG] [journeymap/journeymap]: Handler registered: journeymap.client.forge.event.MiniMapOverlayHandler
+[12:15:08] [main/DEBUG] [journeymap/journeymap]: Handler registered: journeymap.client.world.ChunkMonitor
+[12:15:08] [main/INFO] [journeymap/journeymap]: Added entity icons from journeymap:icon/entity. Success: false
+[12:15:08] [main/TRACE] [journeymap/journeymap]: Initializing themes ...
+[12:15:08] [main/INFO] [journeymap/journeymap]: Preloaded theme textures: 71
+[12:15:08] [main/DEBUG] [journeymap/journeymap]: postInitialize EXIT, elapsed§8 count §r1§8 avg §r524.79§8ms§r
+[12:15:08] [main/DEBUG] [FML/]: Bar Step: PostInitialization - JourneyMap took 0.527s
+[12:15:08] [main/DEBUG] [FML/]: Bar Finished: PostInitialization took 0.543s
+[12:15:08] [main/TRACE] [minecraft/minecraft]: Sending event FMLLoadCompleteEvent to mod minecraft
+[12:15:08] [main/TRACE] [minecraft/minecraft]: Sent event FMLLoadCompleteEvent to mod minecraft
+[12:15:08] [main/DEBUG] [FML/]: Bar Step: LoadComplete - Minecraft took 0.001s
+[12:15:08] [main/TRACE] [mcp/mcp]: Sending event FMLLoadCompleteEvent to mod mcp
+[12:15:08] [main/TRACE] [mcp/mcp]: Sent event FMLLoadCompleteEvent to mod mcp
+[12:15:08] [main/DEBUG] [FML/]: Bar Step: LoadComplete - Minecraft Coder Pack took 0.000s
+[12:15:08] [main/TRACE] [FML/FML]: Sending event FMLLoadCompleteEvent to mod FML
+[12:15:08] [main/TRACE] [FML/FML]: Sent event FMLLoadCompleteEvent to mod FML
+[12:15:08] [main/DEBUG] [FML/]: Bar Step: LoadComplete - Forge Mod Loader took 0.000s
+[12:15:08] [main/TRACE] [forge/forge]: Sending event FMLLoadCompleteEvent to mod forge
+[12:15:08] [main/DEBUG] [FML/forge]: Forge RecipeSorter Baking:
+[12:15:08] [main/DEBUG] [FML/forge]:   16: RecipeEntry("Before", UNKNOWN, )
+[12:15:08] [main/DEBUG] [FML/forge]:   15: RecipeEntry("minecraft:shaped", SHAPED, net.minecraft.item.crafting.ShapedRecipes) Before: minecraft:shapeless
+[12:15:08] [main/DEBUG] [FML/forge]:   14: RecipeEntry("forge:shapedore", SHAPED, net.minecraftforge.oredict.ShapedOreRecipe) Before: minecraft:shapeless After: minecraft:shaped
+[12:15:08] [main/DEBUG] [FML/forge]:   13: RecipeEntry("minecraft:mapextending", SHAPED, net.minecraft.item.crafting.RecipesMapExtending) Before: minecraft:shapeless After: minecraft:shaped
+[12:15:08] [main/DEBUG] [FML/forge]:   12: RecipeEntry("minecraft:shapeless", SHAPELESS, net.minecraft.item.crafting.ShapelessRecipes) After: minecraft:shaped
+[12:15:08] [main/DEBUG] [FML/forge]:   11: RecipeEntry("minecraft:repair", SHAPELESS, net.minecraft.item.crafting.RecipeRepairItem) After: minecraft:shapeless
+[12:15:08] [main/DEBUG] [FML/forge]:   10: RecipeEntry("minecraft:shield_deco", SHAPELESS, net.minecraft.item.crafting.ShieldRecipes$Decoration) After: minecraft:shapeless
+[12:15:08] [main/DEBUG] [FML/forge]:   9: RecipeEntry("minecraft:armordyes", SHAPELESS, net.minecraft.item.crafting.RecipesArmorDyes) After: minecraft:shapeless
+[12:15:08] [main/DEBUG] [FML/forge]:   8: RecipeEntry("minecraft:fireworks", SHAPELESS, net.minecraft.item.crafting.RecipeFireworks) After: minecraft:shapeless
+[12:15:08] [main/DEBUG] [FML/forge]:   7: RecipeEntry("minecraft:pattern_dupe", SHAPELESS, net.minecraft.item.crafting.RecipesBanners$RecipeDuplicatePattern) After: minecraft:shapeless
+[12:15:08] [main/DEBUG] [FML/forge]:   6: RecipeEntry("minecraft:tippedarrow", SHAPELESS, net.minecraft.item.crafting.RecipeTippedArrow) After: minecraft:shapeless
+[12:15:08] [main/DEBUG] [FML/forge]:   5: RecipeEntry("minecraft:mapcloning", SHAPELESS, net.minecraft.item.crafting.RecipesMapCloning) After: minecraft:shapeless
+[12:15:08] [main/DEBUG] [FML/forge]:   4: RecipeEntry("forge:shapelessore", SHAPELESS, net.minecraftforge.oredict.ShapelessOreRecipe) After: minecraft:shapeless
+[12:15:08] [main/DEBUG] [FML/forge]:   3: RecipeEntry("minecraft:pattern_add", SHAPELESS, net.minecraft.item.crafting.RecipesBanners$RecipeAddPattern) After: minecraft:shapeless
+[12:15:08] [main/DEBUG] [FML/forge]:   2: RecipeEntry("minecraft:bookcloning", SHAPELESS, net.minecraft.item.crafting.RecipeBookCloning) After: minecraft:shapeless
+[12:15:08] [main/DEBUG] [FML/forge]:   1: RecipeEntry("After", UNKNOWN, )
+[12:15:08] [main/DEBUG] [FML/forge]: Sorting recipes
+[12:15:08] [main/TRACE] [forge/forge]: Sent event FMLLoadCompleteEvent to mod forge
+[12:15:08] [main/DEBUG] [FML/]: Bar Step: LoadComplete - Minecraft Forge took 0.080s
+[12:15:08] [main/DEBUG] [FML/]: Bar Step: LoadComplete - JourneyMap took 0.000s
+[12:15:08] [main/DEBUG] [FML/]: Bar Finished: LoadComplete took 0.081s
+[12:15:08] [main/DEBUG] [FML/]: Freezing registries
+[12:15:09] [main/TRACE] [minecraft/minecraft]: Sending event FMLModIdMappingEvent to mod minecraft
+[12:15:09] [main/TRACE] [minecraft/minecraft]: Sent event FMLModIdMappingEvent to mod minecraft
+[12:15:09] [main/DEBUG] [FML/]: Bar Step: ModIdMapping - Minecraft took 0.000s
+[12:15:09] [main/TRACE] [mcp/mcp]: Sending event FMLModIdMappingEvent to mod mcp
+[12:15:09] [main/TRACE] [mcp/mcp]: Sent event FMLModIdMappingEvent to mod mcp
+[12:15:09] [main/DEBUG] [FML/]: Bar Step: ModIdMapping - Minecraft Coder Pack took 0.000s
+[12:15:09] [main/TRACE] [FML/FML]: Sending event FMLModIdMappingEvent to mod FML
+[12:15:09] [main/TRACE] [FML/FML]: Sent event FMLModIdMappingEvent to mod FML
+[12:15:09] [main/DEBUG] [FML/]: Bar Step: ModIdMapping - Forge Mod Loader took 0.000s
+[12:15:09] [main/TRACE] [forge/forge]: Sending event FMLModIdMappingEvent to mod forge
+[12:15:09] [main/TRACE] [forge/forge]: Sent event FMLModIdMappingEvent to mod forge
+[12:15:09] [main/DEBUG] [FML/]: Bar Step: ModIdMapping - Minecraft Forge took 0.092s
+[12:15:09] [main/DEBUG] [FML/]: Bar Step: ModIdMapping - JourneyMap took 0.000s
+[12:15:09] [main/DEBUG] [FML/]: Bar Finished: ModIdMapping took 0.093s
+[12:15:09] [main/DEBUG] [FML/]: All registries frozen
+[12:15:09] [main/INFO] [FML/]: Forge Mod Loader has successfully loaded 5 mods
+[12:15:09] [main/DEBUG] [FML/]: Bar Finished: Loading took 10.298s
+[12:15:09] [main/INFO] [Config/]: [OptiFine] *** Reloading custom textures ***
+[12:15:09] [main/DEBUG] [FML/]: Bar Finished: Loading Resource - TextureUtils$1 took 0.189s
+[12:15:41] [main/DEBUG] [FML/]: Gathering id map for writing to world save 新的世界
+[12:15:53] [main/DEBUG] [FML/]: Overriding dimension: using 0
+[12:15:55] [main/WARN] [journeymap/]: core (Initialized) Bad configField entry during updateFrom(): optionsManagerViewed=null
+[12:15:55] [main/WARN] [journeymap/]: core (Initialized) Bad configField entry during updateFrom(): splashViewed=null
+[12:15:55] [main/INFO] [journeymap/]: Loading journeymap.topo.config
+[12:15:55] [main/INFO] [journeymap/]: Loaded 0 waypoints from H:\game\Minecraft1.12.2_jdzh\.minecraft\journeymap\data\sp\~\waypoints
+[12:15:55] [main/INFO] [journeymap/]: Mapping started in H:\game\Minecraft1.12.2_jdzh\.minecraft\journeymap\data\sp\~\DIM0. Memory: 678MB total, 309MB free 
+[12:15:55] [main/INFO] [journeymap/]: JourneyMap: 按下[J]键
+[12:19:47] [main/INFO] [journeymap/]: Mapping halted in H:\game\Minecraft1.12.2_jdzh\.minecraft\journeymap\data\sp\~\DIM0
