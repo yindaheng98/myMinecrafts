@@ -1,0 +1,128 @@
+[22:15:02] [Client thread/INFO] [JMLogger] JourneyMap log initialized.
+[22:15:02] [Client thread/INFO] [JourneymapClient] initialize ENTER
+[22:15:02] [Client thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): optionsManagerViewed=null
+[22:15:02] [Client thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): splashViewed=null
+[22:15:02] [Client thread/INFO] [?] Version: JourneyMap 1.12.2-5.5.5, built with Forge 14.23.5.2768
+Forge: 14.23.5.2838
+Environment: os.name, os.arch, java.version, user.country, user.language=null, game language=zh_cn, locale=zh_cn
+Features: 
+	RadarPlayers : singleplayer = true , multiplayer = true
+	RadarAnimals : singleplayer = true , multiplayer = true
+	RadarMobs : singleplayer = true , multiplayer = true
+	RadarVillagers : singleplayer = true , multiplayer = true
+	MapTopo : singleplayer = true , multiplayer = true
+	MapSurface : singleplayer = true , multiplayer = true
+	MapCaves : singleplayer = true , multiplayer = true
+MiniMapProperties{state=Valid, file=journeymap.minimap.config, configVersion=5.5.5, zoomLevel=0, showPlayers=true, frameAlpha=100, compassFontScale=2, terrainAlpha=100, showEntityNames=true, enabled=true, showPlayerHeading=true, showVillagers=true, info2Label=Game Time, sizePercent=30, showDayNight=true, info3Label=Location, showMobs=true, showPets=true, preferredMapType=day, showCompass=true, mobDisplay=Small Dots, showReticle=true, orientation=指向北方, shape=圆形, showSelf=true, info4Label=Biome, locationFormat=xzyv, playerDisplay=Small Dots, showGrid=true, reticleOrientation=罗盘模式, showWaypoints=true, showCaves=true, showAnimals=true, showMobHeading=true, showWaypointLabels=true, locationFormatVerbose=true, position=屏幕右上, info1Label=Blank, fontScale=2}
+MiniMapProperties{state=Valid, file=journeymap.minimap2.config, configVersion=5.5.5, zoomLevel=0, showPlayers=true, frameAlpha=100, compassFontScale=2, terrainAlpha=100, showEntityNames=true, enabled=true, showPlayerHeading=true, showVillagers=true, info2Label=Game Time, sizePercent=30, showDayNight=true, info3Label=Location, showMobs=true, showPets=true, preferredMapType=day, showCompass=true, mobDisplay=Small Dots, showReticle=true, orientation=指向北方, shape=矩形, showSelf=true, info4Label=Biome, locationFormat=xzyv, playerDisplay=Small Dots, showGrid=true, reticleOrientation=罗盘模式, showWaypoints=true, showCaves=true, showAnimals=true, showMobHeading=true, showWaypointLabels=true, locationFormatVerbose=true, position=屏幕右上, info1Label=Blank, fontScale=2}
+FullMapProperties{state=Valid, file=journeymap.fullmap.config, configVersion=5.5.5, mobDisplay=Small Dots, zoomLevel=0, showPlayers=true, showSelf=true, locationFormat=xzyv, playerDisplay=Small Dots, showGrid=true, showEntityNames=true, showPlayerHeading=true, showVillagers=true, showWaypoints=true, showCaves=true, showAnimals=true, showMobHeading=true, showKeys=true, showWaypointLabels=true, locationFormatVerbose=true, showMobs=true, showPets=true, fontScale=2, preferredMapType=day}
+WaypointProperties{state=Valid, file=journeymap.waypoint.config, configVersion=5.5.5, createDeathpoints=true, showName=true, maxDistance=0, autoHideLabel=true, teleportCommand=/tp {name} {x} {y} {z}, showStaticBeam=true, minDistance=4, boldLabel=false, textureSmall=true, showDistance=true, showRotatingBeam=true, fontScale=2, showTexture=true, managerEnabled=true, beaconEnabled=true}
+WebMapProperties{state=Valid, file=journeymap.webmap.config, configVersion=5.5.5, zoomLevel=0, showWaypoints=true, showCaves=true, showSelf=true, port=8080, showGrid=true, showEntityNames=true, enabled=false, googleMapApiDomain=.com, preferredMapType=day}
+CoreProperties{state=Valid, file=journeymap.core.config, configVersion=5.5.5, verboseColorPalette=false, maxPlayersData=32, mapSurfaceAboveCaves=true, optionsManagerViewed=null, announceMod=true, colorPassive=#bbbbbb, renderOverlayEventTypeName=ALL, mapBlendWater=false, renderDistanceSurfaceMax=7, radarVerticalDistance=16, mapBlendGrass=true, recordCacheStats=false, hideSneakingEntities=true, revealShape=圆形, alwaysMapSurface=false, colorVillager=#88e188, mapPlants=false, colorPet=#0077ff, radarLateralDistance=64, mapBathymetry=false, mapCrops=true, maxMobsData=32, mapPlantShadows=false, alwaysMapCaves=false, checkUpdates=true, browserPoll=2000, mapBlendFoliage=true, mappingEnabled=true, colorPlayer=#ffffff, tileHighDisplayQuality=true, cacheVillagersData=2200, logLevel=INFO, maxVillagersData=32, maxAnimalsData=32, mapTransparency=true, tileRenderType=1, caveIgnoreGlass=true, mapTopography=true, renderDistanceCaveMax=3, mapAntialiasing=true, colorSelf=#0000ff, cachePlayersData=2000, cacheMobsData=3000, cachePlayerData=1000, splashViewed=null, colorHostile=#ff0000, cacheAnimalsData=3100, themeName=OceanMonument, mapCaveLighting=true, renderDelay=2, renderOverlayPreEvent=true, autoMapPoll=2000}
+[22:15:02] [Client thread/INFO] [ClientAPI] [ClientAPI] built with JourneyMap API 1.4
+[22:15:02] [Client thread/INFO] [PluginHelper] Initializing plugins with Client API: journeymap.client.api.impl.ClientAPI
+[22:15:02] [Client thread/INFO] [JourneymapClient] initialize EXIT, elapsed count 0 avg ?ms
+[22:15:47] [Client thread/INFO] [IconSetFileHandler] Added entity icons from journeymap:icon/entity. Success: false
+[22:15:48] [Client thread/INFO] [ThemeLoader] Preloaded theme textures: 72
+[22:16:47] [JM-VersionCheck-1/ERROR] [VersionCheck$1] Could not check version URL
+org.apache.http.conn.ConnectTimeoutException: Connect to api.cfwidget.com:443 [api.cfwidget.com/138.68.180.15] failed: Read timed out
+	at org.apache.http.impl.conn.HttpClientConnectionOperator.connect(HttpClientConnectionOperator.java:132) ~[httpclient-4.3.3.jar:4.3.3]
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:314) ~[httpclient-4.3.3.jar:4.3.3]
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:363) ~[httpclient-4.3.3.jar:4.3.3]
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:219) ~[httpclient-4.3.3.jar:4.3.3]
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:195) ~[httpclient-4.3.3.jar:4.3.3]
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:86) ~[httpclient-4.3.3.jar:4.3.3]
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:108) ~[httpclient-4.3.3.jar:4.3.3]
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:186) ~[httpclient-4.3.3.jar:4.3.3]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82) ~[httpclient-4.3.3.jar:4.3.3]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:106) ~[httpclient-4.3.3.jar:4.3.3]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:57) ~[httpclient-4.3.3.jar:4.3.3]
+	at journeymap.common.version.VersionCheck$1.run(VersionCheck.java:131) [VersionCheck$1.class:1.12.2-5.5.5]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_201]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_201]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_201]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_201]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_201]
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method) ~[?:1.8.0_201]
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116) ~[?:1.8.0_201]
+	at java.net.SocketInputStream.read(SocketInputStream.java:171) ~[?:1.8.0_201]
+	at java.net.SocketInputStream.read(SocketInputStream.java:141) ~[?:1.8.0_201]
+	at sun.security.ssl.InputRecord.readFully(InputRecord.java:465) ~[?:1.8.0_201]
+	at sun.security.ssl.InputRecord.read(InputRecord.java:503) ~[?:1.8.0_201]
+	at sun.security.ssl.SSLSocketImpl.readRecord(SSLSocketImpl.java:975) ~[?:1.8.0_201]
+	at sun.security.ssl.SSLSocketImpl.performInitialHandshake(SSLSocketImpl.java:1367) ~[?:1.8.0_201]
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1395) ~[?:1.8.0_201]
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1379) ~[?:1.8.0_201]
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.createLayeredSocket(SSLConnectionSocketFactory.java:275) ~[httpclient-4.3.3.jar:4.3.3]
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:254) ~[httpclient-4.3.3.jar:4.3.3]
+	at org.apache.http.impl.conn.HttpClientConnectionOperator.connect(HttpClientConnectionOperator.java:117) ~[httpclient-4.3.3.jar:4.3.3]
+	... 16 more
+[22:22:12] [Server thread/INFO] [PropertiesBase] global (FirstLoaded) Setting config file to version "5.5.5": journeymap.server.global.config
+[22:22:12] [Server thread/INFO] [PropertiesBase] global (Valid) Creating config file: F:\Minecraft1.12.2-newnew\.minecraft\journeymap\server\5.5\journeymap.server.global.config
+[22:22:12] [Server thread/INFO] [PropertiesBase] default (FirstLoaded) Setting config file to version "5.5.5": journeymap.server.default.config
+[22:22:12] [Server thread/INFO] [PropertiesBase] default (Valid) Creating config file: F:\Minecraft1.12.2-newnew\.minecraft\journeymap\server\5.5\journeymap.server.default.config
+[22:22:12] [Server thread/INFO] [PropertiesBase] dim0 (Initialized) Setting config file to version "5.5.5": journeymap.server.dim0.config
+[22:22:12] [Server thread/INFO] [PropertiesBase] dim0 (Valid) Creating config file: F:\Minecraft1.12.2-newnew\.minecraft\journeymap\server\5.5\journeymap.server.dim0.config
+[22:22:12] [Server thread/INFO] [PropertiesBase] dim1 (Initialized) Setting config file to version "5.5.5": journeymap.server.dim1.config
+[22:22:12] [Server thread/INFO] [PropertiesBase] dim1 (Valid) Creating config file: F:\Minecraft1.12.2-newnew\.minecraft\journeymap\server\5.5\journeymap.server.dim1.config
+[22:22:12] [Server thread/INFO] [PropertiesBase] dim800 (Initialized) Setting config file to version "5.5.5": journeymap.server.dim800.config
+[22:22:12] [Server thread/INFO] [PropertiesBase] dim800 (Valid) Creating config file: F:\Minecraft1.12.2-newnew\.minecraft\journeymap\server\5.5\journeymap.server.dim800.config
+[22:22:12] [Server thread/INFO] [PropertiesBase] dim801 (Initialized) Setting config file to version "5.5.5": journeymap.server.dim801.config
+[22:22:12] [Server thread/INFO] [PropertiesBase] dim801 (Valid) Creating config file: F:\Minecraft1.12.2-newnew\.minecraft\journeymap\server\5.5\journeymap.server.dim801.config
+[22:22:12] [Server thread/INFO] [PropertiesBase] dim802 (Initialized) Setting config file to version "5.5.5": journeymap.server.dim802.config
+[22:22:12] [Server thread/INFO] [PropertiesBase] dim802 (Valid) Creating config file: F:\Minecraft1.12.2-newnew\.minecraft\journeymap\server\5.5\journeymap.server.dim802.config
+[22:22:12] [Server thread/INFO] [PropertiesBase] dim803 (Initialized) Setting config file to version "5.5.5": journeymap.server.dim803.config
+[22:22:12] [Server thread/INFO] [PropertiesBase] dim803 (Valid) Creating config file: F:\Minecraft1.12.2-newnew\.minecraft\journeymap\server\5.5\journeymap.server.dim803.config
+[22:22:12] [Server thread/INFO] [PropertiesBase] dim804 (Initialized) Setting config file to version "5.5.5": journeymap.server.dim804.config
+[22:22:12] [Server thread/INFO] [PropertiesBase] dim804 (Valid) Creating config file: F:\Minecraft1.12.2-newnew\.minecraft\journeymap\server\5.5\journeymap.server.dim804.config
+[22:22:12] [Server thread/INFO] [PropertiesBase] dim805 (Initialized) Setting config file to version "5.5.5": journeymap.server.dim805.config
+[22:22:12] [Server thread/INFO] [PropertiesBase] dim805 (Valid) Creating config file: F:\Minecraft1.12.2-newnew\.minecraft\journeymap\server\5.5\journeymap.server.dim805.config
+[22:22:12] [Server thread/INFO] [PropertiesBase] dim806 (Initialized) Setting config file to version "5.5.5": journeymap.server.dim806.config
+[22:22:12] [Server thread/INFO] [PropertiesBase] dim806 (Valid) Creating config file: F:\Minecraft1.12.2-newnew\.minecraft\journeymap\server\5.5\journeymap.server.dim806.config
+[22:22:12] [Server thread/INFO] [PropertiesBase] dim807 (Initialized) Setting config file to version "5.5.5": journeymap.server.dim807.config
+[22:22:12] [Server thread/INFO] [PropertiesBase] dim807 (Valid) Creating config file: F:\Minecraft1.12.2-newnew\.minecraft\journeymap\server\5.5\journeymap.server.dim807.config
+[22:22:12] [Server thread/INFO] [PropertiesBase] dim808 (Initialized) Setting config file to version "5.5.5": journeymap.server.dim808.config
+[22:22:12] [Server thread/INFO] [PropertiesBase] dim808 (Valid) Creating config file: F:\Minecraft1.12.2-newnew\.minecraft\journeymap\server\5.5\journeymap.server.dim808.config
+[22:22:12] [Server thread/INFO] [PropertiesBase] dim809 (Initialized) Setting config file to version "5.5.5": journeymap.server.dim809.config
+[22:22:12] [Server thread/INFO] [PropertiesBase] dim809 (Valid) Creating config file: F:\Minecraft1.12.2-newnew\.minecraft\journeymap\server\5.5\journeymap.server.dim809.config
+[22:22:12] [Server thread/INFO] [PropertiesBase] dim810 (Initialized) Setting config file to version "5.5.5": journeymap.server.dim810.config
+[22:22:12] [Server thread/INFO] [PropertiesBase] dim810 (Valid) Creating config file: F:\Minecraft1.12.2-newnew\.minecraft\journeymap\server\5.5\journeymap.server.dim810.config
+[22:22:12] [Server thread/INFO] [PropertiesBase] dim811 (Initialized) Setting config file to version "5.5.5": journeymap.server.dim811.config
+[22:22:12] [Server thread/INFO] [PropertiesBase] dim811 (Valid) Creating config file: F:\Minecraft1.12.2-newnew\.minecraft\journeymap\server\5.5\journeymap.server.dim811.config
+[22:22:12] [Server thread/INFO] [PropertiesBase] dim812 (Initialized) Setting config file to version "5.5.5": journeymap.server.dim812.config
+[22:22:12] [Server thread/INFO] [PropertiesBase] dim812 (Valid) Creating config file: F:\Minecraft1.12.2-newnew\.minecraft\journeymap\server\5.5\journeymap.server.dim812.config
+[22:22:13] [Server thread/INFO] [PropertiesBase] dim813 (Initialized) Setting config file to version "5.5.5": journeymap.server.dim813.config
+[22:22:13] [Server thread/INFO] [PropertiesBase] dim813 (Valid) Creating config file: F:\Minecraft1.12.2-newnew\.minecraft\journeymap\server\5.5\journeymap.server.dim813.config
+[22:22:13] [Server thread/INFO] [PropertiesBase] dim814 (Initialized) Setting config file to version "5.5.5": journeymap.server.dim814.config
+[22:22:13] [Server thread/INFO] [PropertiesBase] dim814 (Valid) Creating config file: F:\Minecraft1.12.2-newnew\.minecraft\journeymap\server\5.5\journeymap.server.dim814.config
+[22:22:13] [Server thread/INFO] [PropertiesBase] dim815 (Initialized) Setting config file to version "5.5.5": journeymap.server.dim815.config
+[22:22:13] [Server thread/INFO] [PropertiesBase] dim815 (Valid) Creating config file: F:\Minecraft1.12.2-newnew\.minecraft\journeymap\server\5.5\journeymap.server.dim815.config
+[22:22:13] [Server thread/INFO] [PropertiesBase] dim816 (Initialized) Setting config file to version "5.5.5": journeymap.server.dim816.config
+[22:22:13] [Server thread/INFO] [PropertiesBase] dim816 (Valid) Creating config file: F:\Minecraft1.12.2-newnew\.minecraft\journeymap\server\5.5\journeymap.server.dim816.config
+[22:22:13] [Server thread/INFO] [PropertiesBase] dim817 (Initialized) Setting config file to version "5.5.5": journeymap.server.dim817.config
+[22:22:13] [Server thread/INFO] [PropertiesBase] dim817 (Valid) Creating config file: F:\Minecraft1.12.2-newnew\.minecraft\journeymap\server\5.5\journeymap.server.dim817.config
+[22:22:13] [Server thread/INFO] [PropertiesBase] dim818 (Initialized) Setting config file to version "5.5.5": journeymap.server.dim818.config
+[22:22:13] [Server thread/INFO] [PropertiesBase] dim818 (Valid) Creating config file: F:\Minecraft1.12.2-newnew\.minecraft\journeymap\server\5.5\journeymap.server.dim818.config
+[22:22:13] [Server thread/INFO] [PropertiesBase] dim819 (Initialized) Setting config file to version "5.5.5": journeymap.server.dim819.config
+[22:22:13] [Server thread/INFO] [PropertiesBase] dim819 (Valid) Creating config file: F:\Minecraft1.12.2-newnew\.minecraft\journeymap\server\5.5\journeymap.server.dim819.config
+[22:22:13] [Server thread/INFO] [PropertiesBase] dim820 (Initialized) Setting config file to version "5.5.5": journeymap.server.dim820.config
+[22:22:13] [Server thread/INFO] [PropertiesBase] dim820 (Valid) Creating config file: F:\Minecraft1.12.2-newnew\.minecraft\journeymap\server\5.5\journeymap.server.dim820.config
+[22:22:13] [Server thread/INFO] [PropertiesBase] dim821 (Initialized) Setting config file to version "5.5.5": journeymap.server.dim821.config
+[22:22:13] [Server thread/INFO] [PropertiesBase] dim821 (Valid) Creating config file: F:\Minecraft1.12.2-newnew\.minecraft\journeymap\server\5.5\journeymap.server.dim821.config
+[22:22:13] [Server thread/INFO] [PropertiesBase] dim-1 (Initialized) Setting config file to version "5.5.5": journeymap.server.dim-1.config
+[22:22:13] [Server thread/INFO] [PropertiesBase] dim-1 (Valid) Creating config file: F:\Minecraft1.12.2-newnew\.minecraft\journeymap\server\5.5\journeymap.server.dim-1.config
+[22:22:13] [Server thread/INFO] [PropertiesBase] dim2 (Initialized) Setting config file to version "5.5.5": journeymap.server.dim2.config
+[22:22:13] [Server thread/INFO] [PropertiesBase] dim2 (Valid) Creating config file: F:\Minecraft1.12.2-newnew\.minecraft\journeymap\server\5.5\journeymap.server.dim2.config
+[22:22:13] [Server thread/INFO] [PropertiesBase] dim7 (Initialized) Setting config file to version "5.5.5": journeymap.server.dim7.config
+[22:22:13] [Server thread/INFO] [PropertiesBase] dim7 (Valid) Creating config file: F:\Minecraft1.12.2-newnew\.minecraft\journeymap\server\5.5\journeymap.server.dim7.config
+[22:22:38] [Client thread/INFO] [ModBlockDelegate] Custom modded block handling enabled for biomesoplenty
+[22:22:41] [Client thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): optionsManagerViewed=null
+[22:22:41] [Client thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): splashViewed=null
+[22:22:42] [Client thread/INFO] [WaypointStore] Loaded 0 waypoints from F:\Minecraft1.12.2-newnew\.minecraft\journeymap\data\sp\新的世界\waypoints
+[22:22:42] [Client thread/INFO] [JourneymapClient] Mapping started in F:\Minecraft1.12.2-newnew\.minecraft\journeymap\data\sp\新的世界\DIM0. Memory: 4096MB total, 1345MB free 
+[22:22:43] [Netty Local Client IO #0/INFO] [JourneymapClient] Teleport Enabled:true
+[22:22:43] [Netty Local Client IO #0/INFO] [JourneymapClient] Server Admin Enabled:true
+[22:22:43] [Client thread/INFO] [ChatLog] JourneyMap: 按下[J]键
+[22:42:13] [Client thread/INFO] [StateTickHandler] yinn died at BlockPos{x=91, y=76, z=310}. Deathpoints enabled: true. Deathpoint created: true
+[22:46:33] [Client thread/INFO] [JourneymapClient] Mapping halted in F:\Minecraft1.12.2-newnew\.minecraft\journeymap\data\sp\新的世界\DIM0
