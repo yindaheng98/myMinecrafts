@@ -420,7 +420,7 @@
       "name": "net.minecraft:launchwrapper:1.12"
     },
     {
-      "name": "net.minecraftforge:forge:1.12.2-14.23.5.2838",
+      "name": "net.minecraftforge:forge:1.12.2-14.23.5.2768",
       "url": "http://files.minecraftforge.net/maven/"
     },
     {
@@ -795,20 +795,20 @@
   ],
   "compatibilityRules": [],
   "downloads": {
-    "server": {
-      "url": "https://launcher.mojang.com/v1/objects/886945bfb2b978778c3a0288fd7fab09d315b25f/server.jar",
-      "sha1": "886945bfb2b978778c3a0288fd7fab09d315b25f",
-      "size": 30222121
-    },
     "client": {
       "url": "https://launcher.mojang.com/v1/objects/0f275bc1547d01fa5f56ba34bdc87d981ee12daf/client.jar",
       "sha1": "0f275bc1547d01fa5f56ba34bdc87d981ee12daf",
       "size": 10180113
+    },
+    "server": {
+      "url": "https://launcher.mojang.com/v1/objects/886945bfb2b978778c3a0288fd7fab09d315b25f/server.jar",
+      "sha1": "886945bfb2b978778c3a0288fd7fab09d315b25f",
+      "size": 30222121
     }
   },
   "logging": {},
   "type": "release",
-  "time": "2019-05-14T01:02:00+08:00",
+  "time": "2018-10-04T15:40:14+08:00",
   "releaseTime": "1960-01-01T15:00:00+08:00",
   "minimumLauncherVersion": 18,
   "hidden": false

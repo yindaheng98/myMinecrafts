@@ -1119,36 +1119,11 @@ ancientwarfarestructure:structure_scanner_block, 结构记录仪
 ancientwarfarestructure:advanced_loot_chest, 高级战利品箱
 ancientwarfarestructure:fire_pit, tile.fire_pit.name
 ancientwarfarestructure:totem_part, 图腾部件
-ancientwarfarestructure:brazier_ember, tile.brazier_ember.name
-ancientwarfarestructure:brazier_flame, tile.brazier_flame.name
 ancientwarfarestructure:altar_short_cloth, Altar With Short %s Cloth on top
 ancientwarfarestructure:altar_long_cloth, Altar With Long %s Cloth on top
 ancientwarfarestructure:altar_candle, %s Altar Candle
 ancientwarfarestructure:altar_lectern, Altar Lectern
 ancientwarfarestructure:altar_sun, Altar Sun
-ancientwarfarestructure:protection_flag, %s Protection Flag
-ancientwarfarestructure:golden_idol, Golden Idol
-ancientwarfarestructure:orc_totem_1, Orc Totem 1
-ancientwarfarestructure:orc_totem_2, Orc Totem 2
-ancientwarfarestructure:orc_totem_2_lit, Orc Totem 2 Lit
-ancientwarfarestructure:goblin_totem_1, Goblin Totem 1
-ancientwarfarestructure:goblin_totem_2, Goblin Totem 2
-ancientwarfarestructure:goblin_totem_2_lit, Goblin Totem 2 Lit
-ancientwarfarestructure:loot_basket, Basket
-ancientwarfarestructure:coffin, Coffin
-ancientwarfarestructure:stool, tile.stool.name
-ancientwarfarestructure:urn, Urn
-ancientwarfarestructure:table, tile.table.name
-ancientwarfarestructure:chair, tile.chair.name
-ancientwarfarestructure:tribal_stool, Tribal Stool
-ancientwarfarestructure:wooden_throne, Wooden Throne
-ancientwarfarestructure:golden_throne, Golden Throne
-ancientwarfarestructure:wooden_post, Wooden Post
-ancientwarfarestructure:stake, tile.stake.name
-ancientwarfarestructure:bench, tile.bench.name
-ancientwarfarestructure:tribal_chair, Tribal Chair
-ancientwarfarestructure:scissor_seat, Scissor Seat
-ancientwarfarestructure:statue, tile.statue.name
 ancientwarfarestructure:structure_scanner, 结构扫描仪
 ancientwarfarestructure:structure_builder, 结构生成器
 ancientwarfarestructure:structure_builder_world_gen, 自然建筑结构生成器
@@ -1165,26 +1140,26 @@ ancientwarfarestructure:construction_tool, 建筑工具
 ancientwarfarestructure:construction_tool_lakes, 湖泊生成工具
 ancientwarfarestructure:block_info_clicker, 方块信息工具
 ancientwarfarestructure:loot_chest_placer, 战利品箱放置器
-ancientwarfarevehicle:spawner:0, 固定投石器
-ancientwarfarevehicle:spawner:0, 固定投石器
-ancientwarfarevehicle:spawner:0, 固定投石器
-ancientwarfarevehicle:spawner:0, 固定投石器
-ancientwarfarevehicle:spawner:0, 固定投石器
-ancientwarfarevehicle:spawner:1, 转动投石器
-ancientwarfarevehicle:spawner:1, 转动投石器
-ancientwarfarevehicle:spawner:1, 转动投石器
-ancientwarfarevehicle:spawner:1, 转动投石器
-ancientwarfarevehicle:spawner:1, 转动投石器
-ancientwarfarevehicle:spawner:2, 固定投石车
-ancientwarfarevehicle:spawner:2, 固定投石车
-ancientwarfarevehicle:spawner:2, 固定投石车
-ancientwarfarevehicle:spawner:2, 固定投石车
-ancientwarfarevehicle:spawner:2, 固定投石车
-ancientwarfarevehicle:spawner:3, 转动投石车
-ancientwarfarevehicle:spawner:3, 转动投石车
-ancientwarfarevehicle:spawner:3, 转动投石车
-ancientwarfarevehicle:spawner:3, 转动投石车
-ancientwarfarevehicle:spawner:3, 转动投石车
+ancientwarfarevehicle:spawner:0, 固定弹射器
+ancientwarfarevehicle:spawner:0, 固定弹射器
+ancientwarfarevehicle:spawner:0, 固定弹射器
+ancientwarfarevehicle:spawner:0, 固定弹射器
+ancientwarfarevehicle:spawner:0, 固定弹射器
+ancientwarfarevehicle:spawner:1, 转动弹射器
+ancientwarfarevehicle:spawner:1, 转动弹射器
+ancientwarfarevehicle:spawner:1, 转动弹射器
+ancientwarfarevehicle:spawner:1, 转动弹射器
+ancientwarfarevehicle:spawner:1, 转动弹射器
+ancientwarfarevehicle:spawner:2, 固定弹射车
+ancientwarfarevehicle:spawner:2, 固定弹射车
+ancientwarfarevehicle:spawner:2, 固定弹射车
+ancientwarfarevehicle:spawner:2, 固定弹射车
+ancientwarfarevehicle:spawner:2, 固定弹射车
+ancientwarfarevehicle:spawner:3, 转动弹射车
+ancientwarfarevehicle:spawner:3, 转动弹射车
+ancientwarfarevehicle:spawner:3, 转动弹射车
+ancientwarfarevehicle:spawner:3, 转动弹射车
+ancientwarfarevehicle:spawner:3, 转动弹射车
 ancientwarfarevehicle:spawner:4, 固定弩车架
 ancientwarfarevehicle:spawner:4, 固定弩车架
 ancientwarfarevehicle:spawner:4, 固定弩车架
@@ -1260,11 +1235,11 @@ ancientwarfarevehicle:spawner:18, 船载弩车
 ancientwarfarevehicle:spawner:18, 船载弩车
 ancientwarfarevehicle:spawner:18, 船载弩车
 ancientwarfarevehicle:spawner:18, 船载弩车
-ancientwarfarevehicle:spawner:19, 船载投石器
-ancientwarfarevehicle:spawner:19, 船载投石器
-ancientwarfarevehicle:spawner:19, 船载投石器
-ancientwarfarevehicle:spawner:19, 船载投石器
-ancientwarfarevehicle:spawner:19, 船载投石器
+ancientwarfarevehicle:spawner:19, 船载弹射器
+ancientwarfarevehicle:spawner:19, 船载弹射器
+ancientwarfarevehicle:spawner:19, 船载弹射器
+ancientwarfarevehicle:spawner:19, 船载弹射器
+ancientwarfarevehicle:spawner:19, 船载弹射器
 ancientwarfarevehicle:spawner:20, 运输船
 ancientwarfarevehicle:spawner:20, 运输船
 ancientwarfarevehicle:spawner:20, 运输船
@@ -1359,12 +1334,11 @@ ancientwarfarevehicle:armor_iron, 铁护甲（载具）
 ancientwarfarevehicle:armor_obsidian, 黑曜石护甲（载具）
 ancientwarfarevehicle:vehicle_upgrade_speed, 铁轴承
 ancientwarfarevehicle:vehicle_upgrade_aim, 基本弹道计算器
-ancientwarfarevehicle:vehicle_upgrade_reload, 弹簧装弹机
-ancientwarfarevehicle:vehicle_upgrade_power, 功率升级
-ancientwarfarevehicle:vehicle_upgrade_turret_pitch, 节距延长
-ancientwarfarevehicle:vehicle_upgrade_pitch_up, 转角楔板：+3'
-ancientwarfarevehicle:vehicle_upgrade_pitch_down, 转角楔板：-3'
-ancientwarfarenpc:town_hall, 市政厅
+ancientwarfarevehicle:vehicle_upgrade_reload, 装填效率提升
+ancientwarfarevehicle:vehicle_upgrade_power, 提升功率
+ancientwarfarevehicle:vehicle_upgrade_turret_pitch, 固定床弩范围扩展
+ancientwarfarevehicle:vehicle_upgrade_pitch_up, 床弩瞄准：+3'
+ancientwarfarevehicle:vehicle_upgrade_pitch_down, 床弩瞄准：-3'
 ancientwarfarenpc:wooden_command_baton, 木质指挥棒
 ancientwarfarenpc:stone_command_baton, 石质指挥棒
 ancientwarfarenpc:iron_command_baton, 铁质指挥棒
@@ -1382,7 +1356,7 @@ ancientwarfarenpc:diamond_shield, 钻石盾牌
 ancientwarfarenpc:work_order, 工作指令
 ancientwarfarenpc:upkeep_order, 食物供给点
 ancientwarfarenpc:combat_order, 作战指令
-ancientwarfarenpc:routing_order, 路线指令
+ancientwarfarenpc:routing_order, 路由订单
 ancientwarfarenpc:trade_order, 交易指令
 ancientwarfarenpc:npc_spawner, item.npc_spawner.name
 ancientwarfarenpc:coin, item.coin.name
@@ -1402,6 +1376,7 @@ ancientwarfarenpc:stone_lance, 石枪
 ancientwarfarenpc:iron_lance, 铁枪
 ancientwarfarenpc:golden_lance, 金枪
 ancientwarfarenpc:diamond_lance, 钻石枪
+ancientwarfarenpc:town_hall, 市政厅
 ancientwarfareautomation:worksite_upgrade:0, 中型界限升级
 ancientwarfareautomation:worksite_upgrade:1, 大型界限升级
 ancientwarfareautomation:worksite_upgrade:2, 中型采石场升级
@@ -1450,6 +1425,45 @@ ancientwarfareautomation:windmill_blade, 风车叶片
 ancientwarfareautomation:windmill_generator, tile.windmill_generator.name
 ancientwarfareautomation:chunk_loader_simple, 低级区块加载器
 ancientwarfareautomation:chunk_loader_deluxe, 高级区块加载器
+aoa3:amethyst_axe, 紫晶斧
+aoa3:amethyst_pickaxe, 紫晶镐
+aoa3:amethyst_shovel, 紫晶锹
+aoa3:emberstone_axe, 余烬斧
+aoa3:emberstone_pickaxe, 余烬镐
+aoa3:emberstone_shovel, 余烬锹
+aoa3:energistic_axe, 精炼斧
+aoa3:energistic_pickaxe, 精炼镐
+aoa3:energistic_shovel, 精炼锹
+aoa3:goofy_axe, 愚弄斧
+aoa3:goofy_pickaxe, 愚弄镐
+aoa3:goofy_shovel, 愚弄锹
+aoa3:jade_axe, 翡翠斧
+aoa3:jade_pickaxe, 翡翠镐
+aoa3:jade_shovel, 翡翠锹
+aoa3:limonite_axe, 褐铁斧
+aoa3:limonite_pickaxe, 褐铁镐
+aoa3:limonite_shovel, 褐铁锹
+aoa3:occult_axe, 神秘斧
+aoa3:occult_pickaxe, 神秘镐
+aoa3:occult_shovel, 神秘锹
+aoa3:ornamyte_axe, 奥姆斧
+aoa3:ornamyte_pickaxe, 奥姆镐
+aoa3:ornamyte_shovel, 奥姆锹
+aoa3:rosite_axe, 硫铜锑斧
+aoa3:rosite_pickaxe, 硫铜锑镐
+aoa3:rosite_shovel, 硫铜锑锹
+aoa3:sapphire_axe, 蓝宝石斧
+aoa3:sapphire_pickaxe, 蓝宝石镐
+aoa3:sapphire_shovel, 蓝宝石锹
+aoa3:skeletal_axe, 骷髅斧
+aoa3:skeletal_pickaxe, 骷髅镐
+aoa3:skeletal_shovel, 骷髅锹
+aoa3:soulstone_axe, 灵魂斧
+aoa3:soulstone_pickaxe, 灵魂镐
+aoa3:soulstone_shovel, 灵魂锹
+aoa3:pickmax, 萃取镐
+aoa3:gemcracker, 裂解镐
+aoa3:chainsaw, 电锯
 aoa3:active_rune_stone, 活跃符石
 aoa3:amphibiyte_lung, 安佛比亚的肺
 aoa3:ancient_orb, 远古宝珠
@@ -1589,139 +1603,13 @@ aoa3:tipped_holly_arrow:0, strength
 aoa3:tipped_holly_arrow:0, weakness
 aoa3:tipped_holly_arrow:0, weakness
 aoa3:tipped_holly_arrow:0, luck
-aoa3:tipped_holly_arrow:0, saturation
-aoa3:tipped_holly_arrow:0, saturation
-aoa3:tipped_holly_arrow:0, wither
-aoa3:tipped_holly_arrow:0, wither
-aoa3:tipped_holly_arrow:0, wither
-aoa3:tipped_holly_arrow:0, hunger
-aoa3:tipped_holly_arrow:0, hunger
-aoa3:tipped_holly_arrow:0, hunger
-aoa3:tipped_holly_arrow:0, blindness
-aoa3:tipped_holly_arrow:0, blindness
-aoa3:tipped_holly_arrow:0, blindness
-aoa3:tipped_holly_arrow:0, nausea
-aoa3:tipped_holly_arrow:0, nausea
-aoa3:tipped_holly_arrow:0, levitation
-aoa3:tipped_holly_arrow:0, levitation
-aoa3:tipped_holly_arrow:0, levitation
-aoa3:tipped_holly_arrow:0, absorption
-aoa3:tipped_holly_arrow:0, absorption
-aoa3:tipped_holly_arrow:0, absorption
-aoa3:tipped_holly_arrow:0, glowing
-aoa3:tipped_holly_arrow:0, glowing
-aoa3:tipped_holly_arrow:0, haste
-aoa3:tipped_holly_arrow:0, haste
-aoa3:tipped_holly_arrow:0, haste
-aoa3:tipped_holly_arrow:0, mining_fatigue
-aoa3:tipped_holly_arrow:0, mining_fatigue
-aoa3:tipped_holly_arrow:0, mining_fatigue
-aoa3:tipped_holly_arrow:0, health_boost
-aoa3:tipped_holly_arrow:0, health_boost
-aoa3:tipped_holly_arrow:0, health_boost
-aoa3:tipped_holly_arrow:0, resistance
-aoa3:tipped_holly_arrow:0, resistance
-aoa3:tipped_holly_arrow:0, resistance
-aoa3:tipped_holly_arrow:0, unluck
-aoa3:tipped_holly_arrow:0, love
-aoa3:tipped_holly_arrow:0, repair
-aoa3:tipped_holly_arrow:0, repair
-aoa3:tipped_holly_arrow:0, repair
-aoa3:tipped_holly_arrow:0, flight
-aoa3:tipped_holly_arrow:0, flight
-aoa3:tipped_holly_arrow:0, extension
-aoa3:tipped_holly_arrow:0, extension
-aoa3:tipped_holly_arrow:0, extension
-aoa3:tipped_holly_arrow:0, recoil
-aoa3:tipped_holly_arrow:0, recoil
-aoa3:tipped_holly_arrow:0, recoil
-aoa3:tipped_holly_arrow:0, iron_skin
-aoa3:tipped_holly_arrow:0, iron_skin
-aoa3:tipped_holly_arrow:0, iron_skin
-aoa3:tipped_holly_arrow:0, purity
-aoa3:tipped_holly_arrow:0, purity
-aoa3:tipped_holly_arrow:0, reach
-aoa3:tipped_holly_arrow:0, reach
-aoa3:tipped_holly_arrow:0, reach
-aoa3:tipped_holly_arrow:0, diamond_skin
-aoa3:tipped_holly_arrow:0, diamond_skin
-aoa3:tipped_holly_arrow:0, diamond_skin
-aoa3:tipped_holly_arrow:0, teleport
-aoa3:tipped_holly_arrow:0, teleport
-aoa3:tipped_holly_arrow:0, teleport_surface
-aoa3:tipped_holly_arrow:0, magic_focus
-aoa3:tipped_holly_arrow:0, magic_focus
-aoa3:tipped_holly_arrow:0, magic_focus
-aoa3:tipped_holly_arrow:0, cure
-aoa3:tipped_holly_arrow:0, step_up
-aoa3:tipped_holly_arrow:0, step_up
-aoa3:tipped_holly_arrow:0, step_up
-aoa3:tipped_holly_arrow:0, drown
-aoa3:tipped_holly_arrow:0, drown
-aoa3:tipped_holly_arrow:0, teleport_spawn
-aoa3:tipped_holly_arrow:0, disorganization
-aoa3:tipped_holly_arrow:0, climb
-aoa3:tipped_holly_arrow:0, climb
-aoa3:tipped_holly_arrow:0, perplexity
-aoa3:tipped_holly_arrow:0, perplexity
-aoa3:tipped_holly_arrow:0, rust
-aoa3:tipped_holly_arrow:0, rust
-aoa3:tipped_holly_arrow:0, rust
-aoa3:tipped_holly_arrow:0, vulnerable
-aoa3:tipped_holly_arrow:0, vulnerable
-aoa3:tipped_holly_arrow:0, vulnerable
-aoa3:tipped_holly_arrow:0, explode
-aoa3:tipped_holly_arrow:0, explode
-aoa3:tipped_holly_arrow:0, solid_core
-aoa3:tipped_holly_arrow:0, solid_core
-aoa3:tipped_holly_arrow:0, fire
-aoa3:tipped_holly_arrow:0, fire
-aoa3:tipped_holly_arrow:0, lightning
-aoa3:tipped_holly_arrow:0, magic_inhibition
-aoa3:tipped_holly_arrow:0, magic_inhibition
-aoa3:tipped_holly_arrow:0, magic_inhibition
-aoa3:tipped_holly_arrow:0, chance
-aoa3:tipped_holly_arrow:0, chance
-aoa3:tipped_holly_arrow:0, invert
-aoa3:tipped_holly_arrow:0, weight
-aoa3:tipped_holly_arrow:0, weight
-aoa3:tipped_holly_arrow:0, weight
-aoa3:tipped_holly_arrow:0, launch
-aoa3:tipped_holly_arrow:0, launch
-aoa3:tipped_holly_arrow:0, dispel
-aoa3:tipped_holly_arrow:0, revival
-aoa3:tipped_holly_arrow:0, revival
-aoa3:tipped_holly_arrow:0, revival
-aoa3:tipped_holly_arrow:0, klutz
-aoa3:tipped_holly_arrow:0, klutz
-aoa3:tipped_holly_arrow:0, klutz
-aoa3:tipped_holly_arrow:0, bless
-aoa3:tipped_holly_arrow:0, bless
-aoa3:tipped_holly_arrow:0, broken_armor
-aoa3:tipped_holly_arrow:0, broken_armor
-aoa3:tipped_holly_arrow:0, broken_armor
-aoa3:tipped_holly_arrow:0, magic_shield
-aoa3:tipped_holly_arrow:0, magic_shield
-aoa3:tipped_holly_arrow:0, magic_shield
-aoa3:tipped_holly_arrow:0, slow_fall
-aoa3:tipped_holly_arrow:0, slow_fall
-aoa3:tipped_holly_arrow:0, slow_fall
-aoa3:tipped_holly_arrow:0, antidote
-aoa3:tipped_holly_arrow:0, antidote
-aoa3:tipped_holly_arrow:0, curse
-aoa3:tipped_holly_arrow:0, curse
-aoa3:tipped_holly_arrow:0, burst
-aoa3:tipped_holly_arrow:0, burst
-aoa3:tipped_holly_arrow:0, archery
-aoa3:tipped_holly_arrow:0, archery
-aoa3:tipped_holly_arrow:0, archery
+aoa3:tipped_holly_arrow:0, enderio.floating
+aoa3:tipped_holly_arrow:0, enderio.floating
+aoa3:tipped_holly_arrow:0, enderio.floating
 aoa3:tipped_holly_arrow:0, enderio.withering
 aoa3:tipped_holly_arrow:0, enderio.withering
 aoa3:tipped_holly_arrow:0, enderio.confusion
 aoa3:tipped_holly_arrow:0, enderio.confusion
-aoa3:tipped_holly_arrow:0, enderio.floating
-aoa3:tipped_holly_arrow:0, enderio.floating
-aoa3:tipped_holly_arrow:0, enderio.floating
 aoa3:holly_top_petals, 冬青花瓣
 aoa3:hot_rod, 烤毛狮肉
 aoa3:hydro_stone, 水能宝石
@@ -2052,6 +1940,267 @@ aoa3:weapons_case, 武器箱
 aoa3:whitewashing_solution, 灰色浸染材料
 aoa3:worn_book, 旧书
 aoa3:zhinx_dust, 间线尘
+aoa3:alacrity_boots, 敏捷靴子
+aoa3:alacrity_legs, 敏捷护腿
+aoa3:alacrity_chestplate, 敏捷胸甲
+aoa3:alacrity_helmet, 敏捷头盔
+aoa3:alchemy_chestplate, 炼金胸甲
+aoa3:alchemy_boots, 炼金靴子
+aoa3:alchemy_helmet, 炼金头盔
+aoa3:alchemy_legs, 炼金护腿
+aoa3:amethind_chestplate, 紫晶胸甲
+aoa3:amethind_boots, 紫晶靴子
+aoa3:amethind_helmet, 紫晶头盔
+aoa3:amethind_legs, 紫晶护腿
+aoa3:anima_chestplate, 灵气胸甲
+aoa3:anima_boots, 灵气靴子
+aoa3:anima_helmet, 灵气头盔
+aoa3:anima_legs, 灵气护腿
+aoa3:archaic_chestplate, 古代胸甲
+aoa3:archaic_boots, 古代靴子
+aoa3:archaic_helmet, 古代头盔
+aoa3:archaic_legs, 古代护腿
+aoa3:augury_chestplate, 预兆胸甲
+aoa3:augury_boots, 预兆靴子
+aoa3:augury_helmet, 预兆头盔
+aoa3:augury_legs, 预兆护腿
+aoa3:baron_chestplate, 爵士胸甲
+aoa3:baron_boots, 爵士靴子
+aoa3:baron_helmet, 爵士头盔
+aoa3:baron_legs, 爵士护腿
+aoa3:battleborn_chestplate, 复仇胸甲
+aoa3:battleborn_boots, 复仇靴子
+aoa3:battleborn_helmet, 复仇头盔
+aoa3:battleborn_legs, 复仇护腿
+aoa3:biogenic_chestplate, 生命之力胸甲
+aoa3:biogenic_boots, 生命之力靴子
+aoa3:biogenic_helmet, 生命之力头盔
+aoa3:biogenic_legs, 生命之力护腿
+aoa3:boreic_chestplate, 命运胸甲
+aoa3:boreic_boots, 命运靴子
+aoa3:boreic_helmet, 命运头盔
+aoa3:boreic_legs, 命运护腿
+aoa3:butchery_chestplate, 嗜血胸甲
+aoa3:butchery_boots, 嗜血靴子
+aoa3:butchery_helmet, 嗜血头盔
+aoa3:butchery_legs, 嗜血护腿
+aoa3:candy_chestplate, 糖果胸甲
+aoa3:candy_boots, 糖果靴子
+aoa3:candy_helmet, 糖果头盔
+aoa3:candy_legs, 糖果护腿
+aoa3:commander_chestplate, 指挥官胸甲
+aoa3:commander_boots, 指挥官靴子
+aoa3:commander_helmet, 指挥官头盔
+aoa3:commander_legs, 指挥官护腿
+aoa3:creation_chestplate, 召唤胸甲
+aoa3:creation_boots, 召唤靴子
+aoa3:creation_helmet, 召唤头盔
+aoa3:creation_legs, 召唤护腿
+aoa3:crystallis_chestplate, 微晶胸甲
+aoa3:crystallis_boots, 微晶靴子
+aoa3:crystallis_helmet, 微晶头盔
+aoa3:crystallis_legs, 微晶护腿
+aoa3:elecanyte_chestplate, 能量胸甲
+aoa3:elecanyte_boots, 能量靴子
+aoa3:elecanyte_helmet, 能量头盔
+aoa3:elecanyte_legs, 能量护腿
+aoa3:embrodium_chestplate, 余烬胸甲
+aoa3:embrodium_boots, 余烬靴子
+aoa3:embrodium_helmet, 余烬头盔
+aoa3:embrodium_legs, 余烬护腿
+aoa3:engineering_chestplate, 建造胸甲
+aoa3:engineering_boots, 建造靴子
+aoa3:engineering_helmet, 建造头盔
+aoa3:engineering_legs, 建造护腿
+aoa3:exoplate_chestplate, 骨化胸甲
+aoa3:exoplate_boots, 骨化靴子
+aoa3:exoplate_helmet, 骨化头盔
+aoa3:exoplate_legs, 骨化护腿
+aoa3:expedition_chestplate, 远征胸甲
+aoa3:expedition_boots, 远征靴子
+aoa3:expedition_helmet, 远征头盔
+aoa3:expedition_legs, 远征护腿
+aoa3:explosive_boots, 爆裂靴子
+aoa3:explosive_legs, 爆裂护腿
+aoa3:explosive_chestplate, 爆裂胸甲
+aoa3:explosive_helmet, 爆裂头盔
+aoa3:extraction_boots, 精炼靴子
+aoa3:extraction_legs, 精炼护腿
+aoa3:extraction_chestplate, 精炼胸甲
+aoa3:extraction_helmet, 精炼头盔
+aoa3:foraging_boots, 采掘靴子
+aoa3:foraging_legs, 采掘护腿
+aoa3:foraging_chestplate, 采掘胸甲
+aoa3:foraging_helmet, 采掘头盔
+aoa3:fungal_boots, 真菌靴子
+aoa3:fungal_legs, 真菌护腿
+aoa3:fungal_chestplate, 真菌胸甲
+aoa3:fungal_helmet, 真菌头盔
+aoa3:ghastly_boots, 阴森靴子
+aoa3:ghastly_legs, 阴森护腿
+aoa3:ghastly_chestplate, 阴森胸甲
+aoa3:ghastly_helmet, 阴森头盔
+aoa3:ghoulish_boots, 恐惧靴子
+aoa3:ghoulish_legs, 恐惧护腿
+aoa3:ghoulish_chestplate, 恐惧胸甲
+aoa3:ghoulish_helmet, 恐惧头盔
+aoa3:hauling_boots, 垂钓靴子
+aoa3:hauling_legs, 垂钓护腿
+aoa3:hauling_chestplate, 垂钓胸甲
+aoa3:hauling_helmet, 垂钓头盔
+aoa3:hazmat_boots, 危险靴子
+aoa3:hazmat_legs, 危险护腿
+aoa3:hazmat_chestplate, 危险胸甲
+aoa3:hazmat_helmet, 危险头盔
+aoa3:hunter_boots, 狩猎靴子
+aoa3:hunter_legs, 狩猎护腿
+aoa3:hunter_chestplate, 狩猎胸甲
+aoa3:hunter_helmet, 狩猎头盔
+aoa3:hydrangic_boots, 水能靴子
+aoa3:hydrangic_legs, 水能护腿
+aoa3:hydrangic_chestplate, 水能胸甲
+aoa3:hydrangic_helmet, 水能头盔
+aoa3:hydroplate_boots, 水佑靴子
+aoa3:hydroplate_legs, 水佑护腿
+aoa3:hydroplate_chestplate, 水佑胸甲
+aoa3:hydroplate_helmet, 水佑头盔
+aoa3:ice_boots, 冰之靴子
+aoa3:ice_legs, 冰之护腿
+aoa3:ice_chestplate, 冰之胸甲
+aoa3:ice_helmet, 冰之头盔
+aoa3:infernal_boots, 下界靴子
+aoa3:infernal_legs, 下界护腿
+aoa3:infernal_chestplate, 下界胸甲
+aoa3:infernal_helmet, 下界头盔
+aoa3:infusion_boots, 注魔靴子
+aoa3:infusion_legs, 注魔护腿
+aoa3:infusion_chestplate, 注魔胸甲
+aoa3:infusion_helmet, 注魔头盔
+aoa3:innervation_boots, 支配靴子
+aoa3:innervation_legs, 支配护腿
+aoa3:innervation_chestplate, 支配胸甲
+aoa3:innervation_helmet, 支配头盔
+aoa3:knight_boots, 骑士靴子
+aoa3:knight_legs, 骑士护腿
+aoa3:knight_chestplate, 骑士胸甲
+aoa3:knight_helmet, 骑士头盔
+aoa3:logging_boots, 砍伐靴子
+aoa3:logging_legs, 砍伐护腿
+aoa3:logging_chestplate, 砍伐胸甲
+aoa3:logging_helmet, 砍伐头盔
+aoa3:lunar_boots, 月球靴子
+aoa3:lunar_legs, 月球护腿
+aoa3:lunar_chestplate, 月球胸甲
+aoa3:lunar_helmet, 月球头盔
+aoa3:lyndamyte_boots, 褐铁靴子
+aoa3:lyndamyte_legs, 褐铁护腿
+aoa3:lyndamyte_chestplate, 褐铁胸甲
+aoa3:lyndamyte_helmet, 褐铁头盔
+aoa3:lyonic_boots, 愤怒靴子
+aoa3:lyonic_legs, 愤怒护腿
+aoa3:lyonic_chestplate, 愤怒胸甲
+aoa3:lyonic_helmet, 愤怒头盔
+aoa3:mercurial_boots, 水银靴子
+aoa3:mercurial_legs, 水银护腿
+aoa3:mercurial_chestplate, 水银胸甲
+aoa3:mercurial_helmet, 水银头盔
+aoa3:necro_boots, 死灵靴子
+aoa3:necro_legs, 死灵护腿
+aoa3:necro_chestplate, 死灵胸甲
+aoa3:necro_helmet, 死灵头盔
+aoa3:nethengeic_boots, 纳德吉克靴子
+aoa3:nethengeic_legs, 纳德吉克护腿
+aoa3:nethengeic_chestplate, 纳德吉克胸甲
+aoa3:nethengeic_helmet, 纳德吉克头盔
+aoa3:nightmare_boots, 噩梦靴子
+aoa3:nightmare_legs, 噩梦护腿
+aoa3:nightmare_chestplate, 噩梦胸甲
+aoa3:nightmare_helmet, 噩梦头盔
+aoa3:omni_boots, 爆破靴子
+aoa3:omni_legs, 爆破护腿
+aoa3:omni_chestplate, 爆破胸甲
+aoa3:omni_helmet, 爆破头盔
+aoa3:phantasm_boots, 幻象靴子
+aoa3:phantasm_legs, 幻象护腿
+aoa3:phantasm_chestplate, 幻象胸甲
+aoa3:phantasm_helmet, 幻象头盔
+aoa3:poison_boots, 剧毒靴子
+aoa3:poison_legs, 剧毒护腿
+aoa3:poison_chestplate, 剧毒胸甲
+aoa3:poison_helmet, 剧毒头盔
+aoa3:predatious_boots, 自然靴子
+aoa3:predatious_legs, 自然护腿
+aoa3:predatious_chestplate, 自然胸甲
+aoa3:predatious_helmet, 自然头盔
+aoa3:primordial_boots, 原始靴子
+aoa3:primordial_legs, 原始护腿
+aoa3:primordial_chestplate, 原始胸甲
+aoa3:primordial_helmet, 原始头盔
+aoa3:purity_boots, 纯净靴子
+aoa3:purity_legs, 纯净护腿
+aoa3:purity_chestplate, 纯净胸甲
+aoa3:purity_helmet, 纯净头盔
+aoa3:rockbone_boots, 岩骨靴子
+aoa3:rockbone_legs, 岩骨护腿
+aoa3:rockbone_chestplate, 岩骨胸甲
+aoa3:rockbone_helmet, 岩骨头盔
+aoa3:rosidian_boots, 伊恩靴子
+aoa3:rosidian_legs, 伊恩护腿
+aoa3:rosidian_chestplate, 伊恩胸甲
+aoa3:rosidian_helmet, 伊恩头盔
+aoa3:runation_boots, 魔力靴子
+aoa3:runation_legs, 魔力护腿
+aoa3:runation_chestplate, 魔力胸甲
+aoa3:runation_helmet, 魔力头盔
+aoa3:runic_boots, 符文靴子
+aoa3:runic_legs, 符文护腿
+aoa3:runic_chestplate, 符文胸甲
+aoa3:runic_helmet, 符文头盔
+aoa3:sharpshot_boots, 锐利靴子
+aoa3:sharpshot_legs, 锐利护腿
+aoa3:sharpshot_chestplate, 锐利胸甲
+aoa3:sharpshot_helmet, 锐利头盔
+aoa3:skeletal_boots, 骷髅靴子
+aoa3:skeletal_legs, 骷髅护腿
+aoa3:skeletal_chestplate, 骷髅胸甲
+aoa3:skeletal_helmet, 骷髅头盔
+aoa3:spaceking_boots, 空间之主靴子
+aoa3:spaceking_legs, 空间之主护腿
+aoa3:spaceking_chestplate, 空间之主胸甲
+aoa3:spaceking_helmet, 空间之主头盔
+aoa3:speed_boots, 极速靴子
+aoa3:speed_legs, 极速护腿
+aoa3:speed_chestplate, 极速胸甲
+aoa3:speed_helmet, 极速头盔
+aoa3:subterranean_boots, 地下靴子
+aoa3:subterranean_legs, 地下护腿
+aoa3:subterranean_chestplate, 地下胸甲
+aoa3:subterranean_helmet, 地下头盔
+aoa3:utopian_boots, 乌托邦靴子
+aoa3:utopian_legs, 乌托邦护腿
+aoa3:utopian_chestplate, 乌托邦胸甲
+aoa3:utopian_helmet, 乌托邦头盔
+aoa3:void_boots, 虚空靴子
+aoa3:void_legs, 虚空护腿
+aoa3:void_chestplate, 虚空胸甲
+aoa3:void_helmet, 虚空头盔
+aoa3:weaken_boots, 削弱靴子
+aoa3:weaken_legs, 削弱护腿
+aoa3:weaken_chestplate, 削弱胸甲
+aoa3:weaken_helmet, 削弱头盔
+aoa3:wither_boots, 凋灵靴子
+aoa3:wither_legs, 凋灵护腿
+aoa3:wither_chestplate, 凋灵胸甲
+aoa3:wither_helmet, 凋灵头盔
+aoa3:zargonite_boots, 领域靴子
+aoa3:zargonite_legs, 领域护腿
+aoa3:zargonite_chestplate, 领域胸甲
+aoa3:zargonite_helmet, 领域头盔
+aoa3:achelos_helmet, 河神潜水盔
+aoa3:oceanus_helmet, 海神潜水盔
+aoa3:sealord_helmet, 海洋领主潜水盔
+aoa3:face_mask, 面罩
+aoa3:night_vision_goggles, 夜视镜
 aoa3:amethyst_sword, 紫晶剑
 aoa3:baron_sword, 爵士剑
 aoa3:bloodfury, 血之怒
@@ -2473,267 +2622,6 @@ aoa3:vibe_sound_cannon, 震音加农
 aoa3:vortex_blaster, 漩涡枪
 aoa3:whimsy_winder, 奇妙的络筒机
 aoa3:withers_wrath, 凋灵之怒
-aoa3:alacrity_boots, 敏捷靴子
-aoa3:alacrity_legs, 敏捷护腿
-aoa3:alacrity_chestplate, 敏捷胸甲
-aoa3:alacrity_helmet, 敏捷头盔
-aoa3:alchemy_chestplate, 炼金胸甲
-aoa3:alchemy_boots, 炼金靴子
-aoa3:alchemy_helmet, 炼金头盔
-aoa3:alchemy_legs, 炼金护腿
-aoa3:amethind_chestplate, 紫晶胸甲
-aoa3:amethind_boots, 紫晶靴子
-aoa3:amethind_helmet, 紫晶头盔
-aoa3:amethind_legs, 紫晶护腿
-aoa3:anima_chestplate, 灵气胸甲
-aoa3:anima_boots, 灵气靴子
-aoa3:anima_helmet, 灵气头盔
-aoa3:anima_legs, 灵气护腿
-aoa3:archaic_chestplate, 古代胸甲
-aoa3:archaic_boots, 古代靴子
-aoa3:archaic_helmet, 古代头盔
-aoa3:archaic_legs, 古代护腿
-aoa3:augury_chestplate, 预兆胸甲
-aoa3:augury_boots, 预兆靴子
-aoa3:augury_helmet, 预兆头盔
-aoa3:augury_legs, 预兆护腿
-aoa3:baron_chestplate, 爵士胸甲
-aoa3:baron_boots, 爵士靴子
-aoa3:baron_helmet, 爵士头盔
-aoa3:baron_legs, 爵士护腿
-aoa3:battleborn_chestplate, 复仇胸甲
-aoa3:battleborn_boots, 复仇靴子
-aoa3:battleborn_helmet, 复仇头盔
-aoa3:battleborn_legs, 复仇护腿
-aoa3:biogenic_chestplate, 生命之力胸甲
-aoa3:biogenic_boots, 生命之力靴子
-aoa3:biogenic_helmet, 生命之力头盔
-aoa3:biogenic_legs, 生命之力护腿
-aoa3:boreic_chestplate, 命运胸甲
-aoa3:boreic_boots, 命运靴子
-aoa3:boreic_helmet, 命运头盔
-aoa3:boreic_legs, 命运护腿
-aoa3:butchery_chestplate, 嗜血胸甲
-aoa3:butchery_boots, 嗜血靴子
-aoa3:butchery_helmet, 嗜血头盔
-aoa3:butchery_legs, 嗜血护腿
-aoa3:candy_chestplate, 糖果胸甲
-aoa3:candy_boots, 糖果靴子
-aoa3:candy_helmet, 糖果头盔
-aoa3:candy_legs, 糖果护腿
-aoa3:commander_chestplate, 指挥官胸甲
-aoa3:commander_boots, 指挥官靴子
-aoa3:commander_helmet, 指挥官头盔
-aoa3:commander_legs, 指挥官护腿
-aoa3:creation_chestplate, 召唤胸甲
-aoa3:creation_boots, 召唤靴子
-aoa3:creation_helmet, 召唤头盔
-aoa3:creation_legs, 召唤护腿
-aoa3:crystallis_chestplate, 微晶胸甲
-aoa3:crystallis_boots, 微晶靴子
-aoa3:crystallis_helmet, 微晶头盔
-aoa3:crystallis_legs, 微晶护腿
-aoa3:elecanyte_chestplate, 能量胸甲
-aoa3:elecanyte_boots, 能量靴子
-aoa3:elecanyte_helmet, 能量头盔
-aoa3:elecanyte_legs, 能量护腿
-aoa3:embrodium_chestplate, 余烬胸甲
-aoa3:embrodium_boots, 余烬靴子
-aoa3:embrodium_helmet, 余烬头盔
-aoa3:embrodium_legs, 余烬护腿
-aoa3:engineering_chestplate, 建造胸甲
-aoa3:engineering_boots, 建造靴子
-aoa3:engineering_helmet, 建造头盔
-aoa3:engineering_legs, 建造护腿
-aoa3:exoplate_chestplate, 骨化胸甲
-aoa3:exoplate_boots, 骨化靴子
-aoa3:exoplate_helmet, 骨化头盔
-aoa3:exoplate_legs, 骨化护腿
-aoa3:expedition_chestplate, 远征胸甲
-aoa3:expedition_boots, 远征靴子
-aoa3:expedition_helmet, 远征头盔
-aoa3:expedition_legs, 远征护腿
-aoa3:explosive_boots, 爆裂靴子
-aoa3:explosive_legs, 爆裂护腿
-aoa3:explosive_chestplate, 爆裂胸甲
-aoa3:explosive_helmet, 爆裂头盔
-aoa3:extraction_boots, 精炼靴子
-aoa3:extraction_legs, 精炼护腿
-aoa3:extraction_chestplate, 精炼胸甲
-aoa3:extraction_helmet, 精炼头盔
-aoa3:foraging_boots, 采掘靴子
-aoa3:foraging_legs, 采掘护腿
-aoa3:foraging_chestplate, 采掘胸甲
-aoa3:foraging_helmet, 采掘头盔
-aoa3:fungal_boots, 真菌靴子
-aoa3:fungal_legs, 真菌护腿
-aoa3:fungal_chestplate, 真菌胸甲
-aoa3:fungal_helmet, 真菌头盔
-aoa3:ghastly_boots, 阴森靴子
-aoa3:ghastly_legs, 阴森护腿
-aoa3:ghastly_chestplate, 阴森胸甲
-aoa3:ghastly_helmet, 阴森头盔
-aoa3:ghoulish_boots, 恐惧靴子
-aoa3:ghoulish_legs, 恐惧护腿
-aoa3:ghoulish_chestplate, 恐惧胸甲
-aoa3:ghoulish_helmet, 恐惧头盔
-aoa3:hauling_boots, 垂钓靴子
-aoa3:hauling_legs, 垂钓护腿
-aoa3:hauling_chestplate, 垂钓胸甲
-aoa3:hauling_helmet, 垂钓头盔
-aoa3:hazmat_boots, 危险靴子
-aoa3:hazmat_legs, 危险护腿
-aoa3:hazmat_chestplate, 危险胸甲
-aoa3:hazmat_helmet, 危险头盔
-aoa3:hunter_boots, 狩猎靴子
-aoa3:hunter_legs, 狩猎护腿
-aoa3:hunter_chestplate, 狩猎胸甲
-aoa3:hunter_helmet, 狩猎头盔
-aoa3:hydrangic_boots, 水能靴子
-aoa3:hydrangic_legs, 水能护腿
-aoa3:hydrangic_chestplate, 水能胸甲
-aoa3:hydrangic_helmet, 水能头盔
-aoa3:hydroplate_boots, 水佑靴子
-aoa3:hydroplate_legs, 水佑护腿
-aoa3:hydroplate_chestplate, 水佑胸甲
-aoa3:hydroplate_helmet, 水佑头盔
-aoa3:ice_boots, 冰之靴子
-aoa3:ice_legs, 冰之护腿
-aoa3:ice_chestplate, 冰之胸甲
-aoa3:ice_helmet, 冰之头盔
-aoa3:infernal_boots, 下界靴子
-aoa3:infernal_legs, 下界护腿
-aoa3:infernal_chestplate, 下界胸甲
-aoa3:infernal_helmet, 下界头盔
-aoa3:infusion_boots, 注魔靴子
-aoa3:infusion_legs, 注魔护腿
-aoa3:infusion_chestplate, 注魔胸甲
-aoa3:infusion_helmet, 注魔头盔
-aoa3:innervation_boots, 支配靴子
-aoa3:innervation_legs, 支配护腿
-aoa3:innervation_chestplate, 支配胸甲
-aoa3:innervation_helmet, 支配头盔
-aoa3:knight_boots, 骑士靴子
-aoa3:knight_legs, 骑士护腿
-aoa3:knight_chestplate, 骑士胸甲
-aoa3:knight_helmet, 骑士头盔
-aoa3:logging_boots, 砍伐靴子
-aoa3:logging_legs, 砍伐护腿
-aoa3:logging_chestplate, 砍伐胸甲
-aoa3:logging_helmet, 砍伐头盔
-aoa3:lunar_boots, 月球靴子
-aoa3:lunar_legs, 月球护腿
-aoa3:lunar_chestplate, 月球胸甲
-aoa3:lunar_helmet, 月球头盔
-aoa3:lyndamyte_boots, 褐铁靴子
-aoa3:lyndamyte_legs, 褐铁护腿
-aoa3:lyndamyte_chestplate, 褐铁胸甲
-aoa3:lyndamyte_helmet, 褐铁头盔
-aoa3:lyonic_boots, 愤怒靴子
-aoa3:lyonic_legs, 愤怒护腿
-aoa3:lyonic_chestplate, 愤怒胸甲
-aoa3:lyonic_helmet, 愤怒头盔
-aoa3:mercurial_boots, 水银靴子
-aoa3:mercurial_legs, 水银护腿
-aoa3:mercurial_chestplate, 水银胸甲
-aoa3:mercurial_helmet, 水银头盔
-aoa3:necro_boots, 死灵靴子
-aoa3:necro_legs, 死灵护腿
-aoa3:necro_chestplate, 死灵胸甲
-aoa3:necro_helmet, 死灵头盔
-aoa3:nethengeic_boots, 纳德吉克靴子
-aoa3:nethengeic_legs, 纳德吉克护腿
-aoa3:nethengeic_chestplate, 纳德吉克胸甲
-aoa3:nethengeic_helmet, 纳德吉克头盔
-aoa3:nightmare_boots, 噩梦靴子
-aoa3:nightmare_legs, 噩梦护腿
-aoa3:nightmare_chestplate, 噩梦胸甲
-aoa3:nightmare_helmet, 噩梦头盔
-aoa3:omni_boots, 爆破靴子
-aoa3:omni_legs, 爆破护腿
-aoa3:omni_chestplate, 爆破胸甲
-aoa3:omni_helmet, 爆破头盔
-aoa3:phantasm_boots, 幻象靴子
-aoa3:phantasm_legs, 幻象护腿
-aoa3:phantasm_chestplate, 幻象胸甲
-aoa3:phantasm_helmet, 幻象头盔
-aoa3:poison_boots, 剧毒靴子
-aoa3:poison_legs, 剧毒护腿
-aoa3:poison_chestplate, 剧毒胸甲
-aoa3:poison_helmet, 剧毒头盔
-aoa3:predatious_boots, 自然靴子
-aoa3:predatious_legs, 自然护腿
-aoa3:predatious_chestplate, 自然胸甲
-aoa3:predatious_helmet, 自然头盔
-aoa3:primordial_boots, 原始靴子
-aoa3:primordial_legs, 原始护腿
-aoa3:primordial_chestplate, 原始胸甲
-aoa3:primordial_helmet, 原始头盔
-aoa3:purity_boots, 纯净靴子
-aoa3:purity_legs, 纯净护腿
-aoa3:purity_chestplate, 纯净胸甲
-aoa3:purity_helmet, 纯净头盔
-aoa3:rockbone_boots, 岩骨靴子
-aoa3:rockbone_legs, 岩骨护腿
-aoa3:rockbone_chestplate, 岩骨胸甲
-aoa3:rockbone_helmet, 岩骨头盔
-aoa3:rosidian_boots, 伊恩靴子
-aoa3:rosidian_legs, 伊恩护腿
-aoa3:rosidian_chestplate, 伊恩胸甲
-aoa3:rosidian_helmet, 伊恩头盔
-aoa3:runation_boots, 魔力靴子
-aoa3:runation_legs, 魔力护腿
-aoa3:runation_chestplate, 魔力胸甲
-aoa3:runation_helmet, 魔力头盔
-aoa3:runic_boots, 符文靴子
-aoa3:runic_legs, 符文护腿
-aoa3:runic_chestplate, 符文胸甲
-aoa3:runic_helmet, 符文头盔
-aoa3:sharpshot_boots, 锐利靴子
-aoa3:sharpshot_legs, 锐利护腿
-aoa3:sharpshot_chestplate, 锐利胸甲
-aoa3:sharpshot_helmet, 锐利头盔
-aoa3:skeletal_boots, 骷髅靴子
-aoa3:skeletal_legs, 骷髅护腿
-aoa3:skeletal_chestplate, 骷髅胸甲
-aoa3:skeletal_helmet, 骷髅头盔
-aoa3:spaceking_boots, 空间之主靴子
-aoa3:spaceking_legs, 空间之主护腿
-aoa3:spaceking_chestplate, 空间之主胸甲
-aoa3:spaceking_helmet, 空间之主头盔
-aoa3:speed_boots, 极速靴子
-aoa3:speed_legs, 极速护腿
-aoa3:speed_chestplate, 极速胸甲
-aoa3:speed_helmet, 极速头盔
-aoa3:subterranean_boots, 地下靴子
-aoa3:subterranean_legs, 地下护腿
-aoa3:subterranean_chestplate, 地下胸甲
-aoa3:subterranean_helmet, 地下头盔
-aoa3:utopian_boots, 乌托邦靴子
-aoa3:utopian_legs, 乌托邦护腿
-aoa3:utopian_chestplate, 乌托邦胸甲
-aoa3:utopian_helmet, 乌托邦头盔
-aoa3:void_boots, 虚空靴子
-aoa3:void_legs, 虚空护腿
-aoa3:void_chestplate, 虚空胸甲
-aoa3:void_helmet, 虚空头盔
-aoa3:weaken_boots, 削弱靴子
-aoa3:weaken_legs, 削弱护腿
-aoa3:weaken_chestplate, 削弱胸甲
-aoa3:weaken_helmet, 削弱头盔
-aoa3:wither_boots, 凋灵靴子
-aoa3:wither_legs, 凋灵护腿
-aoa3:wither_chestplate, 凋灵胸甲
-aoa3:wither_helmet, 凋灵头盔
-aoa3:zargonite_boots, 领域靴子
-aoa3:zargonite_legs, 领域护腿
-aoa3:zargonite_chestplate, 领域胸甲
-aoa3:zargonite_helmet, 领域头盔
-aoa3:achelos_helmet, 河神潜水盔
-aoa3:oceanus_helmet, 海神潜水盔
-aoa3:sealord_helmet, 海洋领主潜水盔
-aoa3:face_mask, 面罩
-aoa3:night_vision_goggles, 夜视镜
 aoa3:amethyst_lamp_off, 紫晶灯
 aoa3:aquatic_lamp_off, 水能灯
 aoa3:baronyte_lamp_off, 硫铁钾灯
@@ -4077,45 +3965,6 @@ aoa3:vox_banner, 未知旗帜
 aoa3:bejewelled_vox_banner, 嵌宝未知旗帜
 aoa3:encrusted_vox_banner, 嵌钻未知旗帜
 aoa3:gilded_vox_banner, 镀金未知旗帜
-aoa3:amethyst_axe, 紫晶斧
-aoa3:amethyst_pickaxe, 紫晶镐
-aoa3:amethyst_shovel, 紫晶锹
-aoa3:emberstone_axe, 余烬斧
-aoa3:emberstone_pickaxe, 余烬镐
-aoa3:emberstone_shovel, 余烬锹
-aoa3:energistic_axe, 精炼斧
-aoa3:energistic_pickaxe, 精炼镐
-aoa3:energistic_shovel, 精炼锹
-aoa3:goofy_axe, 愚弄斧
-aoa3:goofy_pickaxe, 愚弄镐
-aoa3:goofy_shovel, 愚弄锹
-aoa3:jade_axe, 翡翠斧
-aoa3:jade_pickaxe, 翡翠镐
-aoa3:jade_shovel, 翡翠锹
-aoa3:limonite_axe, 褐铁斧
-aoa3:limonite_pickaxe, 褐铁镐
-aoa3:limonite_shovel, 褐铁锹
-aoa3:occult_axe, 神秘斧
-aoa3:occult_pickaxe, 神秘镐
-aoa3:occult_shovel, 神秘锹
-aoa3:ornamyte_axe, 奥姆斧
-aoa3:ornamyte_pickaxe, 奥姆镐
-aoa3:ornamyte_shovel, 奥姆锹
-aoa3:rosite_axe, 硫铜锑斧
-aoa3:rosite_pickaxe, 硫铜锑镐
-aoa3:rosite_shovel, 硫铜锑锹
-aoa3:sapphire_axe, 蓝宝石斧
-aoa3:sapphire_pickaxe, 蓝宝石镐
-aoa3:sapphire_shovel, 蓝宝石锹
-aoa3:skeletal_axe, 骷髅斧
-aoa3:skeletal_pickaxe, 骷髅镐
-aoa3:skeletal_shovel, 骷髅锹
-aoa3:soulstone_axe, 灵魂斧
-aoa3:soulstone_pickaxe, 灵魂镐
-aoa3:soulstone_shovel, 灵魂锹
-aoa3:pickmax, 萃取镐
-aoa3:gemcracker, 裂解镐
-aoa3:chainsaw, 电锯
 appliedenergistics2:quartz_ore, 赛特斯石英矿石
 appliedenergistics2:charged_quartz_ore, 充能赛特斯石英矿石
 appliedenergistics2:matrix_frame, 矩阵框架
@@ -4446,12 +4295,6 @@ appliedenergistics2:facade:0, 线缆伪装板 - 神圣橡树木板
 appliedenergistics2:facade:0, 线缆伪装板 - 炼钢炉烟囱
 appliedenergistics2:facade:0, 线缆伪装板 - 水槽
 appliedenergistics2:facade:0, 线缆伪装板 - 樱色钢块
-appliedenergistics2:facade:0, 线缆伪装板 - Goblin Totem 1
-appliedenergistics2:facade:0, 线缆伪装板 - Goblin Totem 2
-appliedenergistics2:facade:0, 线缆伪装板 - Goblin Totem 2 Lit
-appliedenergistics2:facade:0, 线缆伪装板 - Orc Totem 1
-appliedenergistics2:facade:0, 线缆伪装板 - Orc Totem 2
-appliedenergistics2:facade:0, 线缆伪装板 - Orc Totem 2 Lit
 appliedenergistics2:facade:0, 线缆伪装板 - 紫晶灯
 appliedenergistics2:facade:0, 线缆伪装板 - 水能灯
 appliedenergistics2:facade:0, 线缆伪装板 - 硫铁钾灯
@@ -5167,7 +5010,6 @@ appliedenergistics2:facade:0, 线缆伪装板 - 极光方块
 appliedenergistics2:facade:0, 线缆伪装板 - 地下砖
 appliedenergistics2:facade:0, 线缆伪装板 - 青苔地下砖
 appliedenergistics2:facade:0, 线缆伪装板 - 碎裂地下砖
-appliedenergistics2:facade:0, 线缆伪装板 - 抛光地下砖
 appliedenergistics2:facade:0, 线缆伪装板 - 荆棘叶
 appliedenergistics2:facade:0, 线缆伪装板 - 豆茎叶
 appliedenergistics2:facade:0, 线缆伪装板 - 风化死岩
@@ -5184,6 +5026,9 @@ appliedenergistics2:facade:0, 线缆伪装板 - 巨型树叶
 appliedenergistics2:facade:0, 线缆伪装板 - 巨型黑曜石
 appliedenergistics2:facade:0, 线缆伪装板 - 巨大的茎
 appliedenergistics2:facade:0, 线缆伪装板 - 巨型荧光蘑菇
+appliedenergistics2:facade:0, 线缆伪装板 - 巨魔藤蔓
+appliedenergistics2:facade:0, 线缆伪装板 - 没熟的巨魔莓
+appliedenergistics2:facade:0, 线缆伪装板 - 巨魔莓
 appliedenergistics2:facade:0, 线缆伪装板 - 城堡砖
 appliedenergistics2:facade:0, 线缆伪装板 - 磨损城堡砖
 appliedenergistics2:facade:0, 线缆伪装板 - 碎裂城堡砖
@@ -5215,17 +5060,6 @@ appliedenergistics2:facade:0, 线缆伪装板 - 蚀刻娜迦苔石
 appliedenergistics2:facade:0, 线缆伪装板 - 娜迦苔石柱
 appliedenergistics2:facade:0, 线缆伪装板 - 风化的蚀刻娜迦石
 appliedenergistics2:facade:0, 线缆伪装板 - 风化的娜迦石柱
-appliedenergistics2:facade:0, 线缆伪装板 - 暮色橡木板
-appliedenergistics2:facade:0, 线缆伪装板 - 苍穹木板
-appliedenergistics2:facade:0, 线缆伪装板 - 红木板
-appliedenergistics2:facade:0, 线缆伪装板 - 黑木木板
-appliedenergistics2:facade:0, 线缆伪装板 - 时光木板
-appliedenergistics2:facade:0, 线缆伪装板 - 变化木板
-appliedenergistics2:facade:0, 线缆伪装板 - 矿石木板
-appliedenergistics2:facade:0, 线缆伪装板 - 分类木板
-appliedenergistics2:facade:0, 线缆伪装板 - Terrorcotta (Circular)
-appliedenergistics2:facade:0, 线缆伪装板 - Terrorcotta (Diagonal)
-appliedenergistics2:facade:0, 线缆伪装板 - tile.twilightforest.StonePillar.name
 appliedenergistics2:facade:0, 线缆伪装板 - Doped Etherium
 appliedenergistics2:facade:0, 线缆伪装板 - tile.shiphelmwheel.name
 appliedenergistics2:facade:0, 线缆伪装板 - Etherium Ore
@@ -5276,6 +5110,16 @@ appliedenergistics2:facade:0, 线缆伪装板 - 轻型工程块
 appliedenergistics2:facade:0, 线缆伪装板 - 重型工程块
 appliedenergistics2:facade:0, 线缆伪装板 - 发电机模块
 appliedenergistics2:facade:0, 线缆伪装板 - 散热器模块
+appliedenergistics2:facade:0, 线缆伪装板 - German Weapons Box
+appliedenergistics2:facade:0, 线缆伪装板 - Japanese Weapons Box
+appliedenergistics2:facade:0, 线缆伪装板 - Advanced Modern Weapons Box
+appliedenergistics2:facade:0, 线缆伪装板 - WW2 Armor Box
+appliedenergistics2:facade:0, 线缆伪装板 - American Weapons Box
+appliedenergistics2:facade:0, 线缆伪装板 - British Weapons Box
+appliedenergistics2:facade:0, 线缆伪装板 - Modern Warfare Armor Box
+appliedenergistics2:facade:0, 线缆伪装板 - Russian Weapons Box
+appliedenergistics2:facade:0, 线缆伪装板 - Modern Weapons Box
+appliedenergistics2:facade:0, 线缆伪装板 - 载具制作台
 appliedenergistics2:crystal_seed:0, 赛特斯石英种子
 appliedenergistics2:crystal_seed:600, 下界石英种子
 appliedenergistics2:crystal_seed:1200, 福鲁伊克斯种子
@@ -5632,7 +5476,6 @@ enderio:item_material:73, Dark Bimetal Gear
 enderio:item_material:74, Soul Powder
 enderio:item_material:75, Infinity Reagent
 enderio:item_material:76, Clay-Coated Glowstone Dust
-enderio:item_material:77, Black Paper
 enderio:item_broken_spawner:0, Broken Spawner
 enderio:block_infinity_fog:0, Infinity Dust
 enderio:block_infinity:0, Infinity Dust Block
@@ -5642,9 +5485,6 @@ enderio:block_holy_fog, Glowstone Nano-Particles
 enderio:block_dark_steel_anvil:0, Dark Steel Anvil
 enderio:block_dark_steel_anvil:1, Slightly Damaged Dark Steel Anvil
 enderio:block_dark_steel_anvil:2, Very Damaged Dark Steel Anvil
-enderio:block_dark_paper_anvil:0, Dark Paper Anvil
-enderio:block_dark_paper_anvil:1, Slightly Damaged Dark Paper Anvil
-enderio:block_dark_paper_anvil:2, Very Damaged Dark Paper Anvil
 enderio:block_dark_steel_ladder, Dark Steel Ladder
 enderio:block_dark_iron_bars, Dark Iron Bars
 enderio:block_dark_steel_trapdoor, Dark Steel Trapdoor
@@ -5855,7 +5695,6 @@ enderio:item_dark_steel_helmet, Dark Helm
 enderio:item_dark_steel_chestplate, Dark Plate
 enderio:item_dark_steel_leggings, Dark Leggings
 enderio:item_dark_steel_boots, Dark Boots
-enderio:item_dark_steel_shield, Dark Shield
 enderio:item_dark_steel_sword, The Ender
 enderio:item_dark_steel_pickaxe, Dark Pick
 enderio:item_dark_steel_axe, Dark Axe
@@ -5876,87 +5715,43 @@ enderio:item_end_steel_helmet, Ender Helm
 enderio:item_end_steel_chestplate, Ender Plate
 enderio:item_end_steel_leggings, Ender Leggings
 enderio:item_end_steel_boots, Ender Boots
-enderio:item_end_steel_shield, Ender Shield
 enderio:item_staff_of_levity:0, Staff of Levity
 enderio:item_staff_of_levity:0, Staff of Levity
 enderio:item_dark_steel_upgrade:0, Blank Dark Steel Upgrade
-enderio:item_dark_steel_upgrade:1, Dark Steel Upgrade "Micro Anvil"
-enderio:item_dark_steel_upgrade:1, Dark Steel Upgrade "Micro Anvil"
-enderio:item_dark_steel_upgrade:1, Dark Steel Upgrade "Mini Anvil"
-enderio:item_dark_steel_upgrade:1, Dark Steel Upgrade "Mini Anvil"
-enderio:item_dark_steel_upgrade:1, Dark Steel Upgrade "Pocket Anvil"
-enderio:item_dark_steel_upgrade:1, Dark Steel Upgrade "Pocket Anvil"
-enderio:item_dark_steel_upgrade:1, Dark Steel Upgrade "Carpeting"
 enderio:item_dark_steel_upgrade:1, Dark Steel Upgrade "Carpeting"
 enderio:item_dark_steel_upgrade:1, Dark Steel Upgrade "Depth"
-enderio:item_dark_steel_upgrade:1, Dark Steel Upgrade "Depth"
-enderio:item_dark_steel_upgrade:1, Dark Steel Upgrade "Direct"
 enderio:item_dark_steel_upgrade:1, Dark Steel Upgrade "Direct"
 enderio:item_dark_steel_upgrade:1, Dark Steel Upgrade "Elytra"
-enderio:item_dark_steel_upgrade:1, Dark Steel Upgrade "Elytra"
-enderio:item_dark_steel_upgrade:1, Dark Steel Upgrade "Empowered"
-enderio:item_dark_steel_upgrade:1, Dark Steel Upgrade "Empowered"
-enderio:item_dark_steel_upgrade:1, Dark Steel Upgrade "Empowered II"
-enderio:item_dark_steel_upgrade:1, Dark Steel Upgrade "Empowered II"
-enderio:item_dark_steel_upgrade:1, Dark Steel Upgrade "Empowered III"
-enderio:item_dark_steel_upgrade:1, Dark Steel Upgrade "Empowered III"
-enderio:item_dark_steel_upgrade:1, Dark Steel Upgrade "Empowered IV"
-enderio:item_dark_steel_upgrade:1, Dark Steel Upgrade "Empowered IV"
 enderio:item_dark_steel_upgrade:1, Dark Steel Upgrade "Empowered V"
-enderio:item_dark_steel_upgrade:1, Dark Steel Upgrade "Empowered V"
-enderio:item_dark_steel_upgrade:1, Dark Steel Upgrade "Glider"
+enderio:item_dark_steel_upgrade:1, Dark Steel Upgrade "Empowered IV"
+enderio:item_dark_steel_upgrade:1, Dark Steel Upgrade "Empowered"
+enderio:item_dark_steel_upgrade:1, Dark Steel Upgrade "Empowered III"
+enderio:item_dark_steel_upgrade:1, Dark Steel Upgrade "Empowered II"
 enderio:item_dark_steel_upgrade:1, Dark Steel Upgrade "Glider"
 enderio:item_dark_steel_upgrade:1, Dark Steel Upgrade "Fork"
-enderio:item_dark_steel_upgrade:1, Dark Steel Upgrade "Fork"
-enderio:item_dark_steel_upgrade:1, Dark Steel Upgrade "Inventory I"
 enderio:item_dark_steel_upgrade:1, Dark Steel Upgrade "Inventory I"
 enderio:item_dark_steel_upgrade:1, Dark Steel Upgrade "Inventory II"
-enderio:item_dark_steel_upgrade:1, Dark Steel Upgrade "Inventory II"
-enderio:item_dark_steel_upgrade:1, Dark Steel Upgrade "Inventory III"
 enderio:item_dark_steel_upgrade:1, Dark Steel Upgrade "Inventory III"
 enderio:item_dark_steel_upgrade:1, Dark Steel Upgrade "Jump"
-enderio:item_dark_steel_upgrade:1, Dark Steel Upgrade "Jump"
-enderio:item_dark_steel_upgrade:1, Dark Steel Upgrade "Jump II"
-enderio:item_dark_steel_upgrade:1, Dark Steel Upgrade "Jump II"
 enderio:item_dark_steel_upgrade:1, Dark Steel Upgrade "Jump III"
-enderio:item_dark_steel_upgrade:1, Dark Steel Upgrade "Jump III"
-enderio:item_dark_steel_upgrade:1, Dark Steel Upgrade "Night Vision"
+enderio:item_dark_steel_upgrade:1, Dark Steel Upgrade "Jump II"
 enderio:item_dark_steel_upgrade:1, Dark Steel Upgrade "Night Vision"
 enderio:item_dark_steel_upgrade:1, Dark Steel Upgrade "Padding"
-enderio:item_dark_steel_upgrade:1, Dark Steel Upgrade "Padding"
-enderio:item_dark_steel_upgrade:1, Dark Steel Upgrade "Simple Solar"
 enderio:item_dark_steel_upgrade:1, Dark Steel Upgrade "Simple Solar"
 enderio:item_dark_steel_upgrade:1, Dark Steel Upgrade "Solar I"
-enderio:item_dark_steel_upgrade:1, Dark Steel Upgrade "Solar I"
-enderio:item_dark_steel_upgrade:1, Dark Steel Upgrade "Solar II"
 enderio:item_dark_steel_upgrade:1, Dark Steel Upgrade "Solar II"
 enderio:item_dark_steel_upgrade:1, Dark Steel Upgrade "Solar III"
-enderio:item_dark_steel_upgrade:1, Dark Steel Upgrade "Solar III"
-enderio:item_dark_steel_upgrade:1, Dark Steel Upgrade "Sound Locator"
 enderio:item_dark_steel_upgrade:1, Dark Steel Upgrade "Sound Locator"
 enderio:item_dark_steel_upgrade:1, Dark Steel Upgrade "Speed"
-enderio:item_dark_steel_upgrade:1, Dark Steel Upgrade "Speed"
-enderio:item_dark_steel_upgrade:1, Dark Steel Upgrade "Speed II"
-enderio:item_dark_steel_upgrade:1, Dark Steel Upgrade "Speed II"
 enderio:item_dark_steel_upgrade:1, Dark Steel Upgrade "Speed III"
-enderio:item_dark_steel_upgrade:1, Dark Steel Upgrade "Speed III"
+enderio:item_dark_steel_upgrade:1, Dark Steel Upgrade "Speed II"
 enderio:item_dark_steel_upgrade:1, Dark Steel Upgrade "Spoon"
-enderio:item_dark_steel_upgrade:1, Dark Steel Upgrade "Spoon"
-enderio:item_dark_steel_upgrade:1, Dark Steel Upgrade "Step Assist"
-enderio:item_dark_steel_upgrade:1, Dark Steel Upgrade "Step Assist"
-enderio:item_dark_steel_upgrade:1, Dark Steel Upgrade "Flippers"
 enderio:item_dark_steel_upgrade:1, Dark Steel Upgrade "Flippers"
 enderio:item_dark_steel_upgrade:1, Dark Steel Upgrade "Explosive I"
-enderio:item_dark_steel_upgrade:1, Dark Steel Upgrade "Explosive I"
-enderio:item_dark_steel_upgrade:1, Dark Steel Upgrade "Explosive II"
 enderio:item_dark_steel_upgrade:1, Dark Steel Upgrade "Explosive II"
 enderio:item_dark_steel_upgrade:1, Dark Steel Upgrade "Explosive III"
-enderio:item_dark_steel_upgrade:1, Dark Steel Upgrade "Explosive III"
-enderio:item_dark_steel_upgrade:1, Dark Steel Upgrade "Explosive IV"
 enderio:item_dark_steel_upgrade:1, Dark Steel Upgrade "Explosive IV"
 enderio:item_dark_steel_upgrade:1, Dark Steel Upgrade "Explosive V"
-enderio:item_dark_steel_upgrade:1, Dark Steel Upgrade "Explosive V"
-enderio:item_dark_steel_upgrade:1, Dark Steel Upgrade "Travel"
 enderio:item_dark_steel_upgrade:1, Dark Steel Upgrade "Travel"
 enderio:item_owl_egg, Owl Egg
 enderio:block_alloy_endergy:0, Crude Steel Block
@@ -6074,6 +5869,8 @@ enderio:block_cap_bank:3, Vibrant Capacitor Bank
 enderio:block_gauge, Energy Gauge
 enderio:block_power_monitor, Power Monitor
 enderio:block_advanced_power_monitor, Graphical Power Monitor
+gravestone:gravestone, 墓碑
+gravestone:death_info, Obituary
 liquidenchanting:liquid_enchanting, Liquid Enchanting
 travellersbackpack:travellers_backpack:0, 旅行者背包
 travellersbackpack:travellers_backpack:1, 旅行者背包
@@ -6187,7 +5984,6 @@ twilightforest:raw_venison, 生鹿肉
 twilightforest:cooked_venison, 鹿肉排
 twilightforest:hydra_chop, 九头蛇肉排
 twilightforest:fiery_blood, 炽热的血液
-twilightforest:fiery_tears, 炽热之泪
 twilightforest:trophy:0, 娜迦战利品
 twilightforest:trophy:1, 巫妖战利品
 twilightforest:trophy:2, 九头蛇战利品
@@ -6213,7 +6009,6 @@ twilightforest:steeleaf_shovel, 钢叶铲
 twilightforest:steeleaf_pickaxe, 钢叶镐
 twilightforest:steeleaf_axe, 钢叶斧
 twilightforest:steeleaf_hoe, 钢叶锄
-twilightforest:minotaur_axe_gold, Golden Minotaur Axe
 twilightforest:minotaur_axe, 米诺陶战斧
 twilightforest:mazebreaker_pickaxe, 迷宫破坏者
 twilightforest:transformation_powder, 转换粉
@@ -6247,10 +6042,10 @@ twilightforest:knightmetal_boots, 骑士靴
 twilightforest:knightmetal_sword, 骑士剑
 twilightforest:knightmetal_pickaxe, 骑士镐
 twilightforest:knightmetal_axe, 骑士斧
-twilightforest:knightmetal_shield, 骑士盾
 twilightforest:phantom_helmet, 幻影头盔
 twilightforest:phantom_chestplate, 幻影胸甲
 twilightforest:lamp_of_cinders, 余烬之灯
+twilightforest:fiery_tears, 炽热之泪
 twilightforest:alpha_fur, 雪怪首领毛皮
 twilightforest:yeti_helmet, 雪怪角盔
 twilightforest:yeti_chestplate, 雪怪皮衣
@@ -6275,7 +6070,6 @@ twilightforest:knightmetal_ring, 骑士金属环
 twilightforest:block_and_chain, 链锤
 twilightforest:cube_talisman, 立方护符
 twilightforest:cube_of_annihilation, 湮灭立方
-twilightforest:moon_dial, 月相罗盘
 twilightforest:twilight_log:0, 暮色橡木
 twilightforest:twilight_log:1, 苍穹木
 twilightforest:twilight_log:2, 红木
@@ -6298,13 +6092,6 @@ twilightforest:maze_stone:6, 遗迹石方块
 twilightforest:maze_stone:7, 遗迹石沿
 twilightforest:hedge:0, 树篱
 twilightforest:boss_spawner:0, 生成 娜迦
-twilightforest:boss_spawner:1, 生成 巫妖
-twilightforest:boss_spawner:2, 生成 九头蛇
-twilightforest:boss_spawner:3, 生成 暮色恶魂
-twilightforest:boss_spawner:4, 生成 幻影骑士
-twilightforest:boss_spawner:5, Snow Queen Spawner
-twilightforest:boss_spawner:6, Minoshroom Spawner
-twilightforest:boss_spawner:7, Alpha Yeti Spawner
 twilightforest:firefly_jar, 萤火虫罐子
 twilightforest:twilight_plant:0, 暮色森林苔藓
 twilightforest:twilight_plant:1, 鬼臼果
@@ -6358,13 +6145,12 @@ twilightforest:tower_device:6, 高塔建设者
 twilightforest:tower_device:9, 反建器
 twilightforest:tower_device:10, 恶魂陷阱
 twilightforest:tower_device:12, 砷铅铁反应堆
-twilightforest:stronghold_shield, 要塞护盾
+twilightforest:stronghold_shield:0, 要塞护盾
 twilightforest:trophy_pedestal:0, 战利品宝座
 twilightforest:aurora_block, 极光方块
 twilightforest:underbrick:0, 地下砖
 twilightforest:underbrick:1, 青苔地下砖
 twilightforest:underbrick:2, 碎裂地下砖
-twilightforest:underbrick:3, 抛光地下砖
 twilightforest:thorns:0, 荆棘
 twilightforest:thorns:1, 翠绿荆棘
 twilightforest:burnt_thorns, 烧焦荆棘
@@ -6403,10 +6189,10 @@ twilightforest:castle_brick:2, 碎裂城堡砖
 twilightforest:castle_brick:3, 城堡顶瓦
 twilightforest:castle_brick:4, 生苔城堡砖
 twilightforest:castle_brick:5, 厚重城堡砖
-twilightforest:castle_stairs_brick, 城堡砖楼梯
-twilightforest:castle_stairs_cracked, 碎裂城堡砖楼梯
-twilightforest:castle_stairs_worn, 磨损城堡砖楼梯
-twilightforest:castle_stairs_mossy, 生苔城堡砖楼梯
+twilightforest:castle_stairs_brick:0, 城堡砖楼梯
+twilightforest:castle_stairs_cracked:0, 碎裂城堡砖楼梯
+twilightforest:castle_stairs_worn:0, 磨损城堡砖楼梯
+twilightforest:castle_stairs_mossy:0, 生苔城堡砖楼梯
 twilightforest:castle_pillar:0, 黑纹城堡砖柱
 twilightforest:castle_pillar:1, 黑纹城堡砖瓦
 twilightforest:castle_pillar:2, 粗纹城堡砖柱
@@ -6423,7 +6209,7 @@ twilightforest:force_field:2, 橙色力场
 twilightforest:force_field:3, 绿色力场
 twilightforest:force_field:4, 蓝色力场
 twilightforest:cinder_furnace, 余烬熔炉【未实现】
-twilightforest:cinder_log, 余烬原木【未实现】
+twilightforest:cinder_log:0, 余烬原木【未实现】
 twilightforest:castle_door:0, 黄色城堡门
 twilightforest:castle_door:1, 紫色城堡门
 twilightforest:castle_door:2, 粉红色城堡门
@@ -6462,83 +6248,6 @@ twilightforest:nagastone_pillar_weathered, 风化的娜迦石柱
 twilightforest:nagastone_stairs_weathered:0, 风化的娜迦石楼梯（左）
 twilightforest:nagastone_stairs_weathered:8, 风化的娜迦石楼梯（右）
 twilightforest:auroralized_glass, 极光玻璃
-twilightforest:iron_ladder, Iron Ladder
-twilightforest:terrorcotta_circle, Terrorcotta (Circular)
-twilightforest:terrorcotta_diagonal, Terrorcotta (Diagonal)
-twilightforest:stone_twist, tile.twilightforest.StonePillar.name
-twilightforest:stone_twist_thin, tile.twilightforest.StonePillarThin.name
-twilightforest:twilight_oak_planks, 暮色橡木板
-twilightforest:twilight_oak_stairs, 暮色橡木楼梯
-twilightforest:twilight_oak_slab:0, 暮色橡木台阶
-twilightforest:twilight_oak_button, 暮色橡木按钮
-twilightforest:twilight_oak_door, Twilight Oak Door
-twilightforest:twilight_oak_trapdoor, Twilight Oak Trapdoor
-twilightforest:twilight_oak_fence, 暮色橡木栅栏
-twilightforest:twilight_oak_gate, 暮色橡木栅栏门
-twilightforest:twilight_oak_plate, 暮色橡木压力板
-twilightforest:canopy_planks, 苍穹木板
-twilightforest:canopy_stairs, 苍穹木楼梯
-twilightforest:canopy_slab:0, 苍穹木台阶
-twilightforest:canopy_button, 苍穹木按钮
-twilightforest:canopy_door, Canopy Door
-twilightforest:canopy_trapdoor, Canopy Trapdoor
-twilightforest:canopy_fence, 苍穹木栅栏
-twilightforest:canopy_gate, 苍穹木栅栏门
-twilightforest:canopy_plate, 苍穹木压力板
-twilightforest:mangrove_planks, 红木板
-twilightforest:mangrove_stairs, 红木楼梯
-twilightforest:mangrove_slab:0, 红木台阶
-twilightforest:mangrove_button, 红木按钮
-twilightforest:mangrove_door, Mangrove Door
-twilightforest:mangrove_trapdoor, Mangrove Trapdoor
-twilightforest:mangrove_fence, 红木栅栏
-twilightforest:mangrove_gate, 红木栅栏门
-twilightforest:mangrove_plate, 红木压力板
-twilightforest:dark_planks, 黑木木板
-twilightforest:dark_stairs, 黑木楼梯
-twilightforest:dark_slab:0, 黑木台阶
-twilightforest:dark_button, 黑木按钮
-twilightforest:dark_door, Darkwood Door
-twilightforest:dark_trapdoor, Darkwood Trapdoor
-twilightforest:dark_fence, 黑木栅栏
-twilightforest:dark_gate, 黑木栅栏门
-twilightforest:dark_plate, 黑木压力板
-twilightforest:time_planks, 时光木板
-twilightforest:time_stairs, 时光木楼梯
-twilightforest:time_slab:0, 时光木台阶
-twilightforest:time_button, 时光木按钮
-twilightforest:time_door, Timewood Door
-twilightforest:time_trapdoor, Timewood Trapdoor
-twilightforest:time_fence, 时光木栅栏
-twilightforest:time_gate, 时光木栅栏门
-twilightforest:time_plate, 时光木压力板
-twilightforest:trans_planks, 变化木板
-twilightforest:trans_stairs, 变化木楼梯
-twilightforest:trans_slab:0, 变化木台阶
-twilightforest:trans_button, 变化木按钮
-twilightforest:trans_door, Transwood Door
-twilightforest:trans_trapdoor, Transwood Trapdoor
-twilightforest:trans_fence, 变化木栅栏
-twilightforest:trans_gate, 变化木栅栏门
-twilightforest:trans_plate, 变化木压力板
-twilightforest:mine_planks, 矿石木板
-twilightforest:mine_stairs, 矿石木楼梯
-twilightforest:mine_slab:0, 矿石木台阶
-twilightforest:mine_button, 矿石木按钮
-twilightforest:mine_door, Minewood Door
-twilightforest:mine_trapdoor, Minewood Trapdoor
-twilightforest:mine_fence, 矿石木栅栏
-twilightforest:mine_gate, 矿石木栅栏门
-twilightforest:mine_plate, 矿石木压力板
-twilightforest:sort_planks, 分类木板
-twilightforest:sort_stairs, 分类木楼梯
-twilightforest:sort_slab:0, 分类木台阶
-twilightforest:sort_button, 分类木按钮
-twilightforest:sort_door, Sortingwood Door
-twilightforest:sort_trapdoor, Sortingwood Trapdoor
-twilightforest:sort_fence, 分类木栅栏
-twilightforest:sort_gate, 分类木栅栏门
-twilightforest:sort_plate, 分类木压力板
 twilightforest:shader:0, 暮色皮肤：暮色
 twilightforest:shader:0, 暮色皮肤：Firefly
 twilightforest:shader:0, 暮色皮肤：Pinch Beetle
@@ -6911,3 +6620,483 @@ immersiveengineering:fluorescent_tube, 荧光管
 immersiveengineering:powerpack, 电容背包
 immersiveengineering:shield, 重型盾牌
 immersiveengineering:maintenance_kit, 维护工具包
+flansmod:ak47, AK47
+flansmod:german_item, German Weapons Box
+flansmod:su25, SU 25
+flansmod:americansnowpants, American WW2 Snow Pants
+flansmod:browning, Browning .30Cal
+flansmod:stingerammo:0, Stinger Missile
+flansmod:juggernauthelmet, Juggernaut Helmet (Green)
+flansmod:flanmwburstfire, Burst Fire Modification
+flansmod:skorpion, Skorpion
+flansmod:mtarammo:0, MTAR Ammo
+flansmod:uziammo:0, Mini-Uzi Ammo
+flansmod:largeelectricengine, Large Electric Engine
+flansmod:metalcockpit, Metal Cockpit
+flansmod:mwammobag, Deployable Ammo Bag
+flansmod:kv1, KV-1
+flansmod:mtar, MTAR
+flansmod:germanpants, German WW2 Trousers
+flansmod:b1, Char B1 Bis
+flansmod:kskpants, German KSK Trousers
+flansmod:c4, C4 Plastic Explosive
+flansmod:sdkfz2, SdKfz.2
+flansmod:50cal, Browning .50Cal
+flansmod:swatbody, SWAT Bodyarmour
+flansmod:m3a1, M3A1 Grease Gun
+flansmod:russianpants, Russian WW2 Trousers
+flansmod:sg550, SG550
+flansmod:g36ammo:0, G36C Ammo
+flansmod:ww2mine, Anti-Tank Mine
+flansmod:uspammo:0, USP Ammo
+flansmod:sasbody, British SAS Jacket
+flansmod:bodyarmour, Body Armour
+flansmod:flanmwlongbarrel, Long Barrel
+flansmod:is2, IS-2
+flansmod:w1200ammo:0, 12 Gauge Shell
+flansmod:m1911ammo:0, M1911 Ammo
+flansmod:tiger, Tiger
+flansmod:nagantsniper, Mosin Nagant Sniper
+flansmod:boforsammo:0, Bofors Ammo
+flansmod:rotaryengine, Rotary Engine
+flansmod:mustang, P-51 Mustang
+flansmod:fmg, FMG-9
+flansmod:ppsh, PPSH-41
+flansmod:crusader, Cruiser Mk. VI Crusader
+flansmod:spasammo:0, 12 Gauge Explosive Ammo
+flansmod:flak38, Flak-38
+flansmod:hellcat, M18 Hellcat
+flansmod:germanchest, German Coat
+flansmod:l86, L86 LSW
+flansmod:panzerschreckammo:0, Panzerschreck Ammo
+flansmod:juggernautbodybrown, Juggernaut Body Armor (Brown)
+flansmod:russianboots, Russian WW2 Boots
+flansmod:fnscarammo:0, FN SCAR Ammo
+flansmod:m1014, M1014
+flansmod:m1garandammo:0, M1 Garand Ammo
+flansmod:germanforestcoat, German WW2 Forest Coat
+flansmod:37mmammo:0, 37mm Flak Cannon Ammo
+flansmod:germandeserthelmet, German WW2 Desert Helmet
+flansmod:mim23ammo:0, MIM-23 Rocket
+flansmod:panzerfaust3, Panzerfaust 3
+flansmod:l96, L96
+flansmod:tiger131, Tiger 131
+flansmod:marinehelmet, Marine Helmet
+flansmod:augammo:0, AUG Ammo
+flansmod:dragunov, Dragunov
+flansmod:acr, ACR
+flansmod:exoskeletonboots, Exoskeleton Boots
+flansmod:japanese_item, Japanese Weapons Box
+flansmod:usppoisonammo:0, USP Poison Ammo
+flansmod:stug, StuG IV
+flansmod:abrams, M1 Abrams
+flansmod:flanmwreddot, Red Dot Sight
+flansmod:vickerskgo, Vickers K-GO
+flansmod:s100, S-100 SchnellBoot
+flansmod:modernadvanced_item, Advanced Modern Weapons Box
+flansmod:chaffee, M24 Chaffee
+flansmod:50calammo:0, Browning .50Cal Ammo
+flansmod:juggernauthelmetbrown, Juggernaut Helmet (Brown)
+flansmod:americansnowboots, American WW2 Snow Boots
+flansmod:sg550ammo:0, SG550 Ammo
+flansmod:exoskeletonhelmet, Exoskeleton Helmet
+flansmod:claymore, M18 Claymore
+flansmod:japanesepants, Japanese WW2 Trousers
+flansmod:ak74, AK74
+flansmod:g3, G3
+flansmod:lugerammo:0, Luger Ammo
+flansmod:shell:0, AP Tank Shell
+flansmod:ww2armour_item, WW2 Armor Box
+flansmod:m40a3ammo:0, Explosive Sniper Ammo
+flansmod:sigp232, SIG P232
+flansmod:helicopterblade, Helicopter Blade
+flansmod:mwmedkit, Medkit
+flansmod:bmwr75, BMWR75
+flansmod:saspants, British SAS Trousers
+flansmod:advancedtankbody, Advanced Tank Body
+flansmod:panzerfaustammo:0, Panzerfaust Grenade
+flansmod:germanboots, German WW2 Boots
+flansmod:germancoat, German WW2 Coat
+flansmod:mp5ammo:0, MP5 Ammo
+flansmod:m16a4, M16A4
+flansmod:americanuniformpants, American Trousers
+flansmod:tt33, TT33
+flansmod:spetsnazboots, Spetsnaz Boots
+flansmod:metalpropeller, Metal Propeller
+flansmod:bren, Bren
+flansmod:blackhawk, UH-60 Black Hawk
+flansmod:germanuniformpants, German Trousers
+flansmod:m1014ammo:0, 12 Gauge Buckshot Shell
+flansmod:jury, Jury Autorevolver
+flansmod:pak40, Pak-40
+flansmod:at4ammo:0, AT4 Rocket
+flansmod:lancaster, Lancaster Bomber
+flansmod:gignboots, French GIGN Boots
+flansmod:ak47ammo:0, AK47 Ammo
+flansmod:bf109, BF109
+flansmod:dp28ammo:0, DP28 Ammo
+flansmod:m45quad, M45 .50Cal Quad Mount
+flansmod:skorpionammo:0, Skorpion Ammo
+flansmod:cattrack, Caterpillar Track
+flansmod:g43, Gewehr 43
+flansmod:20mmammo:0, 20mm Auto Cannon Ammo
+flansmod:american_item, American Weapons Box
+flansmod:g36, G36C
+flansmod:sentrygun, Sentry Gun
+flansmod:dragunovammo:0, Dragunov Ammo
+flansmod:stinger, FIM-92 Stinger
+flansmod:mk2frag, Mk. 2 Frag Grenade
+flansmod:rgd33, RGD-33 Stick Grenade
+flansmod:judge, Judge Shotgun
+flansmod:minigunexplosiveammo:0, Minigun Explosive Ammo
+flansmod:barrettammo:0, Barrett Ammo
+flansmod:metalwingsmall, Small Metal Wing
+flansmod:mwriotshield, Riot Shield
+flansmod:flanmwautofire, Full Auto Fire Modification
+flansmod:redstonecoil, Redstone Coil
+flansmod:executioner, Executioner Shotgun
+flansmod:f22, F22 Raptor
+flansmod:blacktrousers, Black Trousers
+flansmod:spetsnazbody, Spetsnaz Jacket
+flansmod:bulldozerboots, Bulldozer Boots
+flansmod:flanmw4xscope, 4x Scope
+flansmod:triplanewing, Triplane Wing
+flansmod:zf4scope, ZF-4 Scope
+flansmod:marineboots, Marine Boots
+flansmod:fg42ammo:0, FG42 Ammo
+flansmod:bazooka, Bazooka
+flansmod:passengerbay, Passenger Bay
+flansmod:glockammo:0, Glock Ammo
+flansmod:britishboots, British WW2 Boots
+flansmod:minigunammo:0, Minigun Ammo
+flansmod:leech, Leech
+flansmod:type100, Type 100
+flansmod:largebomb:0, Large Bomb
+flansmod:coltammo:0, Colt Ammo
+flansmod:british2pdrapshell:0, British 2pdr AP Tank Shell
+flansmod:cattrackpiece, Caterpillar Track Piece
+flansmod:advancedmetalcockpit, Advanced Metal Cockpit
+flansmod:leo2a6, Leopard 2A6
+flansmod:m9, M9
+flansmod:tigerii, Tiger II H
+flansmod:tankbarrel, Tank Barrel
+flansmod:hydra70ammo:0, Hydra 70 salvo
+flansmod:americanchest, American Coat
+flansmod:hk416, HK416
+flansmod:nagant, Mosin Nagant
+flansmod:mg42ammo250:0, MG42 Ammo - 250 Bullet Box
+flansmod:gignbody, French GIGN Jacket
+flansmod:m157mm, M1-57 MM
+flansmod:w1200incendiaryammo:0, 12 Gauge Incendiary Shell
+flansmod:japanesehelmet, Japanese WW2 Helmet
+flansmod:mg151ammo:0, MG 151 Ammo
+flansmod:flanmwsilencer, Silencer
+flansmod:brenammo100:0, Bren Ammo - 100 Bullet Drum
+flansmod:m72law, M72 LAW
+flansmod:torpedo:0, Torpedo
+flansmod:thompsonammo:0, Thompson Ammo
+flansmod:kskboots, German KSK Boots
+flansmod:spetsnazpants, Spetsnaz Trousers
+flansmod:british_item, British Weapons Box
+flansmod:bulldozerhelmet, Bulldozer Helmet
+flansmod:metalwingsection, Metal Wing Section
+flansmod:l86ammo:0, L86 LSW Ammo
+flansmod:ppshammo:0, PPSH-41 Ammo
+flansmod:heavytankbody, Heavy Tank Body
+flansmod:usp, USP .45
+flansmod:panzerfaust, Panzerfaust
+flansmod:germandesertcoat, German WW2 Desert Coat
+flansmod:woodenpropeller, Wooden Propeller
+flansmod:grenadelauncherammo, Impact Grenade
+flansmod:mediumtankbody, Medium Tank Body
+flansmod:modernpremium, Premium Reward Box
+flansmod:britishdesertcoat, British WW2 Desert Coat
+flansmod:bombbay, Bomb Bay
+flansmod:mg42, MG42
+flansmod:ww2parachute, Parachute
+flansmod:panzerschreck, Panzerschreck
+flansmod:golddeserteagle, Gold Desert Eagle
+flansmod:britishdesertpants, British WW2 Desert Trousers
+flansmod:t34, T-34
+flansmod:britishpants, British WW2 Trousers
+flansmod:grenadelaunchergasammo, Gas Grenade
+flansmod:stenammo:0, Sten Ammo
+flansmod:russiancoat, Russian WW2 Coat
+flansmod:largewheel, Large Wheel
+flansmod:cloakergoggles, Cloaker Goggles
+flansmod:britishhelmet, British WW2 Helmet
+flansmod:kskhelmet, German KSK Helmet
+flansmod:marinebody, Marine Jacket
+flansmod:helicopterskid, Helicopter Skid
+flansmod:mp40ammo:0, MP 40 Ammo
+flansmod:flamethrower, Flamethrower
+flansmod:germanforestboots, German WW2 Forest Boots
+flansmod:sherman, M4 Sherman
+flansmod:vickerskammo100:0, Vickers K Ammo - 100 Bullet Drum
+flansmod:leeenfieldsniper, Lee Enfield Sniper
+flansmod:marinepants, Marine Trousers
+flansmod:wheel, Small Wheel
+flansmod:germanuniformboots, German Boots
+flansmod:rpd, RPD
+flansmod:rpg, RPG-7
+flansmod:kar98ksniper, Kar98k Sniper
+flansmod:hydra70, Hydra 70 rocket pod
+flansmod:rpk, RPK
+flansmod:bulldozerbody, Bulldozer Chestplate
+flansmod:acrammo:0, ACR Ammo
+flansmod:kar98k, Kar98k
+flansmod:rpkammo:0, RPK Ammo
+flansmod:browningammo:0, Browning .30Cal Ammo - 250 Bullet Box
+flansmod:mk4rocket:0, Mk. 4 Rocket
+flansmod:germanhelmet, German WW2 Helmet
+flansmod:trenchgun, Trenchgun
+flansmod:yak9, Yak-9
+flansmod:type14, Type 14
+flansmod:germansnowhelmet, German WW2 Snow Helmet
+flansmod:americansnowcoat, American WW2 Snow Coat
+flansmod:a10, A-10
+flansmod:m1911, M1911 Colt .45
+flansmod:napalm:0, Napalm
+flansmod:ww2knife, Knife
+flansmod:flanmwpistolflashlight, Pistol Flashlight Attachment
+flansmod:uc2pdr, Universal Carrier 2 Pdr
+flansmod:makarov, Makarov
+flansmod:p90ammo:0, P90 Ammo
+flansmod:lighttankbody, Light Tank Body
+flansmod:smallchassis, Small Car Chassis
+flansmod:lighttankturret, Light Tank Turret
+flansmod:springfield, Springfield
+flansmod:sdkfz222, SdKfz.222
+flansmod:kskbody, German KSK Jacket
+flansmod:germandesertpants, German WW2 Desert Trousers
+flansmod:bazookaammo:0, Bazooka Ammo
+flansmod:hind, Mi-24 Hind
+flansmod:churchill, Churchill Mk VII
+flansmod:mediumtankturret, Medium Tank turret
+flansmod:m3a1ammo:0, M3A1 Ammo
+flansmod:germansnowpants, German WW2 Snow Trousers
+flansmod:heshell:0, HE Tank Shell
+flansmod:thompson, Thompson
+flansmod:aabarrel, AA Gun Barrel
+flansmod:leeenfieldammo:0, Lee Enfield Ammo
+flansmod:b52, B-52
+flansmod:mwparachute, Parachute
+flansmod:at4, AT4
+flansmod:mim23, MIM-23 Anti-Aircraft
+flansmod:juggernautbody, Juggernaut Body Armor (Green)
+flansmod:uzi, Mini-Uzi
+flansmod:t90, T-90MS
+flansmod:aa12, AA-12
+flansmod:molotovcocktail, Molotov Cocktail
+flansmod:betacmag:0, Beta C-Mag
+flansmod:m21ammo:0, M21 Ammo
+flansmod:mwknife, Knife
+flansmod:exoskeletonlegs, Exoskeleton Leg Armour
+flansmod:blacksweater, Black Sweater
+flansmod:w1200, W1200
+flansmod:brenammo30:0, Bren Ammo - 30 Bullet Box
+flansmod:chinook, Chinook
+flansmod:webley, Webley
+flansmod:americansnowhelmet, American WW2 Snow Helmet
+flansmod:apacheah64, AH-64D Apache
+flansmod:chinu, Chi-Nu
+flansmod:m1887ammo:0, 12 Gauge Poisoned Flechette Shell
+flansmod:zero, Zero
+flansmod:rpdammo:0, RPD Ammo
+flansmod:ak74ammo:0, AK74 Ammo
+flansmod:m249, M249 SAW
+flansmod:americanhelmet, American WW2 Helmet
+flansmod:greyhound, M8 Greyhound
+flansmod:m14ammo:0, M14 Ammo
+flansmod:flamethrowerammo:0, Flamethrower Ammo
+flansmod:balaclava, Balaclava
+flansmod:barrett, Barrett .50 Cal
+flansmod:webleyammo:0, Webley Ammo
+flansmod:aa12ammo:0, AA-12 Ammo
+flansmod:denseredstonecoil, Dense Redstone Coil
+flansmod:biplane, Biplane
+flansmod:aug, AUG
+flansmod:trigat:0, TRIGAT-LR
+flansmod:type99ammo:0, Type 99 Ammo
+flansmod:v6engine, V6 Engine
+flansmod:flakvierling, Flakvierling-38 AA Gun
+flansmod:juggernautpantsbrown, Juggernaut Leg Armor (Brown)
+flansmod:trenchgunammo:0, Trenchgun Ammo
+flansmod:ww2medkit, Medical Kit
+flansmod:britishdeserthelmet, British WW2 Desert Helmet
+flansmod:flanmwforegrip, Foregrip
+flansmod:sasjeep, British Jeep
+flansmod:fg42, FG42
+flansmod:m3halftrack, M3Halftrack
+flansmod:britishdesertboots, British WW2 Desert Boots
+flansmod:fiberglass, Fibreglass
+flansmod:type14ammo:0, Type 14 Ammo
+flansmod:colt, Colt
+flansmod:littlebird, MH-6 LittleBird
+flansmod:stielhandgranate, Stielhandgranate
+flansmod:spitfire, Spitfire
+flansmod:americancoat, American WW2 Coat
+flansmod:heavytankturret, Heavy Tank Turret
+flansmod:juggernautboots, Juggernaut Boots (Green)
+flansmod:kubel, Kubelwagen
+flansmod:v4engine, V4 Engine
+flansmod:mg151, MG 151
+flansmod:cromwell, Cromwell
+flansmod:barrettexplosiveammo:0, Barrett Explosive Ammo
+flansmod:mwarmour_item, Modern Warfare Armor Box
+flansmod:r700, R700
+flansmod:germanforestpants, German WW2 Forest Trousers
+flansmod:mp5, MP5
+flansmod:a91ammo:0, A91 Ammo
+flansmod:mp7, MP7
+flansmod:flanmwacog, ACOG Sight
+flansmod:minigun, Minigun
+flansmod:deserteagleammo:0, Desert Eagle Ammo
+flansmod:sten, Sten
+flansmod:bizonammo:0, Bizon Ammo
+flansmod:mg42ammo50:0, MG42 Ammo - 50 Bullet Drum
+flansmod:flak88, Flak88
+flansmod:luger, Luger
+flansmod:minigunportableammo:0, Minigun Portable Ammo
+flansmod:crossbow, Crossbow
+flansmod:panzer, Panzer IV
+flansmod:kar98kammo:0, Kar98k Ammo
+flansmod:juryammo:0, Jury Magnum Round
+flansmod:mp7ammo:0, MP7Ammo
+flansmod:m1carbineammo:0, M1 Carbine Ammo
+flansmod:boatbody, Boat Body
+flansmod:bofors, Bofors 40mm AA Gun
+flansmod:type99, Type 99
+flansmod:type97, Type 97 Grenade
+flansmod:m9ammo:0, M9 Ammo
+flansmod:flanmwflashlight, Flashlight Attachment
+flansmod:metaltail, Metal Tail
+flansmod:fnscar, FN SCAR
+flansmod:fuelcan:0, Fuel Can
+flansmod:russian_item, Russian Weapons Box
+flansmod:gunshield, Gun Shield
+flansmod:leeenfield, Lee Enfield
+flansmod:m1garand, M1 Garand
+flansmod:g3ammo:0, G3 Ammo
+flansmod:type4horo, Type 4 Ho-Ro
+flansmod:m10, M10 Wolverine
+flansmod:mwmedicbag, Deployable Medic Bag
+flansmod:modernregulara, Alpha Reward Box
+flansmod:modernregularb, Bravo Reward Box
+flansmod:humvee, Humvee
+flansmod:rpgammo:0, RPG-7 Ammo
+flansmod:a91, A-91
+flansmod:type100ammo:0, Type 100 Ammo
+flansmod:japanesecoat, Japanese WW2 Coat
+flansmod:type38sniper, Type 38 Sniper
+flansmod:v8engine, V8 Engine
+flansmod:sigp226ammo:0, SIG P226 Ammo
+flansmod:m40a3, M40A3
+flansmod:m1887, Model 1887
+flansmod:millsbomb, Mills Bomb
+flansmod:nagantammo:0, Mosin Nagant Ammo
+flansmod:enginepiston, Engine Piston
+flansmod:camel, Sopwith Camel
+flansmod:twoseatbiplane, Two Seat Biplane
+flansmod:m249ammo:0, M249 Ammo
+flansmod:rock, Rock
+flansmod:mp44, STG 44
+flansmod:m14, M14
+flansmod:modern_item, Modern Weapons Box
+flansmod:fury, Fury
+flansmod:r700ammo:0, Sniper Ammo
+flansmod:c4remote, C4 Remote
+flansmod:mwbinoculars, Binoculars
+flansmod:tornado, Tornado
+flansmod:bulldozerlegs, Bulldozer Leg Armour
+flansmod:biplanewing, Biplane Wing
+flansmod:jeep, Willy's Jeep
+flansmod:germanforesthelmet, German WW2 Forest Helmet
+flansmod:r870, Remington 870
+flansmod:mp40, MP 40
+flansmod:barrettcompactammo:0, Barrett .50 Cal Compact Ammo
+flansmod:m21, M21
+flansmod:ww2binoculars, Binoculars
+flansmod:tunnelbore, Tunnel Bore
+flansmod:smallelectricengine, Small Electric Engine
+flansmod:g43ammo:0, Gewehr 43 Ammo
+flansmod:piatammo:0, PIAT Ammo
+flansmod:woodentail, Wooden Tail
+flansmod:m1carbine, M1 Carbine
+flansmod:panzeriil, Panzer II Luchs
+flansmod:americanpants, American WW2 Pants
+flansmod:spas, SPAS-12
+flansmod:springfieldammo:0, Springfield Ammo
+flansmod:grenadelauncherbouncyammo, Bouncy Grenade
+flansmod:2pdr, 2 Pdr
+flansmod:m16a4ammo:0, M16A4 Ammo
+flansmod:chiha, Chi-Ha
+flansmod:smallbomb:0, Small Bomb
+flansmod:flakvierlingammo:0, Flakvierling Ammo
+flansmod:cobra, Bell AH-1 "Huey" Cobra
+flansmod:mp44ammo:0, STG 44 Ammo
+flansmod:blowtorch, Blow Torch
+flansmod:hellfire:0, 燃烧瓶
+flansmod:p90, P90
+flansmod:barammo:0, BAR Ammo
+flansmod:l96ammo:0, L96 Ammo
+flansmod:su-1-12, SU-1-12
+flansmod:woodencockpit, Wooden Cockpit
+flansmod:r870ammo:0, 12 Gauge Flechette Shell
+flansmod:swathelmet, SWAT Helmet
+flansmod:metalnose, Metal Nose
+flansmod:spetsnazhelmet, Spetsnaz Helmet
+flansmod:sdkfz251, SdKfz.251
+flansmod:flak42, Flak-42
+flansmod:vickersk, Vickers K
+flansmod:sigp226, SIG P226
+flansmod:tt33ammo:0, TT33 Ammo
+flansmod:lightningengine, Lightning Engine
+flansmod:bizon, Bizon
+flansmod:americanboots, American WW2 Boots
+flansmod:m60ammo:0, M60E4 Ammo
+flansmod:sashelmet, British SAS Helmet
+flansmod:sasboots, British SAS Boots
+flansmod:woodenwing, Wooden Wing
+flansmod:makarovammo:0, Makarov Ammo
+flansmod:americanuniformboots, American Boots
+flansmod:flanmwsinglefire, Single Fire Modification
+flansmod:fokker, Fokker Dr.1
+flansmod:type38ammo:0, Type 38 Ammo
+flansmod:deserteagle, Desert Eagle
+flansmod:britishcoat, British WW2 Coat
+flansmod:germansnowboots, German WW2 Snow Boots
+flansmod:crossbowbolt:0, Crossbow Bolt
+flansmod:clayandsand, Clay and Sand Mixture
+flansmod:germansnowcoat, German WW2 Snow Coat
+flansmod:gignpants, French GIGN Pants
+flansmod:juggernautpants, Juggernaut Leg Armor (Green)
+flansmod:vehicleseat, Seat
+flansmod:piat, PIAT
+flansmod:glock, Glock
+flansmod:m72lawammo:0, M72 LAW Ammo
+flansmod:type38, Type 38
+flansmod:russianhelmet, Russian WW2 Helmet
+flansmod:gignhelmet, French GIGN Helmet
+flansmod:germandesertboots, German WW2 Desert Boots
+flansmod:japaneseboots, Japanese WW2 Boots
+flansmod:m60, M60E4
+flansmod:juggernautbootsbrown, Juggernaut Boots (Brown)
+flansmod:gl1, GL1 Grenade Launcher
+flansmod:m67, M67 Grenade
+flansmod:gl6, GL6 Grenade Launcher
+flansmod:bar, BAR
+flansmod:panzerfaust3ammo:0, Panzerfaust 3 Rocket
+flansmod:grenadelauncherincendiaryammo, Incendiary Grenade
+flansmod:challyii, FV4034 Challenger II
+flansmod:ec665, EC665 Tiger
+flansmod:dp28, DP28
+flansmod:springfieldsniper, Springfield Sniper
+flansmod:exoskeletonbody, Exoskeleton Chestplate
+flansmod:rainbowpaintcan, Rainbow Paint Can (for Custom Paintjobs)
+flansmod:opstick:0, 所有权杖
+flansmod:flagpole, 旗杆
+flansmod:flansworkbench_item:0, 载具制作台
+flansmod:teamsspawner_item:0, 物品生成器
+flansmod:teamsspawner_item:1, 士兵生成器
+flansmod:teamsspawner_item:2, 载具生成器
