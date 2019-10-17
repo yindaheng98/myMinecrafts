@@ -1,15 +1,18 @@
 
 #Configure which Modules should be accessible. This only affects Creative Menus and Recipes - any blocks and items already present will not stop working or disappear.
 [modules]
+	enableSchematics = true
+	enableContraptions = true
 	enableCuriosities = true
+	enableGardens = true
 	enableLogistics = true
 	enablePalettes = true
-	enableContraptions = true
-	enableGardens = true
-	enableSchematics = true
 
 #In case of repeated crashing, you can inhibit related game mechanics for Troubleshooting.
 [damageControl]
+	#
+	#In case Crushing Wheels crushed your server.
+	freezeCrushing = false
 	#
 	#In case Extractors pulled the plug.
 	freezeExtractors = false
@@ -17,14 +20,11 @@
 	#In case Encased Fans tried smelting your hardware.
 	freezeInWorldProcessing = false
 	#
-	#In case Mechanical Bearings turned against you.
-	freezeRotationConstructs = false
-	#
 	#Pauses rotation logic altogether - Use if crash mentions RotationPropagators.
 	freezeRotationPropagator = false
 	#
-	#In case Crushing Wheels crushed your server.
-	freezeCrushing = false
+	#In case Mechanical Bearings turned against you.
+	freezeRotationConstructs = false
 	#
 	#In case Mechanical Pistons pushed it too far.
 	freezePistonConstructs = false
@@ -32,21 +32,21 @@
 #The Contraptions Module
 [contraptions]
 	#
-	#Maximum allowed rotation speed for any Kinetic Tile.
-	#Range: > 64
-	maxRotationSpeed = 16384
-	#
 	#Maximum length in blocks of mechanical belts.
 	#Range: > 5
 	maxBeltLength = 20
+	#
+	#Damage dealt by active Crushing Wheels.
+	#Range: > 0
+	crushingDamage = 4
 	#
 	#Maximum allowed speed of a configurable motor.
 	#Range: > 64
 	maxMotorSpeed = 4096
 	#
-	#Damage dealt by active Crushing Wheels.
-	#Range: > 0
-	crushingDamage = 4
+	#Maximum allowed rotation speed for any Kinetic Tile.
+	#Range: > 64
+	maxRotationSpeed = 16384
 
 	#Encased Fan
 	[contraptions.encasedFan]
@@ -55,9 +55,9 @@
 		#Range: > 20
 		fanBlockCheckRate = 100
 		#
-		#Game ticks required for a Fan-based processing recipe to take effect.
-		#Range: > 0
-		inWorldProcessingTime = 150
+		#Maximum distance in blocks Fans can push entities.
+		#Range: > 1
+		fanMaxPushDistance = 20
 		#
 		#Maximum distance in blocks from where Fans can pull entities.
 		#Range: > 1
@@ -71,63 +71,55 @@
 		#Range: > 0
 		generatingFanSpeed = 32
 		#
-		#Maximum distance in blocks Fans can push entities.
-		#Range: > 1
-		fanMaxPushDistance = 20
+		#Game ticks required for a Fan-based processing recipe to take effect.
+		#Range: > 0
+		inWorldProcessingTime = 150
 
 	#Mechanical Pistons and Bearings
 	[contraptions.constructs]
 		#
-		#Maximum amount of chassis blocks movable by a Mechanical Piston.
+		#Maximum value of a chassis attachment range.
 		#Range: > 1
-		maxChassisForTranslation = 16
+		maxChassisRange = 16
 		#
 		#Maximum amount of chassis blocks movable by a Mechanical Bearing.
 		#Range: > 1
 		maxChassisForRotation = 16
 		#
+		#Maximum amount of chassis blocks movable by a Mechanical Piston.
+		#Range: > 1
+		maxChassisForTranslation = 16
+		#
 		#Maximum amount of extension poles behind a Mechanical Piston.
 		#Range: > 1
 		maxPistonPoles = 64
-		#
-		#Maximum value of a chassis attachment range.
-		#Range: > 1
-		maxChassisRange = 16
 
 #The Schematics Module
 [schematics]
 	#
-	#Amount of game ticks without new packets arriving until an active schematic upload process is discarded.
-	#Range: > 100
-	schematicIdleTimeout = 600
-	#
 	#The amount of Schematics a player can upload until previous ones are overwritten.
 	#Range: > 1
 	maxSchematics = 10
+	#
+	#The file location where uploaded Schematics are stored.
+	schematicPath = "schematics/uploaded"
 	#
 	#[in KiloBytes]
 	#The maximum allowed file size of uploaded Schematics.
 	#Range: > 16
 	maxTotalSchematicSize = 256
 	#
-	#The file location where uploaded Schematics are stored.
-	schematicPath = "schematics/uploaded"
-	#
 	#[in Bytes]
 	#The maximum packet size uploaded Schematics are split into.
 	#Range: 256 ~ 32767
 	maxSchematicPacketSize = 1024
+	#
+	#Amount of game ticks without new packets arriving until an active schematic upload process is discarded.
+	#Range: > 100
+	schematicIdleTimeout = 600
 
 	#Schematicannon
 	[schematics.schematicannon]
-		#
-		#% of Schematicannon's Fuel filled by 1 Gunpowder.
-		#Range: 0.0 ~ 100.0
-		schematicannonGunpowderWorth = 20.0
-		#
-		#% of Schematicannon's Fuel used for each fired block.
-		#Range: 0.0 ~ 100.0
-		schematicannonFuelUsage = 0.05
 		#
 		#Amount of game ticks between shots of the cannon. Higher => Slower
 		#Range: > 1
@@ -136,6 +128,14 @@
 		#Amount of block positions per tick scanned by a running cannon. Higher => Faster
 		#Range: > 1
 		schematicannonSkips = 10
+		#
+		#% of Schematicannon's Fuel filled by 1 Gunpowder.
+		#Range: 0.0 ~ 100.0
+		schematicannonGunpowderWorth = 20.0
+		#
+		#% of Schematicannon's Fuel used for each fired block.
+		#Range: 0.0 ~ 100.0
+		schematicannonFuelUsage = 0.05
 
 #The Curiosities Module
 [curiosities]
@@ -167,5 +167,5 @@
 	#
 	#% of random Ticks causing a Cocoa log to grow.
 	#Range: 20.0 ~ 100.0
-	cocoaLogGrowthSpeed = 20.0
+	cocoaLogGrowthSpeed = 0.0
 
