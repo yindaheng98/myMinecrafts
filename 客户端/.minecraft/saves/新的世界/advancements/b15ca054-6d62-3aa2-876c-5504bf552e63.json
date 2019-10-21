@@ -1,31 +1,26 @@
 {
-  "explorercraft:explorercraft/root": {
-    "criteria": {
-      "explorercraft": "2019-10-17 09:42:19 +0800"
-    },
-    "done": true
-  },
   "betteranimalsplus:bad_fox": {
     "criteria": {
-      "no_bam": "2019-10-17 09:42:37 +0800"
+      "no_bam": "2019-10-20 01:27:33 +0800"
     },
     "done": false
   },
   "betteranimalsplus:root": {
     "criteria": {
-      "tick": "2019-10-17 09:42:19 +0800"
+      "tick": "2019-10-20 01:27:21 +0800"
     },
     "done": true
   },
   "minecraft:recipes/decorations/chest": {
     "criteria": {
-      "has_lots_of_items": "2019-10-17 09:42:19 +0800"
+      "has_lots_of_items": "2019-10-20 01:27:21 +0800"
     },
     "done": true
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
-      "minecraft:plains": "2019-10-17 09:42:19 +0800"
+      "minecraft:forest": "2019-10-20 01:27:20 +0800",
+      "minecraft:wooded_hills": "2019-10-20 01:29:23 +0800"
     },
     "done": false
   },

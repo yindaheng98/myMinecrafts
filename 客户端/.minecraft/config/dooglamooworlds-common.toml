@@ -1,0 +1,19 @@
+
+[General]
+	#If true, custom generates localized small to large ore clusters.
+	customGenOres = true
+	#If true, Nether mobs will generate around volcanic areas in the overworld.
+	customGenHellBiome = false
+	#If false, no vanilla slime blocks will be generated.
+	customGenSlimeOre = false
+	#If true, it gradually gets dryer going east and wetter going west.
+	swapEastWestPrecipitation = false
+	#If false, no vanilla nether quartz blocks will be generated in overworld.
+	customGenQuartzOre = false
+	#If false, no vanilla glowstone blocks will be generated in overworld.
+	customGenGlowstoneOre = false
+	#If true, generates standard vanilla Minecraft ore distribution.
+	standardGenOres = false
+	#If true, it gradually gets colder going south and hotter going north.
+	swapNorthSouthTemperature = false
+

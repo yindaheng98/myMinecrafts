@@ -1,5 +1,5 @@
-#Thu Oct 17 09:40:44 CST 2019
-shaderPack=Kappa_v1.1.zip
+#Sun Oct 20 23:47:22 CST 2019
+shaderPack=Sildurs Vibrant Shaders v1.23 Lite.zip
 antialiasingLevel=0
 normalMapEnabled=true
 specularMapEnabled=true

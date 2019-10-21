@@ -1,0 +1,150 @@
+---- Minecraft Crash Report ----
+// I let you down. Sorry :(
+
+Time: 19-10-20 上午12:21
+Description: Tesselating block model
+
+java.lang.ArrayIndexOutOfBoundsException: 5
+	at net.minecraftforge.client.model.pipeline.VertexLighterFlat.processQuad(VertexLighterFlat.java:234) ~[?:?] {re:classloading}
+	at net.minecraftforge.client.model.pipeline.QuadGatheringTransformer.put(QuadGatheringTransformer.java:66) ~[?:?] {re:classloading}
+	at net.minecraftforge.client.model.pipeline.LightUtil.putBakedQuad(LightUtil.java:113) ~[?:?] {re:classloading}
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_201] {}
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_201] {}
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_201] {}
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_201] {}
+	at net.optifine.reflect.Reflector.callVoid(Reflector.java:745) ~[?:?] {re:classloading}
+	at net.minecraft.client.renderer.model.BakedQuad.pipe(BakedQuad.java:146) ~[?:?] {re:classloading,xf:OptiFine:default}
+	at net.minecraftforge.client.model.pipeline.ForgeBlockModelRenderer.render(ForgeBlockModelRenderer.java:121) ~[?:?] {re:classloading}
+	at net.minecraftforge.client.model.pipeline.ForgeBlockModelRenderer.renderModelSmooth(ForgeBlockModelRenderer.java:84) ~[?:?] {re:classloading}
+	at net.minecraft.client.renderer.BlockModelRenderer.renderModel(BlockModelRenderer.java:97) ~[?:?] {re:classloading,xf:OptiFine:default}
+	at net.minecraft.client.renderer.BlockRendererDispatcher.renderBlock(BlockRendererDispatcher.java:89) ~[?:?] {re:classloading,xf:OptiFine:default}
+	at net.minecraft.client.renderer.chunk.ChunkRender.func_178581_b(ChunkRender.java:385) ~[?:?] {re:classloading,xf:OptiFine:default}
+	at net.minecraft.client.renderer.chunk.ChunkRenderWorker.func_178474_a(SourceFile:90) ~[?:?] {re:classloading}
+	at net.minecraft.client.renderer.chunk.ChunkRenderWorker.run(SourceFile:39) ~[?:?] {re:classloading}
+	at java.lang.Thread.run(Thread.java:748) ~[?:1.8.0_201] {}
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Client thread
+Stacktrace:
+	at net.minecraftforge.client.model.pipeline.VertexLighterFlat.processQuad(VertexLighterFlat.java:234)
+	at net.minecraftforge.client.model.pipeline.QuadGatheringTransformer.put(QuadGatheringTransformer.java:66)
+	at net.minecraftforge.client.model.pipeline.LightUtil.putBakedQuad(LightUtil.java:113)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.optifine.reflect.Reflector.callVoid(Reflector.java:745)
+	at net.minecraft.client.renderer.model.BakedQuad.pipe(BakedQuad.java:146)
+	at net.minecraftforge.client.model.pipeline.ForgeBlockModelRenderer.render(ForgeBlockModelRenderer.java:121)
+	at net.minecraftforge.client.model.pipeline.ForgeBlockModelRenderer.renderModelSmooth(ForgeBlockModelRenderer.java:84)
+
+-- Block model being tesselated --
+Details:
+	Block: Block{minecraft:stone}
+	Block location: World: (-49,48,-112), Chunk: (at 15,3,0 in -4,-7; contains blocks -64,0,-112 to -49,255,-97), Region: (-1,-1; contains chunks -32,-32 to -1,-1, blocks -512,0,-512 to -1,255,-1)
+	Using AO: true
+Stacktrace:
+	at net.minecraft.client.renderer.BlockModelRenderer.renderModel(BlockModelRenderer.java:97)
+
+-- Block being tesselated --
+Details:
+	Block: Block{minecraft:stone}
+	Block location: World: (-49,48,-112), Chunk: (at 15,3,0 in -4,-7; contains blocks -64,0,-112 to -49,255,-97), Region: (-1,-1; contains chunks -32,-32 to -1,-1, blocks -512,0,-512 to -1,255,-1)
+Stacktrace:
+	at net.minecraft.client.renderer.BlockRendererDispatcher.renderBlock(BlockRendererDispatcher.java:89)
+
+-- Affected level --
+Details:
+	All players: 1 total; [ClientPlayerEntity['yinn'/189, l='MpServer', x=-73.72, y=54.00, z=-109.61]]
+	Chunk stats: Client Chunk Cache: 729, 462
+	Level dimension: DimensionType{minecraft:overworld}
+	Level name: MpServer
+	Level seed: 0
+	Level generator: ID 07 - biomesoplenty, ver 0. Features enabled: false
+	Level generator options: {}
+	Level spawn location: World: (-48,67,-111), Chunk: (at 0,4,1 in -3,-7; contains blocks -48,0,-112 to -33,255,-97), Region: (-1,-1; contains chunks -32,-32 to -1,-1, blocks -512,0,-512 to -1,255,-1)
+	Level time: 186620 game time, 150900 day time
+	Level storage version: 0x00000 - Unknown?
+	Level weather: Rain time: 0 (now: false), thunder time: 0 (now: false)
+	Level game mode: Game mode: adventure (ID 2). Hardcore: false. Cheats: false
+	Server brand: forge
+	Server type: Non-integrated multiplayer server
+Stacktrace:
+	at net.minecraft.client.world.ClientWorld.func_72914_a(ClientWorld.java:574)
+	at net.minecraft.client.Minecraft.func_71396_d(Minecraft.java:1750)
+	at net.minecraft.client.renderer.chunk.ChunkRenderWorker.run(SourceFile:45)
+	at java.lang.Thread.run(Thread.java:748)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.14.4
+	Minecraft Version ID: 1.14.4
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_201, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 1011245440 bytes (964 MB) / 4294967296 bytes (4096 MB) up to 4294967296 bytes (4096 MB)
+	CPUs: 4
+	JVM Flags: 11 total; -XX:+UnlockExperimentalVMOptions -XX:+UseG1GC -XX:G1NewSizePercent=20 -XX:G1ReservePercent=20 -XX:MaxGCPauseMillis=50 -XX:G1HeapRegionSize=16M -XX:-UseAdaptiveSizePolicy -XX:-OmitStackTraceInFastThrow -Xmn128m -Xmx4096m -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump
+	ModLauncher: 4.1.0+62+5bfa59b
+	ModLauncher launch target: fmlclient
+	ModLauncher naming: srg
+	ModLauncher services: 
+		/eventbus-1.0.0-service.jar eventbus PLUGINSERVICE 
+		/forge-1.14.4-28.1.56.jar object_holder_definalize PLUGINSERVICE 
+		/forge-1.14.4-28.1.56.jar runtime_enum_extender PLUGINSERVICE 
+		/accesstransformers-1.0.0-shadowed.jar accesstransformer PLUGINSERVICE 
+		/forge-1.14.4-28.1.56.jar capability_inject_definalize PLUGINSERVICE 
+		/forge-1.14.4-28.1.56.jar runtimedistcleaner PLUGINSERVICE 
+		/preview_OptiFine_1.14.4_HD_U_F4_pre10.jar OptiFine TRANSFORMATIONSERVICE 
+		/forge-1.14.4-28.1.56.jar fml TRANSFORMATIONSERVICE 
+	FML: 28.1
+	Forge: net.minecraftforge:28.1.56
+	FML Language Providers: 
+		javafml@28.1
+		minecraft@1
+	Mod List: 
+		AI-Improvements-1.14.4-0.3.0.jar AI-Improvements {aiimprovements@0.2.2 DONE}
+		betteranimalsplus-1.14.4-7.1.2.jar Better Animals Plus {betteranimalsplus@7.1.2 DONE}
+		BiomesOPlenty-1.14.4-9.0.0.254-universal.jar Biomes O' Plenty {biomesoplenty@1.14.4-9.0.0.254 DONE}
+		CarryOn+MC1.14.4+v1.12.3.jar Carry On {carryon@1.12.3 DONE}
+		create-mc1.14.4_v0.1.1.jar Create {create@0.1.1 DONE}
+		curios-FORGE-1.14.4-1.0.3.jar Curios API {curios@FORGE-1.14.4-1.0.3 DONE}
+		Cyclic-1.14.4-0.0.12.jar Cyclic {cyclic@1.14.4-0.0.12 DONE}
+		flying_things-1.8.5-1.14.4.jar The Flying Things {flying_things@1.8.5 DONE}
+		forgemod_VoxelMap-1.9.13b_for_1.14.4.jar VoxelMap {voxelmap@1.9.13 DONE}
+		furniture-7.0.0-pre10-1.14.4.jar MrCrayfish's Furniture Mod {cfm@7.0.0-pre10 DONE}
+		GeneticAnimals_0_4_11.jar Genetic Animals {eanimod@0.4.11 DONE}
+		gravestone-1.15.2.jar Gravestone Mod {gravestone@1.15.2 DONE}
+		Harvest-forge-1.14.4-1.2.10-23.jar Harvest {harvest@version DONE}
+		Hwyla-forge-1.10.6-B67_1.14.4.jar Waila {waila@version DONE}
+		jei-1.14.4-6.0.0.18.jar Just Enough Items {jei@6.0.0.18 DONE}
+		Mine+and+Slash-1.14.4-2.9.2.jar Mine and Slash {mmorpg@2.8.0 DONE}
+		planttech2-0.01.03.jar PlantTech 2 {planttech2@0.01.03 DONE}
+		SimpleStorageNetwork-1.14.4-0.0.13.jar Simple Storage Network {storagenetwork@1.14.4-0.0.13 DONE}
+		SpartanShields-1.14.4-2.0.0-beta-1.jar Spartan Shields {spartanshields@1.14.4-2.0.0-beta-1 DONE}
+		switchbow-1.5.8.jar Switch-Bow {switchbow@1.5.8 DONE}
+		theoneprobe-1.14-1.4.37.jar The One Probe {theoneprobe@NONE DONE}
+		timber-1.14.4-1.1.1.jar Timber Mod {timber@1.1.1 DONE}
+		XL-Food-Mod-1.14.4-2.1.0.jar XL Food Mod {xlfoodmod@2.1.0 DONE}
+		forge-1.14.4-28.1.56-universal.jar Forge {forge@28.1.56 DONE}
+		Aquaculture-1.14.4-2.0.1.jar Aquaculture 2 {aquaculture@1.14.4-2.0.1 DONE}
+		forge-1.14.4-28.1.56-client.jar Minecraft {minecraft@1.14.4 DONE}
+	Launched Version: HMCL 3.2.137
+	LWJGL: 3.2.2 build 10
+	OpenGL: NO CONTEXT
+	GL Caps: Using GL 1.3 multitexturing.
+Using GL 1.3 texture combiners.
+Using framebuffer objects because OpenGL 3.0 is supported and separate blending is supported.
+Shaders are available because OpenGL 2.1 is supported.
+VBOs are available because OpenGL 1.5 is supported.
+
+	Using VBOs: Yes
+	Is Modded: Definitely; Client brand changed to 'forge'
+	Type: Client (map_client.txt)
+	Resource Packs: vanilla, file/Snowball法线材质[改良].zip
+	Current Language: 简体中文 (中国)
+	CPU: 4x Intel(R) Core(TM) i5-7200U CPU @ 2.50GHz
