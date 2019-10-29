@@ -77,7 +77,7 @@ key_key.fullscreen:key.keyboard.f11
 key_key.spectatorOutlines:key.keyboard.unknown
 key_key.swapHands:key.keyboard.f
 key_key.saveToolbarActivator:key.keyboard.unknown
-key_key.loadToolbarActivator:key.keyboard.x
+key_key.loadToolbarActivator:key.keyboard.unknown
 key_key.advancements:key.keyboard.l
 key_key.hotbar.1:key.keyboard.1
 key_key.hotbar.2:key.keyboard.2
@@ -89,19 +89,24 @@ key_key.hotbar.7:key.keyboard.7
 key_key.hotbar.8:key.keyboard.8
 key_key.hotbar.9:key.keyboard.9
 key_of.key.zoom:key.keyboard.c
-key_key.carry.desc:key.keyboard.left.shift
-key_key.toggleLiquids:key.keyboard.unknown
-key_key.toggleVisible:key.keyboard.unknown
+key_key.llor.hotkey:key.keyboard.f4
 key_key.switchbow.switchup:key.keyboard.0
 key_key.switchbow.switchdown:key.keyboard.0
+key_key.carry.desc:key.keyboard.left.shift
+key_key.waila.config:key.keyboard.keypad.0
+key_key.waila.show_overlay:key.keyboard.keypad.1
+key_key.waila.toggle_liquid:key.keyboard.keypad.2
 key_Player Stat Overview:key.keyboard.p
 key_Player Stat Points:key.keyboard.o
 key_Disable Neat Overlay:key.keyboard.0
 key_Talent Tree:key.keyboard.j
+key_Camera left:key.keyboard.left
+key_Camera right:key.keyboard.right
+key_Camera closer:key.keyboard.up
+key_Camera farther:key.keyboard.down
+key_Swap shoulder:key.keyboard.o
+key_Toggle perspective:key.keyboard.unknown
 key_create.keyinfo.toolmenu:key.keyboard.left.alt
-key_key.waila.config:key.keyboard.keypad.0
-key_key.waila.show_overlay:key.keyboard.keypad.1
-key_key.waila.toggle_liquid:key.keyboard.keypad.2
 key_key.curios.open.desc:key.keyboard.g
 key_key.minimap.voxelmapmenu:key.keyboard.m
 key_key.minimap.waypointmenu:key.keyboard.unknown

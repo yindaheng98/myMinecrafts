@@ -2,3 +2,4 @@ subworlds:
 oldNorthWorlds:
 seeds:
 name:home,x:205,z:-243,y:80,enabled:true,red:0.0,green:1.0,blue:0.0,suffix:,world:,dimensions:overworld#
+name:HOME,x:29,z:37,y:76,enabled:true,red:0.6554688,green:0.23635995,blue:0.3918591,suffix:,world:,dimensions:overworld#

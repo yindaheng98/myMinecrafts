@@ -1,4 +1,5 @@
 subworlds:
 oldNorthWorlds:
 seeds:
-name:Latest Death,x:24,z:22,y:101,enabled:true,red:1.0,green:1.0,blue:1.0,suffix:skull,world:,dimensions:overworld#
+name:HOME1,x:-290,z:-350,y:47,enabled:true,red:0.55104834,green:0.5626033,blue:0.2636913,suffix:,world:,dimensions:overworld#
+name:Latest Death,x:-526,z:-216,y:11,enabled:true,red:1.0,green:1.0,blue:1.0,suffix:skull,world:,dimensions:overworld#
