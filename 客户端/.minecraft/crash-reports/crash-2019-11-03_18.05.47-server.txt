@@ -1,0 +1,132 @@
+---- Minecraft Crash Report ----
+// There are four lights!
+
+Time: 19-11-3 下午6:05
+Description: Ticking player
+
+java.lang.NullPointerException: Ticking player
+	at com.robertx22.mine_and_slash.items.profession.alchemy.single_use.LesserRecallPotionItem.onFinish(LesserRecallPotionItem.java:57) ~[?:1.14.4-2.9.2] {}
+	at com.robertx22.mine_and_slash.items.profession.alchemy.bases.BaseInstantPotion.func_77654_b(BaseInstantPotion.java:76) ~[?:1.14.4-2.9.2] {}
+	at net.minecraft.item.ItemStack.func_77950_b(ItemStack.java:196) ~[?:?] {}
+	at net.minecraft.entity.LivingEntity.func_71036_o(LivingEntity.java:2570) ~[?:?] {pl:accesstransformer:B}
+	at net.minecraft.entity.player.ServerPlayerEntity.func_71036_o(ServerPlayerEntity.java:980) ~[?:?] {pl:accesstransformer:B}
+	at net.minecraft.entity.LivingEntity.func_184608_ct(LivingEntity.java:2462) ~[?:?] {pl:accesstransformer:B}
+	at net.minecraft.entity.LivingEntity.func_70071_h_(LivingEntity.java:1965) ~[?:?] {pl:accesstransformer:B}
+	at net.minecraft.entity.player.PlayerEntity.func_70071_h_(PlayerEntity.java:232) ~[?:?] {pl:accesstransformer:B,xf:fml:shouldersurfing:coremodone}
+	at net.minecraft.entity.player.ServerPlayerEntity.func_71127_g(ServerPlayerEntity.java:365) ~[?:?] {pl:accesstransformer:B}
+	at net.minecraft.network.play.ServerPlayNetHandler.func_73660_a(ServerPlayNetHandler.java:183) ~[?:?] {}
+	at net.minecraft.network.NetworkManager.func_74428_b(NetworkManager.java:228) ~[?:?] {}
+	at net.minecraft.network.NetworkSystem.func_151269_c(NetworkSystem.java:135) ~[?:?] {}
+	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:846) ~[?:?] {pl:accesstransformer:B}
+	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:764) ~[?:?] {pl:accesstransformer:B}
+	at net.minecraft.server.integrated.IntegratedServer.func_71217_p(IntegratedServer.java:161) ~[?:?] {xf:OptiFine:default}
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:622) [?:?] {pl:accesstransformer:B}
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_201] {}
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Server thread
+Stacktrace:
+	at com.robertx22.mine_and_slash.items.profession.alchemy.single_use.LesserRecallPotionItem.onFinish(LesserRecallPotionItem.java:57)
+	at com.robertx22.mine_and_slash.items.profession.alchemy.bases.BaseInstantPotion.func_77654_b(BaseInstantPotion.java:76)
+	at net.minecraft.item.ItemStack.func_77950_b(ItemStack.java:196)
+	at net.minecraft.entity.LivingEntity.func_71036_o(LivingEntity.java:2570)
+	at net.minecraft.entity.player.ServerPlayerEntity.func_71036_o(ServerPlayerEntity.java:980)
+	at net.minecraft.entity.LivingEntity.func_184608_ct(LivingEntity.java:2462)
+	at net.minecraft.entity.LivingEntity.func_70071_h_(LivingEntity.java:1965)
+	at net.minecraft.entity.player.PlayerEntity.func_70071_h_(PlayerEntity.java:232)
+
+-- Player being ticked --
+Details:
+	Entity Type: minecraft:player (net.minecraft.entity.player.ServerPlayerEntity)
+	Entity ID: 344
+	Entity Name: yinn
+	Entity's Exact location: -13.02, 64.00, 133.70
+	Entity's Block location: World: (-14,64,133), Chunk: (at 2,4,5 in -1,8; contains blocks -16,0,128 to -1,255,143), Region: (-1,0; contains chunks -32,0 to -1,31, blocks -512,0,0 to -1,255,511)
+	Entity's Momentum: 0.00, -0.08, 0.00
+	Entity's Passengers: []
+	Entity's Vehicle: ~~ERROR~~ NullPointerException: null
+Stacktrace:
+	at net.minecraft.entity.player.ServerPlayerEntity.func_71127_g(ServerPlayerEntity.java:365)
+	at net.minecraft.network.play.ServerPlayNetHandler.func_73660_a(ServerPlayNetHandler.java:183)
+	at net.minecraft.network.NetworkManager.func_74428_b(NetworkManager.java:228)
+
+-- Ticking connection --
+Details:
+	Connection: net.minecraft.network.NetworkManager@400f1348
+Stacktrace:
+	at net.minecraft.network.NetworkSystem.func_151269_c(NetworkSystem.java:135)
+	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:846)
+	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:764)
+	at net.minecraft.server.integrated.IntegratedServer.func_71217_p(IntegratedServer.java:161)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:622)
+	at java.lang.Thread.run(Thread.java:748)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.14.4
+	Minecraft Version ID: 1.14.4
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_201, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 3354594328 bytes (3199 MB) / 6442450944 bytes (6144 MB) up to 6442450944 bytes (6144 MB)
+	CPUs: 4
+	JVM Flags: 11 total; -XX:+UnlockExperimentalVMOptions -XX:+UseG1GC -XX:G1NewSizePercent=20 -XX:G1ReservePercent=20 -XX:MaxGCPauseMillis=50 -XX:G1HeapRegionSize=16M -XX:-UseAdaptiveSizePolicy -XX:-OmitStackTraceInFastThrow -Xmn128m -Xmx6144m -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump
+	ModLauncher: 3.2.0+60+b86c1d4
+	ModLauncher launch target: fmlclient
+	ModLauncher naming: srg
+	ModLauncher services: 
+		/eventbus-1.0.0-service.jar eventbus PLUGINSERVICE 
+		/forge-1.14.4-28.1.6.jar object_holder_definalize PLUGINSERVICE 
+		/forge-1.14.4-28.1.6.jar runtime_enum_extender PLUGINSERVICE 
+		/accesstransformers-1.0.0-shadowed.jar accesstransformer PLUGINSERVICE 
+		/forge-1.14.4-28.1.6.jar capability_inject_definalize PLUGINSERVICE 
+		/forge-1.14.4-28.1.6.jar runtimedistcleaner PLUGINSERVICE 
+		/preview_OptiFine_1.14.4_HD_U_F4_pre10.jar OptiFine TRANSFORMATIONSERVICE 
+		/forge-1.14.4-28.1.6.jar fml TRANSFORMATIONSERVICE 
+	FML: 28.1
+	Forge: net.minecraftforge:28.1.6
+	FML Language Providers: 
+		javafml@28.1
+		minecraft@1
+	Mod List: 
+		AI-Improvements-1.14.4-0.3.0.jar AI-Improvements {aiimprovements@0.2.2 DONE}
+		AppleSkin-mc1.14.4-forge-1.0.12.jar AppleSkin {appleskin@1.0.12 DONE}
+		bambooeverything-1.14-1.4.0.jar Bamboo Everything {bambooeverything@1.14-1.4.0 DONE}
+		betteranimalsplus-1.14.4-7.1.2.jar Better Animals Plus {betteranimalsplus@7.1.2 DONE}
+		BiomesOPlenty-1.14.4-9.0.0.254-universal.jar Biomes O' Plenty {biomesoplenty@1.14.4-9.0.0.254 DONE}
+		CarryOn+MC1.14.4+v1.12.4.jar Carry On {carryon@1.12.4 DONE}
+		create-mc1.14.4_v0.1.1.jar Create {create@0.1.1 DONE}
+		curios-FORGE-1.14.4-1.0.3.jar Curios API {curios@FORGE-1.14.4-1.0.3 DONE}
+		Cyclic-1.14.4-0.0.12.jar Cyclic {cyclic@1.14.4-0.0.12 DONE}
+		dooglamooworlds-1.14.4-1.2.3.jar Dooglamoo Worlds {dooglamooworlds@1.14.4-1.2.3 DONE}
+		flying_things-1.8.5-1.14.4.jar The Flying Things {flying_things@1.8.5 DONE}
+		forgemod_VoxelMap-1.9.13b_for_1.14.4.jar VoxelMap {voxelmap@1.9.13 DONE}
+		furniture-7.0.0-pre10-1.14.4.jar MrCrayfish's Furniture Mod {cfm@7.0.0-pre10 DONE}
+		GeneticAnimals_0_4_11.jar Genetic Animals {eanimod@0.4.11 DONE}
+		gravestone-1.15.2.jar Gravestone Mod {gravestone@1.15.2 DONE}
+		Harvest-forge-1.14.4-1.2.10-23.jar Harvest {harvest@version DONE}
+		Hwyla-forge-1.10.6-B67_1.14.4.jar Waila {waila@version DONE}
+		jei-1.14.4-6.0.0.18.jar Just Enough Items {jei@6.0.0.18 DONE}
+		LLOverlayReloaded-1.2.4-mc1.14.4.jar Light Level Overlay Reloaded {llor@1.2.4-mc1.14.4 DONE}
+		Mine+and+Slash-1.14.4-2.9.2.jar Mine and Slash {mmorpg@2.8.0 DONE}
+		planttech2-0.01.04.jar PlantTech 2 {planttech2@0.01.04 DONE}
+		ShoulderSurfing-1.14.4-1.21.jar Shoulder Surfing {shouldersurfing@1.14.4-1.21 DONE}
+		SilentGear-1.14.4-1.4.3+68.jar Silent Gear {silentgear@1.4.3+68 DONE}
+		SilentGems-1.14.4-3.4.6+79.jar Silent's Gems 3 {silentgems@3.4.6+79 DONE}
+		SilentLib-1.14.4-4.4.0+44.jar Silent Lib {silentlib@4.4.0+44 DONE}
+		SimpleStorageNetwork-1.14.4-0.0.13.jar Simple Storage Network {storagenetwork@1.14.4-0.0.13 DONE}
+		SpartanShields-1.14.4-2.0.0-beta-1.jar Spartan Shields {spartanshields@1.14.4-2.0.0-beta-1 DONE}
+		switchbow-1.5.8.jar Switch-Bow {switchbow@1.5.8 DONE}
+		timber-1.14.4-1.1.1.jar Timber Mod {timber@1.1.1 DONE}
+		XL-Food-Mod-1.14.4-2.1.0.jar XL Food Mod {xlfoodmod@2.1.0 DONE}
+		forge-1.14.4-28.1.6-universal.jar Forge {forge@28.1.6 DONE}
+		Aquaculture-1.14.4-2.0.1.jar Aquaculture 2 {aquaculture@1.14.4-2.0.1 DONE}
+		forge-1.14.4-28.1.6-client.jar Minecraft {minecraft@1.14.4 DONE}
+	Player Count: 1 / 8; [ServerPlayerEntity['yinn'/344, l='新的世界', x=-13.02, y=64.00, z=133.70]]
+	Data Packs: mod:shouldersurfing, mod:appleskin, vanilla, mod:xlfoodmod, mod:waila, mod:voxelmap, mod:timber, mod:switchbow, mod:storagenetwork, mod:spartanshields, mod:silentlib, mod:silentgems, mod:silentgear, mod:planttech2 (incompatible), mod:mmorpg, mod:llor, mod:jei, mod:harvest, mod:gravestone, mod:forge, mod:flying_things, mod:eanimod, mod:dooglamooworlds, mod:cyclic, mod:curios, mod:create, mod:cfm, mod:carryon, mod:biomesoplenty, mod:betteranimalsplus, mod:bambooeverything, mod:aquaculture, mod:aiimprovements
+	Type: Integrated Server (map_client.txt)
+	Is Modded: Definitely; Client brand changed to 'forge'

@@ -1,9 +1,9 @@
 #Third person camera rotation
 #Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
-rotation_offset = -16.0
+rotation_offset = -10.0
 #Third person camera zoom
 #Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
-zoom_offset = 0.799999997764826
+zoom_offset = 2.0099999707192184
 #Whether or not rotation adjustment has limits
 unlimited_rotation = false
 #If rotation is limited this is the minimum amount
