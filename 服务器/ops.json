@@ -1,1 +1,8 @@
-[]
+[
+  {
+    "uuid": "b15ca054-6d62-3aa2-876c-5504bf552e63",
+    "name": "yinn",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]

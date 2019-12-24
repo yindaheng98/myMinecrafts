@@ -1,0 +1,30 @@
+{
+  "version": "14.11",
+  "loadlist": [
+    
+   
+    {
+      "name": "LocalSkin",
+      "type": "Legacy",
+      "checkPNG": true,
+      "skin": "LocalSkin/skins/{USERNAME}.png",
+      "model": "auto",
+      "cape": "LocalSkin/capes/{USERNAME}.png",
+      "elytra": "LocalSkin/elytras/{USERNAME}.png"
+    },
+    {
+      "name": "GlitchlessGames",
+      "type": "GlitchlessAPI",
+      "root": "https://games.glitchless.ru/api/minecraft/users/profiles/textures/?nickname\u003d"
+    }
+  ],
+  "enableDynamicSkull": true,
+  "enableTransparentSkin": true,
+  "ignoreHttpsCertificate": false,
+  "forceLoadAllTextures": false,
+  "enableCape": true,
+  "cacheExpiry": 30,
+  "enableUpdateSkull": false,
+  "enableLocalProfileCache": false,
+  "enableCacheAutoClean": false
+}

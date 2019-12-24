@@ -1,8 +1,7 @@
-[21:23:07] [main/INFO] [JMLogger] JourneyMap log initialized.
-[21:23:07] [main/INFO] [JourneymapClient] initialize ENTER
-[21:23:07] [main/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): optionsManagerViewed=null
-[21:23:07] [main/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): splashViewed=null
-[21:23:07] [Client thread/INFO] [?] Version: JourneyMap 1.12.2-5.5.5, built with Forge 14.23.5.2768
+[19:56:08] [main/INFO] [JMLogger] JourneyMap log initialized.
+[19:56:08] [main/INFO] [JourneymapClient] initialize ENTER
+[19:56:08] [main/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): optionsManagerViewed=null
+[19:56:08] [Client thread/INFO] [?] Version: JourneyMap 1.12.2-5.5.5, built with Forge 14.23.5.2768
 Forge: 14.23.5.2768
 Environment: os.name, os.arch, java.version, user.country, user.language=null, game language=zh_cn, locale=zh_cn
 Features: 
@@ -15,79 +14,68 @@ Features:
 	MapCaves : singleplayer = true , multiplayer = true
 MiniMapProperties{state=Valid, file=journeymap.minimap.config, configVersion=5.5.5, zoomLevel=0, showPlayers=true, frameAlpha=100, compassFontScale=2, terrainAlpha=100, showEntityNames=true, enabled=true, showPlayerHeading=true, showVillagers=true, info2Label=Game Time, sizePercent=30, showDayNight=true, info3Label=Location, showMobs=true, showPets=true, preferredMapType=day, showCompass=true, mobDisplay=Small Dots, showReticle=true, orientation=指向北方, shape=圆形, showSelf=true, info4Label=Biome, locationFormat=xzyv, playerDisplay=Small Dots, showGrid=true, reticleOrientation=罗盘模式, showWaypoints=true, showCaves=true, showAnimals=true, showMobHeading=true, showWaypointLabels=true, locationFormatVerbose=true, position=屏幕右上, info1Label=Blank, fontScale=2}
 MiniMapProperties{state=Valid, file=journeymap.minimap2.config, configVersion=5.5.5, zoomLevel=0, showPlayers=true, frameAlpha=100, compassFontScale=2, terrainAlpha=100, showEntityNames=true, enabled=true, showPlayerHeading=true, showVillagers=true, info2Label=Game Time, sizePercent=30, showDayNight=true, info3Label=Location, showMobs=true, showPets=true, preferredMapType=day, showCompass=true, mobDisplay=Small Dots, showReticle=true, orientation=指向北方, shape=矩形, showSelf=true, info4Label=Biome, locationFormat=xzyv, playerDisplay=Small Dots, showGrid=true, reticleOrientation=罗盘模式, showWaypoints=true, showCaves=true, showAnimals=true, showMobHeading=true, showWaypointLabels=true, locationFormatVerbose=true, position=屏幕右上, info1Label=Blank, fontScale=2}
-FullMapProperties{state=Valid, file=journeymap.fullmap.config, configVersion=5.5.5, mobDisplay=Small Dots, zoomLevel=0, showPlayers=true, showSelf=true, locationFormat=xzyv, playerDisplay=Small Dots, showGrid=true, showEntityNames=true, showPlayerHeading=true, showVillagers=true, showWaypoints=true, showCaves=true, showAnimals=true, showMobHeading=true, showKeys=true, showWaypointLabels=true, locationFormatVerbose=true, showMobs=true, showPets=true, fontScale=2, preferredMapType=day}
+FullMapProperties{state=Valid, file=journeymap.fullmap.config, configVersion=5.5.5, mobDisplay=Small Dots, zoomLevel=5, showPlayers=true, showSelf=true, locationFormat=xzyv, playerDisplay=Small Dots, showGrid=true, showEntityNames=true, showPlayerHeading=true, showVillagers=true, showWaypoints=true, showCaves=true, showAnimals=true, showMobHeading=true, showKeys=true, showWaypointLabels=true, locationFormatVerbose=true, showMobs=true, showPets=true, fontScale=2, preferredMapType=day}
 WaypointProperties{state=Valid, file=journeymap.waypoint.config, configVersion=5.5.5, createDeathpoints=true, showName=true, maxDistance=0, autoHideLabel=true, teleportCommand=/tp {name} {x} {y} {z}, showStaticBeam=true, minDistance=4, boldLabel=false, textureSmall=true, showDistance=true, showRotatingBeam=true, fontScale=2, showTexture=true, managerEnabled=true, beaconEnabled=true}
 WebMapProperties{state=Valid, file=journeymap.webmap.config, configVersion=5.5.5, zoomLevel=0, showWaypoints=true, showCaves=true, showSelf=true, port=8080, showGrid=true, showEntityNames=true, enabled=false, googleMapApiDomain=.com, preferredMapType=day}
-CoreProperties{state=Valid, file=journeymap.core.config, configVersion=5.5.5, verboseColorPalette=false, maxPlayersData=32, mapSurfaceAboveCaves=true, optionsManagerViewed=null, announceMod=true, colorPassive=#bbbbbb, renderOverlayEventTypeName=ALL, mapBlendWater=false, renderDistanceSurfaceMax=7, radarVerticalDistance=16, mapBlendGrass=true, recordCacheStats=false, hideSneakingEntities=true, revealShape=圆形, alwaysMapSurface=false, colorVillager=#88e188, mapPlants=false, colorPet=#0077ff, radarLateralDistance=64, mapBathymetry=false, mapCrops=true, maxMobsData=32, mapPlantShadows=false, alwaysMapCaves=false, checkUpdates=true, browserPoll=2000, mapBlendFoliage=true, mappingEnabled=true, colorPlayer=#ffffff, tileHighDisplayQuality=true, cacheVillagersData=2200, logLevel=INFO, maxVillagersData=32, maxAnimalsData=32, mapTransparency=true, tileRenderType=1, caveIgnoreGlass=true, mapTopography=true, renderDistanceCaveMax=3, mapAntialiasing=true, colorSelf=#0000ff, cachePlayersData=2000, cacheMobsData=3000, cachePlayerData=1000, splashViewed=null, colorHostile=#ff0000, cacheAnimalsData=3100, themeName=OceanMonument, mapCaveLighting=true, renderDelay=2, renderOverlayPreEvent=true, autoMapPoll=2000}
-[21:23:07] [main/INFO] [ClientAPI] [ClientAPI] built with JourneyMap API 1.4
-[21:23:07] [main/INFO] [PluginHelper] Initializing plugins with Client API: journeymap.client.api.impl.ClientAPI
-[21:23:07] [main/INFO] [JourneymapClient] initialize EXIT, elapsed count 0 avg ?ms
-[21:23:20] [main/INFO] [IconSetFileHandler] Added entity icons from journeymap:icon/entity. Success: false
-[21:23:21] [main/INFO] [ThemeLoader] Preloaded theme textures: 72
-[21:23:28] [JM-VersionCheck-1/ERROR] [VersionCheck$1] Could not check version URL
-org.apache.http.conn.ConnectTimeoutException: Connect to api.cfwidget.com:443 [api.cfwidget.com/138.68.180.15] failed: connect timed out
-	at org.apache.http.impl.conn.HttpClientConnectionOperator.connect(HttpClientConnectionOperator.java:132) ~[httpclient-4.3.3.jar:4.3.3]
-	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:314) ~[httpclient-4.3.3.jar:4.3.3]
-	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:363) ~[httpclient-4.3.3.jar:4.3.3]
-	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:219) ~[httpclient-4.3.3.jar:4.3.3]
-	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:195) ~[httpclient-4.3.3.jar:4.3.3]
-	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:86) ~[httpclient-4.3.3.jar:4.3.3]
-	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:108) ~[httpclient-4.3.3.jar:4.3.3]
-	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:186) ~[httpclient-4.3.3.jar:4.3.3]
-	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82) ~[httpclient-4.3.3.jar:4.3.3]
-	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:106) ~[httpclient-4.3.3.jar:4.3.3]
-	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:57) ~[httpclient-4.3.3.jar:4.3.3]
-	at journeymap.common.version.VersionCheck$1.run(VersionCheck.java:131) [VersionCheck$1.class:1.12.2-5.5.5]
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_201]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_201]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_201]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_201]
-	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_201]
-Caused by: java.net.SocketTimeoutException: connect timed out
-	at java.net.TwoStacksPlainSocketImpl.socketConnect(Native Method) ~[?:1.8.0_201]
-	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[?:1.8.0_201]
-	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[?:1.8.0_201]
-	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[?:1.8.0_201]
-	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172) ~[?:1.8.0_201]
-	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[?:1.8.0_201]
-	at java.net.Socket.connect(Socket.java:589) ~[?:1.8.0_201]
-	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:239) ~[httpclient-4.3.3.jar:4.3.3]
-	at org.apache.http.impl.conn.HttpClientConnectionOperator.connect(HttpClientConnectionOperator.java:117) ~[httpclient-4.3.3.jar:4.3.3]
-	... 16 more
-[21:28:19] [main/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): optionsManagerViewed=null
-[21:28:19] [main/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): splashViewed=null
-[21:28:19] [main/INFO] [ModBlockDelegate] Custom modded block handling enabled for biomesoplenty
-[21:28:21] [main/INFO] [WaypointStore] Loaded 1 waypoints from F:\MinecraftServers\客户端\.minecraft\journeymap\data\sp\新的世界\waypoints
-[21:28:21] [main/INFO] [JourneymapClient] Mapping started in F:\MinecraftServers\客户端\.minecraft\journeymap\data\sp\新的世界\DIM0. Memory: 4096MB total, 1406MB free 
-[21:28:21] [main/INFO] [ChatLog] JourneyMap: 按下[J]键
-[21:28:21] [Netty Local Client IO #0/INFO] [JourneymapClient] Teleport Enabled:true
-[21:28:21] [Netty Local Client IO #0/INFO] [JourneymapClient] Server Admin Enabled:true
-[21:31:14] [main/INFO] [JourneymapClient] Mapping halted in F:\MinecraftServers\客户端\.minecraft\journeymap\data\sp\新的世界\DIM0
-[21:34:45] [main/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): optionsManagerViewed=null
-[21:34:45] [main/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): splashViewed=null
-[21:34:45] [main/INFO] [WaypointStore] Loaded 1 waypoints from F:\MinecraftServers\客户端\.minecraft\journeymap\data\sp\新的世界\waypoints
-[21:34:45] [main/INFO] [JourneymapClient] Mapping started in F:\MinecraftServers\客户端\.minecraft\journeymap\data\sp\新的世界\DIM0. Memory: 4096MB total, 1325MB free 
-[21:34:45] [Netty Local Client IO #1/INFO] [JourneymapClient] Teleport Enabled:true
-[21:34:45] [Netty Local Client IO #1/INFO] [JourneymapClient] Server Admin Enabled:true
-[21:40:10] [main/INFO] [JourneymapClient] Mapping halted in F:\MinecraftServers\客户端\.minecraft\journeymap\data\sp\新的世界\DIM0
-[21:41:43] [main/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): optionsManagerViewed=null
-[21:41:43] [main/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): splashViewed=null
-[21:41:43] [main/INFO] [WaypointStore] Loaded 6 waypoints from F:\MinecraftServers\客户端\.minecraft\journeymap\data\mp\Minecraft~\waypoints
-[21:41:43] [main/INFO] [JourneymapClient] Mapping started in F:\MinecraftServers\客户端\.minecraft\journeymap\data\mp\Minecraft~\DIM0. Memory: 4096MB total, 1269MB free 
-[21:43:00] [main/INFO] [StateTickHandler] yinn died at BlockPos{x=282, y=63, z=-108}. Deathpoints enabled: true. Deathpoint created: true
-[21:44:44] [main/INFO] [StateTickHandler] yinn died at BlockPos{x=223, y=64, z=67}. Deathpoints enabled: true. Deathpoint created: true
-[22:01:30] [main/WARN] [StatTimer] TileDrawStep.updateRegionTexture was slow: 208.3217 (Warning limit reached)
-[22:01:30] [main/WARN] [StatTimer] TileDrawStep.updateRegionTexture: Avg:     0.01ms, Min:        0ms, Max:     372.35ms, Total:          3 sec, Count:   437947, Canceled:        0, Slow:       10
-[22:07:05] [main/INFO] [StateTickHandler] yinn died at BlockPos{x=271, y=65, z=-118}. Deathpoints enabled: true. Deathpoint created: true
-[22:08:23] [main/INFO] [StateTickHandler] yinn died at BlockPos{x=243, y=63, z=-107}. Deathpoints enabled: true. Deathpoint created: true
-[22:09:20] [main/INFO] [StateTickHandler] yinn died at BlockPos{x=216, y=64, z=69}. Deathpoints enabled: true. Deathpoint created: true
-[22:20:02] [main/ERROR] [JMLogger] Can't get entityTexture for class net.tslat.aoa3.entity.mobs.overworld.EntityShadow via class net.tslat.aoa3.client.render.entities.mobs.overworld.ShadowRenderer (SUPPRESSED)
-[22:20:52] [main/INFO] [StatTimer] TileDrawStep.updateRegionTexture hit max count, 1000000
-[22:23:00] [main/INFO] [StatTimer] TileDrawStep.draw(low) hit max count, 1000000
-[22:35:57] [main/INFO] [JourneymapClient] Mapping halted in F:\MinecraftServers\客户端\.minecraft\journeymap\data\mp\Minecraft~\DIM0
-[22:38:03] [main/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): optionsManagerViewed=null
-[22:38:03] [main/INFO] [WaypointStore] Loaded 0 waypoints from F:\MinecraftServers\客户端\.minecraft\journeymap\data\mp\Minecraft~\waypoints
-[22:38:03] [main/INFO] [JourneymapClient] Mapping started in F:\MinecraftServers\客户端\.minecraft\journeymap\data\mp\Minecraft~\DIM0. Memory: 4096MB total, 784MB free 
-[23:08:34] [main/WARN] [StatTimer] TileDrawStep.updateRegionTexture was slow: 74.5699 (Warning limit reached)
-[23:08:34] [main/WARN] [StatTimer] TileDrawStep.updateRegionTexture: Avg:     0.01ms, Min:        0ms, Max:     259.28ms, Total:          4 sec, Count:   888674, Canceled:        0, Slow:       10
-[23:13:00] [main/INFO] [JourneymapClient] Mapping halted in F:\MinecraftServers\客户端\.minecraft\journeymap\data\mp\Minecraft~\DIM0
+CoreProperties{state=Valid, file=journeymap.core.config, configVersion=5.5.5, verboseColorPalette=false, maxPlayersData=32, mapSurfaceAboveCaves=true, optionsManagerViewed=null, announceMod=true, colorPassive=#bbbbbb, renderOverlayEventTypeName=ALL, mapBlendWater=false, renderDistanceSurfaceMax=7, radarVerticalDistance=16, mapBlendGrass=true, recordCacheStats=false, hideSneakingEntities=true, revealShape=圆形, alwaysMapSurface=false, colorVillager=#88e188, mapPlants=false, colorPet=#0077ff, radarLateralDistance=64, mapBathymetry=false, mapCrops=true, maxMobsData=32, mapPlantShadows=false, alwaysMapCaves=false, checkUpdates=true, browserPoll=2000, mapBlendFoliage=true, mappingEnabled=true, colorPlayer=#ffffff, tileHighDisplayQuality=true, cacheVillagersData=2200, logLevel=INFO, maxVillagersData=32, maxAnimalsData=32, mapTransparency=true, tileRenderType=1, caveIgnoreGlass=true, mapTopography=true, renderDistanceCaveMax=3, mapAntialiasing=true, colorSelf=#0000ff, cachePlayersData=2000, cacheMobsData=3000, cachePlayerData=1000, splashViewed=5.5.5, colorHostile=#ff0000, cacheAnimalsData=3100, themeName=OceanMonument, mapCaveLighting=true, renderDelay=2, renderOverlayPreEvent=true, autoMapPoll=2000}
+[19:56:08] [main/INFO] [ClientAPI] [ClientAPI] built with JourneyMap API 1.4
+[19:56:08] [main/INFO] [PluginHelper] Initializing plugins with Client API: journeymap.client.api.impl.ClientAPI
+[19:56:08] [main/INFO] [JourneymapClient] initialize EXIT, elapsed count 0 avg ?ms
+[19:56:25] [main/INFO] [IconSetFileHandler] Added entity icons from journeymap:icon/entity. Success: false
+[19:56:26] [main/INFO] [ThemeLoader] Preloaded theme textures: 72
+[19:56:35] [JM-VersionCheck-1/INFO] [VersionCheck$1] Newer version online: JourneyMap 5.5.6.jar for Minecraft 1.12.2 on http://minecraft.curseforge.com/projects/journeymap/files/2844789
+[19:57:16] [main/INFO] [ModBlockDelegate] Custom modded block handling enabled for biomesoplenty
+[19:57:17] [main/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): optionsManagerViewed=null
+[19:57:17] [main/INFO] [WaypointStore] Loaded 0 waypoints from F:\MinecraftServers\客户端\.minecraft\journeymap\data\mp\Minecraft~local\waypoints
+[19:57:18] [main/INFO] [JourneymapClient] Mapping started in F:\MinecraftServers\客户端\.minecraft\journeymap\data\mp\Minecraft~local\DIM0. Memory: 6144MB total, 3603MB free 
+[19:57:18] [main/INFO] [ChatLog] JourneyMap: 按下[J]键
+[19:57:26] [main/INFO] [JourneymapClient] Mapping halted in F:\MinecraftServers\客户端\.minecraft\journeymap\data\mp\Minecraft~local\DIM0
+[20:10:39] [main/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): optionsManagerViewed=null
+[20:10:41] [main/INFO] [WaypointStore] Loaded 0 waypoints from F:\MinecraftServers\客户端\.minecraft\journeymap\data\mp\Minecraft~\waypoints
+[20:10:41] [main/INFO] [JourneymapClient] Mapping started in F:\MinecraftServers\客户端\.minecraft\journeymap\data\mp\Minecraft~\DIM0. Memory: 6144MB total, 3565MB free 
+[20:10:59] [main/INFO] [JourneymapClient] Mapping halted in F:\MinecraftServers\客户端\.minecraft\journeymap\data\mp\Minecraft~\DIM0
+[20:15:08] [main/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): optionsManagerViewed=null
+[20:15:08] [main/INFO] [WaypointStore] Loaded 0 waypoints from F:\MinecraftServers\客户端\.minecraft\journeymap\data\mp\Minecraft~\waypoints
+[20:15:08] [main/INFO] [JourneymapClient] Mapping started in F:\MinecraftServers\客户端\.minecraft\journeymap\data\mp\Minecraft~\DIM0. Memory: 6144MB total, 3550MB free 
+[20:18:37] [main/INFO] [JourneymapClient] Mapping halted in F:\MinecraftServers\客户端\.minecraft\journeymap\data\mp\Minecraft~\DIM0
+[20:20:43] [main/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): optionsManagerViewed=null
+[20:20:43] [main/INFO] [WaypointStore] Loaded 0 waypoints from F:\MinecraftServers\客户端\.minecraft\journeymap\data\mp\Minecraft~\waypoints
+[20:20:43] [main/INFO] [JourneymapClient] Mapping started in F:\MinecraftServers\客户端\.minecraft\journeymap\data\mp\Minecraft~\DIM0. Memory: 6144MB total, 3503MB free 
+[20:24:23] [main/INFO] [JourneymapClient] Mapping halted in F:\MinecraftServers\客户端\.minecraft\journeymap\data\mp\Minecraft~\DIM0
+[20:28:50] [main/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): optionsManagerViewed=null
+[20:28:50] [main/INFO] [WaypointStore] Loaded 0 waypoints from F:\MinecraftServers\客户端\.minecraft\journeymap\data\mp\Minecraft~\waypoints
+[20:28:50] [main/INFO] [JourneymapClient] Mapping started in F:\MinecraftServers\客户端\.minecraft\journeymap\data\mp\Minecraft~\DIM0. Memory: 6144MB total, 3542MB free 
+[20:30:56] [main/INFO] [JourneymapClient] Mapping halted in F:\MinecraftServers\客户端\.minecraft\journeymap\data\mp\Minecraft~\DIM0
+[20:36:28] [main/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): optionsManagerViewed=null
+[20:36:28] [main/INFO] [WaypointStore] Loaded 0 waypoints from F:\MinecraftServers\客户端\.minecraft\journeymap\data\mp\Minecraft~\waypoints
+[20:36:28] [main/INFO] [JourneymapClient] Mapping started in F:\MinecraftServers\客户端\.minecraft\journeymap\data\mp\Minecraft~\DIM0. Memory: 6144MB total, 3508MB free 
+[20:43:32] [main/INFO] [StateTickHandler] yinn died at BlockPos{x=-184, y=66, z=171}. Deathpoints enabled: true. Deathpoint created: true
+[20:44:32] [main/INFO] [StateTickHandler] yinn died at BlockPos{x=-170, y=64, z=170}. Deathpoints enabled: true. Deathpoint created: true
+[20:45:01] [main/INFO] [StateTickHandler] yinn died at BlockPos{x=-159, y=64, z=172}. Deathpoints enabled: true. Deathpoint created: true
+[20:46:24] [main/INFO] [StateTickHandler] yinn died at BlockPos{x=43, y=63, z=209}. Deathpoints enabled: true. Deathpoint created: true
+[20:46:44] [main/INFO] [JourneymapClient] Mapping halted in F:\MinecraftServers\客户端\.minecraft\journeymap\data\mp\Minecraft~\DIM0
+[20:52:47] [main/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): optionsManagerViewed=null
+[20:52:47] [main/INFO] [WaypointStore] Loaded 4 waypoints from F:\MinecraftServers\客户端\.minecraft\journeymap\data\mp\Minecraft~\waypoints
+[20:52:47] [main/INFO] [JourneymapClient] Mapping started in F:\MinecraftServers\客户端\.minecraft\journeymap\data\mp\Minecraft~\DIM0. Memory: 6144MB total, 3498MB free 
+[20:56:48] [main/ERROR] [JMLogger] Can't get entityTexture for class net.tslat.aoa3.entity.mobs.overworld.EntityShadow via class net.tslat.aoa3.client.render.entities.mobs.overworld.ShadowRenderer (SUPPRESSED)
+[21:03:07] [main/INFO] [JourneymapClient] Mapping halted in F:\MinecraftServers\客户端\.minecraft\journeymap\data\mp\Minecraft~\DIM0
+[21:08:59] [main/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): optionsManagerViewed=null
+[21:08:59] [main/INFO] [WaypointStore] Loaded 1 waypoints from F:\MinecraftServers\客户端\.minecraft\journeymap\data\mp\Minecraft~\waypoints
+[21:08:59] [main/INFO] [JourneymapClient] Mapping started in F:\MinecraftServers\客户端\.minecraft\journeymap\data\mp\Minecraft~\DIM0. Memory: 6144MB total, 3468MB free 
+[21:47:06] [main/INFO] [StatTimer] TileDrawStep.updateRegionTexture hit max count, 1000000
+[21:52:55] [main/INFO] [StateTickHandler] yinn died at BlockPos{x=-195, y=60, z=159}. Deathpoints enabled: true. Deathpoint created: true
+[21:54:31] [main/INFO] [StatTimer] TileDrawStep.draw(low) hit max count, 1000000
+[22:11:20] [main/INFO] [StateTickHandler] yinn died at BlockPos{x=-186, y=64, z=179}. Deathpoints enabled: true. Deathpoint created: true
+[22:11:37] [main/INFO] [StateTickHandler] yinn died at BlockPos{x=-186, y=69, z=177}. Deathpoints enabled: true. Deathpoint created: true
+[22:11:51] [main/INFO] [StateTickHandler] yinn died at BlockPos{x=-186, y=65, z=170}. Deathpoints enabled: true. Deathpoint created: true
+[22:29:51] [main/INFO] [StateTickHandler] yinn died at BlockPos{x=-179, y=64, z=168}. Deathpoints enabled: true. Deathpoint created: true
+[22:33:04] [main/INFO] [StateTickHandler] yinn died at BlockPos{x=-183, y=62, z=177}. Deathpoints enabled: true. Deathpoint created: true
+[22:36:48] [main/INFO] [StateTickHandler] yinn died at BlockPos{x=-179, y=64, z=171}. Deathpoints enabled: true. Deathpoint created: true
+[22:52:53] [main/INFO] [StateTickHandler] yinn died at BlockPos{x=-139, y=59, z=153}. Deathpoints enabled: true. Deathpoint created: true
+[22:57:08] [main/INFO] [StateTickHandler] yinn died at BlockPos{x=-167, y=68, z=188}. Deathpoints enabled: true. Deathpoint created: true
+[22:57:31] [main/INFO] [StateTickHandler] yinn died at BlockPos{x=-160, y=67, z=197}. Deathpoints enabled: true. Deathpoint created: true
+[23:01:51] [main/INFO] [JourneymapClient] Mapping halted in F:\MinecraftServers\客户端\.minecraft\journeymap\data\mp\Minecraft~\DIM0
+[23:02:29] [main/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): optionsManagerViewed=null
+[23:02:30] [main/INFO] [WaypointStore] Loaded 11 waypoints from F:\MinecraftServers\客户端\.minecraft\journeymap\data\mp\Minecraft~\waypoints
+[23:02:30] [main/INFO] [JourneymapClient] Mapping started in F:\MinecraftServers\客户端\.minecraft\journeymap\data\mp\Minecraft~\DIM0. Memory: 6144MB total, 3453MB free 
+[00:00:09] [main/INFO] [JourneymapClient] Mapping halted in F:\MinecraftServers\客户端\.minecraft\journeymap\data\mp\Minecraft~\DIM0

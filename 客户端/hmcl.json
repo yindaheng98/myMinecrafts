@@ -16,7 +16,7 @@
         "usesGlobal": true,
         "javaArgs": "",
         "minecraftArgs": "",
-        "maxMemory": 4096,
+        "maxMemory": 6144,
         "permSize": "",
         "width": 854,
         "height": 480,
