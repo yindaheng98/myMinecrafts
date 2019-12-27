@@ -1,0 +1,18 @@
+{
+  "id": "矿_-220,10,259",
+  "name": "矿",
+  "icon": "waypoint-normal.png",
+  "x": -220,
+  "y": 10,
+  "z": 259,
+  "r": 97,
+  "g": 171,
+  "b": 67,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

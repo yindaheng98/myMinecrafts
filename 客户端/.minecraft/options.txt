@@ -131,7 +131,7 @@ key_keybind.vehicle.mouse.aim:46
 key_keybind.vehicle.ammo.select:47
 key_keybind.awAutomation.toggle_workbounds_render:66
 key_key.toggle_focus.desc:15
-key_key.carry.desc:29
+key_key.carry.desc:42
 key_key.placeItem:25
 key_key.toolConfig:46
 key_key.toolProfileChange:43

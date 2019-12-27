@@ -1,22 +1,25 @@
-[2019-12-24 19:50:20] [pool-6-thread-1 INFO] CustomSkinLoader 14.11
-[2019-12-24 19:50:20] [pool-6-thread-1 INFO] DataDir: H:\game\客户端\.minecraft\CustomSkinLoader
-[2019-12-24 19:50:20] [pool-6-thread-1 INFO] Minecraft: 1.12.2(1.12.2)
-[2019-12-24 19:50:20] [pool-6-thread-1 INFO] Config File: H:\game\客户端\.minecraft\CustomSkinLoader\CustomSkinLoader.json
-[2019-12-24 19:50:20] [pool-6-thread-1 INFO] Try to load config.
-[2019-12-24 19:50:20] [pool-6-thread-1 INFO] Successfully load config.
-[2019-12-24 19:50:20] [pool-6-thread-1 INFO] version : 14.11
-[2019-12-24 19:50:20] [pool-6-thread-1 INFO] enableDynamicSkull : true
-[2019-12-24 19:50:20] [pool-6-thread-1 INFO] enableTransparentSkin : true
-[2019-12-24 19:50:20] [pool-6-thread-1 INFO] ignoreHttpsCertificate : false
-[2019-12-24 19:50:20] [pool-6-thread-1 INFO] forceLoadAllTextures : false
-[2019-12-24 19:50:20] [pool-6-thread-1 INFO] enableCape : true
-[2019-12-24 19:50:20] [pool-6-thread-1 INFO] cacheExpiry : 30
-[2019-12-24 19:50:20] [pool-6-thread-1 INFO] enableUpdateSkull : false
-[2019-12-24 19:50:20] [pool-6-thread-1 INFO] enableLocalProfileCache : false
-[2019-12-24 19:50:20] [pool-6-thread-1 INFO] enableCacheAutoClean : false
-[2019-12-24 19:50:20] [pool-6-thread-1 INFO] loadList : 2
-[2019-12-24 19:50:20] [J INFO] Loading J's profile.
-[2019-12-24 19:50:20] [J INFO] 1/2 Try to load profile from 'LocalSkin'.
-[2019-12-24 19:50:20] [J INFO] J's profile loaded.
-[2019-12-24 19:50:20] [J INFO] (SkinUrl: (LOCAL_LEGACY)42d13d03fb0285eefc8841cd46b75bdf0fadee14,LocalSkin/skins/J.png , Model: auto , CapeUrl: null  , Expiry: 1577188253)
-[2019-12-24 19:50:22] [Client thread DEBUG] Loading type:SKIN
+[2019-12-27 18:06:17] [pool-6-thread-1 INFO] CustomSkinLoader 14.11
+[2019-12-27 18:06:17] [pool-6-thread-1 INFO] DataDir: F:\MinecraftServers\客户端\.minecraft\CustomSkinLoader
+[2019-12-27 18:06:17] [pool-6-thread-1 INFO] Minecraft: 1.12.2(1.12.2)
+[2019-12-27 18:06:17] [pool-6-thread-1 INFO] Config File: F:\MinecraftServers\客户端\.minecraft\CustomSkinLoader\CustomSkinLoader.json
+[2019-12-27 18:06:17] [pool-6-thread-1 INFO] Try to load config.
+[2019-12-27 18:06:17] [pool-6-thread-1 INFO] Successfully load config.
+[2019-12-27 18:06:17] [pool-6-thread-1 INFO] version : 14.11
+[2019-12-27 18:06:17] [pool-6-thread-1 INFO] enableDynamicSkull : true
+[2019-12-27 18:06:17] [pool-6-thread-1 INFO] enableTransparentSkin : true
+[2019-12-27 18:06:17] [pool-6-thread-1 INFO] ignoreHttpsCertificate : false
+[2019-12-27 18:06:17] [pool-6-thread-1 INFO] forceLoadAllTextures : false
+[2019-12-27 18:06:17] [pool-6-thread-1 INFO] enableCape : true
+[2019-12-27 18:06:17] [pool-6-thread-1 INFO] cacheExpiry : 30
+[2019-12-27 18:06:17] [pool-6-thread-1 INFO] enableUpdateSkull : false
+[2019-12-27 18:06:17] [pool-6-thread-1 INFO] enableLocalProfileCache : false
+[2019-12-27 18:06:17] [pool-6-thread-1 INFO] enableCacheAutoClean : false
+[2019-12-27 18:06:17] [pool-6-thread-1 INFO] loadList : 2
+[2019-12-27 18:06:17] [yinn INFO] Loading yinn's profile.
+[2019-12-27 18:06:17] [yinn INFO] 1/2 Try to load profile from 'LocalSkin'.
+[2019-12-27 18:06:17] [yinn INFO] Both skin and cape not found.
+[2019-12-27 18:06:17] [yinn INFO] 2/2 Try to load profile from 'GlitchlessGames'.
+[2019-12-27 18:06:17] [yinn DEBUG] Try to request 'https://games.glitchless.ru/api/minecraft/users/profiles/textures/?nickname=yinn'.
+[2019-12-27 18:06:27] [yinn DEBUG] Failed to request (Exception: java.net.SocketTimeoutException: connect timed out)
+[2019-12-27 18:06:27] [yinn INFO] Profile not found.
+[2019-12-27 18:06:27] [yinn INFO] yinn's profile not found in load list.
