@@ -1,0 +1,38 @@
+[14:23:32] [Render thread/INFO]: Setting user: yinn
+[14:23:39] [Render thread/INFO]: Backend library: LWJGL version 3.2.2 build 10
+[14:23:43] [Render thread/INFO]: Narrator library for x64 successfully loaded
+[14:23:43] [Render thread/INFO]: Reloading ResourceManager: Default
+[14:23:57] [Realms Notification Availability checker #1/INFO]: Could not authorize you against Realms server: Invalid session id
+[14:24:13] [Render thread/INFO]: OpenAL initialized.
+[14:24:13] [Render thread/INFO]: Sound engine started
+[14:24:13] [Render thread/INFO]: Created: 1024x1024x4 minecraft:textures/atlas/blocks.png-atlas
+[14:24:13] [Render thread/INFO]: Created: 256x128x4 minecraft:textures/atlas/signs.png-atlas
+[14:24:13] [Render thread/INFO]: Created: 1024x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[14:24:13] [Render thread/INFO]: Created: 1024x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[14:24:13] [Render thread/INFO]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[14:24:13] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[14:24:13] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[14:24:14] [Render thread/INFO]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
+[14:24:14] [Render thread/INFO]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[14:24:14] [Render thread/INFO]: Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[14:24:36] [Render thread/INFO]: Reloading ResourceManager: Default
+[14:24:38] [Render thread/INFO]: OpenAL initialized.
+[14:24:38] [Render thread/INFO]: Sound engine started
+[14:24:38] [Render thread/INFO]: Created: 1024x1024x4 minecraft:textures/atlas/blocks.png-atlas
+[14:24:38] [Render thread/INFO]: Created: 256x128x4 minecraft:textures/atlas/signs.png-atlas
+[14:24:38] [Render thread/INFO]: Created: 1024x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[14:24:38] [Render thread/INFO]: Created: 1024x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[14:24:38] [Render thread/INFO]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[14:24:38] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[14:24:38] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[14:24:39] [Render thread/INFO]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
+[14:24:39] [Render thread/INFO]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[14:24:39] [Render thread/INFO]: Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[14:25:53] [Render thread/INFO]: Connecting to localhost, 25565
+[14:25:55] [Render thread/INFO]: [CHAT] yinn joined the game
+[14:25:58] [Render thread/INFO]: Loaded 0 advancements
+[14:26:22] [Render thread/INFO]: Loaded 4 advancements
+[14:26:26] [Render thread/INFO]: Loaded 16 advancements
+[14:26:29] [Render thread/INFO]: Loaded 19 advancements
+[14:26:44] [Render thread/INFO]: Loaded 27 advancements
+[14:27:50] [Render thread/INFO]: Stopping!
