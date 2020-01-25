@@ -1,0 +1,18 @@
+{
+  "id": "岩浆池入口_-217,15,182",
+  "name": "岩浆池入口",
+  "icon": "waypoint-normal.png",
+  "x": -217,
+  "y": 15,
+  "z": 182,
+  "r": 180,
+  "g": 68,
+  "b": 106,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

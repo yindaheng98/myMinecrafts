@@ -1,0 +1,18 @@
+{
+  "id": "烈焰人_3080,67,552",
+  "name": "烈焰人",
+  "icon": "waypoint-normal.png",
+  "x": 3080,
+  "y": 67,
+  "z": 552,
+  "r": 116,
+  "g": 187,
+  "b": 59,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    -1
+  ],
+  "persistent": true
+}

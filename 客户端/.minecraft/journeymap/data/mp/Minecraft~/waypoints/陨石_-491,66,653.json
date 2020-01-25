@@ -1,0 +1,18 @@
+{
+  "id": "陨石_-491,66,653",
+  "name": "陨石",
+  "icon": "waypoint-normal.png",
+  "x": -491,
+  "y": 66,
+  "z": 653,
+  "r": 127,
+  "g": 62,
+  "b": 112,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

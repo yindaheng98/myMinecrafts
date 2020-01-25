@@ -1,0 +1,18 @@
+{
+  "id": "停泊入海口_-261,62,60",
+  "name": "停泊入海口",
+  "icon": "waypoint-normal.png",
+  "x": -261,
+  "y": 62,
+  "z": 60,
+  "r": 233,
+  "g": 119,
+  "b": 245,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

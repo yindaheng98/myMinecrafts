@@ -1,0 +1,18 @@
+{
+  "id": "下层矿洞_-204,16,207",
+  "name": "下层矿洞",
+  "icon": "waypoint-normal.png",
+  "x": -204,
+  "y": 16,
+  "z": 207,
+  "r": 214,
+  "g": 47,
+  "b": 238,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

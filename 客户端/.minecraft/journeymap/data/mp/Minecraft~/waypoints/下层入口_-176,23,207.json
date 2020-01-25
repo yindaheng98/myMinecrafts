@@ -1,0 +1,18 @@
+{
+  "id": "下层入口_-176,23,207",
+  "name": "下层入口",
+  "icon": "waypoint-normal.png",
+  "x": -176,
+  "y": 23,
+  "z": 207,
+  "r": 55,
+  "g": 21,
+  "b": 100,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

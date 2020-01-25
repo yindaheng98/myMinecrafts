@@ -1,0 +1,18 @@
+{
+  "id": "海上小屋_-135,63,-79",
+  "name": "海上小屋",
+  "icon": "waypoint-normal.png",
+  "x": -135,
+  "y": 63,
+  "z": -79,
+  "r": 47,
+  "g": 179,
+  "b": 38,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

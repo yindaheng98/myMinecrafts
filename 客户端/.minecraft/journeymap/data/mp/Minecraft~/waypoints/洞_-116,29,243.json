@@ -1,0 +1,18 @@
+{
+  "id": "洞_-116,29,243",
+  "name": "洞",
+  "icon": "waypoint-normal.png",
+  "x": -116,
+  "y": 29,
+  "z": 243,
+  "r": 13,
+  "g": 145,
+  "b": 165,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

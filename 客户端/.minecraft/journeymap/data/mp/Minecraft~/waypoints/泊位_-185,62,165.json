@@ -1,0 +1,18 @@
+{
+  "id": "泊位_-185,62,165",
+  "name": "泊位",
+  "icon": "waypoint-normal.png",
+  "x": -185,
+  "y": 62,
+  "z": 165,
+  "r": 211,
+  "g": 180,
+  "b": 186,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}
