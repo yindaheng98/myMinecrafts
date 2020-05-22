@@ -1,0 +1,7 @@
+waypoint:竹林:Z:-831:128:-128:2:false:0:gui.xaero_default:false:0
+waypoint:竹林:竹:-274:128:93:0:false:0:gui.xaero_default:false:0
+waypoint:丛林小屋:丛:-410:128:-505:6:false:0:gui.xaero_default:false:0
+waypoint:末地传送门:末:251:128:-90:3:false:0:gui.xaero_default:false:0
+waypoint:HOME:H:5:128:-30:1:false:0:gui.xaero_default:false:0
+waypoint:烈焰人:烈:-149:67:165:7:false:0:gui.xaero_default:false:0
+waypoint:gui.xaero_deathpoint:D:5:97:-30:0:false:1:gui.xaero_default:false:0

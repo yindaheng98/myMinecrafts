@@ -1,8 +1,8 @@
 {
   "last": "Default",
   "backgroundType": "DEFAULT",
-  "commonDirType": "DEFAULT",
-  "commonpath": "C:\\Users\\yinda\\AppData\\Roaming\\.minecraft",
+  "commonDirType": "CUSTOM",
+  "commonpath": "F:\\HMCL公用文件夹",
   "hasProxy": false,
   "hasProxyAuth": false,
   "proxyType": "HTTP",
@@ -16,7 +16,7 @@
         "usesGlobal": true,
         "javaArgs": "",
         "minecraftArgs": "",
-        "maxMemory": 3072,
+        "maxMemory": 6144,
         "permSize": "",
         "width": 854,
         "height": 480,
@@ -38,34 +38,6 @@
       "gameDir": ".minecraft",
       "useRelativePath": true,
       "selectedMinecraftVersion": "1.15.2"
-    },
-    "Home": {
-      "global": {
-        "usesGlobal": false,
-        "javaArgs": "",
-        "minecraftArgs": "",
-        "maxMemory": 3072,
-        "permSize": "",
-        "width": 854,
-        "height": 480,
-        "javaDir": "",
-        "precalledCommand": "",
-        "serverIp": "",
-        "java": "",
-        "wrapper": "",
-        "fullscreen": false,
-        "noJVMArgs": false,
-        "notCheckGame": false,
-        "notCheckJVM": false,
-        "showLogs": false,
-        "gameDir": "",
-        "launcherVisibility": 1,
-        "gameDirType": 0,
-        "defaultJavaPath": ""
-      },
-      "gameDir": "C:\\Users\\yinda\\AppData\\Roaming\\.minecraft",
-      "useRelativePath": false,
-      "selectedMinecraftVersion": ""
     }
   },
   "accounts": [
@@ -74,11 +46,16 @@
       "username": "yinn",
       "type": "offline",
       "selected": true
+    },
+    {
+      "uuid": "9081322f2af13b3cb826ee6a5fc2f29a",
+      "username": "yinn2",
+      "type": "offline"
     }
   ],
   "fontFamily": "Consolas",
   "fontSize": 12.0,
-  "logLines": 100,
+  "logLines": 500,
   "authlibInjectorServers": [],
   "updateChannel": "STABLE",
   "_version": 0,

@@ -1,0 +1,1 @@
+waypoint:Slime:S:344:34:-186:1:false:0:gui.xaero_default:false:0

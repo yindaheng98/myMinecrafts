@@ -1,0 +1,10 @@
+waypoint:竹林:竹:-6646:92:-1030:2:false:0:gui.xaero_default:false:0
+waypoint:林地府邸:林:14611:78:-1692:14:false:0:gui.xaero_default:false:0
+waypoint:Slime:S:345:33:-190:2:false:0:gui.xaero_default:false:0
+waypoint:刷怪笼:刷:331:35:-220:12:false:0:gui.xaero_default:false:0
+waypoint:怪:怪:341:73:-219:14:false:0:gui.xaero_default:false:0
+waypoint:怪:怪:171:24:-136:4:false:0:gui.xaero_default:false:0
+waypoint:Slime:S:279:73:-202:7:false:0:gui.xaero_default:false:0
+waypoint:矿:矿:262:55:-144:6:false:0:gui.xaero_default:false:0
+waypoint:HOME:H:315:81:-190:14:false:0:gui.xaero_default:false:0
+waypoint:Back:B:72:26:-214:0:false:0:gui.xaero_default:false:0
