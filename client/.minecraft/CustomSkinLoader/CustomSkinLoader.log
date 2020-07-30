@@ -1,73 +1,73 @@
-[2020-01-12 20:45:13] [pool-5-thread-1 INFO] CustomSkinLoader 14.11
-[2020-01-12 20:45:13] [pool-5-thread-1 INFO] DataDir: F:\MinecraftServers\客户端\.minecraft\CustomSkinLoader
-[2020-01-12 20:45:13] [pool-5-thread-1 INFO] Minecraft: 1.12.2(1.12.2)
-[2020-01-12 20:45:13] [pool-5-thread-1 INFO] Config File: F:\MinecraftServers\客户端\.minecraft\CustomSkinLoader\CustomSkinLoader.json
-[2020-01-12 20:45:13] [pool-5-thread-1 INFO] Try to load config.
-[2020-01-12 20:45:14] [pool-5-thread-1 INFO] Successfully load config.
-[2020-01-12 20:45:14] [pool-5-thread-1 INFO] version : 14.11
-[2020-01-12 20:45:14] [pool-5-thread-1 INFO] enableDynamicSkull : true
-[2020-01-12 20:45:14] [pool-5-thread-1 INFO] enableTransparentSkin : true
-[2020-01-12 20:45:14] [pool-5-thread-1 INFO] ignoreHttpsCertificate : false
-[2020-01-12 20:45:14] [pool-5-thread-1 INFO] forceLoadAllTextures : false
-[2020-01-12 20:45:14] [pool-5-thread-1 INFO] enableCape : true
-[2020-01-12 20:45:14] [pool-5-thread-1 INFO] cacheExpiry : 30
-[2020-01-12 20:45:14] [pool-5-thread-1 INFO] enableUpdateSkull : false
-[2020-01-12 20:45:14] [pool-5-thread-1 INFO] enableLocalProfileCache : false
-[2020-01-12 20:45:14] [pool-5-thread-1 INFO] enableCacheAutoClean : false
-[2020-01-12 20:45:14] [pool-5-thread-1 INFO] loadList : 2
-[2020-01-12 20:45:14] [yinn INFO] Loading yinn's profile.
-[2020-01-12 20:45:14] [yinn INFO] 1/2 Try to load profile from 'LocalSkin'.
-[2020-01-12 20:45:14] [yinn INFO] Both skin and cape not found.
-[2020-01-12 20:45:14] [yinn INFO] 2/2 Try to load profile from 'GlitchlessGames'.
-[2020-01-12 20:45:14] [yinn DEBUG] Try to request 'https://games.glitchless.ru/api/minecraft/users/profiles/textures/?nickname=yinn'.
-[2020-01-12 20:45:17] [yinn DEBUG] Failed to request (Response Code: 404)
-[2020-01-12 20:45:17] [yinn INFO] Profile not found.
-[2020-01-12 20:45:17] [yinn INFO] yinn's profile not found in load list.
-[2020-01-12 21:25:19] [yinn INFO] Loading yinn's profile.
-[2020-01-12 21:25:19] [yinn INFO] 1/2 Try to load profile from 'LocalSkin'.
-[2020-01-12 21:25:19] [yinn INFO] Both skin and cape not found.
-[2020-01-12 21:25:19] [yinn INFO] 2/2 Try to load profile from 'GlitchlessGames'.
-[2020-01-12 21:25:19] [yinn DEBUG] Try to request 'https://games.glitchless.ru/api/minecraft/users/profiles/textures/?nickname=yinn'.
-[2020-01-12 21:25:19] [yinn DEBUG] Failed to request (Response Code: 404)
-[2020-01-12 21:25:19] [yinn INFO] Profile not found.
-[2020-01-12 21:25:19] [yinn INFO] yinn's profile not found in load list.
-[2020-01-12 21:32:38] [yinn INFO] Loading yinn's profile.
-[2020-01-12 21:32:38] [yinn INFO] 1/2 Try to load profile from 'LocalSkin'.
-[2020-01-12 21:32:38] [yinn INFO] Both skin and cape not found.
-[2020-01-12 21:32:38] [yinn INFO] 2/2 Try to load profile from 'GlitchlessGames'.
-[2020-01-12 21:32:38] [yinn DEBUG] Try to request 'https://games.glitchless.ru/api/minecraft/users/profiles/textures/?nickname=yinn'.
-[2020-01-12 21:32:42] [yinn DEBUG] Failed to request (Response Code: 404)
-[2020-01-12 21:32:42] [yinn INFO] Profile not found.
-[2020-01-12 21:32:42] [yinn INFO] yinn's profile not found in load list.
-[2020-01-12 21:33:55] [yinn INFO] Loading yinn's profile.
-[2020-01-12 21:33:55] [yinn INFO] 1/2 Try to load profile from 'LocalSkin'.
-[2020-01-12 21:33:55] [yinn INFO] Both skin and cape not found.
-[2020-01-12 21:33:55] [yinn INFO] 2/2 Try to load profile from 'GlitchlessGames'.
-[2020-01-12 21:33:55] [yinn DEBUG] Try to request 'https://games.glitchless.ru/api/minecraft/users/profiles/textures/?nickname=yinn'.
-[2020-01-12 21:33:56] [yinn DEBUG] Failed to request (Response Code: 404)
-[2020-01-12 21:33:56] [yinn INFO] Profile not found.
-[2020-01-12 21:33:56] [yinn INFO] yinn's profile not found in load list.
-[2020-01-12 21:36:41] [yinn INFO] Loading yinn's profile.
-[2020-01-12 21:36:41] [yinn INFO] 1/2 Try to load profile from 'LocalSkin'.
-[2020-01-12 21:36:41] [yinn INFO] Both skin and cape not found.
-[2020-01-12 21:36:41] [yinn INFO] 2/2 Try to load profile from 'GlitchlessGames'.
-[2020-01-12 21:36:41] [yinn DEBUG] Try to request 'https://games.glitchless.ru/api/minecraft/users/profiles/textures/?nickname=yinn'.
-[2020-01-12 21:36:43] [yinn DEBUG] Failed to request (Response Code: 404)
-[2020-01-12 21:36:43] [yinn INFO] Profile not found.
-[2020-01-12 21:36:43] [yinn INFO] yinn's profile not found in load list.
-[2020-01-12 21:39:28] [_J INFO] Loading _J's profile.
-[2020-01-12 21:39:28] [_J INFO] 1/2 Try to load profile from 'LocalSkin'.
-[2020-01-12 21:39:28] [_J INFO] Both skin and cape not found.
-[2020-01-12 21:39:28] [_J INFO] 2/2 Try to load profile from 'GlitchlessGames'.
-[2020-01-12 21:39:28] [_J DEBUG] Try to request 'https://games.glitchless.ru/api/minecraft/users/profiles/textures/?nickname=_J'.
-[2020-01-12 21:39:29] [_J DEBUG] Failed to request (Response Code: 404)
-[2020-01-12 21:39:29] [_J INFO] Profile not found.
-[2020-01-12 21:39:29] [_J INFO] _J's profile not found in load list.
-[2020-01-12 22:15:31] [_J INFO] Loading _J's profile.
-[2020-01-12 22:15:31] [_J INFO] 1/2 Try to load profile from 'LocalSkin'.
-[2020-01-12 22:15:31] [_J INFO] Both skin and cape not found.
-[2020-01-12 22:15:31] [_J INFO] 2/2 Try to load profile from 'GlitchlessGames'.
-[2020-01-12 22:15:31] [_J DEBUG] Try to request 'https://games.glitchless.ru/api/minecraft/users/profiles/textures/?nickname=_J'.
-[2020-01-12 22:15:33] [_J DEBUG] Failed to request (Response Code: 404)
-[2020-01-12 22:15:33] [_J INFO] Profile not found.
-[2020-01-12 22:15:33] [_J INFO] _J's profile not found in load list.
+[2020-05-25 19:14:05] [pool-5-thread-1 INFO] CustomSkinLoader 14.11
+[2020-05-25 19:14:05] [pool-5-thread-1 INFO] DataDir: F:\MinecraftServers\client\.minecraft\CustomSkinLoader
+[2020-05-25 19:14:05] [pool-5-thread-1 INFO] Minecraft: 1.12.2(1.12.2)
+[2020-05-25 19:14:05] [pool-5-thread-1 INFO] Config File: F:\MinecraftServers\client\.minecraft\CustomSkinLoader\CustomSkinLoader.json
+[2020-05-25 19:14:05] [pool-5-thread-1 INFO] Try to load config.
+[2020-05-25 19:14:05] [pool-5-thread-1 INFO] Successfully load config.
+[2020-05-25 19:14:05] [pool-5-thread-1 INFO] version : 14.11
+[2020-05-25 19:14:05] [pool-5-thread-1 INFO] enableDynamicSkull : true
+[2020-05-25 19:14:05] [pool-5-thread-1 INFO] enableTransparentSkin : true
+[2020-05-25 19:14:05] [pool-5-thread-1 INFO] ignoreHttpsCertificate : false
+[2020-05-25 19:14:05] [pool-5-thread-1 INFO] forceLoadAllTextures : false
+[2020-05-25 19:14:05] [pool-5-thread-1 INFO] enableCape : true
+[2020-05-25 19:14:05] [pool-5-thread-1 INFO] cacheExpiry : 30
+[2020-05-25 19:14:05] [pool-5-thread-1 INFO] enableUpdateSkull : false
+[2020-05-25 19:14:05] [pool-5-thread-1 INFO] enableLocalProfileCache : false
+[2020-05-25 19:14:05] [pool-5-thread-1 INFO] enableCacheAutoClean : false
+[2020-05-25 19:14:05] [pool-5-thread-1 INFO] loadList : 2
+[2020-05-25 19:14:05] [yinn INFO] Loading yinn's profile.
+[2020-05-25 19:14:05] [yinn INFO] 1/2 Try to load profile from 'LocalSkin'.
+[2020-05-25 19:14:05] [yinn INFO] Both skin and cape not found.
+[2020-05-25 19:14:05] [yinn INFO] 2/2 Try to load profile from 'GlitchlessGames'.
+[2020-05-25 19:14:05] [yinn DEBUG] Try to request 'https://games.glitchless.ru/api/minecraft/users/profiles/textures/?nickname=yinn'.
+[2020-05-25 19:14:07] [yinn DEBUG] Failed to request (Response Code: 404)
+[2020-05-25 19:14:07] [yinn INFO] Profile not found.
+[2020-05-25 19:14:07] [yinn INFO] yinn's profile not found in load list.
+[2020-05-25 19:14:10] [_J INFO] Loading _J's profile.
+[2020-05-25 19:14:10] [_J INFO] 1/2 Try to load profile from 'LocalSkin'.
+[2020-05-25 19:14:10] [_J INFO] Both skin and cape not found.
+[2020-05-25 19:14:10] [_J INFO] 2/2 Try to load profile from 'GlitchlessGames'.
+[2020-05-25 19:14:10] [_J DEBUG] Try to request 'https://games.glitchless.ru/api/minecraft/users/profiles/textures/?nickname=_J'.
+[2020-05-25 19:14:11] [_J DEBUG] Failed to request (Response Code: 404)
+[2020-05-25 19:14:11] [_J INFO] Profile not found.
+[2020-05-25 19:14:11] [_J INFO] _J's profile not found in load list.
+[2020-05-25 19:15:03] [yinn INFO] Loading yinn's profile.
+[2020-05-25 19:15:03] [yinn INFO] 1/2 Try to load profile from 'LocalSkin'.
+[2020-05-25 19:15:03] [yinn INFO] Both skin and cape not found.
+[2020-05-25 19:15:03] [yinn INFO] 2/2 Try to load profile from 'GlitchlessGames'.
+[2020-05-25 19:15:03] [yinn DEBUG] Try to request 'https://games.glitchless.ru/api/minecraft/users/profiles/textures/?nickname=yinn'.
+[2020-05-25 19:15:04] [yinn DEBUG] Failed to request (Response Code: 404)
+[2020-05-25 19:15:04] [yinn INFO] Profile not found.
+[2020-05-25 19:15:04] [yinn INFO] yinn's profile not found in load list.
+[2020-05-25 19:15:08] [_J INFO] Loading _J's profile.
+[2020-05-25 19:15:08] [_J INFO] 1/2 Try to load profile from 'LocalSkin'.
+[2020-05-25 19:15:08] [_J INFO] Both skin and cape not found.
+[2020-05-25 19:15:08] [_J INFO] 2/2 Try to load profile from 'GlitchlessGames'.
+[2020-05-25 19:15:08] [_J DEBUG] Try to request 'https://games.glitchless.ru/api/minecraft/users/profiles/textures/?nickname=_J'.
+[2020-05-25 19:15:09] [_J DEBUG] Failed to request (Response Code: 404)
+[2020-05-25 19:15:09] [_J INFO] Profile not found.
+[2020-05-25 19:15:09] [_J INFO] _J's profile not found in load list.
+[2020-05-25 19:24:09] [Yinn's skull INFO] Loading Yinn's profile.
+[2020-05-25 19:24:09] [Yinn's skull INFO] 1/2 Try to load profile from 'LocalSkin'.
+[2020-05-25 19:24:09] [Yinn's skull INFO] Both skin and cape not found.
+[2020-05-25 19:24:09] [Yinn's skull INFO] 2/2 Try to load profile from 'GlitchlessGames'.
+[2020-05-25 19:24:09] [Yinn's skull DEBUG] Try to request 'https://games.glitchless.ru/api/minecraft/users/profiles/textures/?nickname=Yinn'.
+[2020-05-25 19:24:11] [Yinn's skull DEBUG] Failed to request (Response Code: 404)
+[2020-05-25 19:24:11] [Yinn's skull INFO] Profile not found.
+[2020-05-25 19:24:11] [Yinn's skull INFO] Yinn's profile not found in load list.
+[2020-05-25 21:35:53] [_J INFO] Loading _J's profile.
+[2020-05-25 21:35:53] [_J INFO] 1/2 Try to load profile from 'LocalSkin'.
+[2020-05-25 21:35:53] [_J INFO] Both skin and cape not found.
+[2020-05-25 21:35:53] [_J INFO] 2/2 Try to load profile from 'GlitchlessGames'.
+[2020-05-25 21:35:53] [_J DEBUG] Try to request 'https://games.glitchless.ru/api/minecraft/users/profiles/textures/?nickname=_J'.
+[2020-05-25 21:35:58] [_J DEBUG] Failed to request (Response Code: 404)
+[2020-05-25 21:35:58] [_J INFO] Profile not found.
+[2020-05-25 21:35:58] [_J INFO] _J's profile not found in load list.
+[2020-05-25 22:18:45] [_j's skull INFO] Loading _j's profile.
+[2020-05-25 22:18:45] [_j's skull INFO] 1/2 Try to load profile from 'LocalSkin'.
+[2020-05-25 22:18:45] [_j's skull INFO] Both skin and cape not found.
+[2020-05-25 22:18:45] [_j's skull INFO] 2/2 Try to load profile from 'GlitchlessGames'.
+[2020-05-25 22:18:45] [_j's skull DEBUG] Try to request 'https://games.glitchless.ru/api/minecraft/users/profiles/textures/?nickname=_j'.
+[2020-05-25 22:18:46] [_j's skull DEBUG] Failed to request (Response Code: 404)
+[2020-05-25 22:18:46] [_j's skull INFO] Profile not found.
+[2020-05-25 22:18:46] [_j's skull INFO] _j's profile not found in load list.
