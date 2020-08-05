@@ -1,1 +1,14 @@
-[]
+[
+  {
+    "uuid": "6c88ddf1-0688-394e-8353-7fd93be798c8",
+    "name": "LebronJ",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "b15ca054-6d62-3aa2-876c-5504bf552e63",
+    "name": "yinn",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]

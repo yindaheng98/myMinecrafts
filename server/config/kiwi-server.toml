@@ -1,0 +1,7 @@
+
+[modules]
+
+	[modules.chineseworkshop]
+		debug_stick = true
+		retexture = true
+
