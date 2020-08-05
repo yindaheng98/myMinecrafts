@@ -151,5 +151,5 @@
 	"Default Rat Radius" = 16
 	#The weight of rats in vanilla's spawn rate
 	#Range: 1 ~ 300
-	"Rat Spawn Weight" = 80
+	"Rat Spawn Weight" = 300
 
