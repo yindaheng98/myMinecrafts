@@ -85,7 +85,7 @@
 			# Percent chance of caves spawning in a given region.
 			# Default: caves spawn in 100% of regions.
 			#Range: 0.0 ~ 100.0
-			"Cave Spawn Chance" = 100.0
+			"Cave Spawn Chance" = 50.0
 			# Determines how large cave regions are.
 			#     Controls how long a cave system of a certain cave type extends before intersecting with a cave system of another type.
 			#     Larger = more cave interconnectivity for a given area, but less variation.
@@ -222,7 +222,7 @@
 			# Percent chance of caverns spawning in a given region.
 			# Default: caverns spawn in 25% of regions.
 			#Range: 0.0 ~ 100.0
-			"Cavern Spawn Chance" = 25.0
+			"Cavern Spawn Chance" = 10.0
 			# Determines how large cavern regions are. This controls the average size of caverns.
 			# Accepted values: Small, Medium, Large, ExtraLarge, Custom
 			# Default: Small (recommended).
