@@ -29,6 +29,12 @@
     },
     "done": true
   },
+  "immersiveengineering:recipes/immersiveengineering/crafting/hemp_fabric": {
+    "criteria": {
+      "has_hemp_fiber": "2020-08-16 22:50:12 +0800"
+    },
+    "done": true
+  },
   "immersiveengineering:recipes/immersiveengineering/crafting/ingot_silver": {
     "criteria": {
       "has_ore_silver": "2020-08-09 21:55:45 +0800"
@@ -56,6 +62,12 @@
   "minecraft:recipes/redstone/observer": {
     "criteria": {
       "has_quartz": "2020-08-06 22:38:13 +0800"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/immersiveengineering/crafting/wirecoil_copper_ins": {
+    "criteria": {
+      "has_the_recipe": "2020-08-17 23:07:08 +0800"
     },
     "done": true
   },
@@ -167,6 +179,12 @@
     },
     "done": true
   },
+  "minecraft:story/shiny_gear": {
+    "criteria": {
+      "diamond_boots": "2020-08-21 22:37:38 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/magenta_stained_glass_pane": {
     "criteria": {
       "has_glass": "2020-08-09 22:50:53 +0800"
@@ -215,6 +233,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/redstone_lamp": {
+    "criteria": {
+      "has_the_recipe": "2020-08-21 21:39:55 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/stone_brick_slab_from_stone_stonecutting": {
     "criteria": {
       "has_stone": "2020-08-06 22:38:13 +0800"
@@ -236,6 +260,12 @@
   "tofucraft:tofucraft/tofuworld": {
     "criteria": {
       "tofuworld": "2020-08-10 22:12:32 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/lime_terracotta": {
+    "criteria": {
+      "has_terracotta": "2020-08-15 22:03:57 +0800"
     },
     "done": true
   },
@@ -281,15 +311,39 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/light_gray_terracotta": {
+    "criteria": {
+      "has_terracotta": "2020-08-15 22:03:57 +0800"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/immersiveengineering/crafting/survey_tools": {
+    "criteria": {
+      "has_hammer": "2020-08-17 23:07:49 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/nether_wart_block": {
     "criteria": {
       "has_nether_wart": "2020-08-10 22:40:25 +0800"
     },
     "done": true
   },
+  "minecraft:recipes/brewing/golden_carrot": {
+    "criteria": {
+      "has_gold_nugget": "2020-08-21 22:55:02 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/shield": {
     "criteria": {
       "has_iron_ingot": "2020-08-07 21:32:50 +0800"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/immersiveengineering/crafting/fluid_pipe": {
+    "criteria": {
+      "has_iron_plate": "2020-08-18 22:32:20 +0800"
     },
     "done": true
   },
@@ -320,6 +374,12 @@
   "immersiveengineering:recipes/immersiveengineering/crafting/minecart_metalbarrel": {
     "criteria": {
       "has_minecart": "2020-08-13 22:00:58 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/pink_terracotta": {
+    "criteria": {
+      "has_terracotta": "2020-08-15 22:03:57 +0800"
     },
     "done": true
   },
@@ -365,6 +425,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/magenta_terracotta": {
+    "criteria": {
+      "has_terracotta": "2020-08-15 22:03:57 +0800"
+    },
+    "done": true
+  },
   "biomesoplenty:recipes/transportation/cherry_boat": {
     "criteria": {
       "in_water": "2020-08-06 22:29:54 +0800"
@@ -380,6 +446,12 @@
   "immersiveengineering:recipes/immersiveengineering/crafting/hoe_steel": {
     "criteria": {
       "has_steel_ingot": "2020-08-11 22:22:21 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/lime_dye": {
+    "criteria": {
+      "has_green_dye": "2020-08-20 22:46:46 +0800"
     },
     "done": true
   },
@@ -401,6 +473,12 @@
     },
     "done": true
   },
+  "immersiveengineering:recipes/immersiveengineering/crafting/ingot_lead": {
+    "criteria": {
+      "has_ore_lead": "2020-08-15 23:17:29 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/pink_concrete_powder": {
     "criteria": {
       "has_gravel": "2020-08-08 23:00:16 +0800"
@@ -410,6 +488,12 @@
   "minecraft:recipes/building_blocks/sandstone_slab": {
     "criteria": {
       "has_sandstone": "2020-08-13 22:48:33 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/lectern": {
+    "criteria": {
+      "has_book": "2020-08-20 22:15:41 +0800"
     },
     "done": true
   },
@@ -617,9 +701,21 @@
     },
     "done": true
   },
+  "immersiveengineering:recipes/misc/crafting/string": {
+    "criteria": {
+      "has_hemp_fiber": "2020-08-16 22:50:12 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/iron_trapdoor": {
     "criteria": {
       "has_iron_ingot": "2020-08-07 21:32:50 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/birch_sign": {
+    "criteria": {
+      "has_birch_planks": "2020-08-20 21:28:33 +0800"
     },
     "done": true
   },
@@ -699,6 +795,9 @@
     "criteria": {
       "minecraft:pillager": "2020-08-13 22:20:42 +0800",
       "minecraft:skeleton": "2020-08-06 22:39:48 +0800",
+      "minecraft:ravager": "2020-08-19 23:42:37 +0800",
+      "minecraft:vindicator": "2020-08-19 23:41:28 +0800",
+      "minecraft:spider": "2020-08-21 22:54:48 +0800",
       "minecraft:creeper": "2020-08-09 22:09:54 +0800",
       "minecraft:silverfish": "2020-08-08 22:11:43 +0800",
       "minecraft:zombie": "2020-08-06 22:37:30 +0800"
@@ -717,9 +816,27 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/birch_wood": {
+    "criteria": {
+      "has_log": "2020-08-20 21:28:30 +0800"
+    },
+    "done": true
+  },
+  "minecraft:story/enchant_item": {
+    "criteria": {
+      "enchanted_item": "2020-08-20 23:15:47 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/redstone_block": {
     "criteria": {
       "has_redstone": "2020-08-08 22:59:04 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_beef_from_smoking": {
+    "criteria": {
+      "has_beef": "2020-08-16 23:23:50 +0800"
     },
     "done": true
   },
@@ -784,6 +901,12 @@
     },
     "done": true
   },
+  "immersiveengineering:recipes/immersiveengineering/crafting/stick_treated": {
+    "criteria": {
+      "has_the_recipe": "2020-08-18 22:36:15 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/granite_wall_from_granite_stonecutting": {
     "criteria": {
       "has_granite": "2020-08-08 22:58:09 +0800"
@@ -805,6 +928,12 @@
   "immersiveengineering:recipes/immersiveengineering/crafting/screwdriver": {
     "criteria": {
       "has_iron_ingot": "2020-08-07 21:32:50 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cyan_terracotta": {
+    "criteria": {
+      "has_terracotta": "2020-08-15 22:03:57 +0800"
     },
     "done": true
   },
@@ -868,9 +997,33 @@
     },
     "done": true
   },
+  "minecraft:husbandry/tame_an_animal": {
+    "criteria": {
+      "tamed_animal": "2020-08-20 22:34:00 +0800"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/immersiveengineering/crafting/manual": {
+    "criteria": {
+      "has_the_recipe": "2020-08-15 22:14:18 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/pink_dye_from_red_white_dye": {
+    "criteria": {
+      "has_red_dye": "2020-08-21 21:40:46 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/granite_stairs": {
     "criteria": {
       "has_granite": "2020-08-08 22:58:09 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/cyan_dye": {
+    "criteria": {
+      "has_green_dye": "2020-08-20 22:46:46 +0800"
     },
     "done": true
   },
@@ -970,6 +1123,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/birch_button": {
+    "criteria": {
+      "has_planks": "2020-08-20 21:28:33 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/red_dye_from_poppy": {
     "criteria": {
       "has_red_flower": "2020-08-13 22:45:24 +0800"
@@ -1036,6 +1195,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/bookshelf": {
+    "criteria": {
+      "has_the_recipe": "2020-08-18 23:06:40 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/golden_axe": {
     "criteria": {
       "has_gold_ingot": "2020-08-09 22:04:49 +0800"
@@ -1090,6 +1255,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/birch_planks": {
+    "criteria": {
+      "has_log": "2020-08-20 21:28:30 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/black_concrete_powder": {
     "criteria": {
       "has_gravel": "2020-08-08 23:00:16 +0800"
@@ -1111,6 +1282,12 @@
   "minecraft:recipes/building_blocks/sandstone_stairs_from_sandstone_stonecutting": {
     "criteria": {
       "has_sandstone": "2020-08-13 22:48:33 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/birch_fence_gate": {
+    "criteria": {
+      "has_planks": "2020-08-20 21:28:33 +0800"
     },
     "done": true
   },
@@ -1205,6 +1382,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/blue_terracotta": {
+    "criteria": {
+      "has_terracotta": "2020-08-15 22:03:57 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/golden_pickaxe": {
     "criteria": {
       "has_gold_ingot": "2020-08-09 22:04:49 +0800"
@@ -1220,6 +1403,12 @@
   "immersiveengineering:recipes/immersiveengineering/crafting/plate_gold_hammering": {
     "criteria": {
       "has_gold_ingot": "2020-08-09 22:04:49 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/sticky_piston": {
+    "criteria": {
+      "has_slime_ball": "2020-08-16 22:37:48 +0800"
     },
     "done": true
   },
@@ -1259,6 +1448,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/light_blue_terracotta": {
+    "criteria": {
+      "has_terracotta": "2020-08-15 22:03:57 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/gray_dye": {
     "criteria": {
       "has_black_dye": "2020-08-12 22:08:22 +0800"
@@ -1268,17 +1463,26 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:jungle_edge": "2020-08-06 22:29:53 +0800",
+      "minecraft:snowy_mountains": "2020-08-20 21:20:44 +0800",
       "minecraft:mountains": "2020-08-06 22:30:02 +0800",
       "minecraft:forest": "2020-08-09 23:03:07 +0800",
       "minecraft:taiga": "2020-08-09 23:02:22 +0800",
+      "minecraft:snowy_tundra": "2020-08-20 21:22:49 +0800",
       "minecraft:taiga_hills": "2020-08-12 23:16:14 +0800",
+      "minecraft:desert": "2020-08-20 21:35:27 +0800",
       "minecraft:jungle": "2020-08-06 22:29:19 +0800",
+      "minecraft:birch_forest": "2020-08-20 21:27:58 +0800",
       "minecraft:jungle_hills": "2020-08-11 22:04:22 +0800",
       "minecraft:bamboo_jungle": "2020-08-11 23:17:15 +0800",
       "minecraft:beach": "2020-08-11 23:17:23 +0800",
       "minecraft:river": "2020-08-06 22:29:57 +0800",
+      "minecraft:snowy_taiga": "2020-08-20 21:23:55 +0800",
+      "minecraft:birch_forest_hills": "2020-08-20 21:27:13 +0800",
       "minecraft:wooded_mountains": "2020-08-09 23:03:44 +0800",
-      "minecraft:bamboo_jungle_hills": "2020-08-11 23:17:10 +0800"
+      "minecraft:bamboo_jungle_hills": "2020-08-11 23:17:10 +0800",
+      "minecraft:wooded_hills": "2020-08-17 23:34:25 +0800",
+      "minecraft:swamp": "2020-08-20 21:32:22 +0800",
+      "minecraft:plains": "2020-08-19 23:39:40 +0800"
     },
     "done": false
   },
@@ -1291,6 +1495,12 @@
   "minecraft:recipes/decorations/purple_bed_from_white_bed": {
     "criteria": {
       "has_bed": "2020-08-07 21:30:52 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/book": {
+    "criteria": {
+      "has_the_recipe": "2020-08-15 22:14:08 +0800"
     },
     "done": true
   },
@@ -1336,6 +1546,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/brewing/fermented_spider_eye": {
+    "criteria": {
+      "has_spider_eye": "2020-08-21 22:39:13 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/stone_pickaxe": {
     "criteria": {
       "has_cobblestone": "2020-08-06 22:33:00 +0800"
@@ -1375,6 +1591,12 @@
   "minecraft:recipes/decorations/purple_stained_glass_pane_from_glass_pane": {
     "criteria": {
       "has_glass_pane": "2020-08-12 22:08:22 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/purple_dye": {
+    "criteria": {
+      "has_red_dye": "2020-08-21 21:40:46 +0800"
     },
     "done": true
   },
@@ -1423,6 +1645,12 @@
   "minecraft:recipes/decorations/red_stained_glass_pane": {
     "criteria": {
       "has_glass": "2020-08-09 22:50:53 +0800"
+    },
+    "done": true
+  },
+  "rftoolsbase:recipes/rftoolsbase/machine_base": {
+    "criteria": {
+      "gold": "2020-08-21 22:55:02 +0800"
     },
     "done": true
   },
@@ -1480,6 +1708,12 @@
     },
     "done": true
   },
+  "immersiveengineering:recipes/immersiveengineering/crafting/wirecoil_structure_rope": {
+    "criteria": {
+      "has_hemp_fiber": "2020-08-16 22:50:12 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/sandstone_wall": {
     "criteria": {
       "has_sandstone": "2020-08-13 22:48:33 +0800"
@@ -1513,6 +1747,12 @@
   "minecraft:recipes/building_blocks/polished_diorite": {
     "criteria": {
       "has_stone": "2020-08-08 22:10:36 +0800"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/immersiveengineering/crafting/fluid_placer": {
+    "criteria": {
+      "has_iron_plate": "2020-08-18 22:32:20 +0800"
     },
     "done": true
   },
@@ -1558,6 +1798,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/white_terracotta": {
+    "criteria": {
+      "has_terracotta": "2020-08-15 22:03:57 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/orange_dye_from_red_yellow": {
+    "criteria": {
+      "has_red_dye": "2020-08-21 21:40:46 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/stone_axe": {
     "criteria": {
       "has_cobblestone": "2020-08-06 22:33:00 +0800"
@@ -1588,6 +1840,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/yellow_terracotta": {
+    "criteria": {
+      "has_terracotta": "2020-08-15 22:03:57 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/purple_wool": {
     "criteria": {
       "has_white_wool": "2020-08-06 22:34:45 +0800"
@@ -1600,6 +1858,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/purple_terracotta": {
+    "criteria": {
+      "has_terracotta": "2020-08-15 22:03:58 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/cobblestone_stairs_from_cobblestone_stonecutting": {
     "criteria": {
       "has_cobblestone": "2020-08-06 22:33:00 +0800"
@@ -1609,6 +1873,12 @@
   "minecraft:recipes/building_blocks/magenta_concrete_powder": {
     "criteria": {
       "has_gravel": "2020-08-08 23:00:16 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/writable_book": {
+    "criteria": {
+      "has_book": "2020-08-20 22:15:41 +0800"
     },
     "done": true
   },
@@ -1666,9 +1936,33 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/green_dye": {
+    "criteria": {
+      "has_cactus": "2020-08-20 21:35:31 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/birch_pressure_plate": {
+    "criteria": {
+      "has_planks": "2020-08-20 21:28:33 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/campfire": {
     "criteria": {
       "has_stick": "2020-08-06 22:29:48 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone": {
+    "criteria": {
+      "has_the_recipe": "2020-08-18 22:31:19 +0800"
+    },
+    "done": true
+  },
+  "minecraft:adventure/hero_of_the_village": {
+    "criteria": {
+      "hero_of_the_village": "2020-08-19 23:43:27 +0800"
     },
     "done": true
   },
@@ -1723,6 +2017,12 @@
   "minecraft:recipes/transportation/hopper_minecart": {
     "criteria": {
       "has_minecart": "2020-08-13 22:00:58 +0800"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/immersiveengineering/crafting/chute_iron": {
+    "criteria": {
+      "has_plate": "2020-08-18 22:32:20 +0800"
     },
     "done": true
   },
@@ -1810,6 +2110,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/red_carpet_from_white_carpet": {
+    "criteria": {
+      "has_red_dye": "2020-08-21 21:40:46 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/transportation/spruce_boat": {
     "criteria": {
       "in_water": "2020-08-06 22:29:54 +0800"
@@ -1828,6 +2134,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/terracotta": {
+    "criteria": {
+      "has_the_recipe": "2020-08-15 22:03:57 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/flint_and_steel": {
     "criteria": {
       "has_flint": "2020-08-08 23:00:16 +0800"
@@ -1837,6 +2149,12 @@
   "minecraft:recipes/misc/red_dye_from_beetroot": {
     "criteria": {
       "has_beetroot": "2020-08-09 22:49:29 +0800"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/immersiveengineering/crafting/ingot_lead_from_blasting": {
+    "criteria": {
+      "has_ore_lead": "2020-08-15 23:17:29 +0800"
     },
     "done": true
   },
@@ -1876,6 +2194,7 @@
       "beetroot_soup": "2020-08-10 22:34:39 +0800",
       "apple": "2020-08-07 21:25:45 +0800",
       "bread": "2020-08-09 22:21:49 +0800",
+      "golden_apple": "2020-08-21 22:47:09 +0800",
       "cookie": "2020-08-08 23:05:45 +0800",
       "cooked_salmon": "2020-08-07 21:24:12 +0800"
     },
@@ -1884,6 +2203,12 @@
   "immersiveengineering:recipes/immersiveengineering/crafting/sword_steel": {
     "criteria": {
       "has_steel_ingot": "2020-08-11 22:22:21 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/gray_terracotta": {
+    "criteria": {
+      "has_terracotta": "2020-08-15 22:03:57 +0800"
     },
     "done": true
   },
@@ -1932,6 +2257,12 @@
   "biomesoplenty:recipes/transportation/magic_boat": {
     "criteria": {
       "in_water": "2020-08-06 22:29:54 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/birch_slab": {
+    "criteria": {
+      "has_planks": "2020-08-20 21:28:33 +0800"
     },
     "done": true
   },
@@ -1995,6 +2326,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/orange_terracotta": {
+    "criteria": {
+      "has_terracotta": "2020-08-15 22:03:57 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/hay_block": {
     "criteria": {
       "has_wheat": "2020-08-08 22:41:20 +0800"
@@ -2025,6 +2362,12 @@
     },
     "done": true
   },
+  "immersiveengineering:recipes/immersiveengineering/crafting/sheetmetal_iron": {
+    "criteria": {
+      "has_plate_iron": "2020-08-18 22:32:20 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/mossy_cobblestone_wall_from_mossy_cobblestone_stonecutting": {
     "criteria": {
       "has_mossy_cobblestone": "2020-08-08 22:27:56 +0800"
@@ -2034,6 +2377,12 @@
   "minecraft:recipes/combat/bow": {
     "criteria": {
       "has_string": "2020-08-09 22:34:32 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/magenta_dye_from_blue_red_white_dye": {
+    "criteria": {
+      "has_rose_red": "2020-08-21 21:40:46 +0800"
     },
     "done": true
   },
@@ -2076,6 +2425,18 @@
   "minecraft:recipes/building_blocks/cut_sandstone_slab_from_cut_sandstone_stonecutting": {
     "criteria": {
       "has_cut_sandstone": "2020-08-13 22:48:33 +0800"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/bred_all_animals": {
+    "criteria": {
+      "minecraft:cow": "2020-08-20 22:30:19 +0800"
+    },
+    "done": false
+  },
+  "rats:rats/milk_cauldron": {
+    "criteria": {
+      "cauldron_milk": "2020-08-18 22:53:40 +0800"
     },
     "done": true
   },
@@ -2136,6 +2497,12 @@
   "minecraft:recipes/food/beetroot_soup": {
     "criteria": {
       "has_beetroot": "2020-08-09 22:49:29 +0800"
+    },
+    "done": true
+  },
+  "rftoolsbase:recipes/rftoolsbase/machine_frame": {
+    "criteria": {
+      "iron_ingot": "2020-08-21 22:55:02 +0800"
     },
     "done": true
   },
@@ -2379,6 +2746,12 @@
     },
     "done": true
   },
+  "minecraft:adventure/trade": {
+    "criteria": {
+      "traded": "2020-08-21 21:50:06 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/granite_slab": {
     "criteria": {
       "has_granite": "2020-08-08 22:58:09 +0800"
@@ -2422,9 +2795,27 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/birch_door": {
+    "criteria": {
+      "has_planks": "2020-08-20 21:28:33 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/slime_block": {
+    "criteria": {
+      "has_slime_ball": "2020-08-16 22:37:48 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/glass_pane": {
     "criteria": {
       "has_glass": "2020-08-09 22:50:53 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_nuggets": {
+    "criteria": {
+      "has_gold_nugget": "2020-08-21 22:55:02 +0800"
     },
     "done": true
   },
@@ -2464,6 +2855,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/green_carpet_from_white_carpet": {
+    "criteria": {
+      "has_green_dye": "2020-08-20 22:46:46 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/transportation/oak_boat": {
     "criteria": {
       "in_water": "2020-08-06 22:29:54 +0800"
@@ -2479,6 +2876,18 @@
   "minecraft:recipes/decorations/sandstone_wall_from_sandstone_stonecutting": {
     "criteria": {
       "has_sandstone": "2020-08-13 22:48:33 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/birch_fence": {
+    "criteria": {
+      "has_planks": "2020-08-20 21:28:33 +0800"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/immersiveengineering/crafting/maintenance_kit": {
+    "criteria": {
+      "has_wirecutter": "2020-08-17 23:09:33 +0800"
     },
     "done": true
   },
@@ -2614,9 +3023,33 @@
     },
     "done": true
   },
+  "rftoolsbase:recipes/rftoolsbase/manual": {
+    "criteria": {
+      "book": "2020-08-20 22:15:41 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/red_terracotta": {
+    "criteria": {
+      "has_terracotta": "2020-08-15 22:03:57 +0800"
+    },
+    "done": true
+  },
   "immersiveengineering:recipes/immersiveengineering/crafting/ingot_nickel": {
     "criteria": {
       "has_ore_nickel": "2020-08-13 22:36:48 +0800"
+    },
+    "done": true
+  },
+  "rats:rats/tame_rat": {
+    "criteria": {
+      "tame_rat": "2020-08-20 22:34:00 +0800"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/immersiveengineering/crafting/blastfurnace_preheater": {
+    "criteria": {
+      "has_furnace_heater": "2020-08-18 23:26:11 +0800"
     },
     "done": true
   },
@@ -2668,6 +3101,12 @@
     },
     "done": true
   },
+  "rats:rats/rat_cage": {
+    "criteria": {
+      "iron_pickaxe": "2020-08-21 21:42:05 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/stone_shovel": {
     "criteria": {
       "has_cobblestone": "2020-08-06 22:33:00 +0800"
@@ -2710,6 +3149,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/green_terracotta": {
+    "criteria": {
+      "has_terracotta": "2020-08-15 22:03:57 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/granite_slab_from_granite_stonecutting": {
     "criteria": {
       "has_granite": "2020-08-08 22:58:09 +0800"
@@ -2734,6 +3179,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/brown_terracotta": {
+    "criteria": {
+      "has_terracotta": "2020-08-15 22:03:57 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/andesite": {
     "criteria": {
       "has_stone": "2020-08-08 22:10:36 +0800"
@@ -2752,6 +3203,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/tools/lead": {
+    "criteria": {
+      "has_slime_ball": "2020-08-16 22:37:48 +0800"
+    },
+    "done": true
+  },
   "immersiveengineering:recipes/immersiveengineering/crafting/rockcutter": {
     "criteria": {
       "has_steel_ingot": "2020-08-11 22:22:21 +0800"
@@ -2764,9 +3221,21 @@
     },
     "done": true
   },
+  "rats:rats/rat_upgrade_basic": {
+    "criteria": {
+      "rat_upgrade_basic": "2020-08-21 23:14:39 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/white_stained_glass_pane_from_glass_pane": {
     "criteria": {
       "has_glass_pane": "2020-08-12 22:08:22 +0800"
+    },
+    "done": true
+  },
+  "rftoolsbase:recipes/rftoolsbase/filter_module": {
+    "criteria": {
+      "hopper": "2020-08-15 22:25:00 +0800"
     },
     "done": true
   },
@@ -2785,6 +3254,12 @@
   "minecraft:recipes/building_blocks/cut_sandstone": {
     "criteria": {
       "has_sandstone": "2020-08-13 22:48:33 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/black_terracotta": {
+    "criteria": {
+      "has_terracotta": "2020-08-15 22:03:57 +0800"
     },
     "done": true
   },
@@ -2842,6 +3317,12 @@
     },
     "done": true
   },
+  "immersiveengineering:recipes/immersiveengineering/crafting/treated_wood_horizontal": {
+    "criteria": {
+      "has_creosote": "2020-08-16 22:42:44 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/jungle_slab": {
     "criteria": {
       "has_planks": "2020-08-06 22:32:43 +0800"
@@ -2860,6 +3341,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/repeater": {
+    "criteria": {
+      "has_redstone_torch": "2020-08-20 21:46:50 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/oak_button": {
     "criteria": {
       "has_planks": "2020-08-09 22:35:12 +0800"
@@ -2872,9 +3359,21 @@
     },
     "done": true
   },
+  "rats:rats/cheese": {
+    "criteria": {
+      "iron_pickaxe": "2020-08-18 22:55:52 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/iron_ingot": {
     "criteria": {
       "has_iron_ore": "2020-08-06 22:38:13 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/magenta_dye_from_blue_red_pink": {
+    "criteria": {
+      "has_red_dye": "2020-08-21 21:40:46 +0800"
     },
     "done": true
   },
@@ -2920,6 +3419,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/cooked_beef": {
+    "criteria": {
+      "has_beef": "2020-08-16 23:23:50 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/iron_door": {
     "criteria": {
       "has_iron_ingot": "2020-08-07 21:32:50 +0800"
@@ -2929,6 +3434,12 @@
   "immersiveengineering:recipes/immersiveengineering/crafting/ingot_aluminum": {
     "criteria": {
       "has_ore_aluminum": "2020-08-11 22:14:49 +0800"
+    },
+    "done": true
+  },
+  "immersiveengineering:main/craft_hammer": {
+    "criteria": {
+      "hammer": "2020-08-17 23:07:49 +0800"
     },
     "done": true
   },
@@ -2974,9 +3485,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/birch_stairs": {
+    "criteria": {
+      "has_planks": "2020-08-20 21:28:33 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/jungle_stairs": {
     "criteria": {
       "has_planks": "2020-08-06 22:32:43 +0800"
+    },
+    "done": true
+  },
+  "immersiveengineering:main/craft_heater": {
+    "criteria": {
+      "heater": "2020-08-18 23:26:11 +0800"
     },
     "done": true
   },
@@ -3046,6 +3569,18 @@
     },
     "done": true
   },
+  "minecraft:husbandry/breed_an_animal": {
+    "criteria": {
+      "bred": "2020-08-20 22:30:19 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/birch_trapdoor": {
+    "criteria": {
+      "has_planks": "2020-08-20 21:28:33 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/piston": {
     "criteria": {
       "has_redstone": "2020-08-08 22:59:04 +0800"
@@ -3103,6 +3638,12 @@
   "minecraft:recipes/decorations/brown_stained_glass_pane": {
     "criteria": {
       "has_glass": "2020-08-09 22:50:53 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_beef_from_campfire_cooking": {
+    "criteria": {
+      "has_beef": "2020-08-16 23:23:50 +0800"
     },
     "done": true
   },

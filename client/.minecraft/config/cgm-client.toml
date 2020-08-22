@@ -1,0 +1,27 @@
+
+[client]
+
+	#Control sounds triggered by guns
+	[client.sounds]
+		#If true, a ding sound will play when you successfully hit a player with a gun
+		playSoundWhenTargetHit = true
+
+	#Configuration for display related options
+	[client.display]
+		#If true, an animation is performed while cycling items in the Workbench
+		workbenchAnimcation = true
+
+	#Properties relating to particles
+	[client.particle]
+		#The minimum duration in ticks before bullet holes will disappear
+		#Range: > 0
+		bulletHoleLifeMin = 150
+		#The maximum duration in ticks before bullet holes will disappear
+		#Range: > 0
+		bulletHoleLifeMax = 200
+		#The percentage of the maximum life that must pass before particles begin fading away. 0 makes the particles always fade and 1 removes facing completely
+		#Range: 0.0 ~ 1.0
+		bulletHoleFadeThreshold = 0.98
+		#If true, blood will will spawn from entities that are hit from a projectile
+		enableBlood = false
+
