@@ -155,6 +155,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/melon_seeds": {
+    "criteria": {
+      "has_melon": "2020-08-22 21:51:09 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/magma_block": {
     "criteria": {
       "has_magma_cream": "2020-08-09 22:00:16 +0800"
@@ -254,6 +260,12 @@
   "minecraft:recipes/misc/iron_ingot_from_blasting": {
     "criteria": {
       "has_iron_ore": "2020-08-06 22:38:13 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/flower_banner_pattern": {
+    "criteria": {
+      "has_oxeye_daisy": "2020-08-24 23:20:11 +0800"
     },
     "done": true
   },
@@ -488,6 +500,12 @@
   "minecraft:recipes/building_blocks/sandstone_slab": {
     "criteria": {
       "has_sandstone": "2020-08-13 22:48:33 +0800"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/immersiveengineering/crafting/blueprint_bullets": {
+    "criteria": {
+      "has_paper": "2020-08-24 22:01:10 +0800"
     },
     "done": true
   },
@@ -870,6 +888,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/brewing/glistering_melon_slice": {
+    "criteria": {
+      "has_melon": "2020-08-22 21:51:09 +0800"
+    },
+    "done": true
+  },
   "immersiveengineering:recipes/immersiveengineering/crafting/wirecutter": {
     "criteria": {
       "has_iron_ingot": "2020-08-07 21:32:50 +0800"
@@ -1156,6 +1180,12 @@
   "tofucraft:tofucraft/make_saltpan": {
     "criteria": {
       "saltpan": "2020-08-09 22:39:15 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/yellow_dye_from_dandelion": {
+    "criteria": {
+      "has_yellow_flower": "2020-08-24 23:20:11 +0800"
     },
     "done": true
   },
@@ -1467,6 +1497,7 @@
       "minecraft:mountains": "2020-08-06 22:30:02 +0800",
       "minecraft:forest": "2020-08-09 23:03:07 +0800",
       "minecraft:taiga": "2020-08-09 23:02:22 +0800",
+      "minecraft:desert_hills": "2020-08-24 23:12:42 +0800",
       "minecraft:snowy_tundra": "2020-08-20 21:22:49 +0800",
       "minecraft:taiga_hills": "2020-08-12 23:16:14 +0800",
       "minecraft:desert": "2020-08-20 21:35:27 +0800",
@@ -1795,6 +1826,12 @@
   "minecraft:recipes/building_blocks/red_wool": {
     "criteria": {
       "has_white_wool": "2020-08-06 22:34:45 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/light_gray_dye_from_oxeye_daisy": {
+    "criteria": {
+      "has_red_flower": "2020-08-24 23:20:11 +0800"
     },
     "done": true
   },
@@ -2506,6 +2543,12 @@
     },
     "done": true
   },
+  "immersiveengineering:recipes/immersiveengineering/crafting/blueprint_electrode": {
+    "criteria": {
+      "has_paper": "2020-08-24 22:01:10 +0800"
+    },
+    "done": true
+  },
   "immersiveengineering:recipes/immersiveengineering/crafting/sawblade": {
     "criteria": {
       "has_steel_ingot": "2020-08-11 22:22:21 +0800"
@@ -2746,9 +2789,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/blue_ice": {
+    "criteria": {
+      "has_packed_ice": "2020-08-22 22:57:52 +0800"
+    },
+    "done": true
+  },
   "minecraft:adventure/trade": {
     "criteria": {
       "traded": "2020-08-21 21:50:06 +0800"
+    },
+    "done": true
+  },
+  "mahoutsukai:root": {
+    "criteria": {
+      "mahoutsukai": "2020-08-22 22:11:59 +0800"
     },
     "done": true
   },
@@ -2761,6 +2816,12 @@
   "minecraft:recipes/food/baked_potato": {
     "criteria": {
       "has_potato": "2020-08-12 23:10:14 +0800"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/immersiveengineering/crafting/blueprint_components": {
+    "criteria": {
+      "has_paper": "2020-08-24 22:01:10 +0800"
     },
     "done": true
   },
@@ -2813,6 +2874,12 @@
     },
     "done": true
   },
+  "immersiveengineering:recipes/immersiveengineering/crafting/blueprint_molds": {
+    "criteria": {
+      "has_paper": "2020-08-24 22:01:10 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/gold_ingot_from_nuggets": {
     "criteria": {
       "has_gold_nugget": "2020-08-21 22:55:02 +0800"
@@ -2861,9 +2928,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/snow": {
+    "criteria": {
+      "has_snowball": "2020-08-22 22:57:55 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/transportation/oak_boat": {
     "criteria": {
       "in_water": "2020-08-06 22:29:54 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/anvil": {
+    "criteria": {
+      "has_the_recipe": "2020-08-24 22:13:18 +0800"
     },
     "done": true
   },
@@ -3449,6 +3528,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/snow_block": {
+    "criteria": {
+      "has_snowball": "2020-08-22 22:57:55 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/iron_ingot_from_nuggets": {
     "criteria": {
       "has_iron_nugget": "2020-08-12 22:09:30 +0800"
@@ -3656,6 +3741,12 @@
   "minecraft:story/smelt_iron": {
     "criteria": {
       "iron": "2020-08-07 21:32:50 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/melon": {
+    "criteria": {
+      "has_melon": "2020-08-22 21:51:09 +0800"
     },
     "done": true
   },

@@ -1,0 +1,475 @@
+---- Minecraft Crash Report ----
+// Uh... Did I do that?
+
+Time: 20-8-24 下午10:32
+Description: Watching Server
+
+java.lang.Error: ServerHangWatchdog detected that a single server tick took 60.00 seconds (should be max 0.05)
+	at sun.misc.Unsafe.park(Native Method) ~[?:1.8.0_261] {}
+	at java.util.concurrent.locks.LockSupport.parkNanos(Unknown Source) ~[?:1.8.0_261] {}
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_223705_bi(SourceFile:139) ~[?:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213161_c(SourceFile:129) ~[?:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.world.server.ServerChunkProvider.func_212849_a_(SourceFile:139) ~[?:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.world.World.func_217353_a(World.java:149) ~[?:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.world.IWorldReader.func_217348_a(IWorldReader.java:101) ~[?:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.world.World.func_212866_a_(World.java:145) ~[?:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.world.World.func_175726_f(World.java:141) ~[?:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.world.World.func_180501_a(World.java:163) ~[?:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.world.World.func_175656_a(World.java:258) ~[?:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at com.github.alexthe666.rats.server.blocks.BlockRatlantisPortal.placeInPortal(BlockRatlantisPortal.java:125) ~[?:5.3.2-1.15.2] {re:classloading,pl:runtimedistcleaner:A}
+	at com.github.alexthe666.rats.server.blocks.BlockRatlantisPortal.teleportEntity(BlockRatlantisPortal.java:88) ~[?:5.3.2-1.15.2] {re:classloading,pl:runtimedistcleaner:A}
+	at com.github.alexthe666.rats.server.blocks.BlockRatlantisPortal.func_196262_a(BlockRatlantisPortal.java:56) ~[?:5.3.2-1.15.2] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.block.BlockState.func_196950_a(BlockState.java:257) ~[?:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.entity.Entity.func_145775_I(Entity.java:815) ~[?:?] {re:classloading,pl:accesstransformer:B,xf:fml:immersiveengineering:IE wire damage,pl:runtimedistcleaner:A}
+	at net.minecraft.entity.Entity.func_213315_a(Entity.java:560) ~[?:?] {re:classloading,pl:accesstransformer:B,xf:fml:immersiveengineering:IE wire damage,pl:runtimedistcleaner:A}
+	at net.minecraft.entity.LivingEntity.func_213352_e(LivingEntity.java:1889) ~[?:?] {re:classloading,pl:accesstransformer:B,xf:fml:cgm:knockback,pl:runtimedistcleaner:A}
+	at net.minecraft.entity.player.PlayerEntity.func_213352_e(PlayerEntity.java:1531) ~[?:?] {re:classloading,pl:accesstransformer:B,xf:fml:backpacked:player_init_hook,pl:runtimedistcleaner:A}
+	at net.minecraft.entity.LivingEntity.func_70636_d(LivingEntity.java:2289) ~[?:?] {re:classloading,pl:accesstransformer:B,xf:fml:cgm:knockback,pl:runtimedistcleaner:A}
+	at net.minecraft.entity.player.PlayerEntity.func_70636_d(PlayerEntity.java:507) ~[?:?] {re:classloading,pl:accesstransformer:B,xf:fml:backpacked:player_init_hook,pl:runtimedistcleaner:A}
+	at net.minecraft.entity.LivingEntity.func_70071_h_(LivingEntity.java:2104) ~[?:?] {re:classloading,pl:accesstransformer:B,xf:fml:cgm:knockback,pl:runtimedistcleaner:A}
+	at net.minecraft.entity.player.PlayerEntity.func_70071_h_(PlayerEntity.java:233) ~[?:?] {re:classloading,pl:accesstransformer:B,xf:fml:backpacked:player_init_hook,pl:runtimedistcleaner:A}
+	at net.minecraft.entity.player.ServerPlayerEntity.func_71127_g(ServerPlayerEntity.java:361) ~[?:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.network.play.ServerPlayNetHandler.func_73660_a(ServerPlayNetHandler.java:183) ~[?:?] {re:classloading,pl:accesstransformer:B,xf:fml:backpacked:creative_inventory_action_fix}
+	at net.minecraft.network.NetworkManager.func_74428_b(NetworkManager.java:228) ~[?:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.network.NetworkSystem.func_151269_c(NetworkSystem.java:135) ~[?:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:866) ~[?:?] {re:classloading,pl:accesstransformer:B,xf:fml:cgm:knockback,pl:runtimedistcleaner:A}
+	at net.minecraft.server.dedicated.DedicatedServer.func_71190_q(DedicatedServer.java:330) ~[?:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:784) ~[?:?] {re:classloading,pl:accesstransformer:B,xf:fml:cgm:knockback,pl:runtimedistcleaner:A}
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:637) ~[?:?] {re:classloading,pl:accesstransformer:B,xf:fml:cgm:knockback,pl:runtimedistcleaner:A}
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_261] {}
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Server Watchdog
+Stacktrace:
+	at sun.misc.Unsafe.park(Native Method)
+	at java.util.concurrent.locks.LockSupport.parkNanos(Unknown Source)
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_223705_bi(SourceFile:139)
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213161_c(SourceFile:129)
+	at net.minecraft.world.server.ServerChunkProvider.func_212849_a_(SourceFile:139)
+	at net.minecraft.world.World.func_217353_a(World.java:149)
+	at net.minecraft.world.IWorldReader.func_217348_a(IWorldReader.java:101)
+	at net.minecraft.world.World.func_212866_a_(World.java:145)
+	at net.minecraft.world.World.func_175726_f(World.java:141)
+	at net.minecraft.world.World.func_180501_a(World.java:163)
+	at net.minecraft.world.World.func_175656_a(World.java:258)
+	at com.github.alexthe666.rats.server.blocks.BlockRatlantisPortal.placeInPortal(BlockRatlantisPortal.java:125)
+	at com.github.alexthe666.rats.server.blocks.BlockRatlantisPortal.teleportEntity(BlockRatlantisPortal.java:88)
+	at com.github.alexthe666.rats.server.blocks.BlockRatlantisPortal.func_196262_a(BlockRatlantisPortal.java:56)
+	at net.minecraft.block.BlockState.func_196950_a(BlockState.java:257)
+	at net.minecraft.entity.Entity.func_145775_I(Entity.java:815)
+	at net.minecraft.entity.Entity.func_213315_a(Entity.java:560)
+	at net.minecraft.entity.LivingEntity.func_213352_e(LivingEntity.java:1889)
+	at net.minecraft.entity.player.PlayerEntity.func_213352_e(PlayerEntity.java:1531)
+	at net.minecraft.entity.LivingEntity.func_70636_d(LivingEntity.java:2289)
+	at net.minecraft.entity.player.PlayerEntity.func_70636_d(PlayerEntity.java:507)
+	at net.minecraft.entity.LivingEntity.func_70071_h_(LivingEntity.java:2104)
+	at net.minecraft.entity.player.PlayerEntity.func_70071_h_(PlayerEntity.java:233)
+	at net.minecraft.entity.player.ServerPlayerEntity.func_71127_g(ServerPlayerEntity.java:361)
+	at net.minecraft.network.play.ServerPlayNetHandler.func_73660_a(ServerPlayNetHandler.java:183)
+	at net.minecraft.network.NetworkManager.func_74428_b(NetworkManager.java:228)
+	at net.minecraft.network.NetworkSystem.func_151269_c(NetworkSystem.java:135)
+	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:866)
+	at net.minecraft.server.dedicated.DedicatedServer.func_71190_q(DedicatedServer.java:330)
+	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:784)
+
+-- Thread Dump --
+Details:
+	Threads: "poi IO worker" Id=928 WAITING on java.lang.String@6e738b55
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.lang.String@6e738b55
+	at java.util.concurrent.locks.LockSupport.park(Unknown Source)
+	at net.minecraft.world.chunk.storage.IOWorker.func_227105_c_(SourceFile:124)
+	at net.minecraft.world.chunk.storage.IOWorker.func_227107_d_(SourceFile:134)
+	at net.minecraft.world.chunk.storage.IOWorker$$Lambda$7797/594806698.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+
+"chunk IO worker" Id=927 WAITING on java.lang.String@6e738b55
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.lang.String@6e738b55
+	at java.util.concurrent.locks.LockSupport.park(Unknown Source)
+	at net.minecraft.world.chunk.storage.IOWorker.func_227105_c_(SourceFile:124)
+	at net.minecraft.world.chunk.storage.IOWorker.func_227107_d_(SourceFile:134)
+	at net.minecraft.world.chunk.storage.IOWorker$$Lambda$7797/594806698.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+
+"Server-Worker-678" Id=926 RUNNABLE
+	at net.minecraft.world.lighting.LightEngine.func_215476_a(LightEngine.java:137)
+	at net.minecraft.world.lighting.LevelBasedGraph.func_215483_b(LevelBasedGraph.java:202)
+	at net.minecraft.world.lighting.LightEngine.func_215616_a(LightEngine.java:162)
+	at net.minecraft.world.lighting.WorldLightManager.func_215575_a(SourceFile:61)
+	at net.minecraft.world.server.ServerWorldLightManager.func_215603_b(SourceFile:176)
+	at net.minecraft.world.server.ServerWorldLightManager.func_223124_c(SourceFile:155)
+	at net.minecraft.world.server.ServerWorldLightManager$$Lambda$7965/1458047650.run(Unknown Source)
+	at net.minecraft.util.concurrent.DelegatedTaskExecutor.func_213148_e(SourceFile:83)
+	...
+
+
+"Server-Worker-677" Id=925 WAITING on java.util.concurrent.ForkJoinPool@60b468eb
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.ForkJoinPool@60b468eb
+	at java.util.concurrent.ForkJoinPool.awaitWork(Unknown Source)
+	at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+	at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+
+
+"Server-Worker-676" Id=924 WAITING on java.util.concurrent.ForkJoinPool@60b468eb
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.ForkJoinPool@60b468eb
+	at java.util.concurrent.ForkJoinPool.awaitWork(Unknown Source)
+	at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+	at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+
+
+"Netty Server IO #7" Id=402 RUNNABLE
+	at sun.nio.ch.WindowsSelectorImpl$SubSelector.poll0(Native Method)
+	at sun.nio.ch.WindowsSelectorImpl$SubSelector.poll(Unknown Source)
+	at sun.nio.ch.WindowsSelectorImpl$SubSelector.access$400(Unknown Source)
+	at sun.nio.ch.WindowsSelectorImpl.doSelect(Unknown Source)
+	at sun.nio.ch.SelectorImpl.lockAndDoSelect(Unknown Source)
+	-  locked io.netty.channel.nio.SelectedSelectionKeySet@648be025
+	-  locked java.util.Collections$UnmodifiableSet@218962d0
+	-  locked sun.nio.ch.WindowsSelectorImpl@53d26c97
+	at sun.nio.ch.SelectorImpl.select(Unknown Source)
+	at io.netty.channel.nio.SelectedSelectionKeySetSelector.select(SelectedSelectionKeySetSelector.java:62)
+	at io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:756)
+	...
+
+
+"Netty Server IO #6" Id=94 RUNNABLE
+	at sun.nio.ch.WindowsSelectorImpl$SubSelector.poll0(Native Method)
+	at sun.nio.ch.WindowsSelectorImpl$SubSelector.poll(Unknown Source)
+	at sun.nio.ch.WindowsSelectorImpl$SubSelector.access$400(Unknown Source)
+	at sun.nio.ch.WindowsSelectorImpl.doSelect(Unknown Source)
+	at sun.nio.ch.SelectorImpl.lockAndDoSelect(Unknown Source)
+	-  locked io.netty.channel.nio.SelectedSelectionKeySet@10e2a536
+	-  locked java.util.Collections$UnmodifiableSet@2b53f5c7
+	-  locked sun.nio.ch.WindowsSelectorImpl@41a69d9f
+	at sun.nio.ch.SelectorImpl.select(Unknown Source)
+	at io.netty.channel.nio.SelectedSelectionKeySetSelector.select(SelectedSelectionKeySetSelector.java:62)
+	at io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:756)
+	...
+
+
+"Netty Server IO #5" Id=93 RUNNABLE
+	at sun.nio.ch.WindowsSelectorImpl$SubSelector.poll0(Native Method)
+	at sun.nio.ch.WindowsSelectorImpl$SubSelector.poll(Unknown Source)
+	at sun.nio.ch.WindowsSelectorImpl$SubSelector.access$400(Unknown Source)
+	at sun.nio.ch.WindowsSelectorImpl.doSelect(Unknown Source)
+	at sun.nio.ch.SelectorImpl.lockAndDoSelect(Unknown Source)
+	-  locked io.netty.channel.nio.SelectedSelectionKeySet@1d0e7e8
+	-  locked java.util.Collections$UnmodifiableSet@49e39f1
+	-  locked sun.nio.ch.WindowsSelectorImpl@30571968
+	at sun.nio.ch.SelectorImpl.select(Unknown Source)
+	at io.netty.channel.nio.SelectedSelectionKeySetSelector.select(SelectedSelectionKeySetSelector.java:62)
+	at io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:756)
+	...
+
+
+"Netty Server IO #4" Id=92 RUNNABLE
+	at sun.nio.ch.WindowsSelectorImpl$SubSelector.poll0(Native Method)
+	at sun.nio.ch.WindowsSelectorImpl$SubSelector.poll(Unknown Source)
+	at sun.nio.ch.WindowsSelectorImpl$SubSelector.access$400(Unknown Source)
+	at sun.nio.ch.WindowsSelectorImpl.doSelect(Unknown Source)
+	at sun.nio.ch.SelectorImpl.lockAndDoSelect(Unknown Source)
+	-  locked io.netty.channel.nio.SelectedSelectionKeySet@45e82098
+	-  locked java.util.Collections$UnmodifiableSet@4381606a
+	-  locked sun.nio.ch.WindowsSelectorImpl@36a5985a
+	at sun.nio.ch.SelectorImpl.select(Unknown Source)
+	at io.netty.channel.nio.SelectedSelectionKeySetSelector.select(SelectedSelectionKeySetSelector.java:62)
+	at io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:756)
+	...
+
+
+"Netty Server IO #3" Id=73 RUNNABLE
+	at sun.nio.ch.WindowsSelectorImpl$SubSelector.poll0(Native Method)
+	at sun.nio.ch.WindowsSelectorImpl$SubSelector.poll(Unknown Source)
+	at sun.nio.ch.WindowsSelectorImpl$SubSelector.access$400(Unknown Source)
+	at sun.nio.ch.WindowsSelectorImpl.doSelect(Unknown Source)
+	at sun.nio.ch.SelectorImpl.lockAndDoSelect(Unknown Source)
+	-  locked io.netty.channel.nio.SelectedSelectionKeySet@3e314bbf
+	-  locked java.util.Collections$UnmodifiableSet@3ad95001
+	-  locked sun.nio.ch.WindowsSelectorImpl@7293f500
+	at sun.nio.ch.SelectorImpl.select(Unknown Source)
+	at io.netty.channel.nio.SelectedSelectionKeySetSelector.select(SelectedSelectionKeySetSelector.java:62)
+	at io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:756)
+	...
+
+
+"Netty Server IO #2" Id=72 RUNNABLE
+	at sun.nio.ch.WindowsSelectorImpl$SubSelector.poll0(Native Method)
+	at sun.nio.ch.WindowsSelectorImpl$SubSelector.poll(Unknown Source)
+	at sun.nio.ch.WindowsSelectorImpl$SubSelector.access$400(Unknown Source)
+	at sun.nio.ch.WindowsSelectorImpl.doSelect(Unknown Source)
+	at sun.nio.ch.SelectorImpl.lockAndDoSelect(Unknown Source)
+	-  locked io.netty.channel.nio.SelectedSelectionKeySet@686ed440
+	-  locked java.util.Collections$UnmodifiableSet@5c361641
+	-  locked sun.nio.ch.WindowsSelectorImpl@2c1f0c9e
+	at sun.nio.ch.SelectorImpl.select(Unknown Source)
+	at io.netty.channel.nio.SelectedSelectionKeySetSelector.select(SelectedSelectionKeySetSelector.java:62)
+	at io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:756)
+	...
+
+
+"Netty Server IO #1" Id=71 RUNNABLE
+	at sun.nio.ch.WindowsSelectorImpl$SubSelector.poll0(Native Method)
+	at sun.nio.ch.WindowsSelectorImpl$SubSelector.poll(Unknown Source)
+	at sun.nio.ch.WindowsSelectorImpl$SubSelector.access$400(Unknown Source)
+	at sun.nio.ch.WindowsSelectorImpl.doSelect(Unknown Source)
+	at sun.nio.ch.SelectorImpl.lockAndDoSelect(Unknown Source)
+	-  locked io.netty.channel.nio.SelectedSelectionKeySet@41c9d7e8
+	-  locked java.util.Collections$UnmodifiableSet@5f9bc745
+	-  locked sun.nio.ch.WindowsSelectorImpl@337346e9
+	at sun.nio.ch.SelectorImpl.select(Unknown Source)
+	at io.netty.channel.nio.SelectedSelectionKeySetSelector.select(SelectedSelectionKeySetSelector.java:62)
+	at io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:756)
+	...
+
+
+"Server Watchdog" Id=65 RUNNABLE
+	at sun.management.ThreadImpl.dumpThreads0(Native Method)
+	at sun.management.ThreadImpl.dumpAllThreads(Unknown Source)
+	at net.minecraft.server.dedicated.ServerHangWatchdog.run(ServerHangWatchdog.java:37)
+	at java.lang.Thread.run(Unknown Source)
+
+
+"poi IO worker" Id=51 WAITING on java.lang.String@6e738b55
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.lang.String@6e738b55
+	at java.util.concurrent.locks.LockSupport.park(Unknown Source)
+	at net.minecraft.world.chunk.storage.IOWorker.func_227105_c_(SourceFile:124)
+	at net.minecraft.world.chunk.storage.IOWorker.func_227107_d_(SourceFile:134)
+	at net.minecraft.world.chunk.storage.IOWorker$$Lambda$7797/594806698.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+
+"chunk IO worker" Id=50 WAITING on java.lang.String@6e738b55
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.lang.String@6e738b55
+	at java.util.concurrent.locks.LockSupport.park(Unknown Source)
+	at net.minecraft.world.chunk.storage.IOWorker.func_227105_c_(SourceFile:124)
+	at net.minecraft.world.chunk.storage.IOWorker.func_227107_d_(SourceFile:134)
+	at net.minecraft.world.chunk.storage.IOWorker$$Lambda$7797/594806698.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+
+"Thread-9" Id=39 RUNNABLE (in native)
+	at sun.nio.fs.WindowsNativeDispatcher.GetQueuedCompletionStatus0(Native Method)
+	at sun.nio.fs.WindowsNativeDispatcher.GetQueuedCompletionStatus(Unknown Source)
+	at sun.nio.fs.WindowsWatchService$Poller.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+
+"Netty Server IO #0" Id=38 RUNNABLE
+	at sun.nio.ch.WindowsSelectorImpl$SubSelector.poll0(Native Method)
+	at sun.nio.ch.WindowsSelectorImpl$SubSelector.poll(Unknown Source)
+	at sun.nio.ch.WindowsSelectorImpl$SubSelector.access$400(Unknown Source)
+	at sun.nio.ch.WindowsSelectorImpl.doSelect(Unknown Source)
+	at sun.nio.ch.SelectorImpl.lockAndDoSelect(Unknown Source)
+	-  locked io.netty.channel.nio.SelectedSelectionKeySet@675cd7e5
+	-  locked java.util.Collections$UnmodifiableSet@68252a71
+	-  locked sun.nio.ch.WindowsSelectorImpl@698579df
+	at sun.nio.ch.SelectorImpl.select(Unknown Source)
+	at io.netty.channel.nio.SelectedSelectionKeySetSelector.select(SelectedSelectionKeySetSelector.java:62)
+	at io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:756)
+	...
+
+
+"ObjectCleanerThread" Id=37 TIMED_WAITING on java.lang.ref.ReferenceQueue$Lock@40e82e08
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.lang.ref.ReferenceQueue$Lock@40e82e08
+	at java.lang.ref.ReferenceQueue.remove(Unknown Source)
+	at io.netty.util.internal.ObjectCleaner$1.run(ObjectCleaner.java:54)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Unknown Source)
+
+
+"Thread-5" Id=32 RUNNABLE (in native)
+	at sun.nio.fs.WindowsNativeDispatcher.GetQueuedCompletionStatus0(Native Method)
+	at sun.nio.fs.WindowsNativeDispatcher.GetQueuedCompletionStatus(Unknown Source)
+	at sun.nio.fs.WindowsWatchService$Poller.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+
+"Thread-4" Id=31 RUNNABLE (in native)
+	at sun.nio.fs.WindowsNativeDispatcher.GetQueuedCompletionStatus0(Native Method)
+	at sun.nio.fs.WindowsNativeDispatcher.GetQueuedCompletionStatus(Unknown Source)
+	at sun.nio.fs.WindowsWatchService$Poller.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+
+"Server console handler" Id=26 RUNNABLE (in native)
+	at java.io.FileInputStream.readBytes(Native Method)
+	at java.io.FileInputStream.read(Unknown Source)
+	at java.io.BufferedInputStream.read1(Unknown Source)
+	at java.io.BufferedInputStream.read(Unknown Source)
+	-  locked java.io.BufferedInputStream@410a2a0f
+	at sun.nio.cs.StreamDecoder.readBytes(Unknown Source)
+	at sun.nio.cs.StreamDecoder.implRead(Unknown Source)
+	at sun.nio.cs.StreamDecoder.read(Unknown Source)
+	-  locked java.io.InputStreamReader@bde6fd
+	at java.io.InputStreamReader.read(Unknown Source)
+	...
+
+
+"DestroyJavaVM" Id=25 RUNNABLE
+
+
+"Server thread" Id=22 TIMED_WAITING on java.lang.String@6e738b55
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.lang.String@6e738b55
+	at java.util.concurrent.locks.LockSupport.parkNanos(Unknown Source)
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_223705_bi(SourceFile:139)
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213161_c(SourceFile:129)
+	at net.minecraft.world.server.ServerChunkProvider.func_212849_a_(SourceFile:139)
+	at net.minecraft.world.World.func_217353_a(World.java:149)
+	at net.minecraft.world.IWorldReader.func_217348_a(IWorldReader.java:101)
+	at net.minecraft.world.World.func_212866_a_(World.java:145)
+	...
+
+
+"Server Infinisleeper" Id=23 TIMED_WAITING
+	at java.lang.Thread.sleep(Native Method)
+	at net.minecraft.server.dedicated.DedicatedServer$1.run(DedicatedServer.java:88)
+
+
+"Snooper Timer" Id=21 WAITING on java.util.TaskQueue@432dc294
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.TaskQueue@432dc294
+	at java.lang.Object.wait(Unknown Source)
+	at java.util.TimerThread.mainLoop(Unknown Source)
+	at java.util.TimerThread.run(Unknown Source)
+
+
+"Thread-2" Id=16 RUNNABLE (in native)
+	at sun.nio.fs.WindowsNativeDispatcher.GetQueuedCompletionStatus0(Native Method)
+	at sun.nio.fs.WindowsNativeDispatcher.GetQueuedCompletionStatus(Unknown Source)
+	at sun.nio.fs.WindowsWatchService$Poller.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+
+"Thread-1" Id=15 TIMED_WAITING
+	at sun.misc.Unsafe.park(Native Method)
+	at java.util.concurrent.locks.LockSupport.parkNanos(Unknown Source)
+	at com.electronwill.nightconfig.core.file.FileWatcher$WatcherThread.run(FileWatcher.java:190)
+
+
+"Attach Listener" Id=5 RUNNABLE
+
+
+"Signal Dispatcher" Id=4 RUNNABLE
+
+
+"Finalizer" Id=3 WAITING on java.lang.ref.ReferenceQueue$Lock@53e7c2ac
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.lang.ref.ReferenceQueue$Lock@53e7c2ac
+	at java.lang.ref.ReferenceQueue.remove(Unknown Source)
+	at java.lang.ref.ReferenceQueue.remove(Unknown Source)
+	at java.lang.ref.Finalizer$FinalizerThread.run(Unknown Source)
+
+
+"Reference Handler" Id=2 WAITING on java.lang.ref.Reference$Lock@3c825c23
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.lang.ref.Reference$Lock@3c825c23
+	at java.lang.Object.wait(Unknown Source)
+	at java.lang.ref.Reference.tryHandlePending(Unknown Source)
+	at java.lang.ref.Reference$ReferenceHandler.run(Unknown Source)
+
+
+
+Stacktrace:
+	at net.minecraft.server.dedicated.ServerHangWatchdog.run(ServerHangWatchdog.java:52)
+	at java.lang.Thread.run(Unknown Source)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.15.2
+	Minecraft Version ID: 1.15.2
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_261, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 5216539856 bytes (4974 MB) / 8578400256 bytes (8181 MB) up to 8578400256 bytes (8181 MB)
+	CPUs: 4
+	JVM Flags: 2 total; -Xmx8G -Xms8G
+	ModLauncher: 5.1.0+69+master.79f13f7
+	ModLauncher launch target: fmlserver
+	ModLauncher naming: srg
+	ModLauncher services: 
+		/eventbus-2.2.0-service.jar eventbus PLUGINSERVICE 
+		/forge-1.15.2-31.2.20.jar object_holder_definalize PLUGINSERVICE 
+		/forge-1.15.2-31.2.20.jar runtime_enum_extender PLUGINSERVICE 
+		/accesstransformers-2.1.1-shadowed.jar accesstransformer PLUGINSERVICE 
+		/forge-1.15.2-31.2.20.jar capability_inject_definalize PLUGINSERVICE 
+		/forge-1.15.2-31.2.20.jar runtimedistcleaner PLUGINSERVICE 
+		/forge-1.15.2-31.2.20.jar fml TRANSFORMATIONSERVICE 
+	FML: 31.2
+	Forge: net.minecraftforge:31.2.20
+	FML Language Providers: 
+		javafml@31.2
+		minecraft@1
+	Mod List: 
+		CyclopsCore-1.15.2-1.8.0.jar Cyclops Core {cyclopscore@1.8.0 DONE}
+		Cucumber-1.15.2-3.0.9.jar Cucumber Library {cucumber@3.0.9 DONE}
+		gun-mod-0.16.1-1.15.2.jar MrCrayfish's Gun Mod {cgm@0.16.1 DONE}
+		Overloaded-1.15.2-0.0.87.jar Overloaded {overloaded@1.15.2-0.0.86 DONE}
+		jei-1.15.2-6.0.2.12.jar Just Enough Items {jei@6.0.2.12 DONE}
+		SlashBlade-1.15-0.0.6.jar Slash Blade {slashblade@0.0.6 DONE}
+		extrabows-v1.15.2+b2.jar Extra Bows {extrabows@v1.15.2 b2 DONE}
+		Mekanism-1.15.2-9.10.9.422.jar Mekanism {mekanism@9.10.9 DONE}
+		bambooeverything-1.15-1.0.0.jar Bamboo Everything {bambooeverything@1.15-1.0.0 DONE}
+		IronJetpacks-1.15.2-3.0.3.jar Iron Jetpacks {ironjetpacks@3.0.3 DONE}
+		BetterCaves-1.15.2-1.0.jar YUNG's Better Caves {bettercaves@1.15.2-1.0 DONE}
+		Waystones_1.15.2-6.0.2.jar Waystones {waystones@6.0.2 DONE}
+		ForgeEndertech-1.15.2-6.0.4.0-build.0044.jar Forge Endertech {forgeendertech@6.0.4.0 DONE}
+		AdFinders-1.15.2-4.0.5.0-build.0020.jar Advanced Finders {adfinders@4.0.5.0 DONE}
+		citadel-1.1.11.jar Citadel {citadel@1.1.11 DONE}
+		SimpleStorageNetwork-1.15.2-1.0.1.jar Simple Storage Network {storagenetwork@1.15.2-1.0.1 DONE}
+		DungeonCrawl-1.15.2-2.0.1.jar Dungeon Crawl {dungeoncrawl@2.0.1 DONE}
+		MutantBeasts-1.15.2-1.0.7.jar Mutant Beasts {mutantbeasts@1.15.2-1.0.7 DONE}
+		Bookshelf-1.15.2-5.6.40.jar Bookshelf {bookshelf@5.6.40 DONE}
+		guardvillagers-1.15.2-1.0.8.jar Guard Villagers {guardvillagers@1.0.7 DONE}
+		buildinggadgets-3.3.5.jar Building Gadgets {buildinggadgets@3.3.5 DONE}
+		TinyMobFarm-1.15.2-1.0.8.jar Tiny Mob Farm {tinymobfarm@1.0.8 DONE}
+		mcjtylib-1.15-4.1.3-beta.jar McJtyLib {mcjtylib@1.15-4.1.3-beta DONE}
+		rftoolsbase-1.15-1.1.3-beta.jar RFToolsBase {rftoolsbase@1.15-1.1.3-beta DONE}
+		mahoutsukai-1.15.2-v1.20.3.jar Mahou Tsukai {mahoutsukai@1.15.2-v1.20.3 DONE}
+		MekanismGenerators-1.15.2-9.10.9.422.jar Mekanism: Generators {mekanismgenerators@9.10.9 DONE}
+		Hwyla-forge-1.10.8-B72_1.15.2.jar Waila {waila@version DONE}
+		WAWLA-1.15.2-3.0.4.jar WAWLA {wawla@3.0.4 DONE}
+		forge-1.15.2-31.2.20-universal.jar Forge {forge@31.2.20 DONE}
+		ironchest-1.15.2-10.0.3.jar Iron Chests {ironchest@1.15.2-10.0.1 DONE}
+		forge-1.15.2-31.2.20-server.jar Minecraft {minecraft@1.15.2 DONE}
+		mcw-bridges-1.0.4fix-mc1.15.2.jar Macaw's Bridges {mcwbridges@1.0.4 DONE}
+		rftoolsutility-1.15-2.1.5-beta.jar RFToolsUtility {rftoolsutility@1.15-2.1.5-beta DONE}
+		CommonCapabilities-1.15.2-2.5.2.jar CommonCapabilities {commoncapabilities@2.5.2 DONE}
+		ImmersiveEngineering-0.15-108.jar Immersive Engineering {immersiveengineering@0.15-108 DONE}
+		BiomesOPlenty-1.15.2-10.0.0.366-universal.jar Biomes O' Plenty {biomesoplenty@1.15.2-10.0.0.366 DONE}
+		MekanismAdditions-1.15.2-9.10.9.422.jar Mekanism: Additions {mekanismadditions@9.10.9 DONE}
+		AdLods-1.15.2-3.0.3.0-build.0035.jar Large Ore Deposits {adlods@3.0.3.0 DONE}
+		lycanitesmobs-1.15.2-2.2.3.2.jar Lycanites Mobs {lycanitesmobs@1.15.2-2.2.3.2 DONE}
+		IntegratedDynamics-1.15.2-1.1.13.jar IntegratedDynamics {integrateddynamics@1.1.13 DONE, integrateddynamicscompat@1.1.13 DONE}
+		rats-5.3.2-1.15.2.jar Rats {rats@5.3.2 DONE}
+		gravestone-1.17.5.jar Gravestone Mod {gravestone@1.17.5 DONE}
+		StorageDrawers-1.15.2-7.0.2.jar Storage Drawers {storagedrawers@1.15.2-7.0.1 DONE}
+		OreExcavation-1.7.151.jar Ore Excavation {oreexcavation@NONE DONE}
+		FluxNetworks-1.15.2-5.0.3-4.jar Flux Networks {fluxnetworks@1.15.2-5.0.3-4 DONE}
+		backpacked-1.4.1-1.15.2.jar Backpacked {backpacked@1.4.1 DONE}
+		Harvest-forge-1.15.1-1.2.11-24.jar Harvest {harvest@version DONE}
+		obfuscate-0.4.3-1.15.2.jar Obfuscate {obfuscate@0.4.3 DONE}
+		MekanismTools-1.15.2-9.10.9.422.jar Mekanism: Tools {mekanismtools@9.10.9 DONE}
+		AppleSkin-mc1.15.2-forge-1.0.14.jar AppleSkin {appleskin@1.0.14 DONE}
+		engineersdecor-1.15.2-1.1.0.jar Engineer's Decor {engineersdecor@1.1.0 DONE}
+		speedyladders-1.15.2-1.jar Speedy Ladders {speedyladders@1.15.2-1 DONE}
+		TofuCraftReload-1.15.2-0.0.1.3.jar TofuCraftReload {tofucraft@0.0.1.3 DONE}
+		BetterMineshaftsForge-1.15.2-1.3.jar YUNG's Better Mineshafts {bettermineshafts@1.15.2-1.3 DONE}
+		EnderMail-1.15.2-1.1.1.jar Ender Mail {endermail@1.15.2-1.1.1 DONE}
+		xptome-1.15.2-v1.1.6.jar XP Tome {xpbook@v1.1.6 DONE}
+	Player Count: 2 / 20; [ServerPlayerEntity['yinn'/16286, l='world', x=0.00, y=110.00, z=0.00], ServerPlayerEntity['LebronJ'/20172, l='world', x=106.23, y=86.00, z=-6.63]]
+	Data Packs: mod:mcjtylib (incompatible), mod:rftoolsbase (incompatible), mod:rftoolsutility (incompatible), mod:cgm, vanilla, mod:cyclopscore (incompatible), mod:cucumber, mod:overloaded (incompatible), mod:jei (incompatible), mod:slashblade, mod:extrabows (incompatible), mod:mekanism, mod:bambooeverything (incompatible), mod:ironjetpacks, mod:bettercaves (incompatible), mod:waystones (incompatible), mod:forgeendertech (incompatible), mod:adfinders (incompatible), mod:citadel (incompatible), mod:storagenetwork (incompatible), mod:dungeoncrawl (incompatible), mod:mutantbeasts (incompatible), mod:bookshelf (incompatible), mod:guardvillagers (incompatible), mod:buildinggadgets (incompatible), mod:tinymobfarm (incompatible), mod:mahoutsukai (incompatible), mod:mekanismgenerators, mod:waila (incompatible), mod:wawla (incompatible), mod:forge (incompatible), mod:ironchest, mod:mcwbridges, mod:commoncapabilities (incompatible), mod:immersiveengineering (incompatible), mod:biomesoplenty, mod:mekanismadditions, mod:adlods (incompatible), mod:lycanitesmobs (incompatible), mod:integrateddynamics (incompatible), mod:rats (incompatible), mod:gravestone, mod:storagedrawers (incompatible), mod:oreexcavation (incompatible), mod:fluxnetworks, mod:backpacked (incompatible), mod:harvest (incompatible), mod:obfuscate (incompatible), mod:mekanismtools, mod:appleskin (incompatible), mod:engineersdecor, mod:speedyladders, mod:tofucraft, mod:bettermineshafts (incompatible), mod:endermail (incompatible), mod:xpbook (incompatible)
+	Is Modded: Definitely; Server brand changed to 'forge'
+	Type: Dedicated Server (map_server.txt)
