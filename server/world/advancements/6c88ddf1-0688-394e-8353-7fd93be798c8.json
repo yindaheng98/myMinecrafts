@@ -731,6 +731,12 @@
     },
     "done": true
   },
+  "mahoutsukai:bakuretsu": {
+    "criteria": {
+      "bakuretsu": "2020-08-30 23:06:57 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/oak_stairs": {
     "criteria": {
       "has_planks": "2020-08-09 22:35:12 +0800"
@@ -1395,6 +1401,12 @@
   "minecraft:story/iron_tools": {
     "criteria": {
       "iron_pickaxe": "2020-08-08 22:59:42 +0800"
+    },
+    "done": true
+  },
+  "slashblade:blade/ex/fox_black": {
+    "criteria": {
+      "crafting": "2020-08-30 23:06:14 +0800"
     },
     "done": true
   },
@@ -2413,6 +2425,7 @@
       "bread": "2020-08-09 22:21:49 +0800",
       "golden_apple": "2020-08-21 22:47:09 +0800",
       "cookie": "2020-08-08 23:05:45 +0800",
+      "enchanted_golden_apple": "2020-08-30 22:24:07 +0800",
       "cooked_salmon": "2020-08-07 21:24:12 +0800"
     },
     "done": false
@@ -3969,6 +3982,12 @@
   "minecraft:recipes/redstone/birch_trapdoor": {
     "criteria": {
       "has_planks": "2020-08-20 21:28:33 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/mojang_banner_pattern": {
+    "criteria": {
+      "has_enchanted_golden_apple": "2020-08-30 22:14:56 +0800"
     },
     "done": true
   },
