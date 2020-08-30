@@ -1,0 +1,32 @@
+08/20/2020 - 21:48:10
+class net.darkhax.wawla.plugins.vanilla.FeatureArmorPoints
+net.minecraft.crash.ReportedException: Saving entity NBT
+	at net.minecraft.entity.Entity.func_189511_e(Entity.java:1383)
+	at mcp.mobius.waila.api.impl.DataAccessor.getServerData(DataAccessor.java:129)
+	at net.darkhax.wawla.plugins.vanilla.FeatureArmorPoints.appendBody(FeatureArmorPoints.java:37)
+	at mcp.mobius.waila.api.impl.MetaDataProvider.gatherEntityComponents(MetaDataProvider.java:146)
+	at mcp.mobius.waila.overlay.WailaTickHandler.tickClient(WailaTickHandler.java:79)
+	at mcp.mobius.waila.WailaClient.onClientTick(WailaClient.java:112)
+	at net.minecraftforge.eventbus.ASMEventHandler_226_WailaClient_onClientTick_ClientTickEvent.invoke(.dynamic)
+	at net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:80)
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:258)
+	at net.minecraftforge.fml.hooks.BasicEventHooks.onPostClientTick(BasicEventHooks.java:109)
+	at net.minecraft.client.Minecraft.func_71407_l(Minecraft.java:1449)
+	at net.minecraft.client.Minecraft.func_195542_b(Minecraft.java:904)
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:553)
+	at net.minecraft.client.main.Main.main(SourceFile:204)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at net.minecraftforge.fml.loading.FMLClientLaunchProvider.lambda$launchService$0(FMLClientLaunchProvider.java:51)
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:37)
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:54)
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:72)
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:81)
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:65)
+Caused by: java.lang.NullPointerException
+	at com.lycanitesmobs.core.entity.creature.EntityConcapedeSegment.func_213281_b(EntityConcapedeSegment.java:343)
+	at net.minecraft.entity.Entity.func_189511_e(Entity.java:1362)
+	... 23 more
+

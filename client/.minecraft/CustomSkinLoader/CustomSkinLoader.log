@@ -1,18 +1,38 @@
-[2020-07-31 16:42:53] [Render thread INFO] CustomSkinLoader 14.12
-[2020-07-31 16:42:53] [Render thread INFO] DataDir: F:\MinecraftServers\client\.minecraft\CustomSkinLoader
-[2020-07-31 16:42:53] [Render thread INFO] Minecraft: 1.15.2(1.15.2)
-[2020-07-31 16:42:53] [Render thread INFO] Config File: F:\MinecraftServers\client\.minecraft\CustomSkinLoader\CustomSkinLoader.json
-[2020-07-31 16:42:53] [Render thread INFO] Try to load config.
-[2020-07-31 16:42:53] [Render thread INFO] Successfully load config.
-[2020-07-31 16:42:53] [Render thread INFO] version : 14.12
-[2020-07-31 16:42:53] [Render thread INFO] enableDynamicSkull : true
-[2020-07-31 16:42:53] [Render thread INFO] enableTransparentSkin : true
-[2020-07-31 16:42:53] [Render thread INFO] ignoreHttpsCertificate : false
-[2020-07-31 16:42:53] [Render thread INFO] forceLoadAllTextures : false
-[2020-07-31 16:42:53] [Render thread INFO] enableCape : true
-[2020-07-31 16:42:53] [Render thread INFO] threadPoolSize : 1
-[2020-07-31 16:42:53] [Render thread INFO] cacheExpiry : 30
-[2020-07-31 16:42:53] [Render thread INFO] enableUpdateSkull : false
-[2020-07-31 16:42:53] [Render thread INFO] enableLocalProfileCache : false
-[2020-07-31 16:42:53] [Render thread INFO] enableCacheAutoClean : false
-[2020-07-31 16:42:53] [Render thread INFO] loadList : 7
+[2020-08-03 22:58:54] [Render thread INFO] CustomSkinLoader 14.12
+[2020-08-03 22:58:54] [Render thread INFO] DataDir: D:\client\.minecraft\CustomSkinLoader
+[2020-08-03 22:58:54] [Render thread INFO] Minecraft: 1.15.2(1.15.2)
+[2020-08-03 22:58:54] [Render thread INFO] Config File: D:\client\.minecraft\CustomSkinLoader\CustomSkinLoader.json
+[2020-08-03 22:58:54] [Render thread INFO] Try to load config.
+[2020-08-03 22:58:54] [Render thread INFO] Successfully load config.
+[2020-08-03 22:58:54] [Render thread INFO] version : 14.12
+[2020-08-03 22:58:54] [Render thread INFO] enableDynamicSkull : true
+[2020-08-03 22:58:54] [Render thread INFO] enableTransparentSkin : true
+[2020-08-03 22:58:54] [Render thread INFO] ignoreHttpsCertificate : false
+[2020-08-03 22:58:54] [Render thread INFO] forceLoadAllTextures : false
+[2020-08-03 22:58:54] [Render thread INFO] enableCape : true
+[2020-08-03 22:58:54] [Render thread INFO] threadPoolSize : 1
+[2020-08-03 22:58:54] [Render thread INFO] cacheExpiry : 30
+[2020-08-03 22:58:54] [Render thread INFO] enableUpdateSkull : false
+[2020-08-03 22:58:54] [Render thread INFO] enableLocalProfileCache : false
+[2020-08-03 22:58:54] [Render thread INFO] enableCacheAutoClean : false
+[2020-08-03 22:58:54] [Render thread INFO] loadList : 7
+[2020-08-03 23:00:48] [yinn INFO] Loading yinn's profile.
+[2020-08-03 23:00:48] [yinn INFO] 1/7 Try to load profile from 'Mojang'.
+[2020-08-03 23:00:48] [yinn DEBUG] Try to request 'https://api.mojang.com/profiles/minecraft'.
+[2020-08-03 23:00:48] [yinn INFO] Payload: ["yinn"]
+[2020-08-03 23:00:53] [yinn DEBUG] Successfully request (Response Code: 200 , Content Length: 57)
+[2020-08-03 23:00:53] [yinn DEBUG] Content: [{"id":"5f80659014ad4b5cb52ecb2708734337","name":"Yinn"}]
+[2020-08-03 23:00:53] [yinn DEBUG] Try to request 'https://sessionserver.mojang.com/session/minecraft/profile/5f80659014ad4b5cb52ecb2708734337'.
+[2020-08-03 23:00:54] [yinn DEBUG] Successfully request (Response Code: 200 , Content Length: 576)
+[2020-08-03 23:00:54] [yinn DEBUG] Saved to cache (Length: 576 , Path: 'D:\client\.minecraft\CustomSkinLoader\caches\546a9572aa5e281c32ae13883feede0c94dc067f' , Expire: 1596466947)
+[2020-08-03 23:00:54] [yinn DEBUG] Content: {
+  "id" : "5f80659014ad4b5cb52ecb2708734337",
+  "name" : "Yinn",
+  "properties" : [ {
+    "name" : "textures",
+    "value" : "ewogICJ0aW1lc3RhbXAiIDogMTU5NjQ2Njg1NzE5MywKICAicHJvZmlsZUlkIiA6ICI1ZjgwNjU5MDE0YWQ0YjVjYjUyZWNiMjcwODczNDMzNyIsCiAgInByb2ZpbGVOYW1lIiA6ICJZaW5uIiwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2YxMDJmOWY3MjNiZmE5NTQwM2JhZTU5ODUyZGEzYjBlZjI2ZWMxNjMyNTQ1NWFhOGNlOWJiOTgwOTA5NWVhODkiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ=="
+  } ]
+}
+[2020-08-03 23:00:54] [yinn INFO] yinn's profile loaded.
+[2020-08-03 23:00:54] [yinn INFO] (SkinUrl: http://textures.minecraft.net/texture/f102f9f723bfa95403bae59852da3b0ef26ec16325455aa8ce9bb9809095ea89 , Model: slim , CapeUrl: null  , Expiry: 1596466886)
+[2020-08-03 23:01:10] [Render thread DEBUG] Loading type:SKIN
